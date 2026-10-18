@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T12:07:24Z",
+ "generated": "2026-10-18T17:15:16Z",
  "today": "2026-10-18",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -153,18 +153,18 @@
   }
  },
  "run": {
-  "started": "2026-10-18T12:07:24Z",
+  "started": "2026-10-18T17:15:16Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-18T12:07:58Z"
+  "finished": "2026-10-18T17:15:53Z"
  },
  "totals": {
   "parts_total": 9,
   "parts_left": 9,
   "paid": 0.0,
-  "remaining": 2074.59,
+  "remaining": 2099.57,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -189,9 +189,9 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2074.59,
+  "build_total": 2099.57,
   "baseline_parts": 2158.79,
-  "delta_vs_baseline": -84.2,
+  "delta_vs_baseline": -59.22,
   "missing": []
  },
  "phase1": {
@@ -241,7 +241,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:25Z",
+   "checked": "2026-10-18T17:15:17Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -410,7 +410,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:28Z",
+   "checked": "2026-10-18T17:15:20Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -485,7 +485,7 @@
    "change": {
     "vs_yesterday": null,
     "vs_baseline": -0.99,
-    "vs_prev_run": -0.9
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 29.99,
@@ -533,15 +533,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:30Z",
+   "checked": "2026-10-18T17:15:22Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B096Y414R3",
     "name": "MSI B850M GAMING PLUS WIFI6E Motherboard, mATX - Supports AMD Ryzen 9000 / 8000 / 7000 Processors, AM5 - DDR5 Memory Boost 8200+ MT/s (OC), PCIe 4.0 x16, M.2 Gen5, Wi-Fi 6E, 2.5G LAN",
-    "price": 105.0,
-    "was": 105.0,
-    "landed": 105.0,
+    "price": 129.98,
+    "was": 129.98,
+    "landed": 129.98,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
     "stock": "InStock",
@@ -555,9 +555,9 @@
      "display": "Amazon UK",
      "sku": "B096Y414R3",
      "name": "MSI B850M GAMING PLUS WIFI6E Motherboard, mATX - Supports AMD Ryzen 9000 / 8000 / 7000 Processors, AM5 - DDR5 Memory Boost 8200+ MT/s (OC), PCIe 4.0 x16, M.2 Gen5, Wi-Fi 6E, 2.5G LAN",
-     "price": 105.0,
-     "was": 105.0,
-     "landed": 105.0,
+     "price": 129.98,
+     "was": 129.98,
+     "landed": 129.98,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
      "stock": "InStock",
@@ -622,8 +622,8 @@
    "notes": [],
    "change": {
     "vs_yesterday": null,
-    "vs_baseline": -24.95,
-    "vs_prev_run": 0.0
+    "vs_baseline": 0.03,
+    "vs_prev_run": 24.98
    },
    "low": {
     "price": 129.95,
@@ -631,9 +631,7 @@
     "retailer": "Overclockers UK",
     "days": 2
    },
-   "signals": [
-    "below_sheet"
-   ],
+   "signals": [],
    "history": [
     [
      "2026-10-16",
@@ -674,7 +672,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:33Z",
+   "checked": "2026-10-18T17:15:25Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -766,7 +764,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:35Z",
+   "checked": "2026-10-18T17:15:28Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -918,7 +916,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:38Z",
+   "checked": "2026-10-18T17:15:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1043,7 +1041,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T12:07:41Z",
+   "checked": "2026-10-18T17:15:34Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1212,7 +1210,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-18T12:07:43Z",
+   "checked": "2026-10-18T17:15:37Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1476,7 +1474,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T12:07:46Z",
+   "checked": "2026-10-18T17:15:39Z",
    "notes": [],
    "live": "live",
    "saving": 20.99,
@@ -1548,7 +1546,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T12:07:48Z",
+   "checked": "2026-10-18T17:15:42Z",
    "notes": [],
    "live": "live",
    "saving": 10.0,
@@ -1605,7 +1603,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-18T12:07:51Z",
+   "checked": "2026-10-18T17:15:45Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1660,7 +1658,7 @@
      "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
     }
    ],
-   "checked": "2026-10-18T12:07:53Z",
+   "checked": "2026-10-18T17:15:48Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1778,10 +1776,10 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T12:07:56Z",
+   "checked": "2026-10-18T17:15:51Z",
    "notes": [],
    "live": "live",
-   "saving": -48.98,
+   "saving": -24.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -1861,6 +1859,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-10-18T17:15:16Z",
+   "level": "info",
+   "type": "rise",
+   "part": "board",
+   "text": "Motherboard up £24.98 to £129.98 at Amazon UK"
+  },
   {
    "ts": "2026-10-18T10:52:07Z",
    "level": "alert",
