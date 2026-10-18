@@ -116,7 +116,9 @@ h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: v
 .swaps { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
 .swap { padding: 16px; display: flex; flex-direction: column; gap: 8px; }
 .swap .save { font-size: 22px; font-weight: 750; color: var(--good-ink); }
+.swap .cost { font-size: 22px; font-weight: 750; color: var(--text); }
 .swap .why { color: var(--text-2); font-size: 14px; margin: 0; }
+.swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; border: 1px solid var(--text-3); flex: none; }
 .row-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 6px; }
 .parts { display: grid; gap: 10px; }
 .part { padding: 14px 16px; }
@@ -308,6 +310,14 @@ footer p { margin: 6px 0; }
   function badge(kind, icon, text, title) {
     return el("span", { cls: "badge " + (kind || ""), title: title || null }, el("span", { cls: "i", "aria-hidden": "true", text: icon }), text);
   }
+  var SWATCH = { black: "#111", white: "#fff", grey: "#8a8a8a", gray: "#8a8a8a", silver: "#c8c8c8" };
+  function colourBadge(c) {
+    var name = String(c);
+    var first = name.split(/[\/ ]/)[0].toLowerCase();
+    var sw = el("span", { cls: "swatch", "aria-hidden": "true" });
+    if (SWATCH[first]) sw.style.background = SWATCH[first];
+    return el("span", { cls: "badge", title: "Colour" }, sw, name.charAt(0).toUpperCase() + name.slice(1));
+  }
 
   // ------------------------------------------------------------ email buttons
   function mailTo() {
@@ -479,9 +489,13 @@ footer p { margin: 6px 0; }
         el("div", { cls: "slot", text: (cur.slot || s.part) + " swap" }),
         el("div", { cls: "pname", text: s.name }),
         el("div", null,
-          s.saving != null && s.saving > 0 ? el("span", { cls: "save", text: "Saves " + gbp(s.saving) }) : el("span", { cls: "muted", text: s.saving != null ? "No saving right now" : "Price not available yet" }),
+          s.saving == null ? el("span", { cls: "muted", text: "Price not available yet" })
+            : s.saving > 0.005 ? el("span", { cls: "save", text: "Saves " + gbp(s.saving) })
+            : s.saving < -0.005 ? el("span", { cls: "cost", text: "Costs " + gbp(-s.saving) + " more" })
+            : el("span", { cls: "muted", text: "Same price" }),
           b.price != null ? el("span", { cls: "muted small", text: "  " + gbp(b.price) + " at " + (b.display || "") + (b.delivery ? " + " + gbp(b.delivery) + " delivery" : "") }) : null),
         el("div", { cls: "badges" },
+          s.spec && s.spec.colour ? colourBadge(s.spec.colour) : null,
           s.fit_ok === false ? badge("crit", "✕", "Fit problem: " + (s.fit_problems || []).join(", ")) : badge("good", "✓", "Fits the Z20"),
           b.in_stock ? badge("good", "✓", "In stock") : b.in_stock === false ? badge("crit", "✕", "Sold out") : badge("warn", "!", "Stock unknown"),
           cur.best ? badge("", "→", "Replaces " + gbp(cur.best.price) + " pick") : null),
@@ -507,6 +521,7 @@ footer p { margin: 6px 0; }
     if (s.indexOf("below_sheet") > -1) out.push(badge("good", "▼", "Below sheet"));
     if (s.indexOf("not_live") > -1 || b.source === "verified") out.push(badge(b.stale ? "warn" : "", b.stale ? "!" : "•", "Checked by sweep" + (b.checked_on ? " " + ukDate(b.checked_on) : ""), "Price from the daily sweep, not a live feed"));
     if (s.indexOf("ni_check") > -1) out.push(badge("warn", "!", "NI delivery to confirm", b.delivery_note || ""));
+    if (p.spec && p.spec.colour) out.push(colourBadge(p.spec.colour));
     if (p.phase1) out.push(badge("", "◆", "Phase 1"));
     return out;
   }
