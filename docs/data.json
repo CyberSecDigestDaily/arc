@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18T17:15:16Z",
+ "generated": "2026-10-18T20:30:57Z",
  "today": "2026-10-18",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -153,12 +153,12 @@
   }
  },
  "run": {
-  "started": "2026-10-18T17:15:16Z",
+  "started": "2026-10-18T20:30:57Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-18T17:15:53Z"
+  "finished": "2026-10-18T20:31:33Z"
  },
  "totals": {
   "parts_total": 9,
@@ -241,7 +241,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:17Z",
+   "checked": "2026-10-18T20:30:58Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -410,7 +410,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:20Z",
+   "checked": "2026-10-18T20:31:01Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -533,7 +533,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:22Z",
+   "checked": "2026-10-18T20:31:03Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -623,7 +623,7 @@
    "change": {
     "vs_yesterday": null,
     "vs_baseline": 0.03,
-    "vs_prev_run": 24.98
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 129.95,
@@ -672,7 +672,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:25Z",
+   "checked": "2026-10-18T20:31:06Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -764,7 +764,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:28Z",
+   "checked": "2026-10-18T20:31:09Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -916,7 +916,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:31Z",
+   "checked": "2026-10-18T20:31:12Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1041,7 +1041,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T17:15:34Z",
+   "checked": "2026-10-18T20:31:14Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1210,7 +1210,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-18T17:15:37Z",
+   "checked": "2026-10-18T20:31:17Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1474,7 +1474,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T17:15:39Z",
+   "checked": "2026-10-18T20:31:20Z",
    "notes": [],
    "live": "live",
    "saving": 20.99,
@@ -1546,7 +1546,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T17:15:42Z",
+   "checked": "2026-10-18T20:31:23Z",
    "notes": [],
    "live": "live",
    "saving": 10.0,
@@ -1603,7 +1603,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-18T17:15:45Z",
+   "checked": "2026-10-18T20:31:25Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1658,7 +1658,7 @@
      "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
     }
    ],
-   "checked": "2026-10-18T17:15:48Z",
+   "checked": "2026-10-18T20:31:28Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1776,7 +1776,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T17:15:51Z",
+   "checked": "2026-10-18T20:31:31Z",
    "notes": [],
    "live": "live",
    "saving": -24.0,
