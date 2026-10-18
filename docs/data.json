@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-18T10:52:07Z",
+ "generated": "2026-10-18T11:04:41Z",
  "today": "2026-10-18",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20",
  "updated": "2026-10-18",
- "last_sweep": "2026-10-18T10:50:02Z",
+ "last_sweep": "2026-10-18T11:03:29Z",
  "baseline": {
   "date": "2026-10-16",
   "label": "16 Oct sheet",
@@ -98,24 +98,24 @@
    "ni": "unverified",
    "ni_first": null,
    "ni_extra": null,
-   "note": null,
-   "checked_on": null
+   "note": "Free delivery to UK mainland only; NI cost not published (shown at checkout)",
+   "checked_on": "2026-10-18"
   },
   "Box.co.uk": {
    "display": "Box",
    "ni": "unverified",
    "ni_first": null,
    "ni_extra": null,
-   "note": null,
-   "checked_on": null
+   "note": "£4.95 under £200, free over £200; NI coverage not stated (TVs mainland only)",
+   "checked_on": "2026-10-18"
   },
   "Very": {
    "display": "Very",
-   "ni": "unverified",
-   "ni_first": null,
+   "ni": "verified",
+   "ni_first": 0,
    "ni_extra": null,
-   "note": null,
-   "checked_on": null
+   "note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+   "checked_on": "2026-10-18"
   },
   "CCL": {
    "display": "CCL",
@@ -151,12 +151,12 @@
   }
  },
  "run": {
-  "started": "2026-10-18T10:52:07Z",
+  "started": "2026-10-18T11:04:41Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-18T10:52:35Z"
+  "finished": "2026-10-18T11:05:10Z"
  },
  "totals": {
   "parts_total": 9,
@@ -239,7 +239,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:07Z",
+   "checked": "2026-10-18T11:04:42Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -340,10 +340,9 @@
      "name": "Amd Ryzen 7 9800X3D Processor",
      "price": 449.0,
      "was": 449.0,
-     "delivery": 3.99,
-     "landed": 452.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "landed": 449.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
@@ -408,7 +407,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:10Z",
+   "checked": "2026-10-18T11:04:45Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -528,7 +527,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:14Z",
+   "checked": "2026-10-18T11:04:49Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -669,7 +668,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:17Z",
+   "checked": "2026-10-18T11:04:52Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -760,7 +759,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:19Z",
+   "checked": "2026-10-18T11:04:54Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -831,10 +830,9 @@
      "name": "Asus Rx 9070 Xt 16Gb Prime Overclocked Graphics Card",
      "price": 905.0,
      "was": 905.0,
-     "delivery": 3.99,
-     "landed": 908.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "landed": 905.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
@@ -913,7 +911,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:22Z",
+   "checked": "2026-10-18T11:04:57Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1037,7 +1035,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T10:52:25Z",
+   "checked": "2026-10-18T11:05:00Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1206,7 +1204,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-18T10:52:27Z",
+   "checked": "2026-10-18T11:05:03Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1484,7 +1482,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T10:52:30Z",
+   "checked": "2026-10-18T11:05:06Z",
    "notes": [],
    "live": "live",
    "saving": 20.99,
@@ -1555,7 +1553,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T10:52:33Z",
+   "checked": "2026-10-18T11:05:08Z",
    "notes": [],
    "live": "live",
    "saving": 10.0,
@@ -1669,6 +1667,10 @@
   {
    "date": "2026-10-18",
    "text": "Could not re-check Overclockers UK prices for CPU, RAM, GPU and fans today (site blocks checks); entries go stale after 19 Oct."
+  },
+  {
+   "date": "2026-10-18",
+   "text": "Very vetted: delivers to NI, free on £75+. AWD-IT and Box still unverified (no NI terms published)."
   }
  ]
 }
