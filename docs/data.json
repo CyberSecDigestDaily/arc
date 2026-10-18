@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-18T11:04:41Z",
+ "generated": "2026-10-18T12:07:24Z",
  "today": "2026-10-18",
  "title": "ARC",
- "subtitle": "AM5 small-form-factor build · Jonsbo Z20",
+ "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
  "updated": "2026-10-18",
  "last_sweep": "2026-10-18T11:03:29Z",
  "baseline": {
@@ -27,7 +27,9 @@
    ],
    "budget": 132.9,
    "order_by": "2026-12-17"
-  }
+  },
+  "colour": "black",
+  "colour_note": "Prefer black parts. A black version of the same model at the same or lower landed cost replaces the pick; black options that cost more or change the spec are suggested with reason 'colour'."
  },
  "fit_limits": {
   "case": "Jonsbo Z20",
@@ -151,18 +153,18 @@
   }
  },
  "run": {
-  "started": "2026-10-18T11:04:41Z",
+  "started": "2026-10-18T12:07:24Z",
   "source": "github-actions",
-  "pricespy_ok": 10,
+  "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-18T11:05:10Z"
+  "finished": "2026-10-18T12:07:58Z"
  },
  "totals": {
   "parts_total": 9,
   "parts_left": 9,
   "paid": 0.0,
-  "remaining": 2075.49,
+  "remaining": 2074.59,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -187,9 +189,9 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2075.49,
+  "build_total": 2074.59,
   "baseline_parts": 2158.79,
-  "delta_vs_baseline": -83.3,
+  "delta_vs_baseline": -84.2,
   "missing": []
  },
  "phase1": {
@@ -239,7 +241,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:42Z",
+   "checked": "2026-10-18T12:07:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -390,14 +392,15 @@
   {
    "id": "cooler",
    "slot": "CPU cooler",
-   "name": "Thermalright Peerless Assassin 120 SE",
+   "name": "Thermalright Peerless Assassin 120 SE Black",
    "bought": false,
    "paid": null,
    "paid_retailer": null,
    "bought_on": null,
    "spec": {
     "height_mm": 155,
-    "ram_clearance_mm": 42
+    "ram_clearance_mm": 42,
+    "colour": "black"
    },
    "pricespy": 11485774,
    "baseline": {
@@ -407,80 +410,82 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:45Z",
+   "checked": "2026-10-18T12:07:28Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0B4G8QKZP",
-    "name": "Thermalright Peerless Assassin 120 SE CPU Air Cooler,PA120 SE,6 Heat Pipes Cpu cooler,Dual 120mm TL-C12C PWM Fan,Aluminium Heatsink Cover,AGHP Technology,for AMD AM4/AM5 Intel 1851/1700/1150/1200",
-    "price": 29.9,
-    "was": 29.9,
-    "landed": 29.9,
+    "sku": "B0D8S5X75K",
+    "name": "Thermalright Peerless Assassin 120 SE Black CPU Cooler, 6 Heat Pipes PC Cooling, Dual Towers and Dual PWM Fans, Computer CPU Air Cooling for AMD:AM4 AM5&Intel LGA1150/1151/1200/1700/1851,Black",
+    "price": 29.0,
+    "was": 29.0,
+    "landed": 29.0,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0B4G8QKZP?client_id=1551"
+    "url": "https://www.amazon.co.uk/dp/B0D8S5X75K"
    },
    "offers": [
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0B4G8QKZP",
-     "name": "Thermalright Peerless Assassin 120 SE CPU Air Cooler,PA120 SE,6 Heat Pipes Cpu cooler,Dual 120mm TL-C12C PWM Fan,Aluminium Heatsink Cover,AGHP Technology,for AMD AM4/AM5 Intel 1851/1700/1150/1200",
-     "price": 29.9,
-     "was": 29.9,
-     "landed": 29.9,
+     "sku": "B0D8S5X75K",
+     "name": "Thermalright Peerless Assassin 120 SE Black CPU Cooler, 6 Heat Pipes PC Cooling, Dual Towers and Dual PWM Fans, Computer CPU Air Cooling for AMD:AM4 AM5&Intel LGA1150/1151/1200/1700/1851,Black",
+     "price": 29.0,
+     "was": 29.0,
+     "landed": 29.0,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0B4G8QKZP?client_id=1551"
-    },
-    {
-     "shop": "Computer Orbit",
-     "display": "Computer Orbit",
-     "name": "Thermalright Peerless Assassin 120 SE Dual Tower Air Cooler",
-     "price": 29.0,
-     "delivery": 15.0,
-     "landed": 44.0,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://computerorbit.com/products/thermalright-peerless-assassin-120-se-dual-tower-air-cooler"
+     "url": "https://www.amazon.co.uk/dp/B0D8S5X75K"
     },
     {
      "shop": "Overclockers",
      "display": "Overclockers UK",
-     "sku": "COO-TLR-02665",
-     "name": "Thermalright Peerless Assassin 120 SE CPU Cooler - 120mm",
-     "price": 29.99,
-     "was": 29.99,
+     "sku": "COO-TLR-03285",
+     "name": "Thermalright Peerless Assassin 120 SE Black Dual Tower CPU Air Cooler",
+     "price": 34.99,
+     "was": 34.99,
      "delivery": 19.99,
-     "landed": 49.98,
+     "landed": 54.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
-     "url": "https://www.overclockers.co.uk/thermalright-peerless-assassin-120-se-cpu-cooler-120mm/COO-TLR-02665.html"
+     "url": "https://pricespy.co.uk/go-to-shop/15915/offer/COO-TLR-03285?client_id=1551"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "BC6-0A6-9B9",
+     "name": "Thermalright Peerless Assassin 120 SE 6-Heat Pipe 220W TDP CPU Air Cooler Black - PA120 SE",
+     "price": 31.99,
+     "was": 39.99,
+     "delivery": 15.0,
+     "landed": 46.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/BC6-0A6-9B9?client_id=1551"
     }
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 15,
+    "marketplace": 7,
     "used": 0,
-    "other_variant": 34
+    "other_variant": 42
    },
    "notes": [],
    "change": {
     "vs_yesterday": null,
-    "vs_baseline": -0.09,
-    "vs_prev_run": 0.0
+    "vs_baseline": -0.99,
+    "vs_prev_run": -0.9
    },
    "low": {
     "price": 29.99,
@@ -499,8 +504,8 @@
     ],
     [
      "2026-10-18",
-     29.9,
-     29.9,
+     29.0,
+     29.0,
      1,
      "Amazon UK"
     ]
@@ -517,7 +522,8 @@
    "spec": {
     "form": "Micro-ATX",
     "front_usb_c": "10Gbps header",
-    "cpu_power": "2× 8-pin"
+    "cpu_power": "2× 8-pin",
+    "colour": "white/grey"
    },
    "pricespy": 15126881,
    "baseline": {
@@ -527,7 +533,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:49Z",
+   "checked": "2026-10-18T12:07:30Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -668,7 +674,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:52Z",
+   "checked": "2026-10-18T12:07:33Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -749,7 +755,8 @@
     "length_mm": 312,
     "thickness_mm": 50,
     "power": "3× 8-pin",
-    "vram": "16GB GDDR6"
+    "vram": "16GB GDDR6",
+    "colour": "black"
    },
    "pricespy": 14364979,
    "baseline": {
@@ -759,7 +766,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:54Z",
+   "checked": "2026-10-18T12:07:35Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -911,7 +918,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:04:57Z",
+   "checked": "2026-10-18T12:07:38Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1025,7 +1032,8 @@
    "spec": {
     "length_mm": 140,
     "watts": 850,
-    "atx": "3.1"
+    "atx": "3.1",
+    "colour": "black"
    },
    "pricespy": 14366594,
    "baseline": {
@@ -1035,7 +1043,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T11:05:00Z",
+   "checked": "2026-10-18T12:07:41Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1187,14 +1195,14 @@
   {
    "id": "case",
    "slot": "Case",
-   "name": "Jonsbo Z20 (white)",
+   "name": "Jonsbo Z20 (black)",
    "bought": false,
    "paid": null,
    "paid_retailer": null,
    "bought_on": null,
    "spec": {
     "form": "Micro-ATX / Mini-ITX",
-    "colour": "white"
+    "colour": "black"
    },
    "pricespy": 14356490,
    "baseline": {
@@ -1204,11 +1212,11 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-18T11:05:03Z",
+   "checked": "2026-10-18T12:07:43Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
-    "name": "Jonsbo Z20 (white)",
+    "name": "Jonsbo Z20 (black)",
     "price": 83.99,
     "delivery": 15.0,
     "landed": 98.99,
@@ -1217,15 +1225,15 @@
     "stock": "InStock",
     "in_stock": true,
     "source": "verified",
-    "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/",
+    "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
     "checked_on": "2026-10-18",
-    "note": "Product page: £83.99 inc VAT (£69.99 shown is ex VAT), in stock"
+    "note": "Product page: £69.99 ex VAT = £83.99 inc VAT, in stock (same standard Z20, black)"
    },
    "offers": [
     {
      "shop": "Watercooling UK",
      "display": "Watercooling UK",
-     "name": "Jonsbo Z20 (white)",
+     "name": "Jonsbo Z20 (black)",
      "price": 83.99,
      "delivery": 15.0,
      "landed": 98.99,
@@ -1234,32 +1242,16 @@
      "stock": "InStock",
      "in_stock": true,
      "source": "verified",
-     "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/",
+     "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
      "checked_on": "2026-10-18",
-     "note": "Product page: £83.99 inc VAT (£69.99 shown is ex VAT), in stock"
-    },
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "CAS-JNP-06058",
-     "name": "Jonsplus Z20 Mesh, Mini Tower, Micro-ATX - White",
-     "price": 79.99,
-     "was": 79.99,
-     "delivery": 19.99,
-     "landed": 99.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15915/offer/CAS-JNP-06058?client_id=1551"
+     "note": "Product page: £69.99 ex VAT = £83.99 inc VAT, in stock (same standard Z20, black)"
     }
    ],
    "unvetted": [],
    "excluded": {
     "marketplace": 1,
     "used": 0,
-    "other_variant": 5
+    "other_variant": 6
    },
    "notes": [],
    "change": {
@@ -1304,7 +1296,8 @@
    "spec": {
     "thickness_mm": 25,
     "count": 5,
-    "pst": true
+    "pst": true,
+    "colour": "black"
    },
    "pricespy": null,
    "baseline": {
@@ -1395,7 +1388,8 @@
     "slots": 2.8,
     "power": "3× 8-pin",
     "vram": "16GB GDDR6",
-    "boost_mhz": 3060
+    "boost_mhz": 3060,
+    "colour": "black"
    },
    "why": "Same RX 9070 XT chip and 16GB as the ASUS Prime OC, with a slightly higher factory boost (3060 vs 3030 MHz) and the same 3× 8-pin power. At 288mm long and about 56mm thick it fits the Z20 with room to spare (81mm with the bottom fan, limit 89mm). Trade-off: it has RGB lighting and is a touch thicker than the Prime.",
    "status": "pending",
@@ -1482,7 +1476,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T11:05:06Z",
+   "checked": "2026-10-18T12:07:46Z",
    "notes": [],
    "live": "live",
    "saving": 20.99,
@@ -1496,7 +1490,8 @@
    "spec": {
     "thickness_mm": 25,
     "count": 5,
-    "pst": true
+    "pst": true,
+    "colour": "black"
    },
    "why": "Standard version of the same fan; the current pick is the low-noise (LN) variant. Higher top speed means more airflow headroom, but LN idles slower and quieter. Same 120×25mm frame and PST daisy-chain, so fit and wiring don't change.",
    "status": "pending",
@@ -1553,10 +1548,240 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T11:05:08Z",
+   "checked": "2026-10-18T12:07:48Z",
    "notes": [],
    "live": "live",
    "saving": 10.0,
+   "fit_ok": true,
+   "fit_problems": []
+  },
+  {
+   "id": "s3",
+   "part": "ram",
+   "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL30, black",
+   "spec": {
+    "height_mm": 33.2,
+    "speed": "DDR5-6000",
+    "cl": 30,
+    "expo": true,
+    "colour": "black"
+   },
+   "why": "The same low-profile KLEVV kit in black, but CL30 rather than CL28: a timing difference you'd struggle to notice in games. Same 33mm height, so it still clears the cooler. About £20 more than the white kit.",
+   "status": "pending",
+   "added": "2026-10-18",
+   "decided": null,
+   "pricespy": 16655040,
+   "best": {
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL30, black",
+    "price": 419.99,
+    "delivery": 19.99,
+    "landed": 439.98,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c30-ddr5-dual-channel-kit-black/MEM-KLV-07036.html",
+    "checked_on": "2026-10-16",
+    "note": "From the 16 Oct stock scrub"
+   },
+   "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL30, black",
+     "price": 419.99,
+     "delivery": 19.99,
+     "landed": 439.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c30-ddr5-dual-channel-kit-black/MEM-KLV-07036.html",
+     "checked_on": "2026-10-16",
+     "note": "From the 16 Oct stock scrub"
+    }
+   ],
+   "checked": "2026-10-18T12:07:51Z",
+   "notes": [],
+   "live": "live",
+   "saving": -20.04,
+   "fit_ok": true,
+   "fit_problems": []
+  },
+  {
+   "id": "s4",
+   "part": "ram",
+   "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
+   "spec": {
+    "height_mm": 33.2,
+    "speed": "DDR5-6000",
+    "cl": 28,
+    "expo": true,
+    "colour": "black"
+   },
+   "why": "Exactly the current kit (CL28, 33mm low profile), just in black. Only Currys lists it in the UK right now; it's about £89 more on price, less once Overclockers' delivery is taken off.",
+   "status": "pending",
+   "added": "2026-10-18",
+   "decided": null,
+   "pricespy": 16655040,
+   "best": {
+    "shop": "Currys",
+    "display": "Currys",
+    "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
+    "price": 489.0,
+    "landed": 489.0,
+    "ni": "assumed",
+    "delivery_note": "Has NI stores; delivery cost at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
+    "checked_on": "2026-10-18",
+    "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
+   },
+   "offers": [
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
+     "price": 489.0,
+     "landed": 489.0,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
+     "checked_on": "2026-10-18",
+     "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
+    }
+   ],
+   "checked": "2026-10-18T12:07:53Z",
+   "notes": [],
+   "live": "live",
+   "saving": -69.06,
+   "fit_ok": true,
+   "fit_problems": []
+  },
+  {
+   "id": "s5",
+   "part": "board",
+   "name": "Gigabyte B850M Gaming X WIFI6E",
+   "spec": {
+    "form": "Micro-ATX",
+    "front_usb_c": "10Gbps header",
+    "cpu_power": "1× 8-pin",
+    "colour": "black"
+   },
+   "why": "A black board with the same essentials as the MSI pick, which is white and grey: Wi-Fi 6E, 2.5GbE, two M.2 slots and a 10Gbps front USB-C header for the case's port. One 8-pin CPU connector instead of two, plenty for a 9800X3D.",
+   "status": "pending",
+   "added": "2026-10-18",
+   "decided": null,
+   "pricespy": 14363537,
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DQNTTYD2",
+    "name": "Gigabyte B850M GAMING X WIFI6E Motherboard - AMD Ryzen 9000 Series CPUs, 10+2+2 Phases Digital VRM, up to 8200MHz DDR5 (OC), 1xPCIe 5.0 + 1xPCIe 4.0 M.2, 2.5LAN, WIFI 6E, USB 3.2 Gen 2",
+    "price": 153.98,
+    "was": 153.98,
+    "landed": 153.98,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DQNTTYD2?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DQNTTYD2",
+     "name": "Gigabyte B850M GAMING X WIFI6E Motherboard - AMD Ryzen 9000 Series CPUs, 10+2+2 Phases Digital VRM, up to 8200MHz DDR5 (OC), 1xPCIe 5.0 + 1xPCIe 4.0 M.2, 2.5LAN, WIFI 6E, USB 3.2 Gen 2",
+     "price": 153.98,
+     "was": 153.98,
+     "landed": 153.98,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DQNTTYD2?client_id=1551"
+    },
+    {
+     "shop": "Box.co.uk",
+     "display": "Box",
+     "sku": "B850M GAMING X WIFI6E",
+     "name": "GIGABYTE B850M GAMING X WiFi6E Micro-ATX Socket AM5 Motherboard",
+     "price": 155.03,
+     "was": 155.03,
+     "delivery": 4.95,
+     "landed": 159.98,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/43024/offer/B850M%20GAMING%20X%20WIFI6E?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154819",
+     "name": "Gigabyte AMD B850M GAMING X Wi-Fi 6E mATX Motherboard",
+     "price": 153.98,
+     "was": 153.98,
+     "delivery": 13.19,
+     "landed": 167.17,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154819?client_id=1551"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "C29-D69-18E",
+     "name": "Gigabyte B850M GAMING X WIFI6E AMD Ryzen AM5 DDR5 ATX Motherboard",
+     "price": 157.98,
+     "was": 157.98,
+     "delivery": 15.0,
+     "landed": 172.98,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/C29-D69-18E?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "MOT-GIG-03861",
+     "name": "Gigabyte B850M GAMING X WIFI6E (Socket AM5) DDR5 Micro ATX Motherboard",
+     "price": 154.0,
+     "was": 154.0,
+     "delivery": 19.99,
+     "landed": 173.99,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
+    }
+   ],
+   "checked": "2026-10-18T12:07:56Z",
+   "notes": [],
+   "live": "live",
+   "saving": -48.98,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -1671,6 +1896,10 @@
   {
    "date": "2026-10-18",
    "text": "Very vetted: delivers to NI, free on £75+. AWD-IT and Box still unverified (no NI terms published)."
+  },
+  {
+   "date": "2026-10-18",
+   "text": "Colour preference set to black: case → Jonsbo Z20 (black), cooler → Peerless Assassin 120 SE Black. Black RAM and motherboard options added as swap ideas."
   }
  ]
 }
