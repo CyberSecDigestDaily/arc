@@ -1,0 +1,186 @@
+{
+  "_about": "ARC build tracker config. Claude's daily sweep edits this file; the GitHub Action (checker.py) reads it ~4x a day and rewrites docs/data.json + docs/history.json. Prices are GBP inc VAT. Public repo: never put names, addresses or other personal details in here.",
+  "title": "ARC",
+  "subtitle": "AM5 small-form-factor build · Jonsbo Z20",
+  "updated": "2026-10-18",
+  "last_sweep": null,
+  "baseline": {"date": "2026-10-16", "label": "16 Oct sheet", "parts_total": 2158.79},
+  "settings": {
+    "alert_drop_gbp": 10,
+    "alert_drop_pct": 5,
+    "alert_drop_min_gbp": 2,
+    "suggest_min_saving_gbp": 10,
+    "manual_fresh_days": 3,
+    "low_min_days": 7,
+    "near_low_pct": 2,
+    "ni_default_estimate": 15,
+    "phase1": {"label": "Phase 1 · case + fans", "parts": ["case", "fans"], "budget": 132.90, "order_by": "2026-12-17"}
+  },
+  "fit_limits": {
+    "case": "Jonsbo Z20",
+    "cooler_height_mm": 163,
+    "ram_height_mm": 42,
+    "gpu_length_mm": 363,
+    "gpu_plus_bottom_fan_mm": 89,
+    "psu_length_mm": 140,
+    "psu_min_w": 750,
+    "fan_mounts": 5,
+    "motherboard": ["Mini-ITX", "Micro-ATX"],
+    "notes": "Cooler limit is the AMD figure. RAM limit is the cooler's standard clearance (raising its front fan breaks the 163mm limit). 89mm = GPU thickness + bottom fan thickness. PSU 140mm is Jonsbo's recommended maximum."
+  },
+  "retailers": {
+    "Overclockers": {"display": "Overclockers UK", "ni": "verified", "ni_first": 19.99, "ni_extra": 15.0, "note": "DPD to NI, 2 working days", "source": "https://www.overclockers.co.uk/delivery.html", "checked_on": "2026-10-16"},
+    "Scan": {"display": "Scan", "ni": "verified", "ni_first": 13.19, "ni_extra": 13.19, "note": "2-day service to NI", "source": "https://www.scan.co.uk/info/delivery", "checked_on": "2026-10-16"},
+    "Watercooling UK": {"display": "Watercooling UK", "ni": "verified", "ni_first": null, "note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)", "source": "https://www.watercoolinguk.co.uk/shipping-delivery/", "checked_on": "2026-10-16"},
+    "Amazon.co.uk": {"display": "Amazon UK", "ni": "assumed", "ni_first": 0, "note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout"},
+    "Argos": {"display": "Argos", "ni": "assumed", "ni_first": null, "note": "Has NI stores; delivery cost at checkout"},
+    "Currys": {"display": "Currys", "ni": "assumed", "ni_first": null, "note": "Has NI stores; delivery cost at checkout"},
+    "AWD-IT": {"display": "AWD-IT", "ni": "unverified", "ni_first": null},
+    "Box.co.uk": {"display": "Box", "ni": "unverified", "ni_first": null},
+    "Very": {"display": "Very", "ni": "unverified", "ni_first": null},
+    "CCL": {"display": "CCL", "ni": "unverified", "ni_first": null},
+    "Ebuyer": {"display": "Ebuyer", "ni": "unverified", "ni_first": null},
+    "Novatech": {"display": "Novatech", "ni": "unverified", "ni_first": null},
+    "Computer Orbit": {"display": "Computer Orbit", "ni": "unverified", "ni_first": null}
+  },
+  "blocked_shops": ["eBay", "OnBuy", "CeX", "Temu", "Amazon Marketplace", "A1 Tech Deals", "Fruugo", "AliExpress", "Wish", "ManoMano", "Rakuten", "PcHub.uk", "Backmarket", "Back Market", "musicMagpie"],
+  "parts": [
+    {
+      "id": "cpu", "slot": "CPU", "name": "AMD Ryzen 7 9800X3D (retail box)",
+      "pricespy": 13951156,
+      "match": {"must": ["9800\\s?X\\s?3D"], "not": ["\\btray\\b", "\\bbundle\\b", "\\s\\+\\s", "\\bgaming pc\\b", "\\bpc gaming\\b", "\\bsystem\\b", "\\bdesktop pc\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "PRO-AMD-03517", "check": "manual", "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail/PRO-AMD-03517.html"},
+        {"retailer": "Scan", "check": "manual", "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai"}
+      ],
+      "baseline": {"price": 374.99, "retailer": "Overclockers"},
+      "spec": {"cores": "8C/16T", "socket": "AM5", "note": "No cooler in the box"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "cooler", "slot": "CPU cooler", "name": "Thermalright Peerless Assassin 120 SE",
+      "pricespy": 11485774,
+      "match": {"must": ["Peerless Assassin 120 SE"], "not": ["\\bwhite\\b", "\\bdigital\\b", "\\bextreme\\b", "\\bargb\\b", "\\ba-rgb\\b", "\\bmini\\b", "\\bvision\\b", "\\bv2\\b", "\\bblack\\b", "\\bbundle\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "COO-TLR-02665", "check": "manual", "url": "https://www.overclockers.co.uk/thermalright-peerless-assassin-120-se-cpu-cooler-120mm/COO-TLR-02665.html"},
+        {"retailer": "Computer Orbit", "check": "shopify", "url": "https://computerorbit.com/products/thermalright-peerless-assassin-120-se-dual-tower-air-cooler"}
+      ],
+      "baseline": {"price": 29.99, "retailer": "Overclockers"},
+      "spec": {"height_mm": 155, "ram_clearance_mm": 42},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "board", "slot": "Motherboard", "name": "MSI B850M Gaming Plus WiFi6E",
+      "pricespy": 15126881,
+      "match": {"must": ["B850M\\s*GAMING\\s*PLUS", "6E"], "not": ["\\bbundle\\b", "\\s\\+\\s"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "MOT-MSI-05943", "check": "manual", "url": "https://www.overclockers.co.uk/msi-b850m-gaming-plus-wifi6e-amd-am5-b850-ddr5-micro-atx-motherboard/MOT-MSI-05943.html"},
+        {"retailer": "Scan", "sku": "162224", "check": "manual", "url": "https://www.scan.co.uk/products/msi-b850m-gaming-plus-wifi6e-amd-b850-am5-ddr5-pcie-40-2x-m2-25g-wifi6e-usb-32-aplusc-amd-expo-micro"}
+      ],
+      "baseline": {"price": 129.95, "retailer": "Overclockers"},
+      "spec": {"form": "Micro-ATX", "front_usb_c": "10Gbps header", "cpu_power": "2× 8-pin"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "ram", "slot": "RAM", "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, white",
+      "pricespy": 16655040,
+      "match": {"must": ["FIT\\s*V", "(CL|C)\\s?28"], "not": ["\\bbolt\\b", "\\bcras\\b", "\\burbane\\b", "\\bblack\\b", "\\brgb\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "MEM-KLV-09257", "check": "manual", "url": "https://www.overclockers.co.uk/klevv-fit-v-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-white/MEM-KLV-09257.html"}
+      ],
+      "baseline": {"price": 399.95, "retailer": "Overclockers"},
+      "spec": {"height_mm": 33.2, "speed": "DDR5-6000", "cl": 28, "expo": true, "colour": "white"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "gpu", "slot": "GPU", "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
+      "pricespy": 14364979,
+      "match": {"must": ["9070\\s?XT", "prime"], "not": ["\\bwhite\\b", "\\bbundle\\b", "\\s\\+\\s", "\\bupgrade\\b", "\\bb550\\b", "\\bb650\\b", "\\bb850\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "GRA-ASU-04155", "check": "manual", "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html"}
+      ],
+      "baseline": {"price": 758.99, "retailer": "Overclockers"},
+      "spec": {"length_mm": 312, "thickness_mm": 50, "power": "3× 8-pin", "vram": "16GB GDDR6"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "ssd", "slot": "SSD", "name": "WD Blue SN5100 2TB NVMe (Gen4)",
+      "pricespy": 15605594,
+      "match": {"must": ["SN5100", "2\\s?TB"], "not": ["\\bbundle\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "STO-WDC-06214", "check": "manual", "url": "https://www.overclockers.co.uk/wd-blue-sn5100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-06214.html"}
+      ],
+      "baseline": {"price": 249.95, "retailer": "Overclockers"},
+      "spec": {"interface": "M.2 2280 PCIe 4.0 NVMe", "read_mbs": 7100, "warranty": "5 years"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "psu", "slot": "PSU", "name": "Corsair RM850e (2025) Gold, fully modular",
+      "pricespy": 14366594,
+      "match": {"must": ["RM850e"], "not": ["\\bwhite\\b", "\\bplatinum\\b", "\\b2026\\b", "\\bbundle\\b", "\\s\\+\\s"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "POW-CRS-03875", "check": "manual", "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"},
+        {"retailer": "Scan", "sku": "154144", "check": "manual", "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"}
+      ],
+      "baseline": {"price": 94.99, "retailer": "Overclockers"},
+      "spec": {"length_mm": 140, "watts": 850, "atx": "3.1"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "case", "slot": "Case", "name": "Jonsbo Z20 (white)",
+      "pricespy": 14356490,
+      "match": {"must": ["Z20", "white"], "not": ["\\bpink\\b", "\\bblack\\b"]},
+      "offers": [
+        {"retailer": "Watercooling UK", "check": "manual", "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/"},
+        {"retailer": "Overclockers", "sku": "CAS-JNP-06058", "check": "manual", "url": "https://www.overclockers.co.uk/search?sSearch=CAS-JNP-06058"}
+      ],
+      "baseline": {"price": 83.99, "retailer": "Watercooling UK"},
+      "spec": {"form": "Micro-ATX / Mini-ITX", "colour": "white"},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    },
+    {
+      "id": "fans", "slot": "Case fans", "name": "Arctic P12 Pro LN PWM 5-pack (120mm)",
+      "pricespy": null,
+      "match": {"must": ["P12\\s*Pro", "\\bLN\\b"], "not": ["\\breverse\\b", "\\bargb\\b", "\\ba-rgb\\b", "\\b3-pack\\b", "\\b3 pack\\b", "\\bwhite\\b"]},
+      "offers": [
+        {"retailer": "Overclockers", "sku": "COO-ARC-08479", "check": "manual", "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html"}
+      ],
+      "baseline": {"price": 35.99, "retailer": "Overclockers"},
+      "spec": {"thickness_mm": 25, "count": 5, "pst": true},
+      "bought": false, "paid": null, "paid_retailer": null, "bought_on": null
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "s1", "part": "fans", "name": "Arctic P12 Pro PST 5-pack (120mm)",
+      "pricespy": 14904416,
+      "match": {"must": ["P12\\s*Pro", "PST"], "not": ["\\bLN\\b", "\\breverse\\b", "\\bargb\\b", "\\ba-rgb\\b", "\\b3-pack\\b", "\\b3 pack\\b", "\\bwhite\\b"]},
+      "offers": [],
+      "spec": {"thickness_mm": 25, "count": 5, "pst": true},
+      "why": "Standard version of the same fan; the current pick is the low-noise (LN) variant. Higher top speed means more airflow headroom, but LN idles slower and quieter. Same 120×25mm frame and PST daisy-chain, so fit and wiring don't change.",
+      "status": "pending", "added": "2026-10-18"
+    }
+  ],
+  "manual": {
+    "cpu": [
+      {"retailer": "Overclockers", "price": 374.99, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail/PRO-AMD-03517.html"},
+      {"retailer": "Scan", "price": 384.98, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai"}
+    ],
+    "ram": [
+      {"retailer": "Overclockers", "price": 399.95, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.overclockers.co.uk/klevv-fit-v-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-white/MEM-KLV-09257.html"}
+    ],
+    "gpu": [
+      {"retailer": "Overclockers", "price": 758.99, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html"}
+    ],
+    "case": [
+      {"retailer": "Watercooling UK", "price": 83.99, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/"}
+    ],
+    "fans": [
+      {"retailer": "Overclockers", "price": 35.99, "in_stock": true, "checked_on": "2026-10-16", "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html"}
+    ]
+  },
+  "feedback_log": [],
+  "log": [
+    {"date": "2026-10-18", "text": "Tracker created from the 16 Oct sheet: 9 parts, £2,158.79."}
+  ]
+}

@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ARC Build Tracker</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232a78d6'/%3E%3Cpath d='M8 23 L16 8 L24 23' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f4f3ef;
+  --surface: #fcfcfb;
+  --surface-2: #f0efec;
+  --line: #e2e0da;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --text-3: #75736e;
+  --series: #2a78d6;
+  --series-soft: #cde2fb;
+  --spark: #9a988f;
+  --good: #0ca30c;
+  --good-ink: #0a6f0a;
+  --warn: #fab219;
+  --warn-ink: #8a5d00;
+  --serious: #ec835a;
+  --crit: #d03b3b;
+  --crit-ink: #b02a2a;
+  --chip: #e9e7e1;
+  --shadow: 0 1px 2px rgba(20, 20, 18, .06), 0 2px 8px rgba(20, 20, 18, .04);
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121211;
+    --surface: #1a1a19;
+    --surface-2: #232321;
+    --line: #2f2f2c;
+    --text: #f0efec;
+    --text-2: #c3c2b7;
+    --text-3: #9b9a92;
+    --series: #3987e5;
+    --series-soft: #184f95;
+    --spark: #6f6e68;
+    --good-ink: #4cc94c;
+    --warn-ink: #fab219;
+    --crit-ink: #e66767;
+    --chip: #2a2a27;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121211;
+  --surface: #1a1a19;
+  --surface-2: #232321;
+  --line: #2f2f2c;
+  --text: #f0efec;
+  --text-2: #c3c2b7;
+  --text-3: #9b9a92;
+  --series: #3987e5;
+  --series-soft: #184f95;
+  --spark: #6f6e68;
+  --good-ink: #4cc94c;
+  --warn-ink: #fab219;
+  --crit-ink: #e66767;
+  --chip: #2a2a27;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+a { color: inherit; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 20px 16px 48px; }
+header.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.brand h1 { margin: 0; font-size: 26px; letter-spacing: .06em; font-weight: 750; }
+.brand p { margin: 2px 0 0; color: var(--text-2); }
+.status-line { color: var(--text-2); font-size: 13px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--good); display: inline-block; }
+.dot.stale { background: var(--warn); }
+button, .btn {
+  font: inherit; font-size: 13px; font-weight: 600;
+  border: 1px solid var(--line); background: var(--surface); color: var(--text);
+  border-radius: 8px; padding: 7px 12px; cursor: pointer; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 6px; line-height: 1.2; white-space: nowrap;
+}
+button:hover, .btn:hover { background: var(--surface-2); }
+button:focus-visible, .btn:focus-visible, summary:focus-visible, svg:focus-visible { outline: 2px solid var(--series); outline-offset: 2px; }
+.btn.primary { background: var(--text); color: var(--surface); border-color: var(--text); }
+.btn.primary:hover { opacity: .88; background: var(--text); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+section { margin-top: 22px; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-2); margin: 0 0 10px; font-weight: 700; }
+.hero { padding: 20px; display: grid; grid-template-columns: 1.3fr 2fr; gap: 20px; align-items: center; }
+.hero .label { color: var(--text-2); font-size: 13px; }
+.hero .figure { font-size: 52px; font-weight: 750; letter-spacing: -.02em; line-height: 1.05; margin: 2px 0 6px; }
+.delta { font-size: 14px; font-weight: 600; }
+.delta.down { color: var(--good-ink); }
+.delta.up { color: var(--crit-ink); }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.kpi { background: var(--surface-2); border-radius: 10px; padding: 12px; }
+.kpi .v { font-size: 22px; font-weight: 700; }
+.kpi .s { font-size: 12px; color: var(--text-2); }
+.alerts { list-style: none; margin: 0; padding: 0; }
+.alerts li { display: flex; gap: 10px; align-items: baseline; padding: 10px 14px; border-top: 1px solid var(--line); }
+.alerts li:first-child { border-top: 0; }
+.alerts .when { margin-left: auto; color: var(--text-3); font-size: 12px; white-space: nowrap; }
+.ico { width: 18px; text-align: center; flex: none; font-weight: 800; }
+.ico.good { color: var(--good-ink); } .ico.warn { color: var(--warn-ink); } .ico.crit { color: var(--crit-ink); } .ico.info { color: var(--text-3); }
+.swaps { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.swap { padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.swap .save { font-size: 22px; font-weight: 750; color: var(--good-ink); }
+.swap .why { color: var(--text-2); font-size: 14px; margin: 0; }
+.row-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 6px; }
+.parts { display: grid; gap: 10px; }
+.part { padding: 14px 16px; }
+.part-main { display: grid; grid-template-columns: minmax(0, 1fr) auto 128px; gap: 16px; align-items: center; }
+.slot { font-size: 12px; text-transform: uppercase; letter-spacing: .07em; color: var(--text-3); font-weight: 700; }
+.pname { font-weight: 650; font-size: 16px; margin: 1px 0 6px; overflow-wrap: anywhere; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--text-2); display: inline-flex; gap: 5px; align-items: center; font-weight: 600; }
+.badge .i { font-weight: 800; }
+.badge.good .i { color: var(--good-ink); } .badge.warn .i { color: var(--warn-ink); } .badge.crit .i { color: var(--crit-ink); }
+.price { text-align: right; }
+.price .now { font-size: 24px; font-weight: 750; }
+.price .where { font-size: 13px; color: var(--text-2); }
+.price .chg { font-size: 12px; font-weight: 600; }
+.chg.down { color: var(--good-ink); } .chg.up { color: var(--crit-ink); } .chg.flat { color: var(--text-3); }
+.spark { width: 128px; height: 40px; display: block; }
+.part-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+details.more { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
+details.more > summary { cursor: pointer; color: var(--text-2); font-size: 13px; font-weight: 600; list-style: none; }
+details.more > summary::-webkit-details-marker { display: none; }
+details.more > summary::before { content: "▸ "; }
+details.more[open] > summary::before { content: "▾ "; }
+.tablewrap { overflow-x: auto; margin-top: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--text-3); font-weight: 600; font-size: 12px; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.best td { background: var(--surface-2); }
+.muted { color: var(--text-3); }
+.small { font-size: 12px; }
+.chart { position: relative; margin-top: 12px; }
+.chart svg { width: 100%; height: auto; display: block; touch-action: pan-y; }
+.tip { position: absolute; pointer-events: none; background: var(--text); color: var(--surface); padding: 6px 9px; border-radius: 8px; font-size: 12px; white-space: nowrap; transform: translate(-50%, -110%); display: none; }
+.tip strong { font-size: 14px; display: block; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; }
+.grid2 > * { min-width: 0; }
+.panel { padding: 16px; }
+.meter { height: 10px; border-radius: 999px; background: var(--series-soft); overflow: hidden; margin: 10px 0 6px; }
+.meter > i { display: block; height: 100%; background: var(--series); border-radius: 999px; }
+.fit td.ok { color: var(--good-ink); font-weight: 700; white-space: nowrap; }
+.fit td.bad { color: var(--crit-ink); font-weight: 700; white-space: nowrap; }
+.log { list-style: none; padding: 0; margin: 0; }
+.log li { padding: 8px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: 92px 1fr; gap: 10px; font-size: 14px; }
+.log li:first-child { border-top: 0; }
+footer { margin-top: 28px; color: var(--text-2); font-size: 13px; }
+footer p { margin: 6px 0; }
+.empty { padding: 16px; color: var(--text-2); }
+.bought .pname { text-decoration: none; }
+.bought { opacity: .82; }
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; }
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .kpis .kpi:last-child { grid-column: span 2; }
+  .hero .figure { font-size: 44px; }
+  .part-main { grid-template-columns: minmax(0, 1fr) 112px; grid-template-areas: "info info" "price spark"; gap: 10px 12px; }
+  .part-main > :first-child { grid-area: info; }
+  .part-main > .price { grid-area: price; text-align: left; }
+  .part-main > .spark { grid-area: spark; width: 112px; align-self: end; }
+  .grid2 { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1 id="title">ARC</h1>
+      <p id="subtitle">Build tracker</p>
+    </div>
+    <div class="status-line">
+      <span><span class="dot" id="freshdot"></span> <span id="checked">Loading prices…</span></span>
+      <button type="button" id="refresh" title="Reload the latest prices">Refresh</button>
+    </div>
+  </header>
+
+  <div class="card hero" id="hero" aria-live="polite"></div>
+
+  <section id="alerts-sec" hidden>
+    <h2>Recent changes</h2>
+    <ul class="card alerts" id="alerts"></ul>
+  </section>
+
+  <section id="swaps-sec" hidden>
+    <h2>Swap ideas waiting for your OK</h2>
+    <div class="swaps" id="swaps"></div>
+  </section>
+
+  <section>
+    <h2>Parts</h2>
+    <div class="parts" id="parts"></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card panel" id="phase1"></div>
+    <div class="card panel">
+      <h2>Fit check · Jonsbo Z20</h2>
+      <div class="tablewrap"><table class="fit" id="fit"></table></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Change log</h2>
+    <div class="card panel"><ul class="log" id="log"></ul></div>
+  </section>
+
+  <footer>
+    <p><strong>How it works.</strong> Prices and stock are re-checked about four times a day from UK shops (via PriceSpy UK and the shops themselves). Every morning a sweep re-verifies the build, fixes dead links, moves parts to cheaper vetted UK shops and suggests compatible swaps.</p>
+    <p><strong>Prices</strong> include VAT. The headline price is the cheapest in-stock offer from a vetted UK shop, ranked on the item plus delivery to Northern Ireland for a single-item order; buying several parts from one shop together usually saves on delivery. Marketplace sellers, used stock and unvetted shops are left out.</p>
+    <p><strong>Buttons</strong> “Bought it”, “Approve” and “Not for me” open a pre-filled email to yourself; the next morning's sweep reads it and updates the build. <button type="button" id="setmail" class="small">Change email</button></p>
+    <p class="muted small" id="runinfo"></p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var DATA_URL = "data.json";
+  var MAIL_KEY = "arc_mail_to";
+  var SWEEP_LABEL = "07:46";
+  var CHECK_HOURS_UTC = [6, 10, 14, 18];
+  var CHECK_MINUTE = 7;
+  var state = { data: null, loadedAt: null };
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, attrs) {
+    var n = document.createElement(tag);
+    if (attrs) {
+      for (var k in attrs) {
+        if (!Object.prototype.hasOwnProperty.call(attrs, k) || attrs[k] == null) continue;
+        if (k === "text") n.textContent = attrs[k];
+        else if (k === "cls") n.className = attrs[k];
+        else if (k === "html") throw new Error("no html");
+        else n.setAttribute(k, attrs[k]);
+      }
+    }
+    for (var i = 2; i < arguments.length; i++) {
+      var c = arguments[i];
+      if (c == null || c === false) continue;
+      if (Array.isArray(c)) c.forEach(function (x) { if (x != null && x !== false) n.appendChild(typeof x === "string" ? document.createTextNode(x) : x); });
+      else n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    }
+    return n;
+  }
+  function svgEl(tag, attrs) {
+    var n = document.createElementNS("http://www.w3.org/2000/svg", tag);
+    for (var k in attrs) if (Object.prototype.hasOwnProperty.call(attrs, k)) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+  function gbp(x, opts) {
+    if (x == null || isNaN(x)) return "—";
+    var v = Math.abs(x).toLocaleString("en-GB", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return (x < 0 && !(opts && opts.abs) ? "−" : "") + "£" + v;
+  }
+  function signed(x) {
+    if (x == null || isNaN(x)) return "";
+    if (Math.abs(x) < 0.005) return "no change";
+    return (x < 0 ? "▼ " : "▲ ") + gbp(Math.abs(x));
+  }
+  function chgClass(x) { return x == null || Math.abs(x) < 0.005 ? "flat" : x < 0 ? "down" : "up"; }
+  function safeUrl(u) { return typeof u === "string" && /^https:\/\//i.test(u) ? u : null; }
+  function ago(iso) {
+    if (!iso) return "";
+    var s = (Date.now() - new Date(iso).getTime()) / 1000;
+    if (s < 90) return "just now";
+    var m = Math.round(s / 60);
+    if (m < 60) return m + " min ago";
+    var h = Math.round(m / 60);
+    if (h < 36) return h + " h ago";
+    return Math.round(h / 24) + " days ago";
+  }
+  function ukTime(iso) {
+    try { return new Date(iso).toLocaleString("en-GB", { timeZone: "Europe/London", weekday: "short", hour: "2-digit", minute: "2-digit" }); }
+    catch (e) { return iso; }
+  }
+  function ukDate(d) {
+    try { return new Date(d + (d.length === 10 ? "T12:00:00Z" : "")).toLocaleDateString("en-GB", { day: "numeric", month: "short" }); }
+    catch (e) { return d; }
+  }
+  function nextCheck() {
+    var now = new Date();
+    for (var add = 0; add < 2; add++) {
+      for (var i = 0; i < CHECK_HOURS_UTC.length; i++) {
+        var t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + add, CHECK_HOURS_UTC[i], CHECK_MINUTE));
+        if (t > now) return t;
+      }
+    }
+    return null;
+  }
+  function badge(kind, icon, text, title) {
+    return el("span", { cls: "badge " + (kind || ""), title: title || null }, el("span", { cls: "i", "aria-hidden": "true", text: icon }), text);
+  }
+
+  // ------------------------------------------------------------ email buttons
+  function mailTo() {
+    var m = null;
+    try { m = localStorage.getItem(MAIL_KEY); } catch (e) {}
+    if (!m) {
+      m = window.prompt("Which email address should these buttons send to? (Your own Gmail, the one the daily sweep reads. Asked once per device.)", "");
+      if (m) { m = m.trim(); try { localStorage.setItem(MAIL_KEY, m); } catch (e) {} }
+    }
+    return m;
+  }
+  function sendMail(subject, body) {
+    var to = mailTo();
+    if (!to) return;
+    window.location.href = "mailto:" + encodeURIComponent(to) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  }
+  function boughtMail(p) {
+    var b = p.best || {};
+    sendMail("ARC bought: " + p.id + " | " + p.name + " | " + gbp(b.price) + " | " + (b.display || ""),
+      "Bought: " + p.name + "\nPrice paid: " + gbp(b.price) + " (edit if different)\nShop: " + (b.display || "") +
+      "\nDate: " + new Date().toISOString().slice(0, 10) + "\n\nSent from the ARC tracker. The next morning's sweep marks it bought.");
+  }
+  function swapMail(s, verb) {
+    sendMail("ARC " + verb + ": " + s.id + " | " + s.name,
+      (verb === "approve" ? "Approve this swap: " : "Not for me: ") + s.name + " (replaces the " + s.part + " pick)" +
+      "\n\nNote (optional): \n\nSent from the ARC tracker.");
+  }
+
+  // ------------------------------------------------------------ charts
+  function sparkline(hist) {
+    var pts = (hist || []).filter(function (e) { return e[1] != null; }).slice(-30);
+    var w = 128, h = 40, pad = 4;
+    var svg = svgEl("svg", { viewBox: "0 0 " + w + " " + h, class: "spark", role: "img" });
+    if (pts.length < 2) {
+      svg.setAttribute("aria-label", "Not enough history yet");
+      var t = svgEl("text", { x: w / 2, y: h / 2 + 4, "text-anchor": "middle", "font-size": "10", fill: "var(--text-3)" });
+      t.textContent = "history builds daily";
+      svg.appendChild(t);
+      return svg;
+    }
+    var vals = pts.map(function (e) { return e[1]; });
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    if (hi - lo < 0.01) { hi += 1; lo -= 1; }
+    function x(i) { return pad + i * (w - 2 * pad) / (pts.length - 1); }
+    function y(v) { return h - pad - (v - lo) * (h - 2 * pad) / (hi - lo); }
+    var d = pts.map(function (e, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(e[1]).toFixed(1); }).join(" ");
+    svg.appendChild(svgEl("path", { d: d, fill: "none", stroke: "var(--spark)", "stroke-width": "2", "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    var last = pts[pts.length - 1];
+    svg.appendChild(svgEl("circle", { cx: x(pts.length - 1), cy: y(last[1]), r: 3.5, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": "2" }));
+    svg.setAttribute("aria-label", "Price over " + pts.length + " days, from " + gbp(vals[0]) + " to " + gbp(last[1]));
+    return svg;
+  }
+
+  function historyChart(p) {
+    var pts = (p.history || []).filter(function (e) { return e[1] != null; });
+    var box = el("div", { cls: "chart" });
+    if (pts.length < 2) {
+      box.appendChild(el("p", { cls: "muted small", text: "Price history builds up one point a day." }));
+      return box;
+    }
+    var W = 640, H = 170, L = 52, R = 12, T = 12, B = 26;
+    var vals = pts.map(function (e) { return e[1]; });
+    var ref = p.baseline && p.baseline.price;
+    var lo = Math.min.apply(null, vals.concat(ref ? [ref] : [])), hi = Math.max.apply(null, vals.concat(ref ? [ref] : []));
+    var span = hi - lo || hi * 0.05 || 1;
+    lo -= span * 0.12; hi += span * 0.12;
+    function x(i) { return L + i * (W - L - R) / (pts.length - 1); }
+    function y(v) { return T + (hi - v) * (H - T - B) / (hi - lo); }
+    var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, role: "img", tabindex: "0",
+      "aria-label": p.slot + " price history: " + pts.length + " days. Use the arrow keys to step through." });
+    for (var g = 0; g <= 3; g++) {
+      var gv = lo + (hi - lo) * g / 3, gy = y(gv);
+      svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: gy, y2: gy, stroke: "var(--line)", "stroke-width": "1" }));
+      var gt = svgEl("text", { x: L - 6, y: gy + 4, "text-anchor": "end", "font-size": "11", fill: "var(--text-3)" });
+      gt.textContent = "£" + Math.round(gv);
+      svg.appendChild(gt);
+    }
+    if (ref) {
+      var ry = y(ref);
+      svg.appendChild(svgEl("line", { x1: L, x2: W - R, y1: ry, y2: ry, stroke: "var(--text-3)", "stroke-width": "1", "stroke-dasharray": "4 4" }));
+      var rt = svgEl("text", { x: W - R, y: ry - 5, "text-anchor": "end", "font-size": "11", fill: "var(--text-2)" });
+      rt.textContent = "16 Oct sheet " + gbp(ref);
+      svg.appendChild(rt);
+    }
+    [0, pts.length - 1].forEach(function (i) {
+      var t = svgEl("text", { x: x(i), y: H - 6, "text-anchor": i ? "end" : "start", "font-size": "11", fill: "var(--text-3)" });
+      t.textContent = ukDate(pts[i][0]);
+      svg.appendChild(t);
+    });
+    var d = pts.map(function (e, i) { return (i ? "L" : "M") + x(i).toFixed(1) + " " + y(e[1]).toFixed(1); }).join(" ");
+    svg.appendChild(svgEl("path", { d: d, fill: "none", stroke: "var(--series)", "stroke-width": "2", "stroke-linejoin": "round", "stroke-linecap": "round", "vector-effect": "non-scaling-stroke" }));
+    var hair = svgEl("line", { y1: T, y2: H - B, stroke: "var(--text-3)", "stroke-width": "1", visibility: "hidden", "vector-effect": "non-scaling-stroke" });
+    var dot = svgEl("circle", { r: 5, fill: "var(--series)", stroke: "var(--surface)", "stroke-width": "2", visibility: "hidden" });
+    svg.appendChild(hair); svg.appendChild(dot);
+    var tip = el("div", { cls: "tip", role: "status" });
+    box.appendChild(svg); box.appendChild(tip);
+    var cur = -1;
+    function show(i) {
+      cur = Math.max(0, Math.min(pts.length - 1, i));
+      var e = pts[cur], cx = x(cur), cy = y(e[1]);
+      hair.setAttribute("x1", cx); hair.setAttribute("x2", cx); hair.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", cx); dot.setAttribute("cy", cy); dot.setAttribute("visibility", "visible");
+      tip.textContent = "";
+      tip.appendChild(el("strong", { text: gbp(e[1]) }));
+      tip.appendChild(document.createTextNode(ukDate(e[0]) + (e[4] ? " · " + e[4] : "") + (e[3] ? "" : " · out of stock")));
+      var r = svg.getBoundingClientRect();
+      tip.style.left = (cx / W * r.width) + "px";
+      tip.style.top = (cy / H * r.height) + "px";
+      tip.style.display = "block";
+    }
+    function hide() { hair.setAttribute("visibility", "hidden"); dot.setAttribute("visibility", "hidden"); tip.style.display = "none"; }
+    svg.addEventListener("pointermove", function (ev) {
+      var r = svg.getBoundingClientRect();
+      var px = (ev.clientX - r.left) / r.width * W;
+      show(Math.round((px - L) / ((W - L - R) / (pts.length - 1))));
+    });
+    svg.addEventListener("pointerleave", hide);
+    svg.addEventListener("blur", hide);
+    svg.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowLeft") { show(cur < 0 ? pts.length - 1 : cur - 1); ev.preventDefault(); }
+      if (ev.key === "ArrowRight") { show(cur < 0 ? 0 : cur + 1); ev.preventDefault(); }
+    });
+    return box;
+  }
+
+  // ------------------------------------------------------------ sections
+  function renderHero(d) {
+    var t = d.totals || {}, hero = $("hero");
+    hero.textContent = "";
+    var left = el("div", null,
+      el("div", { cls: "label", text: t.parts_left ? "Build total right now" : "Build total (all bought)" }),
+      el("div", { cls: "figure", text: gbp(t.build_total) }),
+      t.delta_vs_baseline != null ? el("div", { cls: "delta " + chgClass(t.delta_vs_baseline),
+        text: (Math.abs(t.delta_vs_baseline) < 0.005 ? "Same as" : (t.delta_vs_baseline < 0 ? gbp(-t.delta_vs_baseline) + " under" : gbp(t.delta_vs_baseline) + " over")) +
+          " the " + (d.baseline && d.baseline.label || "sheet") + " (" + gbp(t.baseline_parts) + ")" }) : null,
+      t.missing && t.missing.length ? el("div", { cls: "small muted", text: "No live price for: " + t.missing.join(", ") }) : null
+    );
+    var lines = (t.delivery_lines || []).map(function (l) { return l.shop + " " + (l.cost ? gbp(l.cost) : "free"); }).join(" · ");
+    var kpis = el("div", { cls: "kpis" },
+      el("div", { cls: "kpi" }, el("div", { cls: "v", text: (t.parts_left || 0) + " of " + (t.parts_total || 0) }), el("div", { cls: "s", text: "parts left to buy · " + gbp(t.remaining) })),
+      el("div", { cls: "kpi" }, el("div", { cls: "v", text: "≈ " + gbp(t.delivery) }), el("div", { cls: "s", text: "NI delivery, one order per shop" + (lines ? " · " + lines : "") })),
+      el("div", { cls: "kpi" }, el("div", { cls: "v", text: gbp(t.paid || 0) }), el("div", { cls: "s", text: "paid so far" }))
+    );
+    hero.appendChild(left); hero.appendChild(kpis);
+  }
+
+  var ICON = { drop: ["good", "▼"], restock: ["good", "✓"], soldout: ["crit", "✕"], swap: ["good", "⇄"], rise: ["info", "▲"], low: ["good", "★"] };
+  function renderAlerts(d) {
+    var since = Date.now() - 72 * 3600 * 1000;
+    var evs = (d.events || []).filter(function (e) { return new Date(e.ts).getTime() >= since; }).slice(0, 8);
+    $("alerts-sec").hidden = !evs.length;
+    var ul = $("alerts"); ul.textContent = "";
+    evs.forEach(function (e) {
+      var ic = ICON[e.type] || ["info", "•"];
+      ul.appendChild(el("li", null, el("span", { cls: "ico " + ic[0], "aria-hidden": "true", text: ic[1] }), el("span", { text: e.text }), el("span", { cls: "when", text: ago(e.ts) })));
+    });
+  }
+
+  function renderSwaps(d) {
+    var list = (d.suggestions || []).filter(function (s) { return s.status === "pending"; });
+    var box = $("swaps"); box.textContent = "";
+    $("swaps-sec").hidden = !list.length;
+    var parts = {};
+    (d.parts || []).forEach(function (p) { parts[p.id] = p; });
+    list.forEach(function (s) {
+      var b = s.best || {}, cur = parts[s.part] || {};
+      var url = safeUrl(b.url);
+      var card = el("article", { cls: "card swap" },
+        el("div", { cls: "slot", text: (cur.slot || s.part) + " swap" }),
+        el("div", { cls: "pname", text: s.name }),
+        el("div", null,
+          s.saving != null && s.saving > 0 ? el("span", { cls: "save", text: "Saves " + gbp(s.saving) }) : el("span", { cls: "muted", text: s.saving != null ? "No saving right now" : "Price not available yet" }),
+          b.price != null ? el("span", { cls: "muted small", text: "  " + gbp(b.price) + " at " + (b.display || "") + (b.delivery ? " + " + gbp(b.delivery) + " delivery" : "") }) : null),
+        el("div", { cls: "badges" },
+          s.fit_ok === false ? badge("crit", "✕", "Fit problem: " + (s.fit_problems || []).join(", ")) : badge("good", "✓", "Fits the Z20"),
+          b.in_stock ? badge("good", "✓", "In stock") : b.in_stock === false ? badge("crit", "✕", "Sold out") : badge("warn", "!", "Stock unknown"),
+          cur.best ? badge("", "→", "Replaces " + gbp(cur.best.price) + " pick") : null),
+        el("p", { cls: "why", text: s.why || "" }),
+        el("div", { cls: "row-actions" },
+          (function () { var a = el("button", { type: "button", cls: "btn primary", text: "Approve" }); a.addEventListener("click", function () { swapMail(s, "approve"); }); return a; })(),
+          (function () { var a = el("button", { type: "button", cls: "btn", text: "Not for me" }); a.addEventListener("click", function () { swapMail(s, "reject"); }); return a; })(),
+          url ? el("a", { cls: "btn", href: url, target: "_blank", rel: "noopener", text: "View" }) : null)
+      );
+      box.appendChild(card);
+    });
+  }
+
+  function partBadges(p) {
+    var out = [], b = p.best || {}, s = p.signals || [];
+    if (p.bought) return [badge("good", "✓", "Bought" + (p.paid != null ? " · " + gbp(p.paid) : "") + (p.bought_on ? " · " + ukDate(p.bought_on) : ""))];
+    if (!p.best) return [badge("crit", "✕", "No price found")];
+    if (b.in_stock) out.push(badge("good", "✓", "In stock"));
+    if (s.indexOf("soldout") > -1) out.push(badge("crit", "✕", "Sold out everywhere vetted"));
+    if (s.indexOf("stock_unknown") > -1) out.push(badge("warn", "!", "Stock unknown"));
+    if (s.indexOf("new_low") > -1) out.push(badge("good", "★", "Lowest yet"));
+    else if (s.indexOf("near_low") > -1) out.push(badge("good", "★", "Near its low"));
+    if (s.indexOf("below_sheet") > -1) out.push(badge("good", "▼", "Below sheet"));
+    if (s.indexOf("not_live") > -1 || b.source === "verified") out.push(badge(b.stale ? "warn" : "", b.stale ? "!" : "•", "Checked by sweep" + (b.checked_on ? " " + ukDate(b.checked_on) : ""), "Price from the daily sweep, not a live feed"));
+    if (s.indexOf("ni_check") > -1) out.push(badge("warn", "!", "NI delivery to confirm", b.delivery_note || ""));
+    if (p.phase1) out.push(badge("", "◆", "Phase 1"));
+    return out;
+  }
+
+  function offersTable(p) {
+    var rows = (p.offers || []);
+    var wrap = el("div", { cls: "tablewrap" });
+    if (!rows.length) { wrap.appendChild(el("p", { cls: "muted small", text: "No vetted UK offers found this run." })); return wrap; }
+    var tbl = el("table", null, el("thead", null, el("tr", null,
+      el("th", { text: "Shop" }), el("th", { cls: "num", text: "Price" }), el("th", { cls: "num", text: "NI delivery" }),
+      el("th", { cls: "num", text: "Landed" }), el("th", { text: "Stock" }), el("th", { text: "Source" }))));
+    var tb = el("tbody");
+    rows.forEach(function (o) {
+      var url = safeUrl(o.url);
+      var isBest = p.best && o.shop === p.best.shop && o.price === p.best.price;
+      var src = o.source === "pricespy" ? "PriceSpy" + (o.stale ? " (last good)" : "") : o.source === "direct" ? "Shop page" : "Sweep " + (o.checked_on ? ukDate(o.checked_on) : "") + (o.stale ? " (old)" : "");
+      tb.appendChild(el("tr", { cls: isBest ? "best" : null },
+        el("td", null, url ? el("a", { href: url, target: "_blank", rel: "noopener", text: o.display || o.shop }) : (o.display || o.shop),
+          o.name ? el("div", { cls: "muted small", text: o.name.length > 80 ? o.name.slice(0, 80) + "…" : o.name }) : null),
+        el("td", { cls: "num", text: gbp(o.price) }),
+        el("td", { cls: "num", title: o.delivery_note || null, text: (o.delivery ? gbp(o.delivery) : "free") + (o.ni === "unverified" || o.ni === "estimate" ? " *" : "") }),
+        el("td", { cls: "num", text: gbp(o.landed) }),
+        el("td", { text: o.in_stock ? "In stock" : o.in_stock === false ? "Out of stock" : "Unknown" }),
+        el("td", { cls: "muted", text: src })));
+    });
+    tbl.appendChild(tb);
+    wrap.appendChild(tbl);
+    return wrap;
+  }
+
+  function renderParts(d) {
+    var box = $("parts"); box.textContent = "";
+    (d.parts || []).forEach(function (p) {
+      var b = p.best || {}, ch = p.change || {};
+      var url = safeUrl(b.url);
+      var priceBlock = p.bought
+        ? el("div", { cls: "price" }, el("div", { cls: "now", text: gbp(p.paid) }), el("div", { cls: "where", text: "paid" + (p.paid_retailer ? " · " + p.paid_retailer : "") }))
+        : el("div", { cls: "price" },
+            el("div", { cls: "now", text: gbp(b.price) }),
+            el("div", { cls: "where", text: (b.display || "—") + (b.price != null ? (b.delivery ? " + " + gbp(b.delivery) + " delivery" : " · free delivery") : "") }),
+            ch.vs_yesterday != null ? el("div", { cls: "chg " + chgClass(ch.vs_yesterday), text: signed(ch.vs_yesterday) + " vs yesterday" }) : null,
+            ch.vs_baseline != null ? el("div", { cls: "chg " + chgClass(ch.vs_baseline), text: signed(ch.vs_baseline) + " vs sheet" }) : null);
+      var head = el("div", { cls: "part-main" },
+        el("div", null, el("div", { cls: "slot", text: p.slot }), el("div", { cls: "pname", text: p.name }), el("div", { cls: "badges" }, partBadges(p))),
+        priceBlock,
+        sparkline(p.history));
+      var actions = el("div", { cls: "part-actions" });
+      if (!p.bought) {
+        if (url) actions.appendChild(el("a", { cls: "btn primary", href: url, target: "_blank", rel: "noopener", text: "Buy at " + (b.display || "shop") }));
+        var bb = el("button", { type: "button", cls: "btn", text: "Bought it" });
+        bb.addEventListener("click", function () { boughtMail(p); });
+        actions.appendChild(bb);
+      }
+      var more = el("details", { cls: "more" }, el("summary", { text: p.bought ? "History" : "All offers & price history" }));
+      if (!p.bought) more.appendChild(offersTable(p));
+      if (p.low && !p.bought) more.appendChild(el("p", { cls: "small muted", text: "Lowest seen: " + gbp(p.low.price) + " (" + ukDate(p.low.date) + ", " + (p.low.retailer || "") + ") · tracked " + p.low.days + " days" }));
+      (p.notes || []).forEach(function (n) { more.appendChild(el("p", { cls: "small muted", text: n })); });
+      if (p.unvetted && p.unvetted.length) more.appendChild(el("p", { cls: "small muted", text: "Cheaper at shops not vetted yet (left out until checked): " + p.unvetted.map(function (u) { return u.shop + " " + gbp(u.price); }).join(", ") }));
+      if (p.excluded && (p.excluded.marketplace || p.excluded.used)) more.appendChild(el("p", { cls: "small muted", text: "Ignored: " + (p.excluded.marketplace || 0) + " marketplace listings, " + (p.excluded.used || 0) + " used." }));
+      more.addEventListener("toggle", function () {
+        if (more.open && !more.querySelector(".chart")) more.appendChild(historyChart(p));
+      });
+      box.appendChild(el("article", { cls: "card part" + (p.bought ? " bought" : ""), id: "part-" + p.id }, head, actions.childNodes.length ? actions : null, more));
+    });
+  }
+
+  function renderPhase1(d) {
+    var p = d.phase1, box = $("phase1");
+    box.textContent = "";
+    if (!p) { box.hidden = true; return; }
+    var pct = p.budget ? Math.max(0, Math.min(100, (p.cost || 0) / p.budget * 100)) : 0;
+    var days = p.order_by ? Math.ceil((new Date(p.order_by + "T23:59:00Z") - Date.now()) / 86400000) : null;
+    box.appendChild(el("h2", { text: p.label || "Phase 1" }));
+    box.appendChild(el("div", { cls: "pname", text: gbp(p.cost) + " of " + gbp(p.budget) }));
+    var meter = el("div", { cls: "meter", role: "meter", "aria-valuemin": "0", "aria-valuemax": String(p.budget), "aria-valuenow": String(p.cost || 0), "aria-label": "Phase 1 spend against budget" }, el("i", { style: "width:" + pct.toFixed(1) + "%" }));
+    box.appendChild(meter);
+    box.appendChild(el("div", { cls: (p.left < 0 ? "delta up" : "delta down"), text: p.left < 0 ? gbp(-p.left) + " over budget" : gbp(p.left) + " left" }));
+    box.appendChild(el("ul", { cls: "small muted" }, (p.items || []).map(function (i) { return el("li", { text: i.slot + ": " + gbp(i.price) + (i.bought ? " (bought)" : "") }); })));
+    if (days != null) box.appendChild(el("p", { cls: "small", text: days >= 0 ? "Order by " + ukDate(p.order_by) + " · " + days + " days to go (allows for NI delivery)" : "Order-by date has passed" }));
+  }
+
+  function renderFit(d) {
+    var tbl = $("fit"); tbl.textContent = "";
+    tbl.appendChild(el("thead", null, el("tr", null, el("th", { text: "Check" }), el("th", { cls: "num", text: "Value" }), el("th", { cls: "num", text: "Limit" }), el("th", { text: "Status" }))));
+    var tb = el("tbody");
+    (d.fit || []).forEach(function (f) {
+      var lim = (f.kind === "min" ? "≥ " : f.kind === "in" ? "" : "≤ ") + f.limit + (f.unit ? " " + f.unit : "");
+      tb.appendChild(el("tr", null, el("td", { text: f.check }), el("td", { cls: "num", text: f.value + (f.unit ? " " + f.unit : "") }), el("td", { cls: "num", text: lim }),
+        el("td", { cls: f.ok ? "ok" : "bad", text: f.ok ? "✓ OK" : "✕ Problem" })));
+    });
+    tbl.appendChild(tb);
+  }
+
+  function renderLog(d) {
+    var ul = $("log"); ul.textContent = "";
+    var items = (d.log || []).map(function (l) { return { date: l.date, text: l.text }; });
+    (d.events || []).slice(0, 25).forEach(function (e) { items.push({ date: e.ts.slice(0, 10), text: e.text, auto: true }); });
+    items.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    if (!items.length) { ul.appendChild(el("li", { cls: "muted", text: "Nothing yet." })); return; }
+    items.slice(0, 30).forEach(function (i) { ul.appendChild(el("li", null, el("span", { cls: "muted", text: ukDate(i.date) }), el("span", { text: i.text }))); });
+  }
+
+  function renderStatus(d) {
+    var stale = (Date.now() - new Date(d.generated).getTime()) > 8 * 3600 * 1000;
+    $("freshdot").className = "dot" + (stale ? " stale" : "");
+    var nc = nextCheck();
+    $("checked").textContent = "Prices checked " + ago(d.generated) + " (" + ukTime(d.generated) + ")" +
+      (nc ? " · next check around " + ukTime(nc.toISOString()).split(" ").pop() : "") + " · sweep daily " + SWEEP_LABEL;
+    var r = d.run || {};
+    $("runinfo").textContent = "Last run: " + (r.source || "") + ", " + (r.pricespy_ok || 0) + " product pages read" +
+      (r.pricespy_blocked ? ", " + r.pricespy_blocked + " refused" : "") + (r.errors && r.errors.length ? ", " + r.errors.length + " errors" : "") +
+      (d.last_sweep ? " · last sweep " + ukDate(d.last_sweep) : "") + ".";
+  }
+
+  function render(d) {
+    if (d.title) { $("title").textContent = d.title; document.title = d.title + " Build Tracker"; }
+    if (d.subtitle) $("subtitle").textContent = d.subtitle;
+    renderStatus(d); renderHero(d); renderAlerts(d); renderSwaps(d); renderParts(d); renderPhase1(d); renderFit(d); renderLog(d);
+  }
+
+  function load() {
+    var btn = $("refresh");
+    btn.disabled = true;
+    fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then(function (d) {
+        var open = Array.prototype.map.call(document.querySelectorAll("details.more[open]"), function (x) { return x.parentNode.id; });
+        state.data = d; state.loadedAt = Date.now(); render(d);
+        open.forEach(function (id) { var p = document.getElementById(id); var det = p && p.querySelector("details.more"); if (det) det.open = true; });
+      })
+      .catch(function (e) { $("checked").textContent = "Couldn't load prices (" + e.message + "). Try Refresh."; })
+      .then(function () { btn.disabled = false; });
+  }
+
+  $("refresh").addEventListener("click", load);
+  $("setmail").addEventListener("click", function () { try { localStorage.removeItem(MAIL_KEY); } catch (e) {} mailTo(); });
+  setInterval(function () { if (!document.hidden) load(); }, 10 * 60 * 1000);
+  setInterval(function () { if (state.data) renderStatus(state.data); }, 60 * 1000);
+  load();
+})();
+</script>
+</body>
+</html>
