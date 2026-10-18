@@ -1,0 +1,62 @@
+name: ARC price check
+
+on:
+  schedule:
+    # About 07:07, 11:07, 15:07 and 19:07 UK time in summer (an hour earlier in winter).
+    # GitHub's scheduler can start these late; the daily Claude sweep re-verifies anyway.
+    - cron: "7 6,10,14,18 * * *"
+  push:
+    branches: [main]
+    # Editing the build or the page re-checks and republishes straight away. Data commits don't retrigger.
+    paths: ["build.json", "checker.py", "docs/index.html", ".github/workflows/check.yml"]
+  workflow_dispatch: # manual "Run workflow" button
+
+concurrency:
+  group: arc-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with: { ref: main }
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with: { python-version: "3.12" }
+
+      - name: Check prices and stock
+        run: python checker.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data.json docs/history.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Price/stock update $(date -u +%Y-%m-%dT%H:%MZ)"
+            # Rebase onto anything pushed meanwhile (the daily sweep, manual edits).
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - name: Publish the page to gh-pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          site="$(mktemp -d)"
+          cp -R docs/. "$site"/
+          touch "$site/.nojekyll"
+          cd "$site"
+          git init -q -b gh-pages
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
