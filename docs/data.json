@@ -1,0 +1,1548 @@
+{
+ "generated": "2026-10-18T10:41:44Z",
+ "today": "2026-10-18",
+ "title": "ARC",
+ "subtitle": "AM5 small-form-factor build · Jonsbo Z20",
+ "updated": "2026-10-18",
+ "last_sweep": null,
+ "baseline": {
+  "date": "2026-10-16",
+  "label": "16 Oct sheet",
+  "parts_total": 2158.79
+ },
+ "settings": {
+  "alert_drop_gbp": 10,
+  "alert_drop_pct": 5,
+  "alert_drop_min_gbp": 2,
+  "suggest_min_saving_gbp": 10,
+  "manual_fresh_days": 3,
+  "low_min_days": 7,
+  "near_low_pct": 2,
+  "ni_default_estimate": 15,
+  "phase1": {
+   "label": "Phase 1 · case + fans",
+   "parts": [
+    "case",
+    "fans"
+   ],
+   "budget": 132.9,
+   "order_by": "2026-12-17"
+  }
+ },
+ "fit_limits": {
+  "case": "Jonsbo Z20",
+  "cooler_height_mm": 163,
+  "ram_height_mm": 42,
+  "gpu_length_mm": 363,
+  "gpu_plus_bottom_fan_mm": 89,
+  "psu_length_mm": 140,
+  "psu_min_w": 750,
+  "fan_mounts": 5,
+  "motherboard": [
+   "Mini-ITX",
+   "Micro-ATX"
+  ],
+  "notes": "Cooler limit is the AMD figure. RAM limit is the cooler's standard clearance (raising its front fan breaks the 163mm limit). 89mm = GPU thickness + bottom fan thickness. PSU 140mm is Jonsbo's recommended maximum."
+ },
+ "retailers": {
+  "Overclockers": {
+   "display": "Overclockers UK",
+   "ni": "verified",
+   "ni_first": 19.99,
+   "ni_extra": 15.0,
+   "note": "DPD to NI, 2 working days",
+   "checked_on": "2026-10-16"
+  },
+  "Scan": {
+   "display": "Scan",
+   "ni": "verified",
+   "ni_first": 13.19,
+   "ni_extra": 13.19,
+   "note": "2-day service to NI",
+   "checked_on": "2026-10-16"
+  },
+  "Watercooling UK": {
+   "display": "Watercooling UK",
+   "ni": "verified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
+   "checked_on": "2026-10-16"
+  },
+  "Amazon.co.uk": {
+   "display": "Amazon UK",
+   "ni": "assumed",
+   "ni_first": 0,
+   "ni_extra": null,
+   "note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+   "checked_on": null
+  },
+  "Argos": {
+   "display": "Argos",
+   "ni": "assumed",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": "Has NI stores; delivery cost at checkout",
+   "checked_on": null
+  },
+  "Currys": {
+   "display": "Currys",
+   "ni": "assumed",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": "Has NI stores; delivery cost at checkout",
+   "checked_on": null
+  },
+  "AWD-IT": {
+   "display": "AWD-IT",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "Box.co.uk": {
+   "display": "Box",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "Very": {
+   "display": "Very",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "CCL": {
+   "display": "CCL",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "Ebuyer": {
+   "display": "Ebuyer",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "Novatech": {
+   "display": "Novatech",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  },
+  "Computer Orbit": {
+   "display": "Computer Orbit",
+   "ni": "unverified",
+   "ni_first": null,
+   "ni_extra": null,
+   "note": null,
+   "checked_on": null
+  }
+ },
+ "run": {
+  "started": "2026-10-18T10:41:44Z",
+  "source": "github-actions",
+  "pricespy_ok": 9,
+  "pricespy_blocked": 0,
+  "errors": [],
+  "finished": "2026-10-18T10:42:11Z"
+ },
+ "totals": {
+  "parts_total": 9,
+  "parts_left": 9,
+  "paid": 0.0,
+  "remaining": 2075.49,
+  "delivery": 34.99,
+  "delivery_lines": [
+   {
+    "shop": "Amazon UK",
+    "parts": 5,
+    "cost": 0.0,
+    "basis": "assumed",
+    "extra_parcel": null
+   },
+   {
+    "shop": "Overclockers UK",
+    "parts": 3,
+    "cost": 19.99,
+    "basis": "verified",
+    "extra_parcel": 15.0
+   },
+   {
+    "shop": "Watercooling UK",
+    "parts": 1,
+    "cost": 15.0,
+    "basis": "estimate",
+    "extra_parcel": null
+   }
+  ],
+  "build_total": 2075.49,
+  "baseline_parts": 2158.79,
+  "delta_vs_baseline": -83.3,
+  "missing": []
+ },
+ "phase1": {
+  "label": "Phase 1 · case + fans",
+  "parts": [
+   "case",
+   "fans"
+  ],
+  "budget": 132.9,
+  "order_by": "2026-12-17",
+  "cost": 119.98,
+  "left": 12.92,
+  "items": [
+   {
+    "id": "case",
+    "slot": "Case",
+    "price": 83.99,
+    "bought": false
+   },
+   {
+    "id": "fans",
+    "slot": "Case fans",
+    "price": 35.99,
+    "bought": false
+   }
+  ]
+ },
+ "parts": [
+  {
+   "id": "cpu",
+   "slot": "CPU",
+   "name": "AMD Ryzen 7 9800X3D (retail box)",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "cores": "8C/16T",
+    "socket": "AM5",
+    "note": "No cooler in the box"
+   },
+   "pricespy": 13951156,
+   "baseline": {
+    "price": 374.99,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:41:45Z",
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DKFMSMYK",
+    "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
+    "price": 344.99,
+    "was": 374.99,
+    "landed": 344.99,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DKFMSMYK",
+     "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
+     "price": 344.99,
+     "was": 374.99,
+     "landed": 344.99,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "name": "AMD Ryzen 7 9800X3D (retail box)",
+     "price": 374.99,
+     "delivery": 19.99,
+     "landed": 394.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail/PRO-AMD-03517.html",
+     "checked_on": "2026-10-16"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "name": "AMD Ryzen 7 9800X3D (retail box)",
+     "price": 384.98,
+     "delivery": 13.19,
+     "landed": 398.17,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
+     "checked_on": "2026-10-16"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "F98-67F-293",
+     "name": "AMD Ryzen 7 9800X3D 8 Core Socket AM5 5.2GHz 3D V-Cache Processor - 100-100001084WOF",
+     "price": 404.99,
+     "was": 404.99,
+     "delivery": 15.0,
+     "landed": 419.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/F98-67F-293?client_id=1551"
+    },
+    {
+     "shop": "Argos",
+     "display": "Argos",
+     "sku": "4546209",
+     "name": "AMD Ryzen 7 9800X3D Processor",
+     "price": 429.99,
+     "was": 429.99,
+     "landed": 429.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15135/offer/4546209?client_id=1551"
+    },
+    {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WD1U1",
+     "name": "Amd Ryzen 7 9800X3D Processor",
+     "price": 449.0,
+     "was": 449.0,
+     "delivery": 3.99,
+     "landed": 452.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WD1U1?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 8,
+    "used": 1,
+    "other_variant": 0
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": -30.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 374.99,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [
+    "below_sheet"
+   ],
+   "history": [
+    [
+     "2026-10-16",
+     374.99,
+     394.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     344.99,
+     344.99,
+     1,
+     "Amazon UK"
+    ]
+   ]
+  },
+  {
+   "id": "cooler",
+   "slot": "CPU cooler",
+   "name": "Thermalright Peerless Assassin 120 SE",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "height_mm": 155,
+    "ram_clearance_mm": 42
+   },
+   "pricespy": 11485774,
+   "baseline": {
+    "price": 29.99,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:41:48Z",
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0B4G8QKZP",
+    "name": "Thermalright Peerless Assassin 120 SE CPU Air Cooler,PA120 SE,6 Heat Pipes Cpu cooler,Dual 120mm TL-C12C PWM Fan,Aluminium Heatsink Cover,AGHP Technology,for AMD AM4/AM5 Intel 1851/1700/1150/1200",
+    "price": 29.9,
+    "was": 29.9,
+    "landed": 29.9,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0B4G8QKZP?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0B4G8QKZP",
+     "name": "Thermalright Peerless Assassin 120 SE CPU Air Cooler,PA120 SE,6 Heat Pipes Cpu cooler,Dual 120mm TL-C12C PWM Fan,Aluminium Heatsink Cover,AGHP Technology,for AMD AM4/AM5 Intel 1851/1700/1150/1200",
+     "price": 29.9,
+     "was": 29.9,
+     "landed": 29.9,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0B4G8QKZP?client_id=1551"
+    },
+    {
+     "shop": "Computer Orbit",
+     "display": "Computer Orbit",
+     "name": "Thermalright Peerless Assassin 120 SE Dual Tower Air Cooler",
+     "price": 29.0,
+     "delivery": 15.0,
+     "landed": 44.0,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://computerorbit.com/products/thermalright-peerless-assassin-120-se-dual-tower-air-cooler"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "COO-TLR-02665",
+     "name": "Thermalright Peerless Assassin 120 SE CPU Cooler - 120mm",
+     "price": 29.99,
+     "was": 29.99,
+     "delivery": 19.99,
+     "landed": 49.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.overclockers.co.uk/thermalright-peerless-assassin-120-se-cpu-cooler-120mm/COO-TLR-02665.html"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 15,
+    "used": 0,
+    "other_variant": 34
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": -0.09,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 29.99,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [],
+   "history": [
+    [
+     "2026-10-16",
+     29.99,
+     49.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     29.9,
+     29.9,
+     1,
+     "Amazon UK"
+    ]
+   ]
+  },
+  {
+   "id": "board",
+   "slot": "Motherboard",
+   "name": "MSI B850M Gaming Plus WiFi6E",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "form": "Micro-ATX",
+    "front_usb_c": "10Gbps header",
+    "cpu_power": "2× 8-pin"
+   },
+   "pricespy": 15126881,
+   "baseline": {
+    "price": 129.95,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:41:52Z",
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B096Y414R3",
+    "name": "MSI B850M GAMING PLUS WIFI6E Motherboard, mATX - Supports AMD Ryzen 9000 / 8000 / 7000 Processors, AM5 - DDR5 Memory Boost 8200+ MT/s (OC), PCIe 4.0 x16, M.2 Gen5, Wi-Fi 6E, 2.5G LAN",
+    "price": 105.0,
+    "was": 105.0,
+    "landed": 105.0,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B096Y414R3?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B096Y414R3",
+     "name": "MSI B850M GAMING PLUS WIFI6E Motherboard, mATX - Supports AMD Ryzen 9000 / 8000 / 7000 Processors, AM5 - DDR5 Memory Boost 8200+ MT/s (OC), PCIe 4.0 x16, M.2 Gen5, Wi-Fi 6E, 2.5G LAN",
+     "price": 105.0,
+     "was": 105.0,
+     "landed": 105.0,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B096Y414R3?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "MOT-MSI-05943",
+     "name": "MSI B850M Gaming Plus WIFI6E (AMD AM5) B850 DDR5 Micro-ATX Motherboard",
+     "price": 115.0,
+     "was": 115.0,
+     "delivery": 19.99,
+     "landed": 134.99,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.overclockers.co.uk/msi-b850m-gaming-plus-wifi6e-amd-am5-b850-ddr5-micro-atx-motherboard/MOT-MSI-05943.html"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "162224",
+     "name": "MSI B850M GAMING PLUS WiFi6E AM5 DDR5 PCIe 4.0 MicroATX Motherboard",
+     "price": 129.98,
+     "was": 149.99,
+     "delivery": 13.19,
+     "landed": 143.17,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/msi-b850m-gaming-plus-wifi6e-amd-b850-am5-ddr5-pcie-40-2x-m2-25g-wifi6e-usb-32-aplusc-amd-expo-micro"
+    },
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10288876",
+     "name": "MSI B850M GAMING PLUS WIFI 6E AM5 Motherboard, White",
+     "price": 129.99,
+     "was": 129.99,
+     "landed": 129.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "Unknown",
+     "in_stock": null,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10288876?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 6,
+    "used": 0,
+    "other_variant": 0
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": -24.95,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 129.95,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [
+    "below_sheet"
+   ],
+   "history": [
+    [
+     "2026-10-16",
+     129.95,
+     149.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     105.0,
+     105.0,
+     1,
+     "Amazon UK"
+    ]
+   ]
+  },
+  {
+   "id": "ram",
+   "slot": "RAM",
+   "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, white",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "height_mm": 33.2,
+    "speed": "DDR5-6000",
+    "cl": 28,
+    "expo": true,
+    "colour": "white"
+   },
+   "pricespy": 16655040,
+   "baseline": {
+    "price": 399.95,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:41:55Z",
+   "best": {
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, white",
+    "price": 399.95,
+    "delivery": 19.99,
+    "landed": 419.94,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.overclockers.co.uk/klevv-fit-v-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-white/MEM-KLV-09257.html",
+    "checked_on": "2026-10-16"
+   },
+   "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, white",
+     "price": 399.95,
+     "delivery": 19.99,
+     "landed": 419.94,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/klevv-fit-v-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-white/MEM-KLV-09257.html",
+     "checked_on": "2026-10-16"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 0,
+    "used": 0,
+    "other_variant": 8
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": 0.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 399.95,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [],
+   "history": [
+    [
+     "2026-10-16",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
+    ]
+   ]
+  },
+  {
+   "id": "gpu",
+   "slot": "GPU",
+   "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "length_mm": 312,
+    "thickness_mm": 50,
+    "power": "3× 8-pin",
+    "vram": "16GB GDDR6"
+   },
+   "pricespy": 14364979,
+   "baseline": {
+    "price": 758.99,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:41:58Z",
+   "best": {
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
+    "price": 758.99,
+    "delivery": 19.99,
+    "landed": 778.98,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html",
+    "checked_on": "2026-10-16"
+   },
+   "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
+     "price": 758.99,
+     "delivery": 19.99,
+     "landed": 778.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html",
+     "checked_on": "2026-10-16"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154747",
+     "name": "ASUS AMD Radeon RX 9070 XT PRIME OC RDNA4 16GB GDDR6 Graphics Card",
+     "price": 829.99,
+     "was": 829.99,
+     "delivery": 13.19,
+     "landed": 843.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154747?client_id=1551"
+    },
+    {
+     "shop": "Box.co.uk",
+     "display": "Box",
+     "sku": "90YV0L71-M0NA00",
+     "name": "ASUS PRIME-RX9070XT-O16G OC 16GB Graphics Card",
+     "price": 869.99,
+     "was": 869.99,
+     "delivery": 15.0,
+     "landed": 884.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/43024/offer/90YV0L71-M0NA00?client_id=1551"
+    },
+    {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WGICI",
+     "name": "Asus Rx 9070 Xt 16Gb Prime Overclocked Graphics Card",
+     "price": 905.0,
+     "was": 905.0,
+     "delivery": 3.99,
+     "landed": 908.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGICI?client_id=1551"
+    },
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10275186",
+     "name": "ASUS Radeon RX 9070 XT 16 GB Prime OC Graphics Card, Black",
+     "price": 799.99,
+     "was": 799.99,
+     "landed": 799.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "Unknown",
+     "in_stock": null,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10275186?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 3,
+    "used": 1,
+    "other_variant": 2
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": 0.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 758.99,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [],
+   "history": [
+    [
+     "2026-10-16",
+     758.99,
+     778.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     758.99,
+     778.98,
+     1,
+     "Overclockers UK"
+    ]
+   ]
+  },
+  {
+   "id": "ssd",
+   "slot": "SSD",
+   "name": "WD Blue SN5100 2TB NVMe (Gen4)",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "interface": "M.2 2280 PCIe 4.0 NVMe",
+    "read_mbs": 7100,
+    "warranty": "5 years"
+   },
+   "pricespy": 15605594,
+   "baseline": {
+    "price": 249.95,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:42:01Z",
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0FJ8QMW4H",
+    "name": "WD Blue SN5100 NVMe SSD 2TB (Up to 7,1000 MB/s read speeds, M.2 2280, PCIe Gen 4.0, n Cache 4.0, SANDISK 3D CBA NAND technology, Acronis True Image data migration software) POWERED BY SANDISK",
+    "price": 226.69,
+    "was": 226.69,
+    "landed": 226.69,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0FJ8QMW4H?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0FJ8QMW4H",
+     "name": "WD Blue SN5100 NVMe SSD 2TB (Up to 7,1000 MB/s read speeds, M.2 2280, PCIe Gen 4.0, n Cache 4.0, SANDISK 3D CBA NAND technology, Acronis True Image data migration software) POWERED BY SANDISK",
+     "price": 226.69,
+     "was": 226.69,
+     "landed": 226.69,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0FJ8QMW4H?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "STO-WDC-06214",
+     "name": "WD Blue SN5100 2TB SSD NVME M.2 2280 PCIe 4.0 Solid State Drive",
+     "price": 249.95,
+     "was": 249.95,
+     "delivery": 19.99,
+     "landed": 269.94,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.overclockers.co.uk/wd-blue-sn5100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-06214.html"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "WDB-2T4-510",
+     "name": "Western Digital Blue SN5100 2TB M.2 NVMe SSD – PCIe 4.0 Gen4, Up to 7,300MB/s – High-Performance Internal Solid State Drive - WDS200T5B0E-00CPE0",
+     "price": 256.53,
+     "was": 256.53,
+     "delivery": 15.0,
+     "landed": 271.53,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/WDB-2T4-510?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 3,
+    "used": 0,
+    "other_variant": 0
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": -23.26,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 249.95,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [
+    "below_sheet"
+   ],
+   "history": [
+    [
+     "2026-10-16",
+     249.95,
+     269.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     226.69,
+     226.69,
+     1,
+     "Amazon UK"
+    ]
+   ]
+  },
+  {
+   "id": "psu",
+   "slot": "PSU",
+   "name": "Corsair RM850e (2025) Gold, fully modular",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "length_mm": 140,
+    "watts": 850,
+    "atx": "3.1"
+   },
+   "pricespy": 14366594,
+   "baseline": {
+    "price": 94.99,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": false,
+   "status": "live",
+   "checked": "2026-10-18T10:42:03Z",
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 89.99,
+    "was": 89.99,
+    "landed": 89.99,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTN5WLB?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DMTN5WLB",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+     "price": 89.99,
+     "was": 89.99,
+     "landed": 89.99,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTN5WLB?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154144",
+     "name": "CORSAIR RMe Series RM850e 850 Watt Cybenetics Gold PCIe 5.1 ATX3.1 PSU",
+     "price": 89.99,
+     "was": 109.99,
+     "delivery": 13.19,
+     "landed": 103.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "POW-CRS-03875",
+     "name": "Corsair RMe Series RM850e 850W ATX 3.1 PCIe 5.1 Cybenetics Gold Modular Power Supply",
+     "price": 94.99,
+     "was": 94.99,
+     "delivery": 19.99,
+     "landed": 114.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"
+    },
+    {
+     "shop": "Argos",
+     "display": "Argos",
+     "sku": "7812349",
+     "name": "CORSAIR RM850e Low-Noise Modular ATX 850W PSU",
+     "price": 124.99,
+     "was": 124.99,
+     "landed": 124.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7812349?client_id=1551"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "A09-B1B-1CE",
+     "name": "CORSAIR RMe Series RM850e (2025) Fully Modular Cybernetics 80+ Gold - 850W - ATX 3.1 PCIe 5.1 ATX Power Supply - CP-9020296-UK",
+     "price": 119.99,
+     "was": 119.99,
+     "delivery": 15.0,
+     "landed": 134.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A09-B1B-1CE?client_id=1551"
+    },
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10290675",
+     "name": "CORSAIR Low-Noise RM850e Modular ATX PSU - 850 W",
+     "price": 119.9,
+     "was": 119.9,
+     "landed": 119.9,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "Unknown",
+     "in_stock": null,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10290675?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 11,
+    "used": 0,
+    "other_variant": 9
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": -5.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 94.99,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [
+    "below_sheet"
+   ],
+   "history": [
+    [
+     "2026-10-16",
+     94.99,
+     114.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
+    ]
+   ]
+  },
+  {
+   "id": "case",
+   "slot": "Case",
+   "name": "Jonsbo Z20 (white)",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "form": "Micro-ATX / Mini-ITX",
+    "colour": "white"
+   },
+   "pricespy": 14356490,
+   "baseline": {
+    "price": 83.99,
+    "retailer": "Watercooling UK",
+    "date": "2026-10-16"
+   },
+   "phase1": true,
+   "status": "live",
+   "checked": "2026-10-18T10:42:06Z",
+   "best": {
+    "shop": "Watercooling UK",
+    "display": "Watercooling UK",
+    "name": "Jonsbo Z20 (white)",
+    "price": 83.99,
+    "delivery": 15.0,
+    "landed": 98.99,
+    "ni": "estimate",
+    "delivery_note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/",
+    "checked_on": "2026-10-16"
+   },
+   "offers": [
+    {
+     "shop": "Watercooling UK",
+     "display": "Watercooling UK",
+     "name": "Jonsbo Z20 (white)",
+     "price": 83.99,
+     "delivery": 15.0,
+     "landed": 98.99,
+     "ni": "estimate",
+     "delivery_note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-white/",
+     "checked_on": "2026-10-16"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "CAS-JNP-06058",
+     "name": "Jonsplus Z20 Mesh, Mini Tower, Micro-ATX - White",
+     "price": 79.99,
+     "was": 79.99,
+     "delivery": 19.99,
+     "landed": 99.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15915/offer/CAS-JNP-06058?client_id=1551"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 1,
+    "used": 0,
+    "other_variant": 5
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": 0.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 83.99,
+    "date": "2026-10-16",
+    "retailer": "Watercooling UK",
+    "days": 2
+   },
+   "signals": [
+    "ni_check"
+   ],
+   "history": [
+    [
+     "2026-10-16",
+     83.99,
+     98.99,
+     1,
+     "Watercooling UK"
+    ],
+    [
+     "2026-10-18",
+     83.99,
+     98.99,
+     1,
+     "Watercooling UK"
+    ]
+   ]
+  },
+  {
+   "id": "fans",
+   "slot": "Case fans",
+   "name": "Arctic P12 Pro LN PWM 5-pack (120mm)",
+   "bought": false,
+   "paid": null,
+   "paid_retailer": null,
+   "bought_on": null,
+   "spec": {
+    "thickness_mm": 25,
+    "count": 5,
+    "pst": true
+   },
+   "pricespy": null,
+   "baseline": {
+    "price": 35.99,
+    "retailer": "Overclockers",
+    "date": "2026-10-16"
+   },
+   "phase1": true,
+   "status": "no_source",
+   "checked": null,
+   "best": {
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "name": "Arctic P12 Pro LN PWM 5-pack (120mm)",
+    "price": 35.99,
+    "delivery": 19.99,
+    "landed": 55.98,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "verified",
+    "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html",
+    "checked_on": "2026-10-16"
+   },
+   "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "name": "Arctic P12 Pro LN PWM 5-pack (120mm)",
+     "price": 35.99,
+     "delivery": 19.99,
+     "landed": 55.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html",
+     "checked_on": "2026-10-16"
+    }
+   ],
+   "unvetted": [],
+   "excluded": {
+    "marketplace": 0,
+    "used": 0,
+    "other_variant": 0
+   },
+   "notes": [],
+   "change": {
+    "vs_yesterday": null,
+    "vs_baseline": 0.0,
+    "vs_prev_run": null
+   },
+   "low": {
+    "price": 35.99,
+    "date": "2026-10-16",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
+   "signals": [],
+   "history": [
+    [
+     "2026-10-16",
+     35.99,
+     55.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-18",
+     35.99,
+     55.98,
+     1,
+     "Overclockers UK"
+    ]
+   ]
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "s1",
+   "part": "fans",
+   "name": "Arctic P12 Pro PST 5-pack (120mm)",
+   "spec": {
+    "thickness_mm": 25,
+    "count": 5,
+    "pst": true
+   },
+   "why": "Standard version of the same fan; the current pick is the low-noise (LN) variant. Higher top speed means more airflow headroom, but LN idles slower and quieter. Same 120×25mm frame and PST daisy-chain, so fit and wiring don't change.",
+   "status": "pending",
+   "added": "2026-10-18",
+   "decided": null,
+   "pricespy": 14904416,
+   "best": {
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "sku": "COO-ARC-05878",
+    "name": "Arctic P12 Pro PST Black PWM Five Fan Pack - 120mm",
+    "price": 25.99,
+    "was": 25.99,
+    "delivery": 19.99,
+    "landed": 45.98,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/15915/offer/COO-ARC-05878?client_id=1551"
+   },
+   "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "COO-ARC-05878",
+     "name": "Arctic P12 Pro PST Black PWM Five Fan Pack - 120mm",
+     "price": 25.99,
+     "was": 25.99,
+     "delivery": 19.99,
+     "landed": 45.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15915/offer/COO-ARC-05878?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "161508",
+     "name": "Arctic P12 Pro PST High Static Pressure 120 mm PWM Fan - 5 Pack",
+     "price": 24.98,
+     "was": 24.98,
+     "delivery": 13.19,
+     "landed": 38.17,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
+    }
+   ],
+   "checked": "2026-10-18T10:42:09Z",
+   "notes": [],
+   "live": "live",
+   "saving": 10.0,
+   "fit_ok": true,
+   "fit_problems": []
+  }
+ ],
+ "fit": [
+  {
+   "check": "CPU cooler height",
+   "value": 155,
+   "limit": 163,
+   "unit": "mm",
+   "ok": true,
+   "part": "cooler",
+   "kind": "max"
+  },
+  {
+   "check": "RAM height under cooler",
+   "value": 33.2,
+   "limit": 42,
+   "unit": "mm",
+   "ok": true,
+   "part": "ram",
+   "kind": "max"
+  },
+  {
+   "check": "GPU length",
+   "value": 312,
+   "limit": 363,
+   "unit": "mm",
+   "ok": true,
+   "part": "gpu",
+   "kind": "max"
+  },
+  {
+   "check": "GPU + bottom fan thickness",
+   "value": 75,
+   "limit": 89,
+   "unit": "mm",
+   "ok": true,
+   "part": "gpu",
+   "kind": "max"
+  },
+  {
+   "check": "PSU length",
+   "value": 140,
+   "limit": 140,
+   "unit": "mm",
+   "ok": true,
+   "part": "psu",
+   "kind": "max"
+  },
+  {
+   "check": "PSU wattage",
+   "value": 850,
+   "limit": 750,
+   "unit": "W",
+   "ok": true,
+   "part": "psu",
+   "kind": "min"
+  },
+  {
+   "check": "Case fans",
+   "value": 5,
+   "limit": 5,
+   "unit": "",
+   "ok": true,
+   "part": "fans",
+   "kind": "max"
+  },
+  {
+   "check": "Motherboard size",
+   "value": "Micro-ATX",
+   "limit": "Mini-ITX / Micro-ATX",
+   "unit": "",
+   "ok": true,
+   "part": "board",
+   "kind": "in"
+  }
+ ],
+ "events": [
+  {
+   "ts": "2026-10-18T10:41:44Z",
+   "level": "alert",
+   "type": "swap",
+   "part": "fans",
+   "text": "Swap idea: Arctic P12 Pro PST 5-pack (120mm) saves £10.00 (£25.99 at Overclockers UK)"
+  }
+ ],
+ "log": [
+  {
+   "date": "2026-10-18",
+   "text": "Tracker created from the 16 Oct sheet: 9 parts, £2,158.79."
+  }
+ ]
+}
