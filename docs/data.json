@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-18T20:30:57Z",
- "today": "2026-10-18",
+ "generated": "2026-10-19T06:54:44Z",
+ "today": "2026-10-19",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
- "updated": "2026-10-18",
- "last_sweep": "2026-10-18T11:03:29Z",
+ "updated": "2026-10-19",
+ "last_sweep": "2026-10-19T06:52:45Z",
  "baseline": {
   "date": "2026-10-16",
   "label": "16 Oct sheet",
@@ -153,12 +153,12 @@
   }
  },
  "run": {
-  "started": "2026-10-18T20:30:57Z",
+  "started": "2026-10-19T06:54:44Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-18T20:31:33Z"
+  "finished": "2026-10-19T06:55:19Z"
  },
  "totals": {
   "parts_total": 9,
@@ -241,7 +241,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:30:58Z",
+   "checked": "2026-10-19T06:54:45Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -359,15 +359,15 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -30.0,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 374.99,
-    "date": "2026-10-16",
-    "retailer": "Overclockers UK",
-    "days": 2
+    "price": 344.99,
+    "date": "2026-10-18",
+    "retailer": "Amazon UK",
+    "days": 3
    },
    "signals": [
     "below_sheet"
@@ -382,6 +382,13 @@
     ],
     [
      "2026-10-18",
+     344.99,
+     344.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-19",
      344.99,
      344.99,
      1,
@@ -410,7 +417,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:01Z",
+   "checked": "2026-10-19T06:54:48Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -483,15 +490,15 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -0.99,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 29.99,
-    "date": "2026-10-16",
-    "retailer": "Overclockers UK",
-    "days": 2
+    "price": 29.0,
+    "date": "2026-10-18",
+    "retailer": "Amazon UK",
+    "days": 3
    },
    "signals": [],
    "history": [
@@ -504,6 +511,13 @@
     ],
     [
      "2026-10-18",
+     29.0,
+     29.0,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-19",
      29.0,
      29.0,
      1,
@@ -533,7 +547,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:03Z",
+   "checked": "2026-10-19T06:54:50Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -621,15 +635,15 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 24.98,
     "vs_baseline": 0.03,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 129.95,
-    "date": "2026-10-16",
-    "retailer": "Overclockers UK",
-    "days": 2
+    "price": 105.0,
+    "date": "2026-10-18",
+    "retailer": "Amazon UK",
+    "days": 3
    },
    "signals": [],
    "history": [
@@ -644,6 +658,13 @@
      "2026-10-18",
      105.0,
      105.0,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-19",
+     129.98,
+     129.98,
      1,
      "Amazon UK"
     ]
@@ -672,7 +693,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:06Z",
+   "checked": "2026-10-19T06:54:53Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -703,17 +724,32 @@
      "source": "verified",
      "url": "https://www.overclockers.co.uk/klevv-fit-v-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-white/MEM-KLV-09257.html",
      "checked_on": "2026-10-16"
+    },
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10303408",
+     "name": "KLEVV FIT V 32 GB DDR5 6000 MHz PC RAM - 2 x 16 GB",
+     "price": 489.0,
+     "was": 489.0,
+     "landed": 489.0,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "Unknown",
+     "in_stock": null,
+     "source": "pricespy",
+     "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10303408.html"
     }
    ],
    "unvetted": [],
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 8
+    "other_variant": 7
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
@@ -721,7 +757,7 @@
     "price": 399.95,
     "date": "2026-10-16",
     "retailer": "Overclockers UK",
-    "days": 2
+    "days": 3
    },
    "signals": [],
    "history": [
@@ -734,6 +770,13 @@
     ],
     [
      "2026-10-18",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-19",
      399.95,
      419.94,
      1,
@@ -764,7 +807,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:09Z",
+   "checked": "2026-10-19T06:54:56Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -842,21 +885,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGICI?client_id=1551"
-    },
-    {
-     "shop": "Currys",
-     "display": "Currys",
-     "sku": "10275186",
-     "name": "ASUS Radeon RX 9070 XT 16 GB Prime OC Graphics Card, Black",
-     "price": 799.99,
-     "was": 799.99,
-     "landed": 799.99,
-     "ni": "assumed",
-     "delivery_note": "Has NI stores; delivery cost at checkout",
-     "stock": "Unknown",
-     "in_stock": null,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10275186?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -867,7 +895,7 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
@@ -875,7 +903,7 @@
     "price": 758.99,
     "date": "2026-10-16",
     "retailer": "Overclockers UK",
-    "days": 2
+    "days": 3
    },
    "signals": [],
    "history": [
@@ -888,6 +916,13 @@
     ],
     [
      "2026-10-18",
+     758.99,
+     778.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-19",
      758.99,
      778.98,
      1,
@@ -916,7 +951,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:12Z",
+   "checked": "2026-10-19T06:54:59Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -989,15 +1024,15 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -23.26,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 249.95,
-    "date": "2026-10-16",
-    "retailer": "Overclockers UK",
-    "days": 2
+    "price": 226.69,
+    "date": "2026-10-18",
+    "retailer": "Amazon UK",
+    "days": 3
    },
    "signals": [
     "below_sheet"
@@ -1012,6 +1047,13 @@
     ],
     [
      "2026-10-18",
+     226.69,
+     226.69,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-19",
      226.69,
      226.69,
      1,
@@ -1041,7 +1083,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-18T20:31:14Z",
+   "checked": "2026-10-19T06:55:01Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1154,21 +1196,21 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 12,
     "used": 0,
     "other_variant": 9
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -5.0,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 94.99,
-    "date": "2026-10-16",
-    "retailer": "Overclockers UK",
-    "days": 2
+    "price": 89.99,
+    "date": "2026-10-18",
+    "retailer": "Amazon UK",
+    "days": 3
    },
    "signals": [
     "below_sheet"
@@ -1183,6 +1225,13 @@
     ],
     [
      "2026-10-18",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-19",
      89.99,
      89.99,
      1,
@@ -1210,7 +1259,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-18T20:31:17Z",
+   "checked": "2026-10-19T06:55:04Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1224,8 +1273,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
-    "checked_on": "2026-10-18",
-    "note": "Product page: £69.99 ex VAT = £83.99 inc VAT, in stock (same standard Z20, black)"
+    "checked_on": "2026-10-19",
+    "note": "Product page: £69.99 ex VAT / £83.99 inc VAT, in stock (standard Z20, black)"
    },
    "offers": [
     {
@@ -1241,8 +1290,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
-     "checked_on": "2026-10-18",
-     "note": "Product page: £69.99 ex VAT = £83.99 inc VAT, in stock (same standard Z20, black)"
+     "checked_on": "2026-10-19",
+     "note": "Product page: £69.99 ex VAT / £83.99 inc VAT, in stock (standard Z20, black)"
     }
    ],
    "unvetted": [],
@@ -1253,7 +1302,7 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
@@ -1261,7 +1310,7 @@
     "price": 83.99,
     "date": "2026-10-16",
     "retailer": "Watercooling UK",
-    "days": 2
+    "days": 3
    },
    "signals": [
     "ni_check"
@@ -1276,6 +1325,13 @@
     ],
     [
      "2026-10-18",
+     83.99,
+     98.99,
+     1,
+     "Watercooling UK"
+    ],
+    [
+     "2026-10-19",
      83.99,
      98.99,
      1,
@@ -1346,7 +1402,7 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
@@ -1354,7 +1410,7 @@
     "price": 35.99,
     "date": "2026-10-16",
     "retailer": "Overclockers UK",
-    "days": 2
+    "days": 3
    },
    "signals": [],
    "history": [
@@ -1367,6 +1423,13 @@
     ],
     [
      "2026-10-18",
+     35.99,
+     55.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-19",
      35.99,
      55.98,
      1,
@@ -1474,7 +1537,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T20:31:20Z",
+   "checked": "2026-10-19T06:55:07Z",
    "notes": [],
    "live": "live",
    "saving": 20.99,
@@ -1546,7 +1609,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/161508?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T20:31:23Z",
+   "checked": "2026-10-19T06:55:09Z",
    "notes": [],
    "live": "live",
    "saving": 10.0,
@@ -1603,7 +1666,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-18T20:31:25Z",
+   "checked": "2026-10-19T06:55:12Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1638,8 +1701,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-    "checked_on": "2026-10-18",
-    "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
+    "checked_on": "2026-10-19",
+    "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L); delivery offered, stock widget did not load"
    },
    "offers": [
     {
@@ -1654,11 +1717,11 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-     "checked_on": "2026-10-18",
-     "note": "Product page: £489, available for delivery; part no. KD5AGU880-60B280L (black, CL28)"
+     "checked_on": "2026-10-19",
+     "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L); delivery offered, stock widget did not load"
     }
    ],
-   "checked": "2026-10-18T20:31:28Z",
+   "checked": "2026-10-19T06:55:15Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1776,7 +1839,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-18T20:31:31Z",
+   "checked": "2026-10-19T06:55:17Z",
    "notes": [],
    "live": "live",
    "saving": -24.0,
@@ -1905,6 +1968,18 @@
   {
    "date": "2026-10-18",
    "text": "Colour preference set to black: case → Jonsbo Z20 (black), cooler → Peerless Assassin 120 SE Black. Black RAM and motherboard options added as swap ideas."
+  },
+  {
+   "date": "2026-10-19",
+   "text": "Re-checked: Watercooling UK case £83.99 in stock; Currys black CL28 RAM £489; Gigabyte RX 9070 XT Gaming OC still £757.99 at Amazon UK (£749.99 at Overclockers UK)."
+  },
+  {
+   "date": "2026-10-19",
+   "text": "Added Currys as a backup shop for the white KLEVV CL28 RAM (£489). Overclockers UK still blocks checks, so its RAM, GPU and fan prices from 16 Oct go stale after today."
+  },
+  {
+   "date": "2026-10-19",
+   "text": "No new swap ideas: no cheaper RX 9070 XT, RAM or 2TB SSD option met the rules at a vetted shop."
   }
  ]
 }
