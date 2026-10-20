@@ -2,8 +2,8 @@
   "_about": "ARC build tracker config. Claude's daily sweep edits this file; the GitHub Action (checker.py) reads it ~4x a day and rewrites docs/data.json + docs/history.json. Prices are GBP inc VAT. Public repo: never put names, addresses or other personal details in here.",
   "title": "ARC",
   "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
-  "updated": "2026-10-19",
-  "last_sweep": "2026-10-19T06:52:45Z",
+  "updated": "2026-10-20",
+  "last_sweep": "2026-10-20T06:52:25Z",
   "baseline": {
     "date": "2026-10-16",
     "label": "16 Oct sheet",
@@ -133,6 +133,15 @@
       "display": "Computer Orbit",
       "ni": "unverified",
       "ni_first": null
+    },
+    "EE Tech & Gaming": {
+      "display": "EE Tech & Gaming",
+      "ni": "no",
+      "ni_first": null,
+      "ni_extra": null,
+      "note": "Delivers to UK mainland addresses only",
+      "source": "https://ee.co.uk/help/orders/ee-tech",
+      "checked_on": "2026-10-20"
     }
   },
   "blocked_shops": [
@@ -530,6 +539,12 @@
           "sku": "COO-ARC-08479",
           "check": "manual",
           "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html"
+        },
+        {
+          "retailer": "Scan",
+          "sku": "LN168330",
+          "check": "manual",
+          "url": "https://www.scan.co.uk/products/120mm-arctic-p12-pro-pst-ln-five-pack-black-7-blade-fdb-2000rpm-49cfm-25-dba-4-pin-pwm"
         }
       ],
       "baseline": {
@@ -621,8 +636,9 @@
         "colour": "black"
       },
       "why": "Standard version of the same fan; the current pick is the low-noise (LN) variant. Higher top speed means more airflow headroom, but LN idles slower and quieter. Same 120×25mm frame and PST daisy-chain, so fit and wiring don't change.",
-      "status": "pending",
-      "added": "2026-10-18"
+      "status": "expired",
+      "added": "2026-10-18",
+      "decided": "2026-10-20"
     },
     {
       "id": "s3",
@@ -745,9 +761,9 @@
         "retailer": "Scan",
         "price": 379.98,
         "in_stock": true,
-        "checked_on": "2026-10-18",
+        "checked_on": "2026-10-20",
         "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
-        "note": "Product page: £379.98 inc VAT, in stock (down from £384.98)"
+        "note": "Product page: £379.98 inc VAT, in stock, next-day dispatch"
       }
     ],
     "ram": [
@@ -762,9 +778,9 @@
         "retailer": "Currys",
         "price": 489.0,
         "in_stock": true,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10303408.html",
-        "note": "Product page: £489, white, CL28 (KD5AGU880-60B280F); delivery offered, stock widget did not load. Backup to Overclockers UK"
+        "note": "Product page: £489, white, CL28 (KD5AGU880-60B280F), available for delivery; stock widget did not load. PriceSpy shows £479 but the product page still says £489"
       }
     ],
     "gpu": [
@@ -793,6 +809,14 @@
         "in_stock": true,
         "checked_on": "2026-10-16",
         "url": "https://www.overclockers.co.uk/arctic-p12-pro-ln-pwm-5-fan-pack-120mm/COO-ARC-08479.html"
+      },
+      {
+        "retailer": "Scan",
+        "price": 24.98,
+        "in_stock": true,
+        "checked_on": "2026-10-20",
+        "url": "https://www.scan.co.uk/products/120mm-arctic-p12-pro-pst-ln-five-pack-black-7-blade-fdb-2000rpm-49cfm-25-dba-4-pin-pwm",
+        "note": "Product page: £24.98 inc VAT, low stock, next-day dispatch. Arctic P12 Pro PST LN 5-pack (ACFAN00350A), black"
       }
     ],
     "s2": [
@@ -820,9 +844,9 @@
         "retailer": "Currys",
         "price": 489.0,
         "in_stock": true,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-20",
         "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-        "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L); delivery offered, stock widget did not load"
+        "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
       }
     ]
   },
@@ -863,6 +887,18 @@
     {
       "date": "2026-10-19",
       "text": "No new swap ideas: no cheaper RX 9070 XT, RAM or 2TB SSD option met the rules at a vetted shop."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Fans: Scan has the Arctic P12 Pro PST LN 5-pack at £24.98 (low stock), added as an offer; about £18 under Overclockers UK landed. Fan swap idea s1 expired (no longer saves £10)."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Re-checked: Scan 9800X3D £379.98; Currys KLEVV FIT V CL28 £489 (white and black). EE Tech & Gaming marked as no NI delivery (mainland only)."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Overclockers UK still blocks checks: CPU, RAM, GPU and fan prices from 16 Oct are stale. No new swap ideas: cheaper RX 9070 XT, RAM and SSD listings were only at marketplace shops."
     }
   ]
 }
