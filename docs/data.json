@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T11:23:33Z",
+ "generated": "2026-10-20T18:25:56Z",
  "today": "2026-10-20",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -161,23 +161,30 @@
   }
  },
  "run": {
-  "started": "2026-10-20T11:23:33Z",
+  "started": "2026-10-20T18:25:56Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-20T11:24:04Z"
+  "finished": "2026-10-20T18:26:29Z"
  },
  "totals": {
   "parts_total": 9,
   "parts_left": 9,
   "paid": 0.0,
-  "remaining": 2158.58,
+  "remaining": 2193.57,
   "delivery": 48.18,
   "delivery_lines": [
    {
+    "shop": "Scan",
+    "parts": 3,
+    "cost": 13.19,
+    "basis": "verified",
+    "extra_parcel": 13.19
+   },
+   {
     "shop": "Amazon UK",
-    "parts": 4,
+    "parts": 3,
     "cost": 0.0,
     "basis": "assumed",
     "extra_parcel": null
@@ -197,13 +204,6 @@
     "extra_parcel": 15.0
    },
    {
-    "shop": "Scan",
-    "parts": 2,
-    "cost": 13.19,
-    "basis": "verified",
-    "extra_parcel": 13.19
-   },
-   {
     "shop": "Watercooling UK",
     "parts": 1,
     "cost": 15.0,
@@ -211,9 +211,9 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2158.58,
+  "build_total": 2193.57,
   "baseline_parts": 2158.79,
-  "delta_vs_baseline": -0.21,
+  "delta_vs_baseline": 34.78,
   "missing": []
  },
  "phase1": {
@@ -263,38 +263,24 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:34Z",
+   "checked": "2026-10-20T18:25:57Z",
    "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DKFMSMYK",
-    "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
-    "price": 344.99,
-    "was": 374.99,
-    "landed": 344.99,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "shop": "Scan",
+    "display": "Scan",
+    "name": "AMD Ryzen 7 9800X3D (retail box)",
+    "price": 379.98,
+    "delivery": 13.19,
+    "landed": 393.17,
+    "ni": "verified",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
+    "source": "verified",
+    "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
+    "checked_on": "2026-10-20",
+    "note": "Product page: £379.98 inc VAT, in stock, next-day dispatch"
    },
    "offers": [
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DKFMSMYK",
-     "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
-     "price": 344.99,
-     "was": 374.99,
-     "landed": 344.99,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
-    },
     {
      "shop": "Scan",
      "display": "Scan",
@@ -382,9 +368,9 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -30.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 34.99,
+    "vs_baseline": 4.99,
+    "vs_prev_run": 48.18
    },
    "low": {
     "price": 344.99,
@@ -392,9 +378,7 @@
     "retailer": "Amazon UK",
     "days": 4
    },
-   "signals": [
-    "below_sheet"
-   ],
+   "signals": [],
    "history": [
     [
      "2026-10-16",
@@ -447,7 +431,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:36Z",
+   "checked": "2026-10-20T18:26:00Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -584,7 +568,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:39Z",
+   "checked": "2026-10-20T18:26:03Z",
    "best": {
     "shop": "Very",
     "display": "Very",
@@ -681,7 +665,7 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 6,
+    "marketplace": 5,
     "used": 0,
     "other_variant": 0
    },
@@ -689,7 +673,7 @@
    "change": {
     "vs_yesterday": -0.98,
     "vs_baseline": -0.95,
-    "vs_prev_run": -0.98
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 105.0,
@@ -752,7 +736,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:41Z",
+   "checked": "2026-10-20T18:26:05Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -877,7 +861,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:44Z",
+   "checked": "2026-10-20T18:26:08Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -932,10 +916,10 @@
      "display": "Box",
      "sku": "90YV0L71-M0NA00",
      "name": "ASUS PRIME-RX9070XT-O16G OC 16GB Graphics Card",
-     "price": 869.99,
-     "was": 869.99,
+     "price": 879.99,
+     "was": 879.99,
      "delivery": 15.0,
-     "landed": 884.99,
+     "landed": 894.99,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -977,7 +961,7 @@
    "excluded": {
     "marketplace": 3,
     "used": 1,
-    "other_variant": 2
+    "other_variant": 1
    },
    "notes": [],
    "change": {
@@ -1044,7 +1028,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:47Z",
+   "checked": "2026-10-20T18:26:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1183,37 +1167,37 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T11:23:49Z",
+   "checked": "2026-10-20T18:26:14Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTN5WLB",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "sku": "B0DMTL43VR",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
     "price": 89.99,
-    "was": 89.99,
+    "was": 94.35,
     "landed": 89.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTN5WLB?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTL43VR?client_id=1551"
    },
    "offers": [
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0DMTN5WLB",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+     "sku": "B0DMTL43VR",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
      "price": 89.99,
-     "was": 89.99,
+     "was": 94.35,
      "landed": 89.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTN5WLB?client_id=1551"
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DMTL43VR?client_id=1551"
     },
     {
      "shop": "Overclockers",
@@ -1298,7 +1282,7 @@
    "excluded": {
     "marketplace": 12,
     "used": 0,
-    "other_variant": 10
+    "other_variant": 9
    },
    "notes": [],
    "change": {
@@ -1366,7 +1350,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-20T11:23:52Z",
+   "checked": "2026-10-20T18:26:16Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1604,7 +1588,7 @@
     "sku": "B0DT7B79K9",
     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
     "price": 757.99,
-    "was": 757.99,
+    "was": 879.99,
     "landed": 757.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
@@ -1620,7 +1604,7 @@
      "sku": "B0DT7B79K9",
      "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
      "price": 757.99,
-     "was": 757.99,
+     "was": 879.99,
      "landed": 757.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
@@ -1678,7 +1662,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-20T11:23:54Z",
+   "checked": "2026-10-20T18:26:19Z",
    "notes": [],
    "live": "live",
    "saving": 85.19,
@@ -1753,7 +1737,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-20T11:23:57Z",
+   "checked": "2026-10-20T18:26:22Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1808,7 +1792,7 @@
      "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
     }
    ],
-   "checked": "2026-10-20T11:24:00Z",
+   "checked": "2026-10-20T18:26:25Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1926,7 +1910,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-20T11:24:02Z",
+   "checked": "2026-10-20T18:26:27Z",
    "notes": [],
    "live": "live",
    "saving": -24.98,
@@ -2009,6 +1993,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-10-20T18:25:56Z",
+   "level": "info",
+   "type": "rise",
+   "part": "cpu",
+   "text": "CPU up £48.18 to £379.98 at Scan"
+  },
   {
    "ts": "2026-10-20T06:54:26Z",
    "level": "info",
