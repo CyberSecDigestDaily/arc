@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T06:54:26Z",
+ "generated": "2026-10-20T11:23:33Z",
  "today": "2026-10-20",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -161,25 +161,32 @@
   }
  },
  "run": {
-  "started": "2026-10-20T06:54:26Z",
+  "started": "2026-10-20T11:23:33Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-20T06:55:01Z"
+  "finished": "2026-10-20T11:24:04Z"
  },
  "totals": {
   "parts_total": 9,
   "parts_left": 9,
   "paid": 0.0,
-  "remaining": 2159.56,
+  "remaining": 2158.58,
   "delivery": 48.18,
   "delivery_lines": [
    {
     "shop": "Amazon UK",
-    "parts": 5,
+    "parts": 4,
     "cost": 0.0,
     "basis": "assumed",
+    "extra_parcel": null
+   },
+   {
+    "shop": "Very",
+    "parts": 1,
+    "cost": 0.0,
+    "basis": "verified",
     "extra_parcel": null
    },
    {
@@ -204,9 +211,9 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2159.56,
+  "build_total": 2158.58,
   "baseline_parts": 2158.79,
-  "delta_vs_baseline": 0.77,
+  "delta_vs_baseline": -0.21,
   "missing": []
  },
  "phase1": {
@@ -256,7 +263,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:27Z",
+   "checked": "2026-10-20T11:23:34Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -440,7 +447,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:30Z",
+   "checked": "2026-10-20T11:23:36Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -577,23 +584,38 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:33Z",
+   "checked": "2026-10-20T11:23:39Z",
    "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B096Y414R3",
-    "name": "MSI B850M GAMING PLUS WIFI6E Motherboard, mATX - Supports AMD Ryzen 9000 / 8000 / 7000 Processors, AM5 - DDR5 Memory Boost 8200+ MT/s (OC), PCIe 4.0 x16, M.2 Gen5, Wi-Fi 6E, 2.5G LAN",
-    "price": 129.98,
-    "was": 129.98,
-    "landed": 129.98,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+    "shop": "Very",
+    "display": "Very",
+    "sku": "X3DS3",
+    "name": "Msi B850M Gaming Plus Wifi6E Motherboard",
+    "price": 129.0,
+    "was": 129.0,
+    "landed": 129.0,
+    "ni": "verified",
+    "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B096Y414R3?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/15251/offer/X3DS3?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "X3DS3",
+     "name": "Msi B850M Gaming Plus Wifi6E Motherboard",
+     "price": 129.0,
+     "was": 129.0,
+     "landed": 129.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/X3DS3?client_id=1551"
+    },
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
@@ -659,15 +681,15 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 6,
     "used": 0,
     "other_variant": 0
    },
    "notes": [],
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.03,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -0.98,
+    "vs_baseline": -0.95,
+    "vs_prev_run": -0.98
    },
    "low": {
     "price": 105.0,
@@ -700,10 +722,10 @@
     ],
     [
      "2026-10-20",
-     129.98,
-     129.98,
+     129.0,
+     129.0,
      1,
-     "Amazon UK"
+     "Very"
     ]
    ]
   },
@@ -730,7 +752,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:36Z",
+   "checked": "2026-10-20T11:23:41Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -855,7 +877,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:39Z",
+   "checked": "2026-10-20T11:23:44Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -961,7 +983,7 @@
    "change": {
     "vs_yesterday": 71.0,
     "vs_baseline": 71.0,
-    "vs_prev_run": 64.2
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 758.99,
@@ -1022,7 +1044,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:42Z",
+   "checked": "2026-10-20T11:23:47Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1055,6 +1077,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0FJ8QMW4H?client_id=1551"
     },
     {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "WDB-2T4-510",
+     "name": "Western Digital Blue SN5100 2TB M.2 NVMe SSD – PCIe 4.0 Gen4, Up to 7,300MB/s – High-Performance Internal Solid State Drive - WDS200T5B0E-00CPE0",
+     "price": 237.34,
+     "was": 237.34,
+     "delivery": 15.0,
+     "landed": 252.34,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/WDB-2T4-510?client_id=1551"
+    },
+    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-06214",
@@ -1069,22 +1107,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://www.overclockers.co.uk/wd-blue-sn5100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-06214.html"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "WDB-2T4-510",
-     "name": "Western Digital Blue SN5100 2TB M.2 NVMe SSD – PCIe 4.0 Gen4, Up to 7,300MB/s – High-Performance Internal Solid State Drive - WDS200T5B0E-00CPE0",
-     "price": 256.53,
-     "was": 256.53,
-     "delivery": 15.0,
-     "landed": 271.53,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/WDB-2T4-510?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -1161,7 +1183,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-20T06:54:45Z",
+   "checked": "2026-10-20T11:23:49Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1344,7 +1366,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-20T06:54:47Z",
+   "checked": "2026-10-20T11:23:52Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1514,7 +1536,7 @@
    "change": {
     "vs_yesterday": -11.01,
     "vs_baseline": -11.01,
-    "vs_prev_run": -17.81
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 35.99,
@@ -1644,10 +1666,10 @@
      "display": "AWD-IT",
      "sku": "58B-CF6-384",
      "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6 16GB Graphics Card - GV-R9070XTGAMING OC-16GD",
-     "price": 1006.95,
-     "was": 1006.95,
+     "price": 994.95,
+     "was": 994.95,
      "delivery": 15.0,
-     "landed": 1021.95,
+     "landed": 1009.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -1656,7 +1678,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-10-20T06:54:50Z",
+   "checked": "2026-10-20T11:23:54Z",
    "notes": [],
    "live": "live",
    "saving": 85.19,
@@ -1731,7 +1753,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-20T06:54:53Z",
+   "checked": "2026-10-20T11:23:57Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1786,7 +1808,7 @@
      "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
     }
    ],
-   "checked": "2026-10-20T06:54:56Z",
+   "checked": "2026-10-20T11:24:00Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1904,10 +1926,10 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-20T06:54:59Z",
+   "checked": "2026-10-20T11:24:02Z",
    "notes": [],
    "live": "live",
-   "saving": -24.0,
+   "saving": -24.98,
    "fit_ok": true,
    "fit_problems": []
   }
