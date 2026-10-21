@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T11:38:42Z",
+ "generated": "2026-10-21T18:33:03Z",
  "today": "2026-10-21",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -161,12 +161,12 @@
   }
  },
  "run": {
-  "started": "2026-10-21T11:38:42Z",
+  "started": "2026-10-21T18:33:03Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-21T11:39:12Z"
+  "finished": "2026-10-21T18:33:33Z"
  },
  "totals": {
   "parts_total": 9,
@@ -263,7 +263,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:42Z",
+   "checked": "2026-10-21T18:33:04Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -423,7 +423,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:45Z",
+   "checked": "2026-10-21T18:33:06Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -567,7 +567,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:48Z",
+   "checked": "2026-10-21T18:33:09Z",
    "best": {
     "shop": "Very",
     "display": "Very",
@@ -664,7 +664,7 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 5,
     "used": 0,
     "other_variant": 0
    },
@@ -742,7 +742,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:51Z",
+   "checked": "2026-10-21T18:33:11Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -874,7 +874,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:53Z",
+   "checked": "2026-10-21T18:33:14Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1066,7 +1066,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:56Z",
+   "checked": "2026-10-21T18:33:17Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1212,7 +1212,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T11:38:59Z",
+   "checked": "2026-10-21T18:33:20Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1261,22 +1261,6 @@
      "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"
     },
     {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "154144",
-     "name": "CORSAIR RMe Series RM850e 850 Watt Cybenetics Gold PCIe 5.1 ATX3.1 PSU",
-     "price": 109.99,
-     "was": 109.99,
-     "delivery": 13.19,
-     "landed": 123.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
-    },
-    {
      "shop": "Argos",
      "display": "Argos",
      "sku": "7812349",
@@ -1290,6 +1274,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7812349?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154144",
+     "name": "CORSAIR RMe Series RM850e 850 Watt Cybenetics Gold PCIe 5.1 ATX3.1 PSU",
+     "price": 119.99,
+     "was": 119.99,
+     "delivery": 13.19,
+     "landed": 133.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
     },
     {
      "shop": "AWD-IT",
@@ -1327,7 +1327,7 @@
    "excluded": {
     "marketplace": 14,
     "used": 0,
-    "other_variant": 10
+    "other_variant": 9
    },
    "notes": [],
    "change": {
@@ -1402,7 +1402,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-21T11:39:02Z",
+   "checked": "2026-10-21T18:33:22Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1717,7 +1717,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-21T11:39:04Z",
+   "checked": "2026-10-21T18:33:25Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1772,7 +1772,7 @@
      "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
     }
    ],
-   "checked": "2026-10-21T11:39:07Z",
+   "checked": "2026-10-21T18:33:28Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1890,7 +1890,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-21T11:39:10Z",
+   "checked": "2026-10-21T18:33:31Z",
    "notes": [],
    "live": "live",
    "saving": -24.98,
