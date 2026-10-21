@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T06:55:21Z",
+ "generated": "2026-10-21T11:38:42Z",
  "today": "2026-10-21",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -161,12 +161,12 @@
   }
  },
  "run": {
-  "started": "2026-10-21T06:55:21Z",
+  "started": "2026-10-21T11:38:42Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-21T06:55:52Z"
+  "finished": "2026-10-21T11:39:12Z"
  },
  "totals": {
   "parts_total": 9,
@@ -263,7 +263,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:22Z",
+   "checked": "2026-10-21T11:38:42Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -314,21 +314,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/F98-67F-293?client_id=1551"
     },
     {
-     "shop": "Argos",
-     "display": "Argos",
-     "sku": "4546209",
-     "name": "AMD Ryzen 7 9800X3D Processor",
-     "price": 429.99,
-     "was": 429.99,
-     "landed": 429.99,
-     "ni": "assumed",
-     "delivery_note": "Has NI stores; delivery cost at checkout",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15135/offer/4546209?client_id=1551"
-    },
-    {
      "shop": "Very",
      "display": "Very",
      "sku": "WD1U1",
@@ -363,7 +348,7 @@
    "unvetted": [],
    "excluded": {
     "marketplace": 8,
-    "used": 2,
+    "used": 1,
     "other_variant": 0
    },
    "notes": [],
@@ -438,7 +423,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:25Z",
+   "checked": "2026-10-21T11:38:45Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -582,7 +567,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:28Z",
+   "checked": "2026-10-21T11:38:48Z",
    "best": {
     "shop": "Very",
     "display": "Very",
@@ -679,7 +664,7 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 6,
+    "marketplace": 7,
     "used": 0,
     "other_variant": 0
    },
@@ -757,7 +742,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:31Z",
+   "checked": "2026-10-21T11:38:51Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -889,7 +874,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:34Z",
+   "checked": "2026-10-21T11:38:53Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1011,7 +996,7 @@
    "change": {
     "vs_yesterday": -131.0,
     "vs_baseline": -60.0,
-    "vs_prev_run": -124.2
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 758.99,
@@ -1081,7 +1066,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:36Z",
+   "checked": "2026-10-21T11:38:56Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1227,14 +1212,14 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T06:55:39Z",
+   "checked": "2026-10-21T11:38:59Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DMTL43VR",
     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
     "price": 89.99,
-    "was": 94.99,
+    "was": 94.35,
     "landed": 89.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
@@ -1250,7 +1235,7 @@
      "sku": "B0DMTL43VR",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
      "price": 89.99,
-     "was": 94.99,
+     "was": 94.35,
      "landed": 89.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
@@ -1417,7 +1402,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-21T06:55:42Z",
+   "checked": "2026-10-21T11:39:02Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1456,7 +1441,7 @@
    "excluded": {
     "marketplace": 1,
     "used": 0,
-    "other_variant": 6
+    "other_variant": 7
    },
    "notes": [],
    "change": {
@@ -1594,7 +1579,7 @@
    "change": {
     "vs_yesterday": 11.01,
     "vs_baseline": 0.0,
-    "vs_prev_run": 17.81
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 24.98,
@@ -1732,7 +1717,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-21T06:55:45Z",
+   "checked": "2026-10-21T11:39:04Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1787,7 +1772,7 @@
      "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
     }
    ],
-   "checked": "2026-10-21T06:55:48Z",
+   "checked": "2026-10-21T11:39:07Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1905,7 +1890,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-21T06:55:50Z",
+   "checked": "2026-10-21T11:39:10Z",
    "notes": [],
    "live": "live",
    "saving": -24.98,
