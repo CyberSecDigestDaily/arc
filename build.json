@@ -2,8 +2,8 @@
   "_about": "ARC build tracker config. Claude's daily sweep edits this file; the GitHub Action (checker.py) reads it ~4x a day and rewrites docs/data.json + docs/history.json. Prices are GBP inc VAT. Public repo: never put names, addresses or other personal details in here.",
   "title": "ARC",
   "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
-  "updated": "2026-10-20",
-  "last_sweep": "2026-10-20T06:52:25Z",
+  "updated": "2026-10-21",
+  "last_sweep": "2026-10-21T06:53:17Z",
   "baseline": {
     "date": "2026-10-16",
     "label": "16 Oct sheet",
@@ -186,7 +186,7 @@
           "retailer": "Overclockers",
           "sku": "PRO-AMD-03517",
           "check": "manual",
-          "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail/PRO-AMD-03517.html"
+          "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail-pro-amd-03517.html"
         },
         {
           "retailer": "Scan",
@@ -605,8 +605,9 @@
         "colour": "black"
       },
       "why": "Same RX 9070 XT chip and 16GB as the ASUS Prime OC, with a slightly higher factory boost (3060 vs 3030 MHz) and the same 3× 8-pin power. At 288mm long and about 56mm thick it fits the Z20 with room to spare (81mm with the bottom fan, limit 89mm). Trade-off: it has RGB lighting and is a touch thicker than the Prime.",
-      "status": "pending",
-      "added": "2026-10-18"
+      "status": "expired",
+      "added": "2026-10-18",
+      "decided": "2026-10-21"
     },
     {
       "id": "s1",
@@ -751,19 +752,20 @@
   "manual": {
     "cpu": [
       {
-        "retailer": "Overclockers",
-        "price": 374.99,
-        "in_stock": true,
-        "checked_on": "2026-10-16",
-        "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail/PRO-AMD-03517.html"
-      },
-      {
         "retailer": "Scan",
         "price": 379.98,
         "in_stock": true,
         "checked_on": "2026-10-20",
         "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
         "note": "Product page: £379.98 inc VAT, in stock, next-day dispatch"
+      },
+      {
+        "retailer": "Overclockers",
+        "price": 359.99,
+        "in_stock": null,
+        "checked_on": "2026-10-21",
+        "url": "https://www.overclockers.co.uk/amd-ryzen-7-9800x3d-eight-core-5.20ghz-socket-am5-processor-retail-pro-amd-03517.html",
+        "note": "Product page metadata shows £359.99; stock text not readable (page blocks full load), so treated as unconfirmed stock"
       }
     ],
     "ram": [
@@ -786,10 +788,11 @@
     "gpu": [
       {
         "retailer": "Overclockers",
-        "price": 758.99,
+        "price": 698.99,
         "in_stock": true,
-        "checked_on": "2026-10-16",
-        "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html"
+        "checked_on": "2026-10-21",
+        "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html",
+        "note": "PriceSpy listing for Overclockers UK (SKU GRA-ASU-04155, standard black Prime OC): £698.99, in stock. OCUK page itself blocks price reads"
       }
     ],
     "case": [
@@ -797,9 +800,9 @@
         "retailer": "Watercooling UK",
         "price": 83.99,
         "in_stock": true,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-21",
         "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
-        "note": "Product page: £69.99 ex VAT / £83.99 inc VAT, in stock (standard Z20, black)"
+        "note": "Product page: £83.99 inc VAT (£69.99 ex VAT), in stock (standard Z20, black)"
       }
     ],
     "fans": [
@@ -813,10 +816,10 @@
       {
         "retailer": "Scan",
         "price": 24.98,
-        "in_stock": true,
-        "checked_on": "2026-10-20",
+        "in_stock": false,
+        "checked_on": "2026-10-21",
         "url": "https://www.scan.co.uk/products/120mm-arctic-p12-pro-pst-ln-five-pack-black-7-blade-fdb-2000rpm-49cfm-25-dba-4-pin-pwm",
-        "note": "Product page: £24.98 inc VAT, low stock, next-day dispatch. Arctic P12 Pro PST LN 5-pack (ACFAN00350A), black"
+        "note": "Product page: £24.98 inc VAT, now pre-order, 'Item due on 11 November 2026'"
       }
     ],
     "s2": [
@@ -824,9 +827,9 @@
         "retailer": "Amazon.co.uk",
         "price": 757.99,
         "in_stock": true,
-        "checked_on": "2026-10-19",
+        "checked_on": "2026-10-21",
         "url": "https://pricespy.co.uk/product.php?p=14365072",
-        "note": "PriceSpy listing for Amazon.co.uk, in stock; Overclockers UK also lists it at £749.99 on PriceSpy"
+        "note": "PriceSpy listing for Amazon.co.uk, in stock; Overclockers UK £749.99 on PriceSpy"
       }
     ],
     "s3": [
@@ -899,6 +902,18 @@
     {
       "date": "2026-10-20",
       "text": "Overclockers UK still blocks checks: CPU, RAM, GPU and fan prices from 16 Oct are stale. No new swap ideas: cheaper RX 9070 XT, RAM and SSD listings were only at marketplace shops."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "GPU: Overclockers UK lists the ASUS RX 9070 XT Prime OC at £698.99 in stock (was £758.99), now the cheapest landed at about £718.98. Gigabyte Gaming OC swap idea s2 expired (no longer cheaper)."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "Fans: Scan's Arctic P12 Pro PST LN 5-pack is now pre-order (due 11 Nov), so Overclockers UK is the only in-stock source. CPU: Overclockers UK page shows £359.99 but stock couldn't be confirmed."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "Re-checked: Watercooling UK Z20 black £83.99 in stock. No new swap ideas: cheaper RX 9070 XT and DDR5-6000 kits were only at marketplace or unvetted sellers."
     }
   ]
 }
