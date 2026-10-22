@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-21T18:33:03Z",
- "today": "2026-10-21",
+ "generated": "2026-10-22T06:55:27Z",
+ "today": "2026-10-22",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
- "updated": "2026-10-21",
- "last_sweep": "2026-10-21T06:53:17Z",
+ "updated": "2026-10-22",
+ "last_sweep": "2026-10-22T06:53:09Z",
  "baseline": {
   "date": "2026-10-16",
   "label": "16 Oct sheet",
@@ -161,30 +161,23 @@
   }
  },
  "run": {
-  "started": "2026-10-21T18:33:03Z",
+  "started": "2026-10-22T06:55:27Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-21T18:33:33Z"
+  "finished": "2026-10-22T06:55:56Z"
  },
  "totals": {
   "parts_total": 9,
   "parts_left": 9,
   "paid": 0.0,
-  "remaining": 2073.58,
-  "delivery": 48.18,
+  "remaining": 2067.99,
+  "delivery": 34.99,
   "delivery_lines": [
    {
-    "shop": "Scan",
-    "parts": 1,
-    "cost": 13.19,
-    "basis": "verified",
-    "extra_parcel": 13.19
-   },
-   {
     "shop": "Amazon UK",
-    "parts": 3,
+    "parts": 4,
     "cost": 0.0,
     "basis": "assumed",
     "extra_parcel": null
@@ -211,9 +204,9 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2073.58,
+  "build_total": 2067.99,
   "baseline_parts": 2158.79,
-  "delta_vs_baseline": -85.21,
+  "delta_vs_baseline": -90.8,
   "missing": []
  },
  "phase1": {
@@ -263,39 +256,53 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:04Z",
+   "checked": "2026-10-22T06:55:27Z",
    "best": {
-    "shop": "Scan",
-    "display": "Scan",
-    "name": "AMD Ryzen 7 9800X3D (retail box)",
-    "price": 379.98,
-    "delivery": 13.19,
-    "landed": 393.17,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DKFMSMYK",
+    "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
+    "price": 374.39,
+    "was": 374.39,
+    "landed": 374.39,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
-    "checked_on": "2026-10-20",
-    "note": "Product page: £379.98 inc VAT, in stock, next-day dispatch"
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DKFMSMYK",
+     "name": "AMD RYZEN ™ 7 9800X 3D Desktop Processor (8-core/16-thread, 104MB cache, up to 5.2 GHz max boost)",
+     "price": 374.39,
+     "was": 374.39,
+     "landed": 374.39,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free/Prime delivery reaches NI for most items; confirm at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DKFMSMYK?client_id=1551"
+    },
     {
      "shop": "Scan",
      "display": "Scan",
      "name": "AMD Ryzen 7 9800X3D (retail box)",
-     "price": 379.98,
+     "price": 399.98,
      "delivery": 13.19,
-     "landed": 393.17,
+     "landed": 413.17,
      "ni": "verified",
      "delivery_note": "2-day service to NI",
      "stock": "InStock",
      "in_stock": true,
      "source": "verified",
      "url": "https://www.scan.co.uk/products/amd-ryzen-7-9800x3d-am5-zen-5-8-core-16-threads-47ghz-52ghz-turbo-104mb-cache-pcie-50-120w-cpu-retai",
-     "checked_on": "2026-10-20",
-     "note": "Product page: £379.98 inc VAT, in stock, next-day dispatch"
+     "checked_on": "2026-10-22",
+     "note": "Product page: £399.98 inc VAT (was £409.98), in stock, next-day delivery"
     },
     {
      "shop": "AWD-IT",
@@ -347,21 +354,21 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 8,
+    "marketplace": 9,
     "used": 1,
     "other_variant": 0
    },
    "notes": [],
    "change": {
-    "vs_yesterday": 34.99,
-    "vs_baseline": 4.99,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -5.59,
+    "vs_baseline": -0.6,
+    "vs_prev_run": -18.78
    },
    "low": {
     "price": 344.99,
     "date": "2026-10-18",
     "retailer": "Amazon UK",
-    "days": 5
+    "days": 6
    },
    "signals": [],
    "history": [
@@ -399,6 +406,13 @@
      393.17,
      1,
      "Scan"
+    ],
+    [
+     "2026-10-22",
+     374.39,
+     374.39,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -423,7 +437,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:06Z",
+   "checked": "2026-10-22T06:55:30Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -504,7 +518,7 @@
     "price": 29.0,
     "date": "2026-10-18",
     "retailer": "Amazon UK",
-    "days": 5
+    "days": 6
    },
    "signals": [],
    "history": [
@@ -542,6 +556,13 @@
      29.0,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-22",
+     29.0,
+     29.0,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -567,7 +588,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:09Z",
+   "checked": "2026-10-22T06:55:33Z",
    "best": {
     "shop": "Very",
     "display": "Very",
@@ -678,7 +699,7 @@
     "price": 105.0,
     "date": "2026-10-18",
     "retailer": "Amazon UK",
-    "days": 5
+    "days": 6
    },
    "signals": [],
    "history": [
@@ -716,6 +737,13 @@
      129.0,
      1,
      "Very"
+    ],
+    [
+     "2026-10-22",
+     129.0,
+     129.0,
+     1,
+     "Very"
     ]
    ]
   },
@@ -742,7 +770,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:11Z",
+   "checked": "2026-10-22T06:55:35Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -790,6 +818,22 @@
      "in_stock": null,
      "source": "pricespy",
      "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10303408.html"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, white",
+     "price": 394.99,
+     "delivery": 15.0,
+     "landed": 409.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "verified",
+     "url": "https://www.awd-it.co.uk/klevv-fit-v-ddr5-32gb-2x-16gb-6000mhz-cl28-gaming-memory-ram-kit-white-kd5agu880-60b280f.html",
+     "checked_on": "2026-10-22",
+     "note": "Product page: £394.99 inc VAT (£329.16 ex VAT), out of stock; NI delivery cost not published"
     }
    ],
    "unvetted": [],
@@ -808,7 +852,7 @@
     "price": 399.95,
     "date": "2026-10-16",
     "retailer": "Overclockers UK",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "not_live"
@@ -848,6 +892,13 @@
      419.94,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-22",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -874,39 +925,39 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:14Z",
+   "checked": "2026-10-22T06:55:38Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
-    "sku": "GRA-ASU-04155",
-    "name": "Asus Radeon RX 9070 XT Prime OC 16GB GDDR6 PCI-Express Graphics Card",
+    "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
     "price": 698.99,
-    "was": 698.99,
     "delivery": 19.99,
     "landed": 718.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days",
     "stock": "InStock",
     "in_stock": true,
-    "source": "pricespy",
-    "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html"
+    "source": "verified",
+    "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html",
+    "checked_on": "2026-10-21",
+    "note": "PriceSpy listing for Overclockers UK (SKU GRA-ASU-04155, standard black Prime OC): £698.99, in stock. OCUK page itself blocks price reads"
    },
    "offers": [
     {
      "shop": "Overclockers",
      "display": "Overclockers UK",
-     "sku": "GRA-ASU-04155",
-     "name": "Asus Radeon RX 9070 XT Prime OC 16GB GDDR6 PCI-Express Graphics Card",
+     "name": "ASUS Radeon RX 9070 XT Prime OC 16GB",
      "price": 698.99,
-     "was": 698.99,
      "delivery": 19.99,
      "landed": 718.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days",
      "stock": "InStock",
      "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html"
+     "source": "verified",
+     "url": "https://www.overclockers.co.uk/asus-radeon-rx-9070-xt-prime-oc-16gb-gddr6-pci-express-graphics-card/GRA-ASU-04155.html",
+     "checked_on": "2026-10-21",
+     "note": "PriceSpy listing for Overclockers UK (SKU GRA-ASU-04155, standard black Prime OC): £698.99, in stock. OCUK page itself blocks price reads"
     },
     {
      "shop": "Scan",
@@ -994,15 +1045,15 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": -131.0,
+    "vs_yesterday": 0.0,
     "vs_baseline": -60.0,
     "vs_prev_run": 0.0
    },
    "low": {
-    "price": 758.99,
-    "date": "2026-10-16",
+    "price": 698.99,
+    "date": "2026-10-21",
     "retailer": "Overclockers UK",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "below_sheet"
@@ -1042,6 +1093,13 @@
      718.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-22",
+     698.99,
+     718.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1066,7 +1124,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:17Z",
+   "checked": "2026-10-22T06:55:41Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1147,7 +1205,7 @@
     "price": 226.69,
     "date": "2026-10-18",
     "retailer": "Amazon UK",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "below_sheet"
@@ -1187,6 +1245,13 @@
      226.69,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-22",
+     226.69,
+     226.69,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1212,7 +1277,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-21T18:33:20Z",
+   "checked": "2026-10-22T06:55:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1325,7 +1390,7 @@
    ],
    "unvetted": [],
    "excluded": {
-    "marketplace": 14,
+    "marketplace": 13,
     "used": 0,
     "other_variant": 9
    },
@@ -1339,7 +1404,7 @@
     "price": 89.99,
     "date": "2026-10-18",
     "retailer": "Amazon UK",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "below_sheet"
@@ -1379,6 +1444,13 @@
      89.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-22",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1402,7 +1474,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-21T18:33:22Z",
+   "checked": "2026-10-22T06:55:46Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1416,7 +1488,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
-    "checked_on": "2026-10-21",
+    "checked_on": "2026-10-22",
     "note": "Product page: £83.99 inc VAT (£69.99 ex VAT), in stock (standard Z20, black)"
    },
    "offers": [
@@ -1433,7 +1505,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.watercoolinguk.co.uk/product/jonsplus-z20-micro-atx-case-with-carrying-handle-black/",
-     "checked_on": "2026-10-21",
+     "checked_on": "2026-10-22",
      "note": "Product page: £83.99 inc VAT (£69.99 ex VAT), in stock (standard Z20, black)"
     }
    ],
@@ -1453,7 +1525,7 @@
     "price": 83.99,
     "date": "2026-10-16",
     "retailer": "Watercooling UK",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "ni_check"
@@ -1489,6 +1561,13 @@
     ],
     [
      "2026-10-21",
+     83.99,
+     98.99,
+     1,
+     "Watercooling UK"
+    ],
+    [
+     "2026-10-22",
      83.99,
      98.99,
      1,
@@ -1565,8 +1644,8 @@
      "in_stock": false,
      "source": "verified",
      "url": "https://www.scan.co.uk/products/120mm-arctic-p12-pro-pst-ln-five-pack-black-7-blade-fdb-2000rpm-49cfm-25-dba-4-pin-pwm",
-     "checked_on": "2026-10-21",
-     "note": "Product page: £24.98 inc VAT, now pre-order, 'Item due on 11 November 2026'"
+     "checked_on": "2026-10-22",
+     "note": "Product page: £24.98 inc VAT, pre-order, 'Item due on 11 November 2026'"
     }
    ],
    "unvetted": [],
@@ -1577,7 +1656,7 @@
    },
    "notes": [],
    "change": {
-    "vs_yesterday": 11.01,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
@@ -1585,7 +1664,7 @@
     "price": 24.98,
     "date": "2026-10-20",
     "retailer": "Scan",
-    "days": 5
+    "days": 6
    },
    "signals": [
     "not_live"
@@ -1621,6 +1700,13 @@
     ],
     [
      "2026-10-21",
+     35.99,
+     55.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-22",
      35.99,
      55.98,
      1,
@@ -1717,7 +1803,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-21T18:33:25Z",
+   "checked": "2026-10-22T06:55:49Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1752,8 +1838,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-    "checked_on": "2026-10-20",
-    "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
+    "checked_on": "2026-10-22",
+    "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), delivery options listed; stock widget showed 'Checking Stock...'"
    },
    "offers": [
     {
@@ -1768,11 +1854,11 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-     "checked_on": "2026-10-20",
-     "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), available for delivery; stock widget did not load"
+     "checked_on": "2026-10-22",
+     "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), delivery options listed; stock widget showed 'Checking Stock...'"
     }
    ],
-   "checked": "2026-10-21T18:33:28Z",
+   "checked": "2026-10-22T06:55:52Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1890,7 +1976,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-21T18:33:31Z",
+   "checked": "2026-10-22T06:55:54Z",
    "notes": [],
    "live": "live",
    "saving": -24.98,
@@ -1973,6 +2059,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-10-22T06:55:27Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "cpu",
+   "text": "CPU down £18.78: £374.39 at Amazon UK (was £379.98 at Scan)"
+  },
   {
    "ts": "2026-10-21T06:55:21Z",
    "level": "alert",
@@ -2083,6 +2176,18 @@
   {
    "date": "2026-10-21",
    "text": "Re-checked: Watercooling UK Z20 black £83.99 in stock. No new swap ideas: cheaper RX 9070 XT and DDR5-6000 kits were only at marketplace or unvetted sellers."
+  },
+  {
+   "date": "2026-10-22",
+   "text": "CPU: Scan's 9800X3D is now £399.98 (was £379.98), so the CPU is about £20 dearer. Overclockers UK's £359.99 still can't be confirmed in stock."
+  },
+  {
+   "date": "2026-10-22",
+   "text": "RAM: added AWD-IT as a restock watch for the white KLEVV CL28 kit (£394.99, out of stock). Re-checked Watercooling UK case £83.99, Scan fans £24.98 (pre-order, due 11 Nov) and Currys RAM £489."
+  },
+  {
+   "date": "2026-10-22",
+   "text": "No new swap ideas: the cheaper RX 9070 XT listings (PowerColor Reaper, XFX Quicksilver/Mercury) were only at marketplace or unvetted sellers."
   }
  ]
 }
