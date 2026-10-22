@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T06:55:27Z",
+ "generated": "2026-10-22T11:39:02Z",
  "today": "2026-10-22",
  "title": "ARC",
  "subtitle": "AM5 small-form-factor build · Jonsbo Z20 · black",
@@ -161,12 +161,12 @@
   }
  },
  "run": {
-  "started": "2026-10-22T06:55:27Z",
+  "started": "2026-10-22T11:39:02Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-22T06:55:56Z"
+  "finished": "2026-10-22T11:39:33Z"
  },
  "totals": {
   "parts_total": 9,
@@ -256,7 +256,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:27Z",
+   "checked": "2026-10-22T11:39:03Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -362,7 +362,7 @@
    "change": {
     "vs_yesterday": -5.59,
     "vs_baseline": -0.6,
-    "vs_prev_run": -18.78
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 344.99,
@@ -437,7 +437,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:30Z",
+   "checked": "2026-10-22T11:39:06Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -588,7 +588,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:33Z",
+   "checked": "2026-10-22T11:39:09Z",
    "best": {
     "shop": "Very",
     "display": "Very",
@@ -770,7 +770,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:35Z",
+   "checked": "2026-10-22T11:39:12Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -925,7 +925,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:38Z",
+   "checked": "2026-10-22T11:39:15Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1041,7 +1041,7 @@
    "excluded": {
     "marketplace": 3,
     "used": 1,
-    "other_variant": 8
+    "other_variant": 7
    },
    "notes": [],
    "change": {
@@ -1124,7 +1124,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:41Z",
+   "checked": "2026-10-22T11:39:17Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1157,22 +1157,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0FJ8QMW4H?client_id=1551"
     },
     {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "WDB-2T4-510",
-     "name": "Western Digital Blue SN5100 2TB M.2 NVMe SSD – PCIe 4.0 Gen4, Up to 7,300MB/s – High-Performance Internal Solid State Drive - WDS200T5B0E-00CPE0",
-     "price": 237.34,
-     "was": 237.34,
-     "delivery": 15.0,
-     "landed": 252.34,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/WDB-2T4-510?client_id=1551"
-    },
-    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-06214",
@@ -1187,6 +1171,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://www.overclockers.co.uk/wd-blue-sn5100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-06214.html"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "WDB-2T4-510",
+     "name": "Western Digital Blue SN5100 2TB M.2 NVMe SSD – PCIe 4.0 Gen4, Up to 7,300MB/s – High-Performance Internal Solid State Drive - WDS200T5B0E-00CPE0",
+     "price": 248.23,
+     "was": 248.23,
+     "delivery": 15.0,
+     "landed": 263.23,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/WDB-2T4-510?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -1277,7 +1277,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T06:55:43Z",
+   "checked": "2026-10-22T11:39:20Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1474,7 +1474,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-22T06:55:46Z",
+   "checked": "2026-10-22T11:39:23Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1803,7 +1803,7 @@
      "note": "From the 16 Oct stock scrub"
     }
    ],
-   "checked": "2026-10-22T06:55:49Z",
+   "checked": "2026-10-22T11:39:26Z",
    "notes": [],
    "live": "live",
    "saving": -20.04,
@@ -1858,7 +1858,7 @@
      "note": "Product page: £489, black, CL28 (KD5AGU880-60B280L), delivery options listed; stock widget showed 'Checking Stock...'"
     }
    ],
-   "checked": "2026-10-22T06:55:52Z",
+   "checked": "2026-10-22T11:39:28Z",
    "notes": [],
    "live": "live",
    "saving": -69.06,
@@ -1976,7 +1976,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15915/offer/MOT-GIG-03861?client_id=1551"
     }
    ],
-   "checked": "2026-10-22T06:55:54Z",
+   "checked": "2026-10-22T11:39:31Z",
    "notes": [],
    "live": "live",
    "saving": -24.98,
