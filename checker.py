@@ -15,6 +15,7 @@ The best offer is the cheapest in-stock one by landed cost: item price + deliver
 for a single-item order.
 
 Runs on GitHub Actions (~4x a day and on every change to build.json). Standard library only.
+Also rebuilds docs/arc-build.xlsx and docs/prices.csv (see sheet.py) on every run.
 """
 
 import gzip
@@ -33,6 +34,8 @@ BUILD = os.path.join(ROOT, "build.json")
 DOCS = os.path.join(ROOT, "docs")
 DATA = os.path.join(DOCS, "data.json")
 HIST = os.path.join(DOCS, "history.json")
+XLSX = os.path.join(DOCS, "arc-build.xlsx")
+CSV = os.path.join(DOCS, "prices.csv")
 
 UK = ZoneInfo("Europe/London")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -199,8 +202,8 @@ def shopify(url):
         u += ".js"
     d = json.loads(fetch(u, accept="application/json"))
     price = d.get("price")
-    if isinstance(price, (int, float)) and price > 1000 and float(price).is_integer():
-        price = price / 100.0  # Shopify .js prices are in pence
+    if isinstance(price, int):
+        price = price / 100.0  # Shopify .js prices are integer pence
     avail = d.get("available")
     return {"price": money(price), "stock": "InStock" if avail else "OutOfStock", "name": d.get("title") or ""}
 
@@ -272,7 +275,7 @@ def build_offers(item, cfg, today, prev_item, run):
         if o.get("url") and "/search?" not in o["url"]:
             known_url.setdefault(o.get("retailer"), o["url"])
     offers, unvetted, notes = [], [], []
-    excluded = {"marketplace": 0, "used": 0, "other_variant": 0}
+    excluded = {"marketplace": 0, "used": 0, "other_variant": 0, "untrusted_feed": 0}
     status = "no_source"
     checked = None
 
@@ -290,6 +293,9 @@ def build_offers(item, cfg, today, prev_item, run):
                     continue
                 if (o["condition"] or "").lower() not in ("new", "unknown"):
                     excluded["used"] += 1
+                    continue
+                if cfg["retailers"].get(o["shop"], {}).get("pricespy_feed") is False:
+                    excluded["untrusted_feed"] += 1  # this shop's PriceSpy prices lag its site; use direct/sweep prices
                     continue
                 st = shop_status(o["shop"], cfg)
                 if st == "blocked":
@@ -370,7 +376,7 @@ def build_offers(item, cfg, today, prev_item, run):
                 and o["ni"] != "no" and (allow_stale or not o.get("stale"))]
 
     best = None
-    for stock_value, allow_stale in ((True, False), (True, True), (None, False), (None, True)):
+    for stock_value, allow_stale in ((True, False), (True, True), (None, False), (None, True), (False, False), (False, True)):
         p = pool(stock_value, allow_stale)
         if p:
             best = min(p, key=lambda o: (o["landed"], o["price"]))
@@ -410,40 +416,66 @@ def slim(o):
 
 # ---------------------------------------------------------------- fit check
 
-def fit_checks(parts_by_slot, lim):
-    """parts_by_slot maps part id -> spec dict. Returns a list of checks."""
-    cooler = parts_by_slot.get("cooler", {})
-    ram = parts_by_slot.get("ram", {})
-    gpu = parts_by_slot.get("gpu", {})
-    psu = parts_by_slot.get("psu", {})
-    fans = parts_by_slot.get("fans", {})
-    board = parts_by_slot.get("board", {})
+def fit_checks(specs, lim):
+    """specs maps part id -> spec dict; lim is build.json fit_limits. Returns a list of checks."""
+    cooler = specs.get("cooler", {})
+    ram = specs.get("ram", {})
+    gpu = specs.get("gpu", {})
+    psu = specs.get("psu", {})
+    board = specs.get("board", {})
+    bottom = specs.get(lim.get("bottom_fan_part", "fans"), {})
     out = []
 
-    def add(check, value, limit, unit, ok, part, kind="max"):
-        out.append({"check": check, "value": value, "limit": limit, "unit": unit, "ok": ok, "part": part, "kind": kind})
+    def add(check, value, limit, unit, ok, part, kind="max", note=None):
+        c = {"check": check, "value": value, "limit": limit, "unit": unit, "ok": ok, "part": part, "kind": kind}
+        if note:
+            c["note"] = note
+        out.append(c)
 
-    if "height_mm" in cooler:
+    def total(key):
+        return sum(v.get(key, 0) for v in specs.values() if isinstance(v.get(key, 0), (int, float)))
+
+    if "radiator_mm" in cooler and lim.get("radiator_mm"):
+        add("Top radiator size", cooler["radiator_mm"], " / ".join(str(x) for x in lim["radiator_mm"]), "mm",
+            cooler["radiator_mm"] in lim["radiator_mm"], "cooler", "in", "AIO radiator in the top mount")
+    elif "height_mm" in cooler and lim.get("cooler_height_mm"):
         add("CPU cooler height", cooler["height_mm"], lim["cooler_height_mm"], "mm",
             cooler["height_mm"] <= lim["cooler_height_mm"], "cooler")
-    if "height_mm" in ram:
+    if "height_mm" in ram and lim.get("ram_height_mm"):
         clearance = min(lim["ram_height_mm"], cooler.get("ram_clearance_mm", lim["ram_height_mm"]))
-        add("RAM height under cooler", ram["height_mm"], clearance, "mm", ram["height_mm"] <= clearance, "ram")
-    if "length_mm" in gpu:
+        add("RAM height", ram["height_mm"], clearance, "mm", ram["height_mm"] <= clearance, "ram")
+    if "length_mm" in gpu and lim.get("gpu_length_mm"):
         add("GPU length", gpu["length_mm"], lim["gpu_length_mm"], "mm", gpu["length_mm"] <= lim["gpu_length_mm"], "gpu")
-    if "thickness_mm" in gpu:
-        total = gpu["thickness_mm"] + fans.get("thickness_mm", 0)
-        add("GPU + bottom fan thickness", total, lim["gpu_plus_bottom_fan_mm"], "mm",
-            total <= lim["gpu_plus_bottom_fan_mm"], "gpu")
-    if "length_mm" in psu:
+    if "thickness_mm" in gpu and lim.get("gpu_plus_bottom_fan_mm"):
+        t = gpu["thickness_mm"] + bottom.get("thickness_mm", 0)
+        add("GPU + bottom fan thickness", t, lim["gpu_plus_bottom_fan_mm"], "mm", t <= lim["gpu_plus_bottom_fan_mm"], "gpu",
+            note="%smm card + %smm bottom fans" % (gpu["thickness_mm"], bottom.get("thickness_mm", 0)))
+    if "length_mm" in psu and lim.get("psu_length_mm"):
         add("PSU length", psu["length_mm"], lim["psu_length_mm"], "mm", psu["length_mm"] <= lim["psu_length_mm"], "psu")
-    if "watts" in psu:
+    if "watts" in psu and lim.get("psu_min_w"):
         add("PSU wattage", psu["watts"], lim["psu_min_w"], "W", psu["watts"] >= lim["psu_min_w"], "psu", "min")
-    if "count" in fans:
-        add("Case fans", fans["count"], lim["fan_mounts"], "", fans["count"] <= lim["fan_mounts"], "fans")
-    if "form" in board:
-        add("Motherboard size", board["form"], " / ".join(lim["motherboard"]), "", board["form"] in lim["motherboard"],
-            "board", "in")
+        if lim.get("est_load_w"):
+            pct = round(lim["est_load_w"] / psu["watts"] * 100)
+            add("Full-load draw vs PSU", "%sW (%d%%)" % (lim["est_load_w"], pct), "80%", "", pct <= 80, "psu", "in",
+                "Estimated whole-system draw at full load")
+    fans = total("case_fans")
+    if fans and lim.get("case_fans_max"):
+        add("Case fans", fans, lim["case_fans_max"], "", fans <= lim["case_fans_max"], "fans")
+    if "form" in board and lim.get("motherboard"):
+        add("Motherboard size", board["form"], " / ".join(lim["motherboard"]), "", board["form"] in lim["motherboard"], "board", "in")
+    usb = total("usb2_header")
+    if usb and "usb2_headers" in board:
+        add("USB 2.0 headers (screens)", usb, board["usb2_headers"], "", usb <= board["usb2_headers"], "board",
+            note="The cooler's LCD and the front screen each take one")
+    groups = total("argb_groups")
+    if groups and "argb_headers" in board:
+        extra = sum(max(0, v.get("argb_outputs", 1) - 1) for v in specs.values() if "argb_outputs" in v)
+        cap = board["argb_headers"] + extra
+        add("ARGB lighting groups", groups, cap, "", groups <= cap, "board",
+            note="%d board headers%s" % (board["argb_headers"], " + %d from the splitter" % extra if extra else ""))
+    fh = total("fan_headers_needed")
+    if fh and "fan_headers" in board:
+        add("Fan/pump headers", fh, board["fan_headers"], "", fh <= board["fan_headers"], "board")
     return out
 
 
@@ -531,6 +563,7 @@ def main():
            "pricespy_ok": 0, "pricespy_blocked": 0, "errors": []}
     prev_parts = {p["id"]: p for p in prev.get("parts", [])}
     prev_sugg = {sgg["id"]: sgg for sgg in prev.get("suggestions", [])}
+    prev_upg = {u["id"]: u for u in prev.get("upgrades", [])}
     base_date = cfg.get("baseline", {}).get("date")
 
     parts_out, events, specs = [], [], {}
@@ -539,10 +572,10 @@ def main():
         specs[pid] = part.get("spec", {})
         series = hist["parts"].setdefault(pid, [])
         b = part.get("baseline") or {}
-        if not series and b.get("price") is not None and base_date:
+        if not series and b.get("price") is not None and base_date and base_date < today_s:
             cost, _, _ = delivery(b.get("retailer"), None, cfg)
             series.append([base_date, b["price"], money(b["price"] + (cost or 0)), 1, display(b.get("retailer"), cfg)])
-        out = {k: part.get(k) for k in ("id", "slot", "name", "bought", "paid", "paid_retailer", "bought_on", "spec", "pricespy")}
+        out = {k: part.get(k) for k in ("id", "slot", "name", "bought", "paid", "paid_retailer", "bought_on", "spec", "pricespy", "note")}
         out["baseline"] = dict(b, date=base_date) if b else None
         out["phase1"] = pid in cfg["settings"].get("phase1", {}).get("parts", [])
         if part.get("bought"):
@@ -612,6 +645,22 @@ def main():
                                                                              gbp(res["best"]["price"]), res["best"]["display"])})
         sugg_out.append(o)
 
+    # Upgrades / alternatives: tracked for reference only (no events, no approval flow)
+    upg_out = []
+    for u in cfg.get("upgrades", []):
+        o = {k: u.get(k) for k in ("id", "part", "name", "spec", "why", "pricespy")}
+        res = build_offers(u, cfg, today, prev_upg.get(u["id"]), run)
+        o.update({"best": res.get("best"), "offers": res.get("offers", [])[:5], "checked": res.get("checked"), "live": res["status"]})
+        cur = by_id.get(u["part"], {})
+        cur_price = cur.get("paid") if cur.get("bought") else (cur.get("best") or {}).get("price")
+        o["extra"] = money(res["best"]["price"] - cur_price) if res.get("best") and cur_price is not None else None
+        alt_specs = dict(specs)
+        alt_specs[u["part"]] = dict(specs.get(u["part"], {}), **(u.get("spec") or {}))
+        checks = fit_checks(alt_specs, cfg["fit_limits"])
+        o["fit_ok"] = all(c["ok"] for c in checks)
+        o["fit_problems"] = [c["check"] for c in checks if not c["ok"]]
+        upg_out.append(o)
+
     # Totals
     unbought = [p for p in parts_out if not p.get("bought")]
     paid = money(sum((p.get("paid") or 0) for p in parts_out if p.get("bought")))
@@ -630,7 +679,7 @@ def main():
         cost = first  # one order per shop; checkout decides parcels
         deliv += cost
         deliv_lines.append({"shop": display(shop, cfg), "parts": len(items), "cost": money(cost),
-                            "basis": items[0].get("ni"), "extra_parcel": extra})
+                            "basis": items[0].get("ni"), "extra_parcel": extra, "note": r.get("order_note")})
     phase = cfg["settings"].get("phase1", {})
     p1 = [p for p in parts_out if p["id"] in phase.get("parts", [])]
     p1_cost = money(sum((p.get("paid") if p.get("bought") else (p.get("best") or {}).get("price") or 0) for p in p1))
@@ -642,6 +691,9 @@ def main():
         "delta_vs_baseline": money((paid or 0) + (remaining or 0) - cfg.get("baseline", {}).get("parts_total", 0))
         if cfg.get("baseline", {}).get("parts_total") else None,
         "missing": missing,
+        "budget": cfg["settings"].get("budget"),
+        "left_after_delivery": money(cfg["settings"]["budget"] - (paid or 0) - (remaining or 0) - deliv)
+        if cfg["settings"].get("budget") else None,
     }
     phase1 = dict(phase, cost=p1_cost, left=money(phase.get("budget", 0) - (p1_cost or 0)),
                   items=[{"id": p["id"], "slot": p["slot"], "price": p.get("paid") if p.get("bought") else (p.get("best") or {}).get("price"),
@@ -656,7 +708,9 @@ def main():
         "generated": ts,
         "today": today_s,
         "title": cfg.get("title"),
+        "title_long": cfg.get("title_long"),
         "subtitle": cfg.get("subtitle"),
+        "site": cfg.get("site"),
         "updated": cfg.get("updated"),
         "last_sweep": cfg.get("last_sweep"),
         "baseline": cfg.get("baseline"),
@@ -669,10 +723,21 @@ def main():
         "phase1": phase1,
         "parts": parts_out,
         "suggestions": sugg_out,
+        "upgrades": upg_out,
         "fit": fit,
         "events": all_events,
         "log": cfg.get("log", [])[-40:],
     }
+    # Spreadsheet + CSV (published with the page). Never let an export problem stop the price data.
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("arc_sheet", os.path.join(ROOT, "sheet.py"))
+        sheet = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(sheet)
+        sheet.export(data, hist, cfg, XLSX, CSV, cfg.get("site") or "")
+        data["exports"] = {"xlsx": "arc-build.xlsx", "csv": "prices.csv", "built": iso(now_utc())}
+    except Exception as e:  # noqa: BLE001
+        run["errors"].append("spreadsheet export: %s" % e)
     save(DATA, data)
     save(HIST, hist)
     print("ARC check %s: %d PriceSpy pages ok, %d blocked, %d errors, %d events. Build %s (%s vs sheet)." % (

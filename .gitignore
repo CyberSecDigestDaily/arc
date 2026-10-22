@@ -1,3 +1,6 @@
 __pycache__/
 *.tmp
 .DS_Store
+# Rebuilt on every run and published with the page (not committed)
+docs/arc-build.xlsx
+docs/prices.csv
