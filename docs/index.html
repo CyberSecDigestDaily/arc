@@ -227,7 +227,7 @@ footer p { margin: 6px 0; }
 
   <footer>
     <p><strong>How it works.</strong> Prices and stock are re-checked about four times a day from UK shops (via PriceSpy UK and the shops themselves). Every morning a sweep re-verifies the build, fixes dead links, moves parts to cheaper vetted UK shops and suggests compatible swaps.</p>
-    <p><strong>Prices</strong> include VAT. The headline price is the cheapest in-stock offer from a vetted UK shop, ranked on the item plus delivery to Northern Ireland for a single-item order; buying several parts from one shop together usually saves on delivery. Marketplace sellers, used stock and unvetted shops are left out.</p>
+    <p><strong>Prices</strong> include VAT. Each part shows where it sits in the cheapest basket: item prices plus one delivery to Northern Ireland per shop, with free-delivery thresholds applied. Amazon counts when sold by Amazon or dispatched by Amazon (Prime) with free NI delivery; other marketplace sellers, used stock and unvetted shops are left out.</p>
     <p><strong>Spreadsheet</strong> <a href="arc-build.xlsx">arc-build.xlsx</a> carries every shop's price, the buying plan, price history and the fit check, and is rebuilt with every check (live CSV for Google Sheets: <a href="prices.csv">prices.csv</a>).</p>
     <p><strong>Buttons</strong> “Bought it”, “Approve” and “Not for me” open a pre-filled email to yourself; the next morning's sweep reads it and updates the build. <button type="button" id="setmail" class="small">Change email</button></p>
     <p class="muted small" id="runinfo"></p>
@@ -514,7 +514,7 @@ footer p { margin: 6px 0; }
   }
 
   function partBadges(p) {
-    var out = [], b = p.best || {}, s = p.signals || [];
+    var out = [], b = p.pick || p.best || {}, s = p.signals || [];
     if (p.bought) return [badge("good", "✓", "Bought" + (p.paid != null ? " · " + gbp(p.paid) : "") + (p.bought_on ? " · " + ukDate(p.bought_on) : ""))];
     if (!p.best) return [badge("crit", "✕", "No price found")];
     if (b.in_stock) out.push(badge("good", "✓", "In stock"));
@@ -540,7 +540,8 @@ footer p { margin: 6px 0; }
     var tb = el("tbody");
     rows.forEach(function (o) {
       var url = safeUrl(o.url);
-      var isBest = p.best && o.shop === p.best.shop && o.price === p.best.price;
+      var pk = p.pick || p.best;
+      var isBest = pk && o.shop === pk.shop && o.price === pk.price;
       var src = o.source === "pricespy" ? "PriceSpy" + (o.stale ? " (last good)" : "") : o.source === "direct" ? "Shop page" : "Sweep " + (o.checked_on ? ukDate(o.checked_on) : "") + (o.stale ? " (old)" : "");
       tb.appendChild(el("tr", { cls: isBest ? "best" : null },
         el("td", null, url ? el("a", { href: url, target: "_blank", rel: "noopener", text: o.display || o.shop }) : (o.display || o.shop),
@@ -559,7 +560,7 @@ footer p { margin: 6px 0; }
   function renderParts(d) {
     var box = $("parts"); box.textContent = "";
     (d.parts || []).forEach(function (p) {
-      var b = p.best || {}, ch = p.change || {};
+      var b = p.pick || p.best || {}, ch = p.change || {};
       var url = safeUrl(b.url);
       var priceBlock = p.bought
         ? el("div", { cls: "price" }, el("div", { cls: "now", text: gbp(p.paid) }), el("div", { cls: "where", text: "paid" + (p.paid_retailer ? " · " + p.paid_retailer : "") }))
@@ -567,7 +568,8 @@ footer p { margin: 6px 0; }
             el("div", { cls: "now", text: gbp(b.price) }),
             el("div", { cls: "where", text: (b.display || "—") + (b.price != null ? (b.delivery ? " + " + gbp(b.delivery) + " delivery" : " · free delivery") : "") }),
             ch.vs_yesterday != null ? el("div", { cls: "chg " + chgClass(ch.vs_yesterday), text: signed(ch.vs_yesterday) + " vs yesterday" }) : null,
-            ch.vs_baseline != null ? el("div", { cls: "chg " + chgClass(ch.vs_baseline), text: signed(ch.vs_baseline) + " vs plan" }) : null);
+            ch.vs_baseline != null ? el("div", { cls: "chg " + chgClass(ch.vs_baseline), text: signed(ch.vs_baseline) + " vs plan" }) : null,
+            p.pick_differs && p.best ? el("div", { cls: "small muted", text: "On its own " + gbp(p.best.price) + " at " + (p.best.display || "") + "; cheaper here with shared delivery" }) : null);
       var head = el("div", { cls: "part-main" },
         el("div", null, el("div", { cls: "slot", text: p.slot }), el("div", { cls: "pname", text: p.name }), el("div", { cls: "badges" }, partBadges(p))),
         priceBlock,

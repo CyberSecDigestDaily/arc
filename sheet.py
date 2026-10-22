@@ -522,7 +522,7 @@ def build_workbook(data, hist, cfg, site):
     d_first = tot + 4
     d_last = d_first + max(len(lines), 1) - 1
     kpis = [
-        ("Parts total at today's best prices", "=C%d" % tot, totals.get("build_total"), st["kpi_v"]),
+        ("Parts total (cheapest basket, today's prices)", "=C%d" % tot, totals.get("build_total"), st["kpi_v"]),
         ("NI delivery, one order per shop (estimate)", "=SUM(E%d:E%d)" % (d_first, d_last), totals.get("delivery"), st["kpi_v"]),
         ("Total delivered", "=C4+C5", (totals.get("build_total") or 0) + (totals.get("delivery") or 0), st["kpi_v"]),
         ("Budget (incl. Windows) · edit me", None, budget, st["kpi_in"]),
@@ -543,7 +543,7 @@ def build_workbook(data, hist, cfg, site):
             b.set(r, 3, v, sty, formula=f[1:])
         else:
             b.set(r, 3, v, sty)
-    b.set(11, 1, "Parts — cheapest in-stock offer at a vetted UK shop, ranked on item + NI delivery", st["sec"])
+    b.set(11, 1, "Parts — the cheapest basket: item prices + one NI delivery per shop, vetted UK shops and Amazon Prime", st["sec"])
     b.set(11, 9, "Blue = you can edit · green = cheaper than plan · red = dearer · amber rows = Phase 1 (case + fans)", st["sub"])
 
     heads = ["Slot", "Part", "Price", "Shop", "Stock", "Plan %s" % short_date(base.get("date")), "vs plan",
@@ -555,7 +555,8 @@ def build_workbook(data, hist, cfg, site):
     for i, p in enumerate(parts):
         r = first + i
         row_of[p["id"]] = r
-        best = p.get("best") or {}
+        best = p.get("pick") or p.get("best") or {}
+        solo = p.get("best") or {}
         gift = p["id"] in phase_ids
         if p.get("bought"):
             price, shop, stock = p.get("paid"), p.get("paid_retailer") or "", "Bought %s" % short_date(p.get("bought_on"))
@@ -582,6 +583,8 @@ def build_workbook(data, hist, cfg, site):
         notes = [SIGNAL_TEXT.get(s, s) for s in p.get("signals", []) if s in SIGNAL_TEXT]
         if p.get("note"):
             notes.append(p["note"])
+        if p.get("pick_differs") and solo.get("price") is not None:
+            notes.insert(0, "On its own %s at %s; cheaper here once delivery is shared" % (gbp(solo.get("price")), solo.get("display")))
         if gift:
             notes.insert(0, "Phase 1")
         b.set(r, 11, " · ".join(notes), st["mwrap"])
@@ -608,12 +611,13 @@ def build_workbook(data, hist, cfg, site):
             b.set(tot + 3, c, h, st["hr"] if c in (4, 5) else st["h"])
         else:
             b.set(tot + 3, c, "", st["h"])
-    for i, l in enumerate(lines or [{"shop": "—", "parts": 0, "cost": 0, "basis": ""}]):
+    for i, l in enumerate(lines or [{"shop": "—", "parts": [], "cost": 0, "basis": ""}]):
         r = d_first + i
         b.set(r, 1, l.get("shop"), st["bold"])
-        names = [p["slot"] for p in parts if not p.get("bought") and (p.get("best") or {}).get("display") == l.get("shop")]
+        ids = l.get("parts") if isinstance(l.get("parts"), list) else []
+        names = [p["slot"] for p in parts if p["id"] in ids]
         b.set(r, 2, ", ".join(names), st["mwrap"])
-        items = sum((p.get("best") or {}).get("price") or 0 for p in parts if not p.get("bought") and (p.get("best") or {}).get("display") == l.get("shop"))
+        items = l.get("items") if l.get("items") is not None else 0
         b.set(r, 4, round(items, 2), st["gbp"], formula='SUMIFS(C%d:C%d,D%d:D%d,A%d,L%d:L%d,"<>Y")' % (first, last, first, last, r, first, last))
         b.set(r, 5, l.get("cost") or 0, st["gbp"])
         basis = {"verified": "Shop's published rate", "assumed": "Free / at checkout (assumed)", "estimate": "Estimate — shown at checkout",
@@ -661,7 +665,7 @@ def build_workbook(data, hist, cfg, site):
     order = sorted(shops, key=lambda k: (-len(shops[k]), k))
     m.set(1, 1, "Price at every vetted UK shop (inc VAT, before delivery)", st["title"])
     m.heights[1] = 26
-    m.set(2, 1, "Green = today's pick (cheapest in stock once NI delivery is added; amber italic = pick is out of stock everywhere vetted) · grey italic = out of stock, pre-order or stock unknown · "
+    m.set(2, 1, "Green = in the cheapest basket (each shop's NI delivery counted once; amber italic = pick is out of stock everywhere vetted) · grey italic = out of stock, pre-order or stock unknown · "
                 "blank = not sold there or not vetted · updated %s" % updated, st["sub"])
     m.width({1: 15, 2: 40})
     m.set(4, 1, "Slot", st["h"])
@@ -677,7 +681,7 @@ def build_workbook(data, hist, cfg, site):
         r = 5 + i
         m.set(r, 1, p.get("slot"), st["bold"])
         m.set(r, 2, p.get("name"), st["txt"])
-        best = p.get("best") or {}
+        best = p.get("pick") or p.get("best") or {}
         by = {}
         for o in p.get("offers", []):
             k = o.get("display") or o.get("shop")
@@ -733,7 +737,7 @@ def build_workbook(data, hist, cfg, site):
         a.set(4, c, h, st["hr"] if c in (5, 6, 7) else st["h"])
     r = 5
     for p in parts:
-        best = p.get("best") or {}
+        best = p.get("pick") or p.get("best") or {}
         for o in p.get("offers", []):
             is_best = best and o.get("shop") == best.get("shop") and o.get("price") == best.get("price")
             a.set(r, 1, p.get("slot"), st["bold"] if is_best else st["txt"])
@@ -877,10 +881,13 @@ def build_workbook(data, hist, cfg, site):
         ("Updated", updated, None),
         ("Price checks", "GitHub Actions re-reads PriceSpy UK (every UK shop's price, stock and delivery) and the shops' own pages about 4× a day "
                          "(07:07, 11:07, 15:07, 19:07 UK) and after every change to the build, then rebuilds this file.", None),
-        ("Daily sweep", "A Claude scheduled task at 07:46 UK re-verifies shops that block automated checks (Overclockers UK, Scan, Watercooling UK, "
-                        "CCL), vets new shops' NI delivery, applies your page buttons and proposes swaps.", None),
-        ("Rules", "UK shops that deliver to Northern Ireland only · new stock only (no marketplaces, used or refurbished; Amazon only when sold by "
-                  "Amazon) · best price = item + NI delivery for a single order · all-black parts · a different model is only ever a suggestion "
+        ("Amazon check", "Amazon blocks automated checks from the cloud, so a scheduled task on your computer (07:21 UK, built-in browser) "
+                         "re-reads every Amazon Prime listing with delivery set to an NI postcode and adds cheaper Prime finds. If the computer is "
+                         "off, Amazon prices age out after 3 days and the basket falls back to the next cheapest shop.", None),
+        ("Daily sweep", "A Claude scheduled task at 07:46 UK re-verifies shops that block automated checks (Scan, Watercooling UK, CCL), "
+                        "vets new shops' NI delivery, applies your page buttons and proposes swaps.", None),
+        ("Rules", "UK shops that deliver to Northern Ireland only · new stock only (no marketplaces, used or refurbished) · Amazon counts when sold "
+                  "by Amazon or dispatched by Amazon (Prime) with free NI delivery · picks = the cheapest basket (item prices + one NI delivery per shop, free-delivery thresholds applied) · all-black parts · a different model is only ever a suggestion "
                   "until you approve it, and must fit the case, match or beat the spec and save £10+.", None),
         ("Editing", "Edit the blue cells (budgets) freely; everything else is rebuilt from the live data, so download a fresh copy rather than "
                     "keeping edits here. Mark parts bought with the live page's Bought it button.", None),

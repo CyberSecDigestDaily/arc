@@ -274,7 +274,7 @@ def build_offers(item, cfg, today, prev_item, run):
     for o in item.get("offers", []):
         if o.get("url") and "/search?" not in o["url"]:
             known_url.setdefault(o.get("retailer"), o["url"])
-    offers, unvetted, notes = [], [], []
+    offers, unvetted, notes, amazon_mp = [], [], [], []
     excluded = {"marketplace": 0, "used": 0, "other_variant": 0, "untrusted_feed": 0}
     status = "no_source"
     checked = None
@@ -298,6 +298,10 @@ def build_offers(item, cfg, today, prev_item, run):
                     excluded["untrusted_feed"] += 1  # this shop's PriceSpy prices lag its site; use direct/sweep prices
                     continue
                 st = shop_status(o["shop"], cfg)
+                if o["shop"] == "Amazon Marketplace":
+                    # Third-party Amazon listing: PriceSpy can't say whether it's Prime, so it isn't ranked here,
+                    # but cheaper ones are passed to the on-computer Amazon check to verify and add.
+                    amazon_mp.append({"asin": o.get("sku"), "price": o["price"], "stock": o["stock"], "name": o["name"][:100]})
                 if st == "blocked":
                     excluded["marketplace"] += 1
                     continue
@@ -391,6 +395,10 @@ def build_offers(item, cfg, today, prev_item, run):
             continue
         seen_shops.add(o["shop"])
         shown.append(o)
+    amazon_check = sorted(
+        [a for a in amazon_mp if a["price"] is not None and stock_flag(a["stock"]) is not False
+         and (best is None or a["price"] < best["price"])],
+        key=lambda a: a["price"])[:3]
     cheaper_unvetted = sorted(
         [u for u in unvetted if u["price"] is not None and stock_flag(u["stock"]) is not False
          and (best is None or u["price"] < best["price"])],
@@ -401,6 +409,7 @@ def build_offers(item, cfg, today, prev_item, run):
         "best": slim(best),
         "offers": [slim(o) for o in shown[:OFFERS_SHOWN]],
         "unvetted": cheaper_unvetted,
+        "amazon_check": amazon_check,
         "excluded": excluded,
         "notes": notes,
     }
@@ -411,7 +420,86 @@ def slim(o):
         return None
     keys = ("shop", "display", "sku", "name", "price", "was", "delivery", "landed", "ni", "delivery_note",
             "stock", "in_stock", "source", "url", "stale", "checked_on", "note")
-    return {k: o.get(k) for k in keys if o.get(k) not in (None, "", False) or k in ("in_stock",)}
+    out = {}
+    for k in keys:
+        v = o.get(k)
+        if k == "in_stock" or (v is not None and v is not False and v != ""):
+            out[k] = v
+    return out
+
+
+def plan_basket(parts, cfg):
+    """Cheapest way to buy every unbought part: picks one offer per part so that item prices plus one NI delivery
+    charge per shop used (free over a shop's "free_over" threshold) is lowest. Tries every combination of shops that
+    charge delivery; free-delivery shops are always allowed. Returns (picks by part id, lines by shop, items, delivery)."""
+    rets = cfg["retailers"]
+    cands, fixed = {}, {}
+    for p in parts:
+        if p.get("bought"):
+            continue
+        offers = [o for o in (p.get("offers") or []) if o.get("price") is not None and o.get("landed") is not None
+                  and o.get("ni") != "no"]
+        fresh = [o for o in offers if o.get("in_stock") and not o.get("stale")]
+        pool = fresh or [o for o in offers if o.get("in_stock")]
+        if pool:
+            cands[p["id"]] = pool
+        elif p.get("best"):
+            fixed[p["id"]] = p["best"]
+
+    def fee(o):
+        return float(o.get("delivery") or 0)
+
+    fee_shops = sorted({o["shop"] for pool in cands.values() for o in pool if fee(o) > 0} |
+                       {o["shop"] for o in fixed.values() if fee(o) > 0})
+    if len(fee_shops) > 14:  # keep the search small: the 14 shops that would be picked most often stay in play
+        rank = {}
+        for pool in cands.values():
+            o = min(pool, key=lambda x: (x["landed"], x["price"]))
+            rank[o["shop"]] = rank.get(o["shop"], 0) + 1
+        fee_shops = sorted(fee_shops, key=lambda sh: -rank.get(sh, 0))[:14]
+
+    best = None
+    for mask in range(1 << len(fee_shops)):
+        allowed = {fee_shops[i] for i in range(len(fee_shops)) if mask >> i & 1}
+        picks = dict(fixed)
+        ok = True
+        for pid, pool in cands.items():
+            opts = [o for o in pool if fee(o) == 0 or o["shop"] in allowed]
+            if not opts:
+                ok = False
+                break
+            picks[pid] = min(opts, key=lambda o: (o["price"], fee(o), o["shop"]))
+        if not ok:
+            continue
+        by_shop = {}
+        for pid, o in picks.items():
+            by_shop.setdefault(o["shop"], []).append((pid, o))
+        items = sum(o["price"] for o in picks.values())
+        deliv = 0.0
+        for shop, lst in by_shop.items():
+            cost = max(fee(o) for _, o in lst)
+            fo = rets.get(shop, {}).get("free_over")
+            if fo is not None and sum(o["price"] for _, o in lst) >= fo:
+                cost = 0.0
+            deliv += cost
+        key = (round(items + deliv, 2), len(by_shop))
+        if best is None or key < best[0]:
+            best = (key, picks, by_shop, items, deliv)
+    if best is None:
+        return {}, [], 0.0, 0.0
+    _, picks, by_shop, items, deliv = best
+    lines = []
+    for shop, lst in sorted(by_shop.items(), key=lambda kv: -sum(o["price"] for _, o in kv[1])):
+        r = rets.get(shop, {})
+        sub = sum(o["price"] for _, o in lst)
+        cost = max(fee(o) for _, o in lst)
+        fo = r.get("free_over")
+        if fo is not None and sub >= fo:
+            cost = 0.0
+        lines.append({"shop": display(shop, cfg), "key": shop, "parts": [pid for pid, _ in lst], "items": money(sub),
+                      "cost": money(cost), "basis": lst[0][1].get("ni"), "note": r.get("order_note"),
+                      "extra_parcel": r.get("ni_extra")})
+    return {pid: slim(o) for pid, o in picks.items()}, lines, money(items), money(deliv)
 
 
 # ---------------------------------------------------------------- fit check
@@ -567,6 +655,7 @@ def main():
     base_date = cfg.get("baseline", {}).get("date")
 
     parts_out, events, specs = [], [], {}
+    meta = {}
     for part in cfg["parts"]:
         pid = part["id"]
         specs[pid] = part.get("spec", {})
@@ -583,16 +672,42 @@ def main():
             parts_out.append(out)
             continue
         res = build_offers(part, cfg, today, prev_parts.get(pid), run)
-        upsert_history(series, today_s, res)
         out.update(res)
-        best = res.get("best")
+        meta[pid] = (part, b, series)
+        parts_out.append(out)
+
+    # Cheapest basket across shops (one NI delivery per shop, free-over thresholds applied)
+    picks, deliv_lines, remaining, deliv = plan_basket(parts_out, cfg)
+    for out in parts_out:
+        pk = picks.get(out["id"])
+        if pk:
+            out["pick"] = pk
+            bst = out.get("best") or {}
+            out["pick_differs"] = bool(bst and (pk.get("shop") != bst.get("shop") or pk.get("price") != bst.get("price")))
+
+    def as_item(o):
+        """Pick compared on item price: its delivery is shared at basket level."""
+        if not o:
+            return None
+        c = dict(o)
+        c["landed"] = o.get("price")
+        return c
+
+    for out in parts_out:
+        if out.get("bought"):
+            continue
+        pid = out["id"]
+        part, b, series = meta[pid]
+        best = out.get("pick") or out.get("best")
+        upsert_history(series, today_s, {"best": best})
         y = yesterday_price(series, today_s)
+        prev_p = prev_parts.get(pid, {})
+        prev_ref = prev_p.get("pick") or prev_p.get("best")
         out["change"] = {
             "vs_yesterday": money(best["price"] - y) if best and y is not None else None,
             "vs_baseline": money(best["price"] - b["price"]) if best and b.get("price") is not None else None,
-            "vs_prev_run": money(best["landed"] - prev_parts[pid]["best"]["landed"])
-            if best and prev_parts.get(pid, {}).get("best") and best.get("landed") is not None
-            and prev_parts[pid]["best"].get("landed") is not None else None,
+            "vs_prev_run": money(best["price"] - prev_ref["price"])
+            if best and prev_ref and prev_ref.get("price") is not None else None,
         }
         lo = lows(series, today_s)
         out["low"] = lo
@@ -615,8 +730,7 @@ def main():
             sig.append("no_price")
         out["signals"] = sig
         out["history"] = series[-90:]
-        events += detect_events(part, res, prev_parts.get(pid), cfg, ts)
-        parts_out.append(out)
+        events += detect_events(part, {"best": as_item(best)}, {"best": as_item(prev_ref)} if prev_ref else None, cfg, ts)
 
     # Suggestions (only pending ones are checked live)
     by_id = {p["id"]: p for p in parts_out}
@@ -629,8 +743,9 @@ def main():
             upsert_history(series, today_s, res)
             o.update({k: res[k] for k in ("status_live", "best", "offers", "checked", "notes") if k in res})
             o["live"] = res["status"]
-            cur = by_id.get(sg["part"], {}).get("best")
-            o["saving"] = money(cur["landed"] - res["best"]["landed"]) if cur and res.get("best") and cur.get("landed") is not None and res["best"].get("landed") is not None else None
+            cur_p = by_id.get(sg["part"], {})
+            cur = cur_p.get("pick") or cur_p.get("best")
+            o["saving"] = money(cur["price"] - res["best"]["landed"]) if cur and res.get("best") and cur.get("price") is not None and res["best"].get("landed") is not None else None
             alt_specs = dict(specs)
             alt_specs[sg["part"]] = dict(specs.get(sg["part"], {}), **(sg.get("spec") or {}))
             checks = fit_checks(alt_specs, cfg["fit_limits"])
@@ -652,7 +767,7 @@ def main():
         res = build_offers(u, cfg, today, prev_upg.get(u["id"]), run)
         o.update({"best": res.get("best"), "offers": res.get("offers", [])[:5], "checked": res.get("checked"), "live": res["status"]})
         cur = by_id.get(u["part"], {})
-        cur_price = cur.get("paid") if cur.get("bought") else (cur.get("best") or {}).get("price")
+        cur_price = cur.get("paid") if cur.get("bought") else (cur.get("pick") or cur.get("best") or {}).get("price")
         o["extra"] = money(res["best"]["price"] - cur_price) if res.get("best") and cur_price is not None else None
         alt_specs = dict(specs)
         alt_specs[u["part"]] = dict(specs.get(u["part"], {}), **(u.get("spec") or {}))
@@ -661,43 +776,34 @@ def main():
         o["fit_problems"] = [c["check"] for c in checks if not c["ok"]]
         upg_out.append(o)
 
-    # Totals
+    # Totals: the cheapest basket (one NI delivery per shop, free-over thresholds applied)
     unbought = [p for p in parts_out if not p.get("bought")]
     paid = money(sum((p.get("paid") or 0) for p in parts_out if p.get("bought")))
-    remaining = money(sum(p["best"]["price"] for p in unbought if p.get("best")))
-    missing = [p["slot"] for p in unbought if not p.get("best")]
-    shops = {}
-    for p in unbought:
-        bst = p.get("best")
-        if bst:
-            shops.setdefault(bst["shop"], []).append(bst)
-    deliv, deliv_lines = 0.0, []
-    for shop, items in shops.items():
-        r = cfg["retailers"].get(shop, {})
-        first = items[0].get("delivery") or 0
-        extra = r.get("ni_extra")
-        cost = first  # one order per shop; checkout decides parcels
-        deliv += cost
-        deliv_lines.append({"shop": display(shop, cfg), "parts": len(items), "cost": money(cost),
-                            "basis": items[0].get("ni"), "extra_parcel": extra, "note": r.get("order_note")})
+    missing = [p["slot"] for p in unbought if not p.get("pick")]
     phase = cfg["settings"].get("phase1", {})
     p1 = [p for p in parts_out if p["id"] in phase.get("parts", [])]
-    p1_cost = money(sum((p.get("paid") if p.get("bought") else (p.get("best") or {}).get("price") or 0) for p in p1))
+
+    def cost_of(p):
+        return p.get("paid") if p.get("bought") else (p.get("pick") or p.get("best") or {}).get("price")
+
+    p1_cost = money(sum(cost_of(p) or 0 for p in p1))
+    budget = cfg["settings"].get("budget")
     totals = {
         "parts_total": len(parts_out), "parts_left": len(unbought), "paid": paid, "remaining": remaining,
-        "delivery": money(deliv), "delivery_lines": deliv_lines,
+        "delivery": deliv, "delivery_lines": deliv_lines,
         "build_total": money((paid or 0) + (remaining or 0)),
         "baseline_parts": cfg.get("baseline", {}).get("parts_total"),
         "delta_vs_baseline": money((paid or 0) + (remaining or 0) - cfg.get("baseline", {}).get("parts_total", 0))
         if cfg.get("baseline", {}).get("parts_total") else None,
         "missing": missing,
-        "budget": cfg["settings"].get("budget"),
-        "left_after_delivery": money(cfg["settings"]["budget"] - (paid or 0) - (remaining or 0) - deliv)
-        if cfg["settings"].get("budget") else None,
+        "budget": budget,
+        "left_after_delivery": money(budget - (paid or 0) - (remaining or 0) - (deliv or 0)) if budget else None,
+        "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied",
     }
     phase1 = dict(phase, cost=p1_cost, left=money(phase.get("budget", 0) - (p1_cost or 0)),
-                  items=[{"id": p["id"], "slot": p["slot"], "price": p.get("paid") if p.get("bought") else (p.get("best") or {}).get("price"),
-                          "bought": p.get("bought")} for p in p1]) if phase else None
+                  items=[{"id": p["id"], "slot": p["slot"], "price": cost_of(p), "bought": p.get("bought"),
+                          "shop": p.get("paid_retailer") if p.get("bought") else (p.get("pick") or p.get("best") or {}).get("display")}
+                         for p in p1]) if phase else None
 
     fit = fit_checks(specs, cfg["fit_limits"])
     old_events = prev.get("events", [])
@@ -716,7 +822,7 @@ def main():
         "baseline": cfg.get("baseline"),
         "settings": cfg.get("settings"),
         "fit_limits": cfg.get("fit_limits"),
-        "retailers": {k: {kk: v.get(kk) for kk in ("display", "ni", "ni_first", "ni_extra", "note", "checked_on")}
+        "retailers": {k: {kk: v.get(kk) for kk in ("display", "ni", "ni_first", "ni_extra", "free_over", "note", "checked_on")}
                       for k, v in cfg.get("retailers", {}).items()},
         "run": run,
         "totals": totals,
@@ -744,9 +850,11 @@ def main():
         ts, run["pricespy_ok"], run["pricespy_blocked"], len(run["errors"]), len(events),
         gbp(totals["build_total"]), gbp(totals["delta_vs_baseline"])))
     for p in parts_out:
-        b = p.get("best")
-        print("  %-11s %-10s %s" % (p["slot"], gbp(b["price"]) if b else "—",
-                                    "%s · %s · %s" % (b.get("display"), b.get("stock"), b.get("source")) if b else p.get("status")))
+        b = p.get("pick") or p.get("best")
+        print("  %-15s %-10s %s%s" % (p["slot"], gbp(b["price"]) if b else "—",
+                                      "%s · %s · %s" % (b.get("display"), b.get("stock"), b.get("source")) if b else p.get("status"),
+                                      "  (on its own: %s at %s)" % (gbp(p["best"]["price"]), p["best"].get("display")) if p.get("pick_differs") else ""))
+    print("  Delivery: %s · %s" % (gbp(totals["delivery"]), " · ".join("%s %s" % (l["shop"], gbp(l["cost"])) for l in deliv_lines)))
     for e in events:
         print("  EVENT", e["level"], e["text"])
     for err in run["errors"]:
