@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-22T20:33:13Z",
- "today": "2026-10-22",
+ "generated": "2026-10-23T06:25:50Z",
+ "today": "2026-10-23",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "last_sweep": "2026-10-22T06:53:09Z",
  "baseline": {
   "date": "2026-10-22",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-10-22T20:33:13Z",
+  "started": "2026-10-23T06:25:50Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-22T20:34:04Z"
+  "finished": "2026-10-23T06:26:43Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2167.84,
+  "remaining": 2166.85,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -264,24 +264,13 @@
      "cooler",
      "screen",
      "fans_bottom",
-     "fans_front"
+     "fans_front",
+     "windows"
     ],
-    "items": 151.19,
+    "items": 270.19,
     "cost": 0.0,
     "basis": "verified",
     "note": "Prime, free delivery",
-    "extra_parcel": null
-   },
-   {
-    "shop": "Microsoft Store",
-    "key": "Microsoft Store",
-    "parts": [
-     "windows"
-    ],
-    "items": 119.99,
-    "cost": 0.0,
-    "basis": "verified",
-    "note": "Digital download",
     "extra_parcel": null
    },
    {
@@ -297,12 +286,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2167.84,
+  "build_total": 2166.85,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": -23.68,
+  "delta_vs_baseline": -24.67,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -2.83,
+  "left_after_delivery": -1.84,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -365,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:14Z",
+   "checked": "2026-10-23T06:25:51Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -506,15 +495,27 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 205.99,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     205.99,
+     205.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-23",
      205.99,
      205.99,
      1,
@@ -549,7 +550,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:18Z",
+   "checked": "2026-10-23T06:25:55Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -564,8 +565,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-22",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
     {
@@ -582,8 +583,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-     "checked_on": "2026-10-22",
-     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode, in stock"
+     "checked_on": "2026-10-23",
+     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
      "shop": "Computer Orbit",
@@ -624,20 +625,32 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-22",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 77.9,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK (Prime)",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     77.9,
+     77.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-23",
      77.9,
      77.9,
      1,
@@ -673,7 +686,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:20Z",
+   "checked": "2026-10-23T06:25:57Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -798,15 +811,27 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 169.99,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-23",
      169.99,
      169.99,
      1,
@@ -838,7 +863,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:24Z",
+   "checked": "2026-10-23T06:26:02Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -913,15 +938,27 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.96,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 399.95,
+    "date": "2026-10-22",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-23",
      399.95,
      419.94,
      1,
@@ -954,7 +991,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:28Z",
+   "checked": "2026-10-23T06:26:07Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1038,7 +1075,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 5,
+    "marketplace": 4,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1061,15 +1098,27 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 749.99,
+    "date": "2026-10-22",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     749.99,
+     769.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-23",
      749.99,
      769.98,
      1,
@@ -1100,7 +1149,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:32Z",
+   "checked": "2026-10-23T06:26:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1169,7 +1218,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 6,
+    "marketplace": 7,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -1193,15 +1242,27 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 199.99,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-23",
      199.99,
      199.99,
      1,
@@ -1232,7 +1293,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:37Z",
+   "checked": "2026-10-23T06:26:15Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1373,17 +1434,29 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -9.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 89.99,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK",
+    "days": 2
+   },
    "signals": [
     "below_sheet"
    ],
    "history": [
     [
      "2026-10-22",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-23",
      89.99,
      89.99,
      1,
@@ -1412,7 +1485,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-22T20:33:41Z",
+   "checked": "2026-10-23T06:26:20Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1489,17 +1562,29 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 79.91,
+    "date": "2026-10-22",
+    "retailer": "Watercooling UK",
+    "days": 2
+   },
    "signals": [
     "ni_check"
    ],
    "history": [
     [
      "2026-10-22",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
+    ],
+    [
+     "2026-10-23",
      79.91,
      94.91,
      1,
@@ -1530,7 +1615,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:42Z",
+   "checked": "2026-10-23T06:26:21Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1545,8 +1630,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-22",
-    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
     {
@@ -1563,8 +1648,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-     "checked_on": "2026-10-22",
-     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+     "checked_on": "2026-10-23",
+     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
      "shop": "Computer Orbit",
@@ -1605,20 +1690,32 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-22",
-    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": 0.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 36.9,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK (Prime)",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
      "2026-10-22",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-23",
      36.9,
      36.9,
      1,
@@ -1651,7 +1748,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-22T20:33:43Z",
+   "checked": "2026-10-23T06:26:22Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1666,8 +1763,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-22",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
     {
@@ -1684,8 +1781,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-     "checked_on": "2026-10-22",
-     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+     "checked_on": "2026-10-23",
+     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
      "shop": "Computer Orbit",
@@ -1726,22 +1823,34 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-22",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -6.0,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 17.9,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK (Prime)",
+    "days": 2
+   },
    "signals": [
     "below_sheet"
    ],
    "history": [
     [
      "2026-10-22",
+     17.9,
+     17.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-23",
      17.9,
      17.9,
      1,
@@ -1774,7 +1883,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-22T20:33:45Z",
+   "checked": "2026-10-23T06:26:23Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1789,8 +1898,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-22",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
     {
@@ -1807,8 +1916,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-     "checked_on": "2026-10-22",
-     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+     "checked_on": "2026-10-23",
+     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
      "shop": "Computer Orbit",
@@ -1849,22 +1958,34 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-22",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -3.5,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 18.49,
+    "date": "2026-10-22",
+    "retailer": "Amazon UK (Prime)",
+    "days": 2
+   },
    "signals": [
     "below_sheet"
    ],
    "history": [
     [
      "2026-10-22",
+     18.49,
+     18.49,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-23",
      18.49,
      18.49,
      1,
@@ -1893,7 +2014,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:46Z",
+   "checked": "2026-10-23T06:26:25Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1908,8 +2029,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "checked_on": "2026-10-22",
-    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "checked_on": "2026-10-23",
+    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
     {
@@ -1926,8 +2047,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-     "checked_on": "2026-10-22",
-     "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode, in stock"
+     "checked_on": "2026-10-23",
+     "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
      "shop": "Overclockers",
@@ -1971,17 +2092,29 @@
    },
    "pick_differs": true,
    "change": {
-    "vs_yesterday": null,
+    "vs_yesterday": 0.0,
     "vs_baseline": -6.14,
     "vs_prev_run": 0.0
    },
-   "low": null,
+   "low": {
+    "price": 0.85,
+    "date": "2026-10-22",
+    "retailer": "Overclockers UK",
+    "days": 2
+   },
    "signals": [
     "below_sheet"
    ],
    "history": [
     [
      "2026-10-22",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-23",
      0.85,
      20.84,
      1,
@@ -2009,24 +2142,42 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-22T20:33:48Z",
+   "checked": "2026-10-23T06:26:27Z",
    "best": {
-    "shop": "Microsoft Store",
-    "display": "Microsoft Store",
+    "shop": "Amazon Prime",
+    "display": "Amazon UK (Prime)",
+    "sku": "B0BDS1VVPX",
     "name": "Windows 11 Home (full licence)",
-    "price": 119.99,
+    "price": 119.0,
     "delivery": 0.0,
-    "landed": 119.99,
+    "landed": 119.0,
     "ni": "verified",
-    "delivery_note": "Digital licence (download), nothing to deliver.",
+    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
     "stock": "InStock",
     "in_stock": true,
     "source": "verified",
-    "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-10-22",
-    "note": "22 Oct check: £119.99 digital licence"
+    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+    "checked_on": "2026-10-23",
+    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "offers": [
+    {
+     "shop": "Amazon Prime",
+     "display": "Amazon UK (Prime)",
+     "sku": "B0BDS1VVPX",
+     "name": "Windows 11 Home (full licence)",
+     "price": 119.0,
+     "delivery": 0.0,
+     "landed": 119.0,
+     "ni": "verified",
+     "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+     "checked_on": "2026-10-23",
+     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
+    },
     {
      "shop": "Microsoft Store",
      "display": "Microsoft Store",
@@ -2086,28 +2237,34 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Microsoft Store",
-    "display": "Microsoft Store",
+    "shop": "Amazon Prime",
+    "display": "Amazon UK (Prime)",
+    "sku": "B0BDS1VVPX",
     "name": "Windows 11 Home (full licence)",
-    "price": 119.99,
+    "price": 119.0,
     "delivery": 0.0,
-    "landed": 119.99,
+    "landed": 119.0,
     "ni": "verified",
-    "delivery_note": "Digital licence (download), nothing to deliver.",
+    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
     "stock": "InStock",
     "in_stock": true,
     "source": "verified",
-    "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-10-22",
-    "note": "22 Oct check: £119.99 digital licence"
+    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+    "checked_on": "2026-10-23",
+    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": null,
-    "vs_baseline": 0.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -0.99,
+    "vs_baseline": -0.99,
+    "vs_prev_run": -0.99
    },
-   "low": null,
+   "low": {
+    "price": 119.99,
+    "date": "2026-10-22",
+    "retailer": "Microsoft Store",
+    "days": 2
+   },
    "signals": [],
    "history": [
     [
@@ -2116,6 +2273,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-10-23",
+     119.0,
+     119.0,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   }
@@ -2212,7 +2376,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-22T20:33:50Z",
+   "checked": "2026-10-23T06:26:30Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2293,7 +2457,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-22T20:33:55Z",
+   "checked": "2026-10-23T06:26:34Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2347,7 +2511,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-22T20:33:58Z",
+   "checked": "2026-10-23T06:26:38Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2428,7 +2592,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-22T20:34:00Z",
+   "checked": "2026-10-23T06:26:40Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -2654,11 +2818,15 @@
   {
    "date": "2026-10-22",
    "text": "Amazon Prime added: third-party items dispatched by Amazon with free NI delivery now count. Cooler, front screen and both fan packs moved to Amazon Prime (−£6.81 and the screen is in stock). Totals now use the cheapest basket across shops."
+  },
+  {
+   "date": "2026-10-23",
+   "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-22T20:34:04Z"
+  "built": "2026-10-23T06:26:43Z"
  }
 }
