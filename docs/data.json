@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T11:28:33Z",
+ "generated": "2026-10-23T18:14:34Z",
  "today": "2026-10-23",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-23T11:28:33Z",
+  "started": "2026-10-23T18:14:34Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-23T11:29:28Z"
+  "finished": "2026-10-23T18:15:29Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:34Z",
+   "checked": "2026-10-23T18:14:35Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -550,7 +550,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:38Z",
+   "checked": "2026-10-23T18:14:40Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -686,7 +686,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:40Z",
+   "checked": "2026-10-23T18:14:42Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -863,7 +863,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:45Z",
+   "checked": "2026-10-23T18:14:47Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -991,7 +991,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:50Z",
+   "checked": "2026-10-23T18:14:52Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1149,7 +1149,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:54Z",
+   "checked": "2026-10-23T18:14:56Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1218,7 +1218,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -1293,7 +1293,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:28:58Z",
+   "checked": "2026-10-23T18:15:01Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1410,9 +1410,9 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 13,
+    "marketplace": 14,
     "used": 0,
-    "other_variant": 9,
+    "other_variant": 10,
     "untrusted_feed": 2
    },
    "notes": [],
@@ -1485,7 +1485,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-23T11:29:03Z",
+   "checked": "2026-10-23T18:15:05Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1615,7 +1615,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:29:04Z",
+   "checked": "2026-10-23T18:15:06Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1748,7 +1748,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-23T11:29:05Z",
+   "checked": "2026-10-23T18:15:08Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1883,7 +1883,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-23T11:29:06Z",
+   "checked": "2026-10-23T18:15:09Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2014,7 +2014,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:29:08Z",
+   "checked": "2026-10-23T18:15:10Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2142,7 +2142,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-23T11:29:10Z",
+   "checked": "2026-10-23T18:15:12Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2230,7 +2230,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 9,
+    "marketplace": 11,
     "used": 0,
     "other_variant": 4,
     "untrusted_feed": 1
@@ -2376,7 +2376,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-23T11:29:13Z",
+   "checked": "2026-10-23T18:15:15Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2457,7 +2457,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-23T11:29:18Z",
+   "checked": "2026-10-23T18:15:20Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2511,7 +2511,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-23T11:29:22Z",
+   "checked": "2026-10-23T18:15:24Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2592,7 +2592,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-23T11:29:24Z",
+   "checked": "2026-10-23T18:15:25Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -2835,6 +2835,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-23T11:29:28Z"
+  "built": "2026-10-23T18:15:29Z"
  }
 }
