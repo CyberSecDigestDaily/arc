@@ -4,7 +4,7 @@
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "last_sweep": "2026-10-22T06:53:09Z",
  "baseline": {
   "date": "2026-10-22",
@@ -848,6 +848,12 @@
      "retailer": "Microsoft Store",
      "check": "manual",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0"
+    },
+    {
+     "retailer": "Amazon Prime",
+     "sku": "B0BDS1VVPX",
+     "check": "manual",
+     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX"
     }
    ],
    "baseline": {
@@ -1098,9 +1104,9 @@
     "sku": "B0DJZC1C3J",
     "price": 77.9,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    }
   ],
   "screen": [
@@ -1117,9 +1123,9 @@
     "sku": "B0G7J2Y686",
     "price": 36.9,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    }
   ],
   "fans_bottom": [
@@ -1136,18 +1142,18 @@
     "sku": "B0FNLNZP9Z",
     "price": 17.9,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    {
     "retailer": "Amazon Prime",
     "sku": "B0F6NDF54X",
     "price": 23.9,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B0F6NDF54X",
-    "note": "TL-M12QR X3 reverse, black; sold by IHTP, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "TL-M12QR X3 reverse, black; sold by IHTP, dispatched by Amazon; free delivery to a BT postcode"
    }
   ],
   "fans_front": [
@@ -1164,9 +1170,9 @@
     "sku": "B0FNLNT7Q5",
     "price": 18.49,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    }
   ],
   "splitter": [
@@ -1183,9 +1189,9 @@
     "sku": "B09N938PP4",
     "price": 6.99,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode, in stock"
+    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
    }
   ],
   "windows": [
@@ -1196,6 +1202,15 @@
     "checked_on": "2026-10-22",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
     "note": "22 Oct check: £119.99 digital licence"
+   },
+   {
+    "retailer": "Amazon Prime",
+    "sku": "B0BDS1VVPX",
+    "price": 119.0,
+    "in_stock": true,
+    "checked_on": "2026-10-23",
+    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    }
   ],
   "u1": [
@@ -1318,6 +1333,21 @@
   {
    "date": "2026-10-22",
    "text": "Amazon Prime added: third-party items dispatched by Amazon with free NI delivery now count. Cooler, front screen and both fan packs moved to Amazon Prime (−£6.81 and the screen is in stock). Totals now use the cheapest basket across shops."
+  },
+  {
+   "date": "2026-10-23",
+   "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
+  }
+ ],
+ "amazon_leads": [
+  {
+   "part": "gpu",
+   "asin": "B0DSG52H7D",
+   "name": "ASUS Prime Radeon RX 9070 XT OC 16GB",
+   "price": 749.99,
+   "seller": "Amazon (sold and shipped by Amazon)",
+   "checked_on": "2026-10-23",
+   "why": "Same RX 9070 XT chip; £749.99 with free delivery to a BT postcode vs the Reaper's £769.98 landed at Overclockers UK (about £20 less). Needs the fit check (length/thickness vs bottom fans)."
   }
  ]
 }
