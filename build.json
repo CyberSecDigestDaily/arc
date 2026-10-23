@@ -5,7 +5,7 @@
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
  "updated": "2026-10-23",
- "last_sweep": "2026-10-22T06:53:09Z",
+ "last_sweep": "2026-10-23T06:50:27Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -1077,7 +1077,7 @@
     "retailer": "Watercooling UK",
     "price": 79.91,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-23",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
     "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), 10+ in stock"
    },
@@ -1337,17 +1337,15 @@
   {
    "date": "2026-10-23",
    "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
+  },
+  {
+   "date": "2026-10-23",
+   "text": "Sweep: Watercooling UK D33 black re-checked at £79.91, in stock. ASUS Prime RX 9070 XT OC lead (£749.99 at Amazon) not suggested: same price as the Reaper and the RAM still needs the Overclockers UK order, so it saves nothing."
+  },
+  {
+   "date": "2026-10-23",
+   "text": "No new swap ideas: cheaper RX 9070 XT listings (XFX Quicksilver/Mercury, Acer Nitro, ASRock MH Wilds) are only at unlinked, marketplace or ignored-feed shops. Build £2,166.85, £1.84 over the £2,200 budget after delivery."
   }
  ],
- "amazon_leads": [
-  {
-   "part": "gpu",
-   "asin": "B0DSG52H7D",
-   "name": "ASUS Prime Radeon RX 9070 XT OC 16GB",
-   "price": 749.99,
-   "seller": "Amazon (sold and shipped by Amazon)",
-   "checked_on": "2026-10-23",
-   "why": "Same RX 9070 XT chip; £749.99 with free delivery to a BT postcode vs the Reaper's £769.98 landed at Overclockers UK (about £20 less). Needs the fit check (length/thickness vs bottom fans)."
-  }
- ]
+ "amazon_leads": []
 }
