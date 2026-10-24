@@ -5,7 +5,7 @@
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
  "updated": "2026-10-24",
- "last_sweep": "2026-10-23T06:50:27Z",
+ "last_sweep": "2026-10-24T06:50:15Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -1077,9 +1077,9 @@
     "retailer": "Watercooling UK",
     "price": 79.91,
     "in_stock": true,
-    "checked_on": "2026-10-23",
+    "checked_on": "2026-10-24",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), 10+ in stock"
+    "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), black tempered glass, in stock"
    },
    {
     "retailer": "Overclockers",
@@ -1095,9 +1095,9 @@
     "retailer": "Computer Orbit",
     "price": 85.0,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-24",
     "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-    "note": "Shopify product data: £85.00, available"
+    "note": "Product page: £85.00 (was £99), black, in stock"
    },
    {
     "retailer": "Amazon Prime",
@@ -1114,9 +1114,9 @@
     "retailer": "Computer Orbit",
     "price": 35.0,
     "in_stock": false,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-24",
     "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-    "note": "Shopify product data: £35.00, unavailable (restock watch)"
+    "note": "Product page: £35.00, out of stock (restock watch)"
    },
    {
     "retailer": "Amazon Prime",
@@ -1133,9 +1133,9 @@
     "retailer": "Computer Orbit",
     "price": 19.0,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-24",
     "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-    "note": "Shopify product data: £19.00, available"
+    "note": "Product page: £19.00, black reverse triple pack, in stock"
    },
    {
     "retailer": "Amazon Prime",
@@ -1161,9 +1161,9 @@
     "retailer": "Computer Orbit",
     "price": 19.0,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-24",
     "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-    "note": "Shopify product data: £19.00, available"
+    "note": "Product page: £19.00, black triple pack, in stock"
    },
    {
     "retailer": "Amazon Prime",
@@ -1199,9 +1199,9 @@
     "retailer": "Microsoft Store",
     "price": 119.99,
     "in_stock": true,
-    "checked_on": "2026-10-22",
+    "checked_on": "2026-10-24",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "note": "22 Oct check: £119.99 digital licence"
+    "note": "Product page: £119.99 digital download"
    },
    {
     "retailer": "Amazon Prime",
@@ -1349,6 +1349,14 @@
   {
    "date": "2026-10-24",
    "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (D33 not on Amazon UK; £699.99 PowerColor Reaper is the non-XT RX 9070)."
+  },
+  {
+   "date": "2026-10-24",
+   "text": "Sweep: case (Watercooling UK £79.91), Computer Orbit cooler/fans/screen and Microsoft Store Windows re-checked, prices unchanged; Computer Orbit screen still out of stock."
+  },
+  {
+   "date": "2026-10-24",
+   "text": "No new swap ideas: cheaper RX 9070 XT cards (XFX Swift/Quicksilver, ASRock Taichi) are only on Amazon Marketplace or eBay; no black DDR5-6000 CL28 kit under £399.95. Build £2,166.85, £1.84 over budget after delivery."
   }
  ],
  "amazon_leads": []
