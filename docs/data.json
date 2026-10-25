@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T07:53:33Z",
+ "generated": "2026-10-25T11:13:38Z",
  "today": "2026-10-25",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-25T07:53:33Z",
+  "started": "2026-10-25T11:13:38Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-25T07:54:21Z"
+  "finished": "2026-10-25T11:14:29Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:34Z",
+   "checked": "2026-10-25T11:13:39Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -564,7 +564,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:37Z",
+   "checked": "2026-10-25T11:13:43Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -714,7 +714,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:39Z",
+   "checked": "2026-10-25T11:13:44Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -905,7 +905,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:43Z",
+   "checked": "2026-10-25T11:13:49Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1047,7 +1047,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:48Z",
+   "checked": "2026-10-25T11:13:54Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1126,6 +1126,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/B23-6AB-D21?client_id=1551"
+    },
+    {
+     "shop": "Argos",
+     "display": "Argos",
+     "sku": "7740813",
+     "name": "PowerColor Reaper AMD Radeon RX 9070 XT 16GB Graphics Card",
+     "price": 1044.99,
+     "was": 1044.99,
+     "delivery": 0.0,
+     "landed": 1044.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.argos.co.uk/product/7740813"
     }
    ],
    "unvetted": [],
@@ -1219,7 +1235,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:52Z",
+   "checked": "2026-10-25T11:13:58Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1377,7 +1393,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:53:56Z",
+   "checked": "2026-10-25T11:14:02Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1583,7 +1599,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:53:59Z",
+   "checked": "2026-10-25T11:14:06Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1727,7 +1743,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:54:01Z",
+   "checked": "2026-10-25T11:14:07Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1874,7 +1890,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:54:02Z",
+   "checked": "2026-10-25T11:14:08Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2023,7 +2039,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:54:03Z",
+   "checked": "2026-10-25T11:14:10Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2168,7 +2184,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:54:04Z",
+   "checked": "2026-10-25T11:14:11Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2310,7 +2326,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:54:06Z",
+   "checked": "2026-10-25T11:14:13Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2558,7 +2574,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T07:54:09Z",
+   "checked": "2026-10-25T11:14:16Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2639,7 +2655,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-25T07:54:13Z",
+   "checked": "2026-10-25T11:14:20Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2693,7 +2709,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-25T07:54:16Z",
+   "checked": "2026-10-25T11:14:24Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2774,7 +2790,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T07:54:18Z",
+   "checked": "2026-10-25T11:14:26Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -3041,6 +3057,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-25T07:54:21Z"
+  "built": "2026-10-25T11:14:29Z"
  }
 }
