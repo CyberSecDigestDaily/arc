@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-24T20:38:27Z",
- "today": "2026-10-24",
+ "generated": "2026-10-25T07:23:54Z",
+ "today": "2026-10-25",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "last_sweep": "2026-10-24T06:50:15Z",
  "baseline": {
   "date": "2026-10-22",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-24T20:38:27Z",
+  "started": "2026-10-25T07:23:54Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-24T20:39:15Z"
+  "finished": "2026-10-25T07:24:46Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:28Z",
+   "checked": "2026-10-25T07:23:55Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -503,7 +503,7 @@
     "price": 205.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -523,6 +523,13 @@
     ],
     [
      "2026-10-24",
+     205.99,
+     205.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-25",
      205.99,
      205.99,
      1,
@@ -557,7 +564,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:32Z",
+   "checked": "2026-10-25T07:23:59Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -572,7 +579,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -590,7 +597,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -632,7 +639,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -645,7 +652,7 @@
     "price": 77.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -665,6 +672,13 @@
     ],
     [
      "2026-10-24",
+     77.9,
+     77.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-25",
      77.9,
      77.9,
      1,
@@ -700,7 +714,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:33Z",
+   "checked": "2026-10-25T07:24:00Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -801,7 +815,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 15,
+    "marketplace": 16,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -833,7 +847,7 @@
     "price": 169.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -853,6 +867,13 @@
     ],
     [
      "2026-10-24",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-25",
      169.99,
      169.99,
      1,
@@ -884,7 +905,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:37Z",
+   "checked": "2026-10-25T07:24:05Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -967,7 +988,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -987,6 +1008,13 @@
     ],
     [
      "2026-10-24",
+     399.95,
+     419.94,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-25",
      399.95,
      419.94,
      1,
@@ -1019,7 +1047,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:41Z",
+   "checked": "2026-10-25T07:24:10Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1134,7 +1162,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -1154,6 +1182,13 @@
     ],
     [
      "2026-10-24",
+     749.99,
+     769.98,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-25",
      749.99,
      769.98,
      1,
@@ -1184,7 +1219,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:45Z",
+   "checked": "2026-10-25T07:24:14Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1285,7 +1320,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -1305,6 +1340,13 @@
     ],
     [
      "2026-10-24",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-25",
      199.99,
      199.99,
      1,
@@ -1335,7 +1377,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:49Z",
+   "checked": "2026-10-25T07:24:18Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1484,7 +1526,7 @@
     "price": 89.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 3
+    "days": 4
    },
    "signals": [
     "below_sheet"
@@ -1506,6 +1548,13 @@
     ],
     [
      "2026-10-24",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-25",
      89.99,
      89.99,
      1,
@@ -1534,7 +1583,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-24T20:38:53Z",
+   "checked": "2026-10-25T07:24:23Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1619,7 +1668,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 3
+    "days": 4
    },
    "signals": [
     "ni_check"
@@ -1641,6 +1690,13 @@
     ],
     [
      "2026-10-24",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
+    ],
+    [
+     "2026-10-25",
      79.91,
      94.91,
      1,
@@ -1671,7 +1727,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:54Z",
+   "checked": "2026-10-25T07:24:24Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1686,7 +1742,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -1704,7 +1760,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -1746,7 +1802,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -1759,7 +1815,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -1779,6 +1835,13 @@
     ],
     [
      "2026-10-24",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-25",
      36.9,
      36.9,
      1,
@@ -1811,7 +1874,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-24T20:38:55Z",
+   "checked": "2026-10-25T07:24:25Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1826,7 +1889,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -1844,7 +1907,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -1886,7 +1949,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -1899,7 +1962,7 @@
     "price": 17.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 3
+    "days": 4
    },
    "signals": [
     "below_sheet"
@@ -1921,6 +1984,13 @@
     ],
     [
      "2026-10-24",
+     17.9,
+     17.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-25",
      17.9,
      17.9,
      1,
@@ -1953,7 +2023,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-24T20:38:57Z",
+   "checked": "2026-10-25T07:24:26Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1968,7 +2038,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -1986,7 +2056,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -2028,7 +2098,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -2041,7 +2111,7 @@
     "price": 18.49,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 3
+    "days": 4
    },
    "signals": [
     "below_sheet"
@@ -2063,6 +2133,13 @@
     ],
     [
      "2026-10-24",
+     18.49,
+     18.49,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-25",
      18.49,
      18.49,
      1,
@@ -2091,7 +2168,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:38:58Z",
+   "checked": "2026-10-25T07:24:28Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2106,7 +2183,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -2124,7 +2201,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -2177,7 +2254,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 3
+    "days": 4
    },
    "signals": [
     "below_sheet"
@@ -2199,6 +2276,13 @@
     ],
     [
      "2026-10-24",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
+    ],
+    [
+     "2026-10-25",
      0.85,
      20.84,
      1,
@@ -2226,7 +2310,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-24T20:39:00Z",
+   "checked": "2026-10-25T07:24:29Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2241,7 +2325,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "offers": [
@@ -2259,7 +2343,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-25",
      "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
     },
     {
@@ -2334,7 +2418,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-24",
+    "checked_on": "2026-10-25",
     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "pick_differs": false,
@@ -2347,7 +2431,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 3
+    "days": 4
    },
    "signals": [],
    "history": [
@@ -2367,6 +2451,13 @@
     ],
     [
      "2026-10-24",
+     119.0,
+     119.0,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-25",
      119.0,
      119.0,
      1,
@@ -2467,7 +2558,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-24T20:39:02Z",
+   "checked": "2026-10-25T07:24:32Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2548,7 +2639,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-24T20:39:06Z",
+   "checked": "2026-10-25T07:24:37Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2602,7 +2693,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-24T20:39:09Z",
+   "checked": "2026-10-25T07:24:40Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2683,7 +2774,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-24T20:39:11Z",
+   "checked": "2026-10-25T07:24:42Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -2933,11 +3024,15 @@
   {
    "date": "2026-10-24",
    "text": "No new swap ideas: cheaper RX 9070 XT cards (XFX Swift/Quicksilver, ASRock Taichi) are only on Amazon Marketplace or eBay; no black DDR5-6000 CL28 kit under £399.95. Build £2,166.85, £1.84 over budget after delivery."
+  },
+  {
+   "date": "2026-10-25",
+   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (Reaper RX 9070 XT has no Amazon offer; £699.99 Reaper is the non-XT RX 9070; D33 not on Amazon UK)."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-24T20:39:15Z"
+  "built": "2026-10-25T07:24:46Z"
  }
 }
