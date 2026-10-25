@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T07:23:54Z",
+ "generated": "2026-10-25T07:53:33Z",
  "today": "2026-10-25",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
  "updated": "2026-10-25",
- "last_sweep": "2026-10-24T06:50:15Z",
+ "last_sweep": "2026-10-25T07:50:22Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-25T07:23:54Z",
+  "started": "2026-10-25T07:53:33Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-25T07:24:46Z"
+  "finished": "2026-10-25T07:54:21Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:23:55Z",
+   "checked": "2026-10-25T07:53:34Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -564,7 +564,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:23:59Z",
+   "checked": "2026-10-25T07:53:37Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -714,7 +714,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:00Z",
+   "checked": "2026-10-25T07:53:39Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -905,7 +905,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:05Z",
+   "checked": "2026-10-25T07:53:43Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -950,8 +950,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-     "checked_on": "2026-10-22",
-     "note": "Sweep 22 Oct: £489, black CL28 (KD5AGU880-60B280L)"
+     "checked_on": "2026-10-25",
+     "note": "£489.00 confirmed; stock not shown online (store/postcode check only)"
     }
    ],
    "unvetted": [],
@@ -1047,7 +1047,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:10Z",
+   "checked": "2026-10-25T07:53:48Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1219,7 +1219,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:14Z",
+   "checked": "2026-10-25T07:53:52Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1377,7 +1377,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:18Z",
+   "checked": "2026-10-25T07:53:56Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1583,7 +1583,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:24:23Z",
+   "checked": "2026-10-25T07:53:59Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1597,8 +1597,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "checked_on": "2026-10-24",
-    "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), black tempered glass, in stock"
+    "checked_on": "2026-10-25",
+    "note": "£79.91 inc VAT (£66.59 ex VAT), in stock"
    },
    "offers": [
     {
@@ -1614,8 +1614,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-     "checked_on": "2026-10-24",
-     "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), black tempered glass, in stock"
+     "checked_on": "2026-10-25",
+     "note": "£79.91 inc VAT (£66.59 ex VAT), in stock"
     },
     {
      "shop": "Overclockers",
@@ -1655,8 +1655,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "checked_on": "2026-10-24",
-    "note": "Product page: £79.91 inc VAT (£66.59 ex VAT), black tempered glass, in stock"
+    "checked_on": "2026-10-25",
+    "note": "£79.91 inc VAT (£66.59 ex VAT), in stock"
    },
    "pick_differs": false,
    "change": {
@@ -1727,7 +1727,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:24Z",
+   "checked": "2026-10-25T07:54:01Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1874,7 +1874,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:24:25Z",
+   "checked": "2026-10-25T07:54:02Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2023,7 +2023,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T07:24:26Z",
+   "checked": "2026-10-25T07:54:03Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2168,7 +2168,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:28Z",
+   "checked": "2026-10-25T07:54:04Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2310,7 +2310,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T07:24:29Z",
+   "checked": "2026-10-25T07:54:06Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2558,7 +2558,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T07:24:32Z",
+   "checked": "2026-10-25T07:54:09Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2639,7 +2639,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-25T07:24:37Z",
+   "checked": "2026-10-25T07:54:13Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2693,7 +2693,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-25T07:24:40Z",
+   "checked": "2026-10-25T07:54:16Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2774,7 +2774,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T07:24:42Z",
+   "checked": "2026-10-25T07:54:18Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -3028,11 +3028,19 @@
   {
    "date": "2026-10-25",
    "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (Reaper RX 9070 XT has no Amazon offer; £699.99 Reaper is the non-XT RX 9070; D33 not on Amazon UK)."
+  },
+  {
+   "date": "2026-10-25",
+   "text": "Sweep: health OK (PriceSpy 10/10, no errors). Overclockers backup prices refreshed from today's page reads (SSD £209.99, out of stock); Watercooling UK case still £79.91 in stock; Currys RAM still £489."
+  },
+  {
+   "date": "2026-10-25",
+   "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-25T07:24:46Z"
+  "built": "2026-10-25T07:54:21Z"
  }
 }
