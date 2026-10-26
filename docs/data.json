@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T12:46:53Z",
+ "generated": "2026-10-26T19:51:19Z",
  "today": "2026-10-26",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-26T12:46:53Z",
+  "started": "2026-10-26T19:51:19Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-26T12:47:44Z"
+  "finished": "2026-10-26T19:52:10Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:46:54Z",
+   "checked": "2026-10-26T19:51:20Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -471,7 +471,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -571,7 +571,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:46:58Z",
+   "checked": "2026-10-26T19:51:24Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -728,7 +728,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:46:59Z",
+   "checked": "2026-10-26T19:51:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -926,7 +926,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:04Z",
+   "checked": "2026-10-26T19:51:30Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1076,7 +1076,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:08Z",
+   "checked": "2026-10-26T19:51:34Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1141,22 +1141,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSJ?client_id=1551"
     },
     {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "B23-6AB-D21",
-     "name": "PowerColor RX 9070 XT OC 16GB Reaper GDDR6 Graphics Card - RX9070XT 16G-A",
-     "price": 1010.95,
-     "was": 1010.95,
-     "delivery": 15.0,
-     "landed": 1025.95,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/B23-6AB-D21?client_id=1551"
-    },
-    {
      "shop": "Argos",
      "display": "Argos",
      "sku": "7740813",
@@ -1171,6 +1155,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://www.argos.co.uk/product/7740813"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "B23-6AB-D21",
+     "name": "PowerColor RX 9070 XT OC 16GB Reaper GDDR6 Graphics Card - RX9070XT 16G-A",
+     "price": 1157.95,
+     "was": 1157.95,
+     "delivery": 15.0,
+     "landed": 1172.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/B23-6AB-D21?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -1201,7 +1201,7 @@
    "change": {
     "vs_yesterday": 50.0,
     "vs_baseline": 50.0,
-    "vs_prev_run": 50.0
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 749.99,
@@ -1271,7 +1271,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:12Z",
+   "checked": "2026-10-26T19:51:39Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1436,7 +1436,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:16Z",
+   "checked": "2026-10-26T19:51:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1649,7 +1649,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T12:47:20Z",
+   "checked": "2026-10-26T19:51:47Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1800,7 +1800,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:22Z",
+   "checked": "2026-10-26T19:51:49Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1954,7 +1954,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T12:47:23Z",
+   "checked": "2026-10-26T19:51:50Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2110,7 +2110,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T12:47:24Z",
+   "checked": "2026-10-26T19:51:51Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2262,7 +2262,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:26Z",
+   "checked": "2026-10-26T19:51:53Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2411,7 +2411,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T12:47:28Z",
+   "checked": "2026-10-26T19:51:54Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2666,7 +2666,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-26T12:47:30Z",
+   "checked": "2026-10-26T19:51:57Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2716,22 +2716,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
     },
     {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "85A-80F-F7A",
-     "name": "Western Digital Black SN7100 2TB M.2 NVMe PCI-E Gen4 Solid State Drive - Read 7250 MB/s, Write 6900 MB/s - WDS200T4X0E-00CJA0",
-     "price": 289.0,
-     "was": 289.0,
-     "delivery": 15.0,
-     "landed": 304.0,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
-    },
-    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-04135",
@@ -2745,9 +2729,25 @@
      "in_stock": true,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "85A-80F-F7A",
+     "name": "Western Digital Black SN7100 2TB M.2 NVMe PCI-E Gen4 Solid State Drive - Read 7250 MB/s, Write 6900 MB/s - WDS200T4X0E-00CJA0",
+     "price": 297.99,
+     "was": 297.99,
+     "delivery": 15.0,
+     "landed": 312.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-26T12:47:35Z",
+   "checked": "2026-10-26T19:52:02Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2801,7 +2801,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-26T12:47:39Z",
+   "checked": "2026-10-26T19:52:05Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2882,7 +2882,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-26T12:47:40Z",
+   "checked": "2026-10-26T19:52:07Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3175,6 +3175,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-26T12:47:44Z"
+  "built": "2026-10-26T19:52:10Z"
  }
 }
