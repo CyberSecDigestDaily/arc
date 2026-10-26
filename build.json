@@ -4,7 +4,7 @@
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "last_sweep": "2026-10-25T07:50:22Z",
  "baseline": {
   "date": "2026-10-22",
@@ -1110,7 +1110,7 @@
     "sku": "B0DJZC1C3J",
     "price": 77.9,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    }
@@ -1129,7 +1129,7 @@
     "sku": "B0G7J2Y686",
     "price": 36.9,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    }
@@ -1148,7 +1148,7 @@
     "sku": "B0FNLNZP9Z",
     "price": 17.9,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
@@ -1157,7 +1157,7 @@
     "sku": "B0F6NDF54X",
     "price": 23.9,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0F6NDF54X",
     "note": "TL-M12QR X3 reverse, black; sold by IHTP, dispatched by Amazon; free delivery to a BT postcode"
    }
@@ -1176,7 +1176,7 @@
     "sku": "B0FNLNT7Q5",
     "price": 18.49,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    }
@@ -1195,7 +1195,7 @@
     "sku": "B09N938PP4",
     "price": 6.99,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B09N938PP4",
     "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
    }
@@ -1214,7 +1214,7 @@
     "sku": "B0BDS1VVPX",
     "price": 119.0,
     "in_stock": true,
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    }
@@ -1375,6 +1375,10 @@
   {
    "date": "2026-10-25",
    "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
+  },
+  {
+   "date": "2026-10-26",
+   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
   }
  ],
  "amazon_leads": []
