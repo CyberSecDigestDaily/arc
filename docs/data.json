@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-25T20:44:09Z",
- "today": "2026-10-25",
+ "generated": "2026-10-26T07:32:24Z",
+ "today": "2026-10-26",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "last_sweep": "2026-10-25T07:50:22Z",
  "baseline": {
   "date": "2026-10-22",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-10-25T20:44:09Z",
+  "started": "2026-10-26T07:32:24Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-25T20:44:57Z"
+  "finished": "2026-10-26T07:33:16Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2166.85,
+  "remaining": 2246.89,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -236,7 +236,7 @@
      "gpu",
      "splitter"
     ],
-    "items": 1150.79,
+    "items": 1230.83,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -286,12 +286,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2166.85,
+  "build_total": 2246.89,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": -24.67,
+  "delta_vs_baseline": 55.37,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -1.84,
+  "left_after_delivery": -81.88,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:10Z",
+   "checked": "2026-10-26T07:32:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -503,7 +503,7 @@
     "price": 205.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -530,6 +530,13 @@
     ],
     [
      "2026-10-25",
+     205.99,
+     205.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-26",
      205.99,
      205.99,
      1,
@@ -564,7 +571,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:14Z",
+   "checked": "2026-10-26T07:32:29Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -579,7 +586,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -597,7 +604,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -639,7 +646,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -652,7 +659,7 @@
     "price": 77.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -679,6 +686,13 @@
     ],
     [
      "2026-10-25",
+     77.9,
+     77.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-26",
      77.9,
      77.9,
      1,
@@ -714,7 +728,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:15Z",
+   "checked": "2026-10-26T07:32:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -847,7 +861,7 @@
     "price": 169.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -874,6 +888,13 @@
     ],
     [
      "2026-10-25",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-26",
      169.99,
      169.99,
      1,
@@ -905,38 +926,24 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:19Z",
+   "checked": "2026-10-26T07:32:35Z",
    "best": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "MEM-KLV-07037",
-    "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 399.95,
-    "delivery": 19.99,
-    "landed": 419.94,
-    "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "shop": "Currys",
+    "display": "Currys",
+    "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
+    "price": 489.0,
+    "delivery": 0.0,
+    "landed": 489.0,
+    "ni": "assumed",
+    "delivery_note": "Has NI stores; delivery cost at checkout",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
+    "source": "verified",
+    "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
+    "checked_on": "2026-10-25",
+    "note": "£489.00 confirmed; stock not shown online (store/postcode check only)"
    },
    "offers": [
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "MEM-KLV-07037",
-     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-     "price": 399.95,
-     "delivery": 19.99,
-     "landed": 419.94,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
-    },
     {
      "shop": "Currys",
      "display": "Currys",
@@ -952,6 +959,21 @@
      "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
      "checked_on": "2026-10-25",
      "note": "£489.00 confirmed; stock not shown online (store/postcode check only)"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "MEM-KLV-07037",
+     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
+     "price": 479.99,
+     "delivery": 19.99,
+     "landed": 499.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
     }
    ],
    "unvetted": [],
@@ -968,9 +990,9 @@
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 399.95,
+    "price": 479.99,
     "delivery": 19.99,
-    "landed": 419.94,
+    "landed": 499.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -978,17 +1000,17 @@
     "source": "direct",
     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
    },
-   "pick_differs": false,
+   "pick_differs": true,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.96,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 80.04,
+    "vs_baseline": 81.0,
+    "vs_prev_run": 80.04
    },
    "low": {
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -1019,6 +1041,13 @@
      419.94,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-26",
+     479.99,
+     499.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1047,7 +1076,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:23Z",
+   "checked": "2026-10-26T07:32:41Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1178,7 +1207,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -1209,6 +1238,13 @@
      769.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-26",
+     749.99,
+     769.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1235,7 +1271,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:27Z",
+   "checked": "2026-10-26T07:32:45Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1336,7 +1372,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -1367,6 +1403,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-26",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1393,7 +1436,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:31Z",
+   "checked": "2026-10-26T07:32:49Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1542,7 +1585,7 @@
     "price": 89.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 4
+    "days": 5
    },
    "signals": [
     "below_sheet"
@@ -1575,6 +1618,13 @@
      89.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-26",
+     89.99,
+     89.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1599,7 +1649,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T20:44:35Z",
+   "checked": "2026-10-26T07:32:52Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1684,7 +1734,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 4
+    "days": 5
    },
    "signals": [
     "ni_check"
@@ -1717,6 +1767,13 @@
      94.91,
      1,
      "Watercooling UK"
+    ],
+    [
+     "2026-10-26",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
     ]
    ]
   },
@@ -1743,7 +1800,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:36Z",
+   "checked": "2026-10-26T07:32:54Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1758,7 +1815,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -1776,7 +1833,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -1818,7 +1875,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -1831,7 +1888,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -1858,6 +1915,13 @@
     ],
     [
      "2026-10-25",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-26",
      36.9,
      36.9,
      1,
@@ -1890,7 +1954,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T20:44:37Z",
+   "checked": "2026-10-26T07:32:55Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1905,7 +1969,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -1923,7 +1987,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -1965,7 +2029,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -1978,7 +2042,7 @@
     "price": 17.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 4
+    "days": 5
    },
    "signals": [
     "below_sheet"
@@ -2011,6 +2075,13 @@
      17.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-26",
+     17.9,
+     17.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -2039,7 +2110,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-25T20:44:39Z",
+   "checked": "2026-10-26T07:32:56Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2054,7 +2125,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -2072,7 +2143,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -2114,7 +2185,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
    "pick_differs": false,
@@ -2127,7 +2198,7 @@
     "price": 18.49,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 4
+    "days": 5
    },
    "signals": [
     "below_sheet"
@@ -2160,6 +2231,13 @@
      18.49,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-26",
+     18.49,
+     18.49,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -2184,7 +2262,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:40Z",
+   "checked": "2026-10-26T07:32:58Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2199,7 +2277,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
    },
    "offers": [
@@ -2217,7 +2295,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
     },
     {
@@ -2270,7 +2348,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 4
+    "days": 5
    },
    "signals": [
     "below_sheet"
@@ -2303,6 +2381,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-26",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2326,7 +2411,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-25T20:44:42Z",
+   "checked": "2026-10-26T07:33:00Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2341,7 +2426,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "offers": [
@@ -2359,7 +2444,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-     "checked_on": "2026-10-25",
+     "checked_on": "2026-10-26",
      "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
     },
     {
@@ -2434,7 +2519,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-25",
+    "checked_on": "2026-10-26",
     "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
    },
    "pick_differs": false,
@@ -2447,7 +2532,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 4
+    "days": 5
    },
    "signals": [],
    "history": [
@@ -2474,6 +2559,13 @@
     ],
     [
      "2026-10-25",
+     119.0,
+     119.0,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-26",
      119.0,
      119.0,
      1,
@@ -2574,7 +2666,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T20:44:44Z",
+   "checked": "2026-10-26T07:33:02Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2655,7 +2747,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-25T20:44:48Z",
+   "checked": "2026-10-26T07:33:07Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2709,7 +2801,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-25T20:44:52Z",
+   "checked": "2026-10-26T07:33:10Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2790,7 +2882,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-25T20:44:53Z",
+   "checked": "2026-10-26T07:33:12Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -2913,6 +3005,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-10-26T07:32:24Z",
+   "level": "info",
+   "type": "rise",
+   "part": "ram",
+   "text": "RAM up £80.04 to £479.99 at Overclockers UK"
+  },
   {
    "ts": "2026-10-22T20:32:17Z",
    "level": "alert",
@@ -3052,11 +3151,15 @@
   {
    "date": "2026-10-25",
    "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
+  },
+  {
+   "date": "2026-10-26",
+   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-25T20:44:57Z"
+  "built": "2026-10-26T07:33:16Z"
  }
 }
