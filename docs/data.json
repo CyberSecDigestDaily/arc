@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T07:32:24Z",
+ "generated": "2026-10-26T07:54:07Z",
  "today": "2026-10-26",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
  "updated": "2026-10-26",
- "last_sweep": "2026-10-25T07:50:22Z",
+ "last_sweep": "2026-10-26T07:50:58Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-26T07:32:24Z",
+  "started": "2026-10-26T07:54:07Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-26T07:33:16Z"
+  "finished": "2026-10-26T07:54:57Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:25Z",
+   "checked": "2026-10-26T07:54:08Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -571,7 +571,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:29Z",
+   "checked": "2026-10-26T07:54:12Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -728,7 +728,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:31Z",
+   "checked": "2026-10-26T07:54:14Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -926,7 +926,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:35Z",
+   "checked": "2026-10-26T07:54:18Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1004,7 +1004,7 @@
    "change": {
     "vs_yesterday": 80.04,
     "vs_baseline": 81.0,
-    "vs_prev_run": 80.04
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 399.95,
@@ -1076,7 +1076,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:41Z",
+   "checked": "2026-10-26T07:54:22Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1271,7 +1271,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:45Z",
+   "checked": "2026-10-26T07:54:26Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1436,7 +1436,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:49Z",
+   "checked": "2026-10-26T07:54:30Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1649,7 +1649,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T07:32:52Z",
+   "checked": "2026-10-26T07:54:34Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1800,7 +1800,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:54Z",
+   "checked": "2026-10-26T07:54:36Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -1954,7 +1954,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T07:32:55Z",
+   "checked": "2026-10-26T07:54:37Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2110,7 +2110,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-26T07:32:56Z",
+   "checked": "2026-10-26T07:54:38Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2262,7 +2262,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:32:58Z",
+   "checked": "2026-10-26T07:54:40Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2411,7 +2411,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-26T07:33:00Z",
+   "checked": "2026-10-26T07:54:41Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2460,7 +2460,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-     "checked_on": "2026-10-24",
+     "checked_on": "2026-10-26",
      "note": "Product page: £119.99 digital download"
     },
     {
@@ -2666,7 +2666,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-26T07:33:02Z",
+   "checked": "2026-10-26T07:54:44Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -2747,7 +2747,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-10-26T07:33:07Z",
+   "checked": "2026-10-26T07:54:48Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -2801,7 +2801,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-26T07:33:10Z",
+   "checked": "2026-10-26T07:54:51Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -2882,7 +2882,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-26T07:33:12Z",
+   "checked": "2026-10-26T07:54:53Z",
    "live": "live",
    "extra": 150.0,
    "fit_ok": true,
@@ -3155,11 +3155,19 @@
   {
    "date": "2026-10-26",
    "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
+  },
+  {
+   "date": "2026-10-26",
+   "text": "Sweep: RAM up £80.04 to £479.99 at Overclockers UK (confirmed on its page); every black DDR5-6000 CL28 2x16GB kit there is now £479.99+, so no cheaper like-for-like swap. Build now about £81.88 over budget after delivery."
+  },
+  {
+   "date": "2026-10-26",
+   "text": "Re-checked Overclockers (7800X3D upgrade up to £364.99; others unchanged), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No new swap ideas."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-26T07:33:16Z"
+  "built": "2026-10-26T07:54:57Z"
  }
 }
