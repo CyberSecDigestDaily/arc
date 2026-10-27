@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T07:54:32Z",
+ "generated": "2026-10-27T12:00:09Z",
  "today": "2026-10-27",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-27T07:54:32Z",
+  "started": "2026-10-27T12:00:09Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-27T07:55:31Z"
+  "finished": "2026-10-27T12:01:06Z"
  },
  "totals": {
   "parts_total": 13,
@@ -354,7 +354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:33Z",
+   "checked": "2026-10-27T12:00:09Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -578,7 +578,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:37Z",
+   "checked": "2026-10-27T12:00:13Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -742,7 +742,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:38Z",
+   "checked": "2026-10-27T12:00:15Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -947,7 +947,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:43Z",
+   "checked": "2026-10-27T12:00:19Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1104,7 +1104,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:47Z",
+   "checked": "2026-10-27T12:00:24Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1306,7 +1306,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:51Z",
+   "checked": "2026-10-27T12:00:28Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1478,7 +1478,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:54:56Z",
+   "checked": "2026-10-27T12:00:32Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1698,7 +1698,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-27T07:55:01Z",
+   "checked": "2026-10-27T12:00:36Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1856,7 +1856,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:55:02Z",
+   "checked": "2026-10-27T12:00:37Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2017,7 +2017,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-27T07:55:03Z",
+   "checked": "2026-10-27T12:00:38Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2180,7 +2180,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-27T07:55:05Z",
+   "checked": "2026-10-27T12:00:40Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2339,7 +2339,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:55:06Z",
+   "checked": "2026-10-27T12:00:42Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2495,7 +2495,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-27T07:55:08Z",
+   "checked": "2026-10-27T12:00:43Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2795,7 +2795,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/197-E99-879?client_id=1551"
     }
    ],
-   "checked": "2026-10-27T07:55:11Z",
+   "checked": "2026-10-27T12:00:46Z",
    "notes": [],
    "live": "live",
    "saving": 41.0,
@@ -2916,7 +2916,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-10-27T07:55:14Z",
+   "checked": "2026-10-27T12:00:49Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3015,7 +3015,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-27T07:55:18Z",
+   "checked": "2026-10-27T12:00:52Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3096,7 +3096,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-27T07:55:22Z",
+   "checked": "2026-10-27T12:00:57Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3150,7 +3150,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-27T07:55:25Z",
+   "checked": "2026-10-27T12:01:01Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -3231,7 +3231,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-27T07:55:27Z",
+   "checked": "2026-10-27T12:01:02Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3546,6 +3546,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-27T07:55:31Z"
+  "built": "2026-10-27T12:01:06Z"
  }
 }
