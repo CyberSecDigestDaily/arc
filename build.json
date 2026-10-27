@@ -1,1393 +1,1486 @@
 {
- "_about": "ARC build tracker config. Claude's daily sweep edits this file; the GitHub Action (checker.py) reads it ~4x a day and rewrites docs/data.json + docs/history.json. Prices are GBP inc VAT. Public repo: never put names, addresses or other personal details in here.",
- "title": "ARC",
- "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
- "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
- "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-26",
- "last_sweep": "2026-10-26T07:50:58Z",
- "baseline": {
-  "date": "2026-10-22",
-  "label": "22 Oct plan",
-  "parts_total": 2191.52
- },
- "history_refs": [
-  {
-   "date": "2026-10-16",
-   "label": "16 Oct sheet: Jonsbo Z20 small-form-factor plan (9 parts, no Windows)",
-   "total": 2158.79
+  "_about": "ARC build tracker config. Claude's daily sweep edits this file; the GitHub Action (checker.py) reads it ~4x a day and rewrites docs/data.json + docs/history.json. Prices are GBP inc VAT. Public repo: never put names, addresses or other personal details in here.",
+  "title": "ARC",
+  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
+  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
+  "site": "https://cybersecdigestdaily.github.io/arc/",
+  "updated": "2026-10-27",
+  "last_sweep": "2026-10-27T07:50:57Z",
+  "baseline": {
+    "date": "2026-10-22",
+    "label": "22 Oct plan",
+    "parts_total": 2191.52
   },
-  {
-   "date": "2026-10-22",
-   "label": "22 Oct plan: all-black Jonsbo D33 build, 13 lines incl. Windows (£2,191.52 parts + £19.99 Overclockers UK delivery)",
-   "total": 2211.51
-  }
- ],
- "changes": [
-  "Amazon Prime counts (22 Oct, evening): items sold by a third party but dispatched by Amazon with free delivery to NI are now in. The cooler (£77.90), front screen (£36.90, the only one in stock) and both fan packs (£17.90 and £18.49) move to Amazon Prime.",
-  "PSU: same Corsair RM850e (2025), now £89.99 sold by Amazon (plan £98.99).",
-  "RAM: KLEVV FIT V black CL28 instead of CL30, same 33mm height, for 96p more at Overclockers UK.",
-  "ARGB splitter: Kolink 1-to-3 at £0.85, added to the Overclockers UK GPU/RAM order (£6.99 on its own at Amazon).",
-  "GPU: kept the PowerColor Reaper at £749.99. It ties the ASUS Prime OC and ASRock Challenger OC as the cheapest RX 9070 XT at a vetted UK shop and runs coolest. The XFX Swift is £727.98 on Prime, but it's a ~3.5-slot card that may not clear the bottom fans, so it isn't suggested.",
-  "Kept: Ryzen 5 7500X3D (Amazon £205.99), MSI B850M Mortar WiFi £169.99, Crucial P310 2TB £199.99, Jonsbo D33 black £79.91 (Watercooling UK; not on Amazon UK), Windows 11 Home £119.99.",
-  "Totals are now the cheapest basket: one NI delivery per shop, with free-delivery thresholds applied."
- ],
- "settings": {
-  "alert_drop_gbp": 10,
-  "alert_drop_pct": 5,
-  "alert_drop_min_gbp": 2,
-  "suggest_min_saving_gbp": 10,
-  "manual_fresh_days": 3,
-  "low_min_days": 7,
-  "near_low_pct": 2,
-  "ni_default_estimate": 15,
-  "phase1": {
-   "label": "Phase 1 · case + fans",
-   "parts": [
-    "case",
-    "fans_bottom",
-    "fans_front"
-   ],
-   "budget": 132.9,
-   "order_by": "2026-12-17",
-   "tip": "Both fan packs come from Amazon Prime with free delivery; only the case pays delivery (Watercooling UK, shown at checkout)."
-  },
-  "colour": "black",
-  "colour_note": "Prefer black parts. A black version of the same model at the same or lower landed cost replaces the pick; black options that cost more or change the spec are suggested with reason 'colour'.",
-  "budget": 2200,
-  "budget_note": "Whole build incl. Windows"
- },
- "fit_limits": {
-  "case": "Jonsbo D33 STD",
-  "gpu_length_mm": 410,
-  "gpu_plus_bottom_fan_mm": 95,
-  "psu_length_mm": 160,
-  "psu_min_w": 850,
-  "radiator_mm": [
-   240,
-   360
-  ],
-  "ram_height_mm": 43,
-  "cooler_height_mm": 172,
-  "case_fans_max": 6,
-  "motherboard": [
-   "Mini-ITX",
-   "Micro-ATX"
-  ],
-  "bottom_fan_part": "fans_bottom",
-  "est_load_w": 440,
-  "notes": "GPU length is 435mm without front fans; the two 25mm front fans make it about 410mm. 95mm = card thickness + bottom fan: Jonsbo quotes 117mm from the top slot, but the Mortar's x16 slot may sit one slot lower, so 95mm is used to be safe. PSU 160mm = the ATX front bay (an ATX PSU leaves room for 2×120mm front fans). The top takes a 240 or 360mm radiator. With an AIO there's no air-cooler limit on RAM; kits up to 43mm clear the radiator. Case fans: 3 bottom, 2 front, 1 rear; the top three mounts hold the radiator fans. Air-cooler limit if ever swapped: 172mm."
- },
- "retailers": {
-  "Overclockers": {
-   "display": "Overclockers UK",
-   "ni": "verified",
-   "ni_first": 19.99,
-   "ni_extra": 15.0,
-   "note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-   "source": "https://www.overclockers.co.uk/delivery.html",
-   "checked_on": "2026-10-16",
-   "pricespy_feed": false,
-   "order_note": "DPD to NI; GPU, RAM and splitter in one order"
-  },
-  "Scan": {
-   "display": "Scan",
-   "ni": "verified",
-   "ni_first": 13.19,
-   "ni_extra": 13.19,
-   "note": "2-day service to NI",
-   "source": "https://www.scan.co.uk/info/delivery",
-   "checked_on": "2026-10-16"
-  },
-  "Watercooling UK": {
-   "display": "Watercooling UK",
-   "ni": "verified",
-   "ni_first": null,
-   "note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
-   "source": "https://www.watercoolinguk.co.uk/shipping-delivery/",
-   "checked_on": "2026-10-16",
-   "order_note": "Case delivery shown at checkout (estimate used)"
-  },
-  "Amazon.co.uk": {
-   "display": "Amazon UK",
-   "ni": "assumed",
-   "ni_first": 0,
-   "note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-   "order_note": "Sold by Amazon; free delivery to NI on these items"
-  },
-  "Argos": {
-   "display": "Argos",
-   "ni": "assumed",
-   "ni_first": null,
-   "note": "Has NI stores; delivery cost at checkout"
-  },
-  "Currys": {
-   "display": "Currys",
-   "ni": "assumed",
-   "ni_first": null,
-   "note": "Has NI stores; delivery cost at checkout"
-  },
-  "AWD-IT": {
-   "display": "AWD-IT",
-   "ni": "unverified",
-   "ni_first": null,
-   "note": "Free delivery to UK mainland only; NI cost not published (shown at checkout)",
-   "source": "https://www.awd-it.co.uk/faq",
-   "checked_on": "2026-10-18"
-  },
-  "Box.co.uk": {
-   "display": "Box",
-   "ni": "unverified",
-   "ni_first": null,
-   "note": "£4.95 under £200, free over £200; NI coverage not stated (TVs mainland only)",
-   "source": "https://box.co.uk/delivery-info",
-   "checked_on": "2026-10-18"
-  },
-  "Very": {
-   "display": "Very",
-   "ni": "verified",
-   "ni_first": 0,
-   "note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-   "source": "https://www.very.co.uk/next-day-delivery.page",
-   "checked_on": "2026-10-18"
-  },
-  "CCL": {
-   "display": "CCL",
-   "ni": "unverified",
-   "ni_first": null
-  },
-  "Ebuyer": {
-   "display": "Ebuyer",
-   "ni": "unverified",
-   "ni_first": null
-  },
-  "Novatech": {
-   "display": "Novatech",
-   "ni": "unverified",
-   "ni_first": null
-  },
-  "Computer Orbit": {
-   "display": "Computer Orbit",
-   "ni": "verified",
-   "ni_first": 5.0,
-   "ni_extra": null,
-   "note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
-   "order_note": "£5 delivery under £75, free over £75",
-   "source": "https://computerorbit.com/cart (shipping rates to a BT postcode)",
-   "checked_on": "2026-10-22",
-   "free_over": 75
-  },
-  "EE Tech & Gaming": {
-   "display": "EE Tech & Gaming",
-   "ni": "no",
-   "ni_first": null,
-   "ni_extra": null,
-   "note": "Delivers to UK mainland addresses only",
-   "source": "https://ee.co.uk/help/orders/ee-tech",
-   "checked_on": "2026-10-20"
-  },
-  "Microsoft Store": {
-   "display": "Microsoft Store",
-   "ni": "verified",
-   "ni_first": 0,
-   "ni_extra": null,
-   "note": "Digital licence (download), nothing to deliver.",
-   "order_note": "Digital download",
-   "source": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-   "checked_on": "2026-10-22"
-  },
-  "Clove": {
-   "display": "Clove",
-   "ni": "unverified",
-   "ni_first": null,
-   "pricespy_feed": false,
-   "note": "PriceSpy shows Clove's stock as unknown; its own store showed those GPUs unavailable on 22 Oct, so its feed is ignored.",
-   "checked_on": "2026-10-22"
-  },
-  "Amazon Prime": {
-   "display": "Amazon UK (Prime)",
-   "ni": "verified",
-   "ni_first": 0,
-   "ni_extra": null,
-   "note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
-   "order_note": "Prime, free delivery",
-   "source": "Amazon item pages, delivery set to a BT postcode",
-   "checked_on": "2026-10-22"
-  }
- },
- "blocked_shops": [
-  "eBay",
-  "OnBuy",
-  "CeX",
-  "Temu",
-  "Amazon Marketplace",
-  "A1 Tech Deals",
-  "Fruugo",
-  "AliExpress",
-  "Wish",
-  "ManoMano",
-  "Rakuten",
-  "PcHub.uk",
-  "Backmarket",
-  "Back Market",
-  "musicMagpie",
-  "Best License Key",
-  "Eneba",
-  "Joybuy",
-  "Blue Nandu",
-  "Kinguin",
-  "G2A",
-  "CDKeys",
-  "Gamivo"
- ],
- "parts": [
-  {
-   "id": "cpu",
-   "slot": "CPU",
-   "name": "AMD Ryzen 5 7500X3D (retail box)",
-   "pricespy": 15769114,
-   "match": {
-    "must": [
-     "7500\\s?X\\s?3D"
-    ],
-    "not": [
-     "\\btray\\b",
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
-     "\\bgaming pc\\b",
-     "\\bpc gaming\\b",
-     "\\bsystem\\b",
-     "\\bdesktop pc\\b",
-     "\\bpre-?built\\b"
-    ]
-   },
-   "offers": [
+  "history_refs": [
     {
-     "retailer": "Amazon.co.uk",
-     "sku": "B0FT8X951Z",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0FT8X951Z"
+      "date": "2026-10-16",
+      "label": "16 Oct sheet: Jonsbo Z20 small-form-factor plan (9 parts, no Windows)",
+      "total": 2158.79
     },
     {
-     "retailer": "Overclockers",
-     "sku": "PRO-AMD-06394",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html"
+      "date": "2026-10-22",
+      "label": "22 Oct plan: all-black Jonsbo D33 build, 13 lines incl. Windows (£2,191.52 parts + £19.99 Overclockers UK delivery)",
+      "total": 2211.51
     }
-   ],
-   "baseline": {
-    "price": 205.99,
-    "retailer": "Amazon.co.uk"
-   },
-   "spec": {
-    "cores": "6C/12T",
-    "socket": "AM5",
-    "tdp_w": 65,
-    "note": "No cooler in the box"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "cooler",
-   "slot": "CPU cooler",
-   "name": "Thermalright Frozen Warframe 360 Ultra ARGB, black (2.88\" 480×480 LCD pump)",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "Frozen Warframe 360 Ultra",
-     "\\bblack\\b"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "\\bpro\\b",
-     "\\bSE\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0DJZC1C3J",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J"
-    },
-    {
-     "retailer": "Computer Orbit",
-     "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
-     "check": "shopify",
-     "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
-    }
-   ],
-   "baseline": {
-    "price": 77.9,
-    "retailer": "Amazon Prime"
-   },
-   "spec": {
-    "type": "360mm AIO",
-    "radiator_mm": 360,
-    "radiator_depth_mm": 52,
-    "usb2_header": 1,
-    "argb_groups": 1,
-    "fan_headers_needed": 2,
-    "pump_lcd": "2.88in 480×480",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "board",
-   "slot": "Motherboard",
-   "name": "MSI MAG B850M Mortar WiFi",
-   "pricespy": 14661306,
-   "match": {
-    "must": [
-     "B850M\\s*MORTAR"
-    ],
-    "not": [
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
-     "\\bwhite\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon.co.uk",
-     "sku": "B0F4Q45RKX",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
-    },
-    {
-     "retailer": "Overclockers",
-     "sku": "MOT-MSI-05547",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html"
-    },
-    {
-     "retailer": "Scan",
-     "sku": "160846",
-     "check": "manual",
-     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
-    }
-   ],
-   "baseline": {
-    "price": 169.99,
-    "retailer": "Amazon.co.uk"
-   },
-   "spec": {
-    "form": "Micro-ATX",
-    "wifi": "Wi-Fi 7 + BT 5.4",
-    "lan": "5GbE",
-    "m2": 3,
-    "usb2_headers": 2,
-    "argb_headers": 3,
-    "fan_headers": 6,
-    "front_usb_c": "10Gbps header",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "ram",
-   "slot": "RAM",
-   "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
-   "pricespy": 16655040,
-   "match": {
-    "must": [
-     "FIT\\s*V",
-     "(CL|C)\\s?28",
-     "\\bblack\\b"
-    ],
-    "not": [
-     "\\bbolt\\b",
-     "\\bcras\\b",
-     "\\burbane\\b",
-     "\\brgb\\b",
-     "\\bwhite\\b",
-     "b-grade"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Overclockers",
-     "sku": "MEM-KLV-07037",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
-    },
-    {
-     "retailer": "Currys",
-     "sku": "10304090",
-     "check": "manual",
-     "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html"
-    }
-   ],
-   "baseline": {
-    "price": 398.99,
-    "retailer": "Overclockers"
-   },
-   "note": "Plan had the CL30 black kit (£398.99); the CL28 black kit is the same height for 96p more.",
-   "spec": {
-    "height_mm": 33.2,
-    "speed": "DDR5-6000",
-    "cl": 28,
-    "expo": true,
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "gpu",
-   "slot": "GPU",
-   "name": "PowerColor Radeon RX 9070 XT Reaper 16GB",
-   "pricespy": 14421209,
-   "match": {
-    "must": [
-     "9070\\s?XT",
-     "reaper"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
-     "\\bGRE\\b",
-     "\\bupgrade\\b",
-     "\\bb550\\b",
-     "\\bb650\\b",
-     "\\bb850\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Overclockers",
-     "sku": "GRA-PWC-04017",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html"
-    },
-    {
-     "retailer": "Scan",
-     "sku": "154545",
-     "check": "manual",
-     "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
-    },
-    {
-     "retailer": "Argos",
-     "sku": "7740813",
-     "check": "manual",
-     "url": "https://www.argos.co.uk/product/7740813"
-    }
-   ],
-   "baseline": {
-    "price": 749.99,
-    "retailer": "Overclockers"
-   },
-   "spec": {
-    "length_mm": 304,
-    "thickness_mm": 42,
-    "slots": 2,
-    "power": "2× 8-pin",
-    "vram": "16GB GDDR6",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "ssd",
-   "slot": "SSD",
-   "name": "Crucial P310 2TB NVMe (PCIe 4.0, M.2 2280)",
-   "pricespy": 14085576,
-   "match": {
-    "must": [
-     "P310",
-     "\\b2\\s?TB\\b"
-    ],
-    "not": [
-     "heat\\s?sink",
-     "\\b2230\\b",
-     "\\bPS5\\b",
-     "\\bbundle\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon.co.uk",
-     "sku": "B0DC8RVRBZ",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
-    },
-    {
-     "retailer": "Overclockers",
-     "sku": "STO-CRU-03050",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html"
-    }
-   ],
-   "baseline": {
-    "price": 199.99,
-    "retailer": "Amazon.co.uk"
-   },
-   "spec": {
-    "interface": "M.2 2280 PCIe 4.0 NVMe",
-    "read_mbs": 7100,
-    "nand": "QLC",
-    "tbw": 440
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "psu",
-   "slot": "PSU",
-   "name": "Corsair RM850e (2025) Gold, fully modular",
-   "pricespy": 14366594,
-   "match": {
-    "must": [
-     "RM850e"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "\\bplatinum\\b",
-     "\\b2026\\b",
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon.co.uk",
-     "sku": "B0DMTL43VR",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
-    },
-    {
-     "retailer": "Overclockers",
-     "sku": "POW-CRS-03875",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"
-    },
-    {
-     "retailer": "Scan",
-     "sku": "154144",
-     "check": "manual",
-     "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
-    }
-   ],
-   "baseline": {
-    "price": 98.99,
-    "retailer": "Amazon.co.uk"
-   },
-   "spec": {
-    "length_mm": 140,
-    "watts": 850,
-    "atx": "3.1",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "case",
-   "slot": "Case",
-   "name": "Jonsbo D33 STD, black (tempered glass)",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "D33",
-     "\\bblack\\b"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "\\bwood\\b",
-     "b-grade"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Watercooling UK",
-     "check": "manual",
-     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/"
-    },
-    {
-     "retailer": "Overclockers",
-     "sku": "CAS-JON-08784",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
-    }
-   ],
-   "baseline": {
-    "price": 79.91,
-    "retailer": "Watercooling UK"
-   },
-   "spec": {
-    "form": "Micro-ATX / Mini-ITX",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "screen",
-   "slot": "Front screen",
-   "name": "Thermalright Trofeo Vision 9.16\" LCD, black",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "Trofeo Vision",
-     "9\\.16"
-    ],
-    "not": [
-     "\\bwhite\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0G7J2Y686",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686"
-    },
-    {
-     "retailer": "Computer Orbit",
-     "sku": "Trofeo Vision 9.16 LCD BLACK",
-     "check": "shopify",
-     "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display"
-    }
-   ],
-   "baseline": {
-    "price": 36.9,
-    "retailer": "Amazon Prime"
-   },
-   "note": "Amazon Prime is the only in-stock source (Computer Orbit's £35 is out of stock). Skip listing B0G1BRCS7X: it says black but its model number is the white screen.",
-   "spec": {
-    "size": "9.16in 1920×480",
-    "usb2_header": 1,
-    "mount": "magnetic",
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "fans_bottom",
-   "slot": "Bottom fans",
-   "name": "Thermalright TL-M12QR X3 reverse-blade ARGB 3-pack, black",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "TL-M12QR",
-     "X3"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "TL-M12QRW",
-     "-S\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0FNLNZP9Z",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z"
-    },
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0F6NDF54X",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0F6NDF54X"
-    },
-    {
-     "retailer": "Computer Orbit",
-     "sku": "TL-M12QR X3",
-     "check": "shopify",
-     "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack"
-    }
-   ],
-   "baseline": {
-    "price": 23.9,
-    "retailer": "Amazon Prime"
-   },
-   "spec": {
-    "thickness_mm": 25,
-    "case_fans": 3,
-    "argb_groups": 1,
-    "fan_headers_needed": 1,
-    "rpm": 1500,
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "fans_front",
-   "slot": "Front/rear fans",
-   "name": "Thermalright TL-M12Q X3 ARGB 3-pack, black",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "TL-M12Q\\b",
-     "X3"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "TL-M12QW",
-     "-S\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0FNLNT7Q5",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5"
-    },
-    {
-     "retailer": "Computer Orbit",
-     "sku": "TL-M12Q X3",
-     "check": "shopify",
-     "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack"
-    }
-   ],
-   "baseline": {
-    "price": 21.99,
-    "retailer": "Computer Orbit"
-   },
-   "spec": {
-    "thickness_mm": 25,
-    "case_fans": 3,
-    "argb_groups": 2,
-    "fan_headers_needed": 2,
-    "rpm": 2000,
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "splitter",
-   "slot": "ARGB splitter",
-   "name": "Kolink ARGB 1-to-3 splitter cable (5V 3-pin, 30cm)",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "ARGB",
-     "1-3"
-    ],
-    "not": [
-     "\\bwhite\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B09N938PP4",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B09N938PP4"
-    },
-    {
-     "retailer": "Overclockers",
-     "sku": "CA-07K-KK",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html"
-    }
-   ],
-   "baseline": {
-    "price": 6.99,
-    "retailer": "Amazon Prime"
-   },
-   "spec": {
-    "argb_outputs": 3,
-    "colour": "black"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  },
-  {
-   "id": "windows",
-   "slot": "Windows",
-   "name": "Windows 11 Home (full licence)",
-   "pricespy": 5880255,
-   "match": {
-    "must": [
-     "Windows 11 Home"
-    ],
-    "not": [
-     "\\bPro\\b",
-     "\\bPol\\b",
-     "\\bGer\\b",
-     "\\bFra\\b",
-     "\\bNL\\b",
-     "\\(NL\\)",
-     "upgrade",
-     "Clean Install",
-     "\\bkey\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Microsoft Store",
-     "check": "manual",
-     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0"
-    },
-    {
-     "retailer": "Amazon Prime",
-     "sku": "B0BDS1VVPX",
-     "check": "manual",
-     "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX"
-    }
-   ],
-   "baseline": {
-    "price": 119.99,
-    "retailer": "Microsoft Store"
-   },
-   "spec": {
-    "licence": "Retail, transferable (digital)"
-   },
-   "bought": false,
-   "paid": null,
-   "paid_retailer": null,
-   "bought_on": null
-  }
- ],
- "suggestions": [],
- "upgrades": [
-  {
-   "id": "u1",
-   "part": "cpu",
-   "name": "AMD Ryzen 7 7800X3D (8 cores)",
-   "pricespy": 8053700,
-   "match": {
-    "must": [
-     "7800\\s?X\\s?3D"
-    ],
-    "not": [
-     "\\btray\\b",
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
-     "\\bgaming pc\\b",
-     "\\bsystem\\b",
-     "\\bpre-?built\\b",
-     "Ryzensets"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Overclockers",
-     "sku": "CP-3DT-AM",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
-    }
-   ],
-   "spec": {
-    "cores": "8C/16T"
-   },
-   "why": "Two more cores: faster in CPU-heavy games (BG3's Act 3, strategy, sims). At 4K on the TV the graphics card is usually the limit, so it's the upgrade to make only if the budget stretches."
-  },
-  {
-   "id": "u2",
-   "part": "ssd",
-   "name": "WD Black SN7100 2TB (TLC, PCIe 4.0)",
-   "pricespy": 14519414,
-   "match": {
-    "must": [
-     "SN7100",
-     "\\b2\\s?TB\\b"
-    ],
-    "not": [
-     "SN7100X",
-     "heat\\s?sink",
-     "\\bbundle\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Overclockers",
-     "sku": "STO-WDC-04135",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
-    }
-   ],
-   "spec": {
-    "nand": "TLC",
-    "read_mbs": 7250
-   },
-   "why": "TLC flash: faster sustained writes and much higher endurance than the QLC Crucial. Nice to have, not needed for a games drive."
-  },
-  {
-   "id": "u3",
-   "part": "cooler",
-   "name": "Thermalright Peerless Vision 360 ARGB, black (3.95\" 480×480 LCD)",
-   "pricespy": null,
-   "match": {
-    "must": [
-     "Peerless Vision 360",
-     "\\bblack\\b"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "\\bUB\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Computer Orbit",
-     "sku": "PEERLESS VISION 360 ARGB BLACK",
-     "check": "shopify",
-     "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
-    }
-   ],
-   "spec": {
-    "type": "360mm AIO",
-    "radiator_mm": 360,
-    "radiator_depth_mm": 52,
-    "usb2_header": 1,
-    "argb_groups": 1,
-    "fan_headers_needed": 2,
-    "pump_lcd": "3.95in 480×480",
-    "colour": "black"
-   },
-   "why": "Same 397mm radiator, a bigger 3.95in square screen on the pump, and a few pounds cheaper at Computer Orbit. Different pump look from the photo, so it's your call."
-  },
-  {
-   "id": "u4",
-   "part": "gpu",
-   "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB",
-   "pricespy": 14421243,
-   "match": {
-    "must": [
-     "9070\\s?XT",
-     "hellhound"
-    ],
-    "not": [
-     "\\bwhite\\b",
-     "spectral",
-     "\\breva\\b",
-     "\\bbundle\\b",
-     "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
-     "\\bGRE\\b"
-    ]
-   },
-   "offers": [
-    {
-     "retailer": "Overclockers",
-     "sku": "GRA-PWC-04016",
-     "check": "jsonld",
-     "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
-    }
-   ],
-   "spec": {
-    "length_mm": 330,
-    "thickness_mm": 50,
-    "colour": "black"
-   },
-   "why": "Same chip and speed with a bigger, even quieter cooler. Only worth it if near-silence matters more than the extra cost."
-  }
- ],
- "manual": {
-  "cpu": [
-   {
-    "retailer": "Overclockers",
-    "price": 209.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
   ],
-  "board": [
-   {
-    "retailer": "Overclockers",
-    "price": 169.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
+  "changes": [
+    "Amazon Prime counts (22 Oct, evening): items sold by a third party but dispatched by Amazon with free delivery to NI are now in. The cooler (£77.90), front screen (£36.90, the only one in stock) and both fan packs (£17.90 and £18.49) move to Amazon Prime.",
+    "PSU: same Corsair RM850e (2025), now £89.99 sold by Amazon (plan £98.99).",
+    "RAM: KLEVV FIT V black CL28 instead of CL30, same 33mm height, for 96p more at Overclockers UK.",
+    "ARGB splitter: Kolink 1-to-3 at £0.85, added to the Overclockers UK GPU/RAM order (£6.99 on its own at Amazon).",
+    "GPU: kept the PowerColor Reaper at £749.99. It ties the ASUS Prime OC and ASRock Challenger OC as the cheapest RX 9070 XT at a vetted UK shop and runs coolest. The XFX Swift is £727.98 on Prime, but it's a ~3.5-slot card that may not clear the bottom fans, so it isn't suggested.",
+    "Kept: Ryzen 5 7500X3D (Amazon £205.99), MSI B850M Mortar WiFi £169.99, Crucial P310 2TB £199.99, Jonsbo D33 black £79.91 (Watercooling UK; not on Amazon UK), Windows 11 Home £119.99.",
+    "Totals are now the cheapest basket: one NI delivery per shop, with free-delivery thresholds applied."
   ],
-  "ram": [
-   {
-    "retailer": "Overclockers",
-    "price": 479.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
-    "note": "£479.99 inc VAT on the product page (JSON-LD), in stock; up £80.04 from £399.95. Other black DDR5-6000 CL28 2x16GB kits at Overclockers are also £479.99+ today."
-   },
-   {
-    "retailer": "Currys",
-    "price": 489.0,
-    "in_stock": true,
-    "checked_on": "2026-10-25",
-    "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
-    "note": "£489.00 confirmed; stock not shown online (store/postcode check only)"
-   }
+  "settings": {
+    "alert_drop_gbp": 10,
+    "alert_drop_pct": 5,
+    "alert_drop_min_gbp": 2,
+    "suggest_min_saving_gbp": 10,
+    "manual_fresh_days": 3,
+    "low_min_days": 7,
+    "near_low_pct": 2,
+    "ni_default_estimate": 15,
+    "phase1": {
+      "label": "Phase 1 · case + fans",
+      "parts": [
+        "case",
+        "fans_bottom",
+        "fans_front"
+      ],
+      "budget": 132.9,
+      "order_by": "2026-12-17",
+      "tip": "Both fan packs come from Amazon Prime with free delivery; only the case pays delivery (Watercooling UK, shown at checkout)."
+    },
+    "colour": "black",
+    "colour_note": "Prefer black parts. A black version of the same model at the same or lower landed cost replaces the pick; black options that cost more or change the spec are suggested with reason 'colour'.",
+    "budget": 2200,
+    "budget_note": "Whole build incl. Windows"
+  },
+  "fit_limits": {
+    "case": "Jonsbo D33 STD",
+    "gpu_length_mm": 410,
+    "gpu_plus_bottom_fan_mm": 95,
+    "psu_length_mm": 160,
+    "psu_min_w": 850,
+    "radiator_mm": [
+      240,
+      360
+    ],
+    "ram_height_mm": 43,
+    "cooler_height_mm": 172,
+    "case_fans_max": 6,
+    "motherboard": [
+      "Mini-ITX",
+      "Micro-ATX"
+    ],
+    "bottom_fan_part": "fans_bottom",
+    "est_load_w": 440,
+    "notes": "GPU length is 435mm without front fans; the two 25mm front fans make it about 410mm. 95mm = card thickness + bottom fan: Jonsbo quotes 117mm from the top slot, but the Mortar's x16 slot may sit one slot lower, so 95mm is used to be safe. PSU 160mm = the ATX front bay (an ATX PSU leaves room for 2×120mm front fans). The top takes a 240 or 360mm radiator. With an AIO there's no air-cooler limit on RAM; kits up to 43mm clear the radiator. Case fans: 3 bottom, 2 front, 1 rear; the top three mounts hold the radiator fans. Air-cooler limit if ever swapped: 172mm."
+  },
+  "retailers": {
+    "Overclockers": {
+      "display": "Overclockers UK",
+      "ni": "verified",
+      "ni_first": 19.99,
+      "ni_extra": 15.0,
+      "note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+      "source": "https://www.overclockers.co.uk/delivery.html",
+      "checked_on": "2026-10-16",
+      "pricespy_feed": false,
+      "order_note": "DPD to NI; GPU, RAM and splitter in one order"
+    },
+    "Scan": {
+      "display": "Scan",
+      "ni": "verified",
+      "ni_first": 13.19,
+      "ni_extra": 13.19,
+      "note": "2-day service to NI",
+      "source": "https://www.scan.co.uk/info/delivery",
+      "checked_on": "2026-10-16"
+    },
+    "Watercooling UK": {
+      "display": "Watercooling UK",
+      "ni": "verified",
+      "ni_first": null,
+      "note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
+      "source": "https://www.watercoolinguk.co.uk/shipping-delivery/",
+      "checked_on": "2026-10-16",
+      "order_note": "Case delivery shown at checkout (estimate used)"
+    },
+    "Amazon.co.uk": {
+      "display": "Amazon UK",
+      "ni": "assumed",
+      "ni_first": 0,
+      "note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+      "order_note": "Sold by Amazon; free delivery to NI on these items"
+    },
+    "Argos": {
+      "display": "Argos",
+      "ni": "assumed",
+      "ni_first": null,
+      "note": "Has NI stores; delivery cost at checkout"
+    },
+    "Currys": {
+      "display": "Currys",
+      "ni": "assumed",
+      "ni_first": null,
+      "note": "Has NI stores; delivery cost at checkout"
+    },
+    "AWD-IT": {
+      "display": "AWD-IT",
+      "ni": "unverified",
+      "ni_first": null,
+      "note": "Free delivery to UK mainland only; NI cost not published (shown at checkout)",
+      "source": "https://www.awd-it.co.uk/faq",
+      "checked_on": "2026-10-18"
+    },
+    "Box.co.uk": {
+      "display": "Box",
+      "ni": "unverified",
+      "ni_first": null,
+      "note": "£4.95 under £200, free over £200; NI coverage not stated (TVs mainland only)",
+      "source": "https://box.co.uk/delivery-info",
+      "checked_on": "2026-10-18"
+    },
+    "Very": {
+      "display": "Very",
+      "ni": "verified",
+      "ni_first": 0,
+      "note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+      "source": "https://www.very.co.uk/next-day-delivery.page",
+      "checked_on": "2026-10-18"
+    },
+    "CCL": {
+      "display": "CCL",
+      "ni": "unverified",
+      "ni_first": null
+    },
+    "Ebuyer": {
+      "display": "Ebuyer",
+      "ni": "unverified",
+      "ni_first": null
+    },
+    "Novatech": {
+      "display": "Novatech",
+      "ni": "unverified",
+      "ni_first": null
+    },
+    "Computer Orbit": {
+      "display": "Computer Orbit",
+      "ni": "verified",
+      "ni_first": 5.0,
+      "ni_extra": null,
+      "note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+      "order_note": "£5 delivery under £75, free over £75",
+      "source": "https://computerorbit.com/cart (shipping rates to a BT postcode)",
+      "checked_on": "2026-10-22",
+      "free_over": 75
+    },
+    "EE Tech & Gaming": {
+      "display": "EE Tech & Gaming",
+      "ni": "no",
+      "ni_first": null,
+      "ni_extra": null,
+      "note": "Delivers to UK mainland addresses only",
+      "source": "https://ee.co.uk/help/orders/ee-tech",
+      "checked_on": "2026-10-20"
+    },
+    "Microsoft Store": {
+      "display": "Microsoft Store",
+      "ni": "verified",
+      "ni_first": 0,
+      "ni_extra": null,
+      "note": "Digital licence (download), nothing to deliver.",
+      "order_note": "Digital download",
+      "source": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
+      "checked_on": "2026-10-22"
+    },
+    "Clove": {
+      "display": "Clove",
+      "ni": "unverified",
+      "ni_first": null,
+      "pricespy_feed": false,
+      "note": "PriceSpy shows Clove's stock as unknown; its own store showed those GPUs unavailable on 22 Oct, so its feed is ignored.",
+      "checked_on": "2026-10-22"
+    },
+    "Amazon Prime": {
+      "display": "Amazon UK (Prime)",
+      "ni": "verified",
+      "ni_first": 0,
+      "ni_extra": null,
+      "note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+      "order_note": "Prime, free delivery",
+      "source": "Amazon item pages, delivery set to a BT postcode",
+      "checked_on": "2026-10-22"
+    }
+  },
+  "blocked_shops": [
+    "eBay",
+    "OnBuy",
+    "CeX",
+    "Temu",
+    "Amazon Marketplace",
+    "A1 Tech Deals",
+    "Fruugo",
+    "AliExpress",
+    "Wish",
+    "ManoMano",
+    "Rakuten",
+    "PcHub.uk",
+    "Backmarket",
+    "Back Market",
+    "musicMagpie",
+    "Best License Key",
+    "Eneba",
+    "Joybuy",
+    "Blue Nandu",
+    "Kinguin",
+    "G2A",
+    "CDKeys",
+    "Gamivo"
   ],
-  "gpu": [
-   {
-    "retailer": "Overclockers",
-    "price": 749.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
+  "parts": [
+    {
+      "id": "cpu",
+      "slot": "CPU",
+      "name": "AMD Ryzen 5 7500X3D (retail box)",
+      "pricespy": 15769114,
+      "match": {
+        "must": [
+          "7500\\s?X\\s?3D"
+        ],
+        "not": [
+          "\\btray\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bgaming pc\\b",
+          "\\bpc gaming\\b",
+          "\\bsystem\\b",
+          "\\bdesktop pc\\b",
+          "\\bpre-?built\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "sku": "B0FT8X951Z",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0FT8X951Z"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "PRO-AMD-06394",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html"
+        }
+      ],
+      "baseline": {
+        "price": 205.99,
+        "retailer": "Amazon.co.uk"
+      },
+      "spec": {
+        "cores": "6C/12T",
+        "socket": "AM5",
+        "tdp_w": 65,
+        "note": "No cooler in the box"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "cooler",
+      "slot": "CPU cooler",
+      "name": "Thermalright Frozen Warframe 360 Ultra ARGB, black (2.88\" 480×480 LCD pump)",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "Frozen Warframe 360 Ultra",
+          "\\bblack\\b"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bpro\\b",
+          "\\bSE\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0DJZC1C3J",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
+        }
+      ],
+      "baseline": {
+        "price": 77.9,
+        "retailer": "Amazon Prime"
+      },
+      "spec": {
+        "type": "360mm AIO",
+        "radiator_mm": 360,
+        "radiator_depth_mm": 52,
+        "usb2_header": 1,
+        "argb_groups": 1,
+        "fan_headers_needed": 2,
+        "pump_lcd": "2.88in 480×480",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "board",
+      "slot": "Motherboard",
+      "name": "MSI MAG B850M Mortar WiFi",
+      "pricespy": 14661306,
+      "match": {
+        "must": [
+          "B850M\\s*MORTAR"
+        ],
+        "not": [
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bwhite\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "sku": "B0F4Q45RKX",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "MOT-MSI-05547",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html"
+        },
+        {
+          "retailer": "Scan",
+          "sku": "160846",
+          "check": "manual",
+          "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
+        }
+      ],
+      "baseline": {
+        "price": 169.99,
+        "retailer": "Amazon.co.uk"
+      },
+      "spec": {
+        "form": "Micro-ATX",
+        "wifi": "Wi-Fi 7 + BT 5.4",
+        "lan": "5GbE",
+        "m2": 3,
+        "usb2_headers": 2,
+        "argb_headers": 3,
+        "fan_headers": 6,
+        "front_usb_c": "10Gbps header",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "ram",
+      "slot": "RAM",
+      "name": "KLEVV FIT V 32GB (2×16GB) DDR5-6000 CL28, black",
+      "pricespy": 16655040,
+      "match": {
+        "must": [
+          "FIT\\s*V",
+          "(CL|C)\\s?28",
+          "\\bblack\\b"
+        ],
+        "not": [
+          "\\bbolt\\b",
+          "\\bcras\\b",
+          "\\burbane\\b",
+          "\\brgb\\b",
+          "\\bwhite\\b",
+          "b-grade"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Overclockers",
+          "sku": "MEM-KLV-07037",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
+        },
+        {
+          "retailer": "Currys",
+          "sku": "10304090",
+          "check": "manual",
+          "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html"
+        }
+      ],
+      "baseline": {
+        "price": 398.99,
+        "retailer": "Overclockers"
+      },
+      "note": "Plan had the CL30 black kit (£398.99); the CL28 black kit is the same height for 96p more.",
+      "spec": {
+        "height_mm": 33.2,
+        "speed": "DDR5-6000",
+        "cl": 28,
+        "expo": true,
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "gpu",
+      "slot": "GPU",
+      "name": "PowerColor Radeon RX 9070 XT Reaper 16GB",
+      "pricespy": 14421209,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "reaper"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bGRE\\b",
+          "\\bupgrade\\b",
+          "\\bb550\\b",
+          "\\bb650\\b",
+          "\\bb850\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Overclockers",
+          "sku": "GRA-PWC-04017",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html"
+        },
+        {
+          "retailer": "Scan",
+          "sku": "154545",
+          "check": "manual",
+          "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
+        },
+        {
+          "retailer": "Argos",
+          "sku": "7740813",
+          "check": "manual",
+          "url": "https://www.argos.co.uk/product/7740813"
+        }
+      ],
+      "baseline": {
+        "price": 749.99,
+        "retailer": "Overclockers"
+      },
+      "spec": {
+        "length_mm": 304,
+        "thickness_mm": 42,
+        "slots": 2,
+        "power": "2× 8-pin",
+        "vram": "16GB GDDR6",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "ssd",
+      "slot": "SSD",
+      "name": "Crucial P310 2TB NVMe (PCIe 4.0, M.2 2280)",
+      "pricespy": 14085576,
+      "match": {
+        "must": [
+          "P310",
+          "\\b2\\s?TB\\b"
+        ],
+        "not": [
+          "heat\\s?sink",
+          "\\b2230\\b",
+          "\\bPS5\\b",
+          "\\bbundle\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "sku": "B0DC8RVRBZ",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "STO-CRU-03050",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html"
+        }
+      ],
+      "baseline": {
+        "price": 199.99,
+        "retailer": "Amazon.co.uk"
+      },
+      "spec": {
+        "interface": "M.2 2280 PCIe 4.0 NVMe",
+        "read_mbs": 7100,
+        "nand": "QLC",
+        "tbw": 440
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "psu",
+      "slot": "PSU",
+      "name": "Corsair RM850e (2025) Gold, fully modular",
+      "pricespy": 14366594,
+      "match": {
+        "must": [
+          "RM850e"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bplatinum\\b",
+          "\\b2026\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "sku": "B0DMTL43VR",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "POW-CRS-03875",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"
+        },
+        {
+          "retailer": "Scan",
+          "sku": "154144",
+          "check": "manual",
+          "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
+        }
+      ],
+      "baseline": {
+        "price": 98.99,
+        "retailer": "Amazon.co.uk"
+      },
+      "spec": {
+        "length_mm": 140,
+        "watts": 850,
+        "atx": "3.1",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "case",
+      "slot": "Case",
+      "name": "Jonsbo D33 STD, black (tempered glass)",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "D33",
+          "\\bblack\\b"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bwood\\b",
+          "b-grade"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Watercooling UK",
+          "check": "manual",
+          "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "CAS-JON-08784",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
+        }
+      ],
+      "baseline": {
+        "price": 79.91,
+        "retailer": "Watercooling UK"
+      },
+      "spec": {
+        "form": "Micro-ATX / Mini-ITX",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "screen",
+      "slot": "Front screen",
+      "name": "Thermalright Trofeo Vision 9.16\" LCD, black",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "Trofeo Vision",
+          "9\\.16"
+        ],
+        "not": [
+          "\\bwhite\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0G7J2Y686",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0G7J2Y686"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "Trofeo Vision 9.16 LCD BLACK",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display"
+        }
+      ],
+      "baseline": {
+        "price": 36.9,
+        "retailer": "Amazon Prime"
+      },
+      "note": "Amazon Prime is the only in-stock source (Computer Orbit's £35 is out of stock). Skip listing B0G1BRCS7X: it says black but its model number is the white screen.",
+      "spec": {
+        "size": "9.16in 1920×480",
+        "usb2_header": 1,
+        "mount": "magnetic",
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "fans_bottom",
+      "slot": "Bottom fans",
+      "name": "Thermalright TL-M12QR X3 reverse-blade ARGB 3-pack, black",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "TL-M12QR",
+          "X3"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "TL-M12QRW",
+          "-S\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0FNLNZP9Z",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z"
+        },
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0F6NDF54X",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0F6NDF54X"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "TL-M12QR X3",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack"
+        }
+      ],
+      "baseline": {
+        "price": 23.9,
+        "retailer": "Amazon Prime"
+      },
+      "spec": {
+        "thickness_mm": 25,
+        "case_fans": 3,
+        "argb_groups": 1,
+        "fan_headers_needed": 1,
+        "rpm": 1500,
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "fans_front",
+      "slot": "Front/rear fans",
+      "name": "Thermalright TL-M12Q X3 ARGB 3-pack, black",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "TL-M12Q\\b",
+          "X3"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "TL-M12QW",
+          "-S\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0FNLNT7Q5",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "TL-M12Q X3",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack"
+        }
+      ],
+      "baseline": {
+        "price": 21.99,
+        "retailer": "Computer Orbit"
+      },
+      "spec": {
+        "thickness_mm": 25,
+        "case_fans": 3,
+        "argb_groups": 2,
+        "fan_headers_needed": 2,
+        "rpm": 2000,
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "splitter",
+      "slot": "ARGB splitter",
+      "name": "Kolink ARGB 1-to-3 splitter cable (5V 3-pin, 30cm)",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "ARGB",
+          "1-3"
+        ],
+        "not": [
+          "\\bwhite\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B09N938PP4",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B09N938PP4"
+        },
+        {
+          "retailer": "Overclockers",
+          "sku": "CA-07K-KK",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html"
+        }
+      ],
+      "baseline": {
+        "price": 6.99,
+        "retailer": "Amazon Prime"
+      },
+      "spec": {
+        "argb_outputs": 3,
+        "colour": "black"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    },
+    {
+      "id": "windows",
+      "slot": "Windows",
+      "name": "Windows 11 Home (full licence)",
+      "pricespy": 5880255,
+      "match": {
+        "must": [
+          "Windows 11 Home"
+        ],
+        "not": [
+          "\\bPro\\b",
+          "\\bPol\\b",
+          "\\bGer\\b",
+          "\\bFra\\b",
+          "\\bNL\\b",
+          "\\(NL\\)",
+          "upgrade",
+          "Clean Install",
+          "\\bkey\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Microsoft Store",
+          "check": "manual",
+          "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0"
+        },
+        {
+          "retailer": "Amazon Prime",
+          "sku": "B0BDS1VVPX",
+          "check": "manual",
+          "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX"
+        }
+      ],
+      "baseline": {
+        "price": 119.99,
+        "retailer": "Microsoft Store"
+      },
+      "spec": {
+        "licence": "Retail, transferable (digital)"
+      },
+      "bought": false,
+      "paid": null,
+      "paid_retailer": null,
+      "bought_on": null
+    }
   ],
-  "ssd": [
-   {
-    "retailer": "Overclockers",
-    "price": 209.99,
-    "in_stock": false,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; out of stock"
-   }
+  "suggestions": [
+    {
+      "id": "s3",
+      "part": "gpu",
+      "name": "ASUS Prime Radeon RX 9070 XT OC 16GB",
+      "pricespy": 14364979,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "prime"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bGRE\\b",
+          "\\bTUF\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bupgrade\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "url": "https://pricespy.co.uk/product.php?p=14364979",
+          "check": "manual"
+        }
+      ],
+      "spec": {
+        "length_mm": 312,
+        "thickness_mm": 50,
+        "slots": 2.5,
+        "power": "3× 8-pin",
+        "vram": "16GB GDDR6",
+        "colour": "black"
+      },
+      "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, sold by Amazon UK with free delivery. It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
+      "status": "pending",
+      "added": "2026-10-27"
+    },
+    {
+      "id": "s4",
+      "part": "gpu",
+      "name": "Gigabyte Radeon RX 9070 XT Gaming OC 16GB",
+      "pricespy": 14365072,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "gaming\\s?oc"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bice\\b",
+          "\\baorus\\b",
+          "\\belite\\b",
+          "\\bGRE\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bupgrade\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "url": "https://pricespy.co.uk/product.php?p=14365072",
+          "check": "manual"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "GV-R9070XTGAMING OC-16GD",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
+        }
+      ],
+      "spec": {
+        "length_mm": 288,
+        "thickness_mm": 56,
+        "slots": 3,
+        "power": "3× 8-pin",
+        "vram": "16GB GDDR6",
+        "colour": "black"
+      },
+      "why": "Same RX 9070 XT chip and 16GB in Gigabyte's black triple-fan Gaming OC, sold by Amazon UK with free delivery (Computer Orbit lists it at £699 but it's out of stock). At 288mm long and 56mm thick it fits the D33 and the bottom fans (81mm of 95mm). Trade-off: a thicker card with three 8-pin plugs, and ASUS's Prime is a little cheaper.",
+      "status": "pending",
+      "added": "2026-10-27"
+    }
   ],
-  "psu": [
-   {
-    "retailer": "Overclockers",
-    "price": 119.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
+  "upgrades": [
+    {
+      "id": "u1",
+      "part": "cpu",
+      "name": "AMD Ryzen 7 7800X3D (8 cores)",
+      "pricespy": 8053700,
+      "match": {
+        "must": [
+          "7800\\s?X\\s?3D"
+        ],
+        "not": [
+          "\\btray\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bgaming pc\\b",
+          "\\bsystem\\b",
+          "\\bpre-?built\\b",
+          "Ryzensets"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Overclockers",
+          "sku": "CP-3DT-AM",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
+        }
+      ],
+      "spec": {
+        "cores": "8C/16T"
+      },
+      "why": "Two more cores: faster in CPU-heavy games (BG3's Act 3, strategy, sims). At 4K on the TV the graphics card is usually the limit, so it's the upgrade to make only if the budget stretches."
+    },
+    {
+      "id": "u2",
+      "part": "ssd",
+      "name": "WD Black SN7100 2TB (TLC, PCIe 4.0)",
+      "pricespy": 14519414,
+      "match": {
+        "must": [
+          "SN7100",
+          "\\b2\\s?TB\\b"
+        ],
+        "not": [
+          "SN7100X",
+          "heat\\s?sink",
+          "\\bbundle\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Overclockers",
+          "sku": "STO-WDC-04135",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
+        }
+      ],
+      "spec": {
+        "nand": "TLC",
+        "read_mbs": 7250
+      },
+      "why": "TLC flash: faster sustained writes and much higher endurance than the QLC Crucial. Nice to have, not needed for a games drive."
+    },
+    {
+      "id": "u3",
+      "part": "cooler",
+      "name": "Thermalright Peerless Vision 360 ARGB, black (3.95\" 480×480 LCD)",
+      "pricespy": null,
+      "match": {
+        "must": [
+          "Peerless Vision 360",
+          "\\bblack\\b"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bUB\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Computer Orbit",
+          "sku": "PEERLESS VISION 360 ARGB BLACK",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
+        }
+      ],
+      "spec": {
+        "type": "360mm AIO",
+        "radiator_mm": 360,
+        "radiator_depth_mm": 52,
+        "usb2_header": 1,
+        "argb_groups": 1,
+        "fan_headers_needed": 2,
+        "pump_lcd": "3.95in 480×480",
+        "colour": "black"
+      },
+      "why": "Same 397mm radiator, a bigger 3.95in square screen on the pump, and a few pounds cheaper at Computer Orbit. Different pump look from the photo, so it's your call."
+    },
+    {
+      "id": "u4",
+      "part": "gpu",
+      "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB",
+      "pricespy": 14421243,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "hellhound"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "spectral",
+          "\\breva\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bGRE\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Overclockers",
+          "sku": "GRA-PWC-04016",
+          "check": "jsonld",
+          "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
+        }
+      ],
+      "spec": {
+        "length_mm": 330,
+        "thickness_mm": 50,
+        "colour": "black"
+      },
+      "why": "Same chip and speed with a bigger, even quieter cooler. Only worth it if near-silence matters more than the extra cost."
+    }
   ],
-  "case": [
-   {
-    "retailer": "Watercooling UK",
-    "price": 79.91,
-    "in_stock": true,
-    "checked_on": "2026-10-25",
-    "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "note": "£79.91 inc VAT (£66.59 ex VAT), in stock"
-   },
-   {
-    "retailer": "Overclockers",
-    "price": 79.99,
-    "in_stock": false,
-    "checked_on": "2026-10-25",
-    "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; out of stock"
-   }
+  "manual": {
+    "cpu": [
+      {
+        "retailer": "Overclockers",
+        "price": 209.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      }
+    ],
+    "board": [
+      {
+        "retailer": "Overclockers",
+        "price": 169.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      }
+    ],
+    "ram": [
+      {
+        "retailer": "Overclockers",
+        "price": 479.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
+        "note": "£479.99 inc VAT on the product page (JSON-LD), in stock; up £80.04 from £399.95. Other black DDR5-6000 CL28 2x16GB kits at Overclockers are also £479.99+ today."
+      },
+      {
+        "retailer": "Currys",
+        "price": 489.0,
+        "in_stock": true,
+        "checked_on": "2026-10-27",
+        "url": "https://www.currys.co.uk/products/klevv-fit-v-32-gb-ddr5-6000-mhz-pc-ram-2-x-16-gb-10304090.html",
+        "note": "£489.00 confirmed on the product page (black, CL28); stock only shown after a postcode check; free standard delivery over £40"
+      }
+    ],
+    "gpu": [
+      {
+        "retailer": "Overclockers",
+        "price": 799.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
+        "note": "£799.99 inc VAT from the product page JSON-LD on the 26 Oct 12:46 and 19:51 checker runs (up £50 from £749.99)"
+      }
+    ],
+    "ssd": [
+      {
+        "retailer": "Overclockers",
+        "price": 209.99,
+        "in_stock": false,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; out of stock"
+      }
+    ],
+    "psu": [
+      {
+        "retailer": "Overclockers",
+        "price": 119.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      }
+    ],
+    "case": [
+      {
+        "retailer": "Overclockers",
+        "price": 79.99,
+        "in_stock": false,
+        "checked_on": "2026-10-25",
+        "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; out of stock"
+      },
+      {
+        "retailer": "Watercooling UK",
+        "price": 79.91,
+        "in_stock": true,
+        "checked_on": "2026-10-27",
+        "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
+        "note": "£79.91 inc VAT (£66.59 ex VAT), black, 50 in stock"
+      }
+    ],
+    "cooler": [
+      {
+        "retailer": "Computer Orbit",
+        "price": 85.0,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
+        "note": "Product page: £85.00 (was £99), black, in stock"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0DJZC1C3J",
+        "price": 77.9,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
+        "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
+      }
+    ],
+    "screen": [
+      {
+        "retailer": "Computer Orbit",
+        "price": 35.0,
+        "in_stock": false,
+        "checked_on": "2026-10-26",
+        "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
+        "note": "Product page: £35.00, out of stock (restock watch)"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0G7J2Y686",
+        "price": 36.9,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
+        "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+      }
+    ],
+    "fans_bottom": [
+      {
+        "retailer": "Computer Orbit",
+        "price": 19.0,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
+        "note": "Product page: £19.00, black reverse triple pack, in stock"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0FNLNZP9Z",
+        "price": 17.9,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
+        "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0F6NDF54X",
+        "price": 23.9,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0F6NDF54X",
+        "note": "TL-M12QR X3 reverse, black; sold by IHTP, dispatched by Amazon; free delivery to a BT postcode"
+      }
+    ],
+    "fans_front": [
+      {
+        "retailer": "Computer Orbit",
+        "price": 19.0,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
+        "note": "Product page: £19.00, black triple pack, in stock"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0FNLNT7Q5",
+        "price": 18.49,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
+        "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+      }
+    ],
+    "splitter": [
+      {
+        "retailer": "Overclockers",
+        "price": 0.85,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B09N938PP4",
+        "price": 6.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B09N938PP4",
+        "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
+      }
+    ],
+    "windows": [
+      {
+        "retailer": "Microsoft Store",
+        "price": 119.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
+        "note": "Product page: £119.99 digital download"
+      },
+      {
+        "retailer": "Amazon Prime",
+        "sku": "B0BDS1VVPX",
+        "price": 119.0,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+        "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
+      }
+    ],
+    "u1": [
+      {
+        "retailer": "Overclockers",
+        "price": 364.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html",
+        "note": "£364.99 inc VAT on the product page, in stock (up from £338.99)."
+      }
+    ],
+    "u2": [
+      {
+        "retailer": "Overclockers",
+        "price": 289.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      }
+    ],
+    "u4": [
+      {
+        "retailer": "Overclockers",
+        "price": 899.99,
+        "in_stock": true,
+        "checked_on": "2026-10-26",
+        "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html",
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+      }
+    ]
+  },
+  "feedback_log": [],
+  "log": [
+    {
+      "date": "2026-10-18",
+      "text": "Tracker created from the 16 Oct sheet: 9 parts, £2,158.79."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Scan 9800X3D re-checked: £379.98 (was £384.98). Watercooling UK case confirmed £83.99 inc VAT."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "New swap idea s2: Gigabyte RX 9070 XT Gaming OC at Amazon UK £757.99, about £21 under the current GPU's landed cost."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Could not re-check Overclockers UK prices for CPU, RAM, GPU and fans today (site blocks checks); entries go stale after 19 Oct."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Very vetted: delivers to NI, free on £75+. AWD-IT and Box still unverified (no NI terms published)."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "Colour preference set to black: case → Jonsbo Z20 (black), cooler → Peerless Assassin 120 SE Black. Black RAM and motherboard options added as swap ideas."
+    },
+    {
+      "date": "2026-10-19",
+      "text": "Re-checked: Watercooling UK case £83.99 in stock; Currys black CL28 RAM £489; Gigabyte RX 9070 XT Gaming OC still £757.99 at Amazon UK (£749.99 at Overclockers UK)."
+    },
+    {
+      "date": "2026-10-19",
+      "text": "Added Currys as a backup shop for the white KLEVV CL28 RAM (£489). Overclockers UK still blocks checks, so its RAM, GPU and fan prices from 16 Oct go stale after today."
+    },
+    {
+      "date": "2026-10-19",
+      "text": "No new swap ideas: no cheaper RX 9070 XT, RAM or 2TB SSD option met the rules at a vetted shop."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Fans: Scan has the Arctic P12 Pro PST LN 5-pack at £24.98 (low stock), added as an offer; about £18 under Overclockers UK landed. Fan swap idea s1 expired (no longer saves £10)."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Re-checked: Scan 9800X3D £379.98; Currys KLEVV FIT V CL28 £489 (white and black). EE Tech & Gaming marked as no NI delivery (mainland only)."
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Overclockers UK still blocks checks: CPU, RAM, GPU and fan prices from 16 Oct are stale. No new swap ideas: cheaper RX 9070 XT, RAM and SSD listings were only at marketplace shops."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "GPU: Overclockers UK lists the ASUS RX 9070 XT Prime OC at £698.99 in stock (was £758.99), now the cheapest landed at about £718.98. Gigabyte Gaming OC swap idea s2 expired (no longer cheaper)."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "Fans: Scan's Arctic P12 Pro PST LN 5-pack is now pre-order (due 11 Nov), so Overclockers UK is the only in-stock source. CPU: Overclockers UK page shows £359.99 but stock couldn't be confirmed."
+    },
+    {
+      "date": "2026-10-21",
+      "text": "Re-checked: Watercooling UK Z20 black £83.99 in stock. No new swap ideas: cheaper RX 9070 XT and DDR5-6000 kits were only at marketplace or unvetted sellers."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "CPU: Scan's 9800X3D is now £399.98 (was £379.98), so the CPU is about £20 dearer. Overclockers UK's £359.99 still can't be confirmed in stock."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "RAM: added AWD-IT as a restock watch for the white KLEVV CL28 kit (£394.99, out of stock). Re-checked Watercooling UK case £83.99, Scan fans £24.98 (pre-order, due 11 Nov) and Currys RAM £489."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "No new swap ideas: the cheaper RX 9070 XT listings (PowerColor Reaper, XFX Quicksilver/Mercury) were only at marketplace or unvetted sellers."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Build switched to the all-black Jonsbo D33 plan from 22 Oct: 13 lines incl. Windows, £2,191.52 in parts (£2,211.51 with Overclockers UK delivery). Z20-era swap ideas cleared; price history restarted for the new parts."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Optimised: PSU £89.99 at Amazon, black CL28 RAM (+96p), Thermalright cooler/fans/screen from Computer Orbit instead of marketplace sellers, £0.85 Kolink splitter in the Overclockers UK order. Parts £2,174.65."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Overclockers UK's PriceSpy feed ignored (it lags the site); its own product pages and sweep checks count. Computer Orbit and Microsoft Store vetted."
+    },
+    {
+      "date": "2026-10-22",
+      "text": "Amazon Prime added: third-party items dispatched by Amazon with free NI delivery now count. Cooler, front screen and both fan packs moved to Amazon Prime (−£6.81 and the screen is in stock). Totals now use the cheapest basket across shops."
+    },
+    {
+      "date": "2026-10-23",
+      "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
+    },
+    {
+      "date": "2026-10-23",
+      "text": "Sweep: Watercooling UK D33 black re-checked at £79.91, in stock. ASUS Prime RX 9070 XT OC lead (£749.99 at Amazon) not suggested: same price as the Reaper and the RAM still needs the Overclockers UK order, so it saves nothing."
+    },
+    {
+      "date": "2026-10-23",
+      "text": "No new swap ideas: cheaper RX 9070 XT listings (XFX Quicksilver/Mercury, Acer Nitro, ASRock MH Wilds) are only at unlinked, marketplace or ignored-feed shops. Build £2,166.85, £1.84 over the £2,200 budget after delivery."
+    },
+    {
+      "date": "2026-10-24",
+      "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (D33 not on Amazon UK; £699.99 PowerColor Reaper is the non-XT RX 9070)."
+    },
+    {
+      "date": "2026-10-24",
+      "text": "Sweep: case (Watercooling UK £79.91), Computer Orbit cooler/fans/screen and Microsoft Store Windows re-checked, prices unchanged; Computer Orbit screen still out of stock."
+    },
+    {
+      "date": "2026-10-24",
+      "text": "No new swap ideas: cheaper RX 9070 XT cards (XFX Swift/Quicksilver, ASRock Taichi) are only on Amazon Marketplace or eBay; no black DDR5-6000 CL28 kit under £399.95. Build £2,166.85, £1.84 over budget after delivery."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (Reaper RX 9070 XT has no Amazon offer; £699.99 Reaper is the non-XT RX 9070; D33 not on Amazon UK)."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "Sweep: health OK (PriceSpy 10/10, no errors). Overclockers backup prices refreshed from today's page reads (SSD £209.99, out of stock); Watercooling UK case still £79.91 in stock; Currys RAM still £489."
+    },
+    {
+      "date": "2026-10-25",
+      "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
+    },
+    {
+      "date": "2026-10-26",
+      "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
+    },
+    {
+      "date": "2026-10-26",
+      "text": "Sweep: RAM up £80.04 to £479.99 at Overclockers UK (confirmed on its page); every black DDR5-6000 CL28 2x16GB kit there is now £479.99+, so no cheaper like-for-like swap. Build now about £81.88 over budget after delivery."
+    },
+    {
+      "date": "2026-10-26",
+      "text": "Re-checked Overclockers (7800X3D upgrade up to £364.99; others unchanged), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No new swap ideas."
+    },
+    {
+      "date": "2026-10-27",
+      "text": "GPU: Overclockers UK's RX 9070 XT Reaper rose £50 to £799.99 on 26 Oct and every other UK shop is £899.99+, so two cheaper black RX 9070 XT cards sold by Amazon UK are now swap ideas: s3 ASUS Prime OC £749.99 (saves about £50) and s4 Gigabyte Gaming OC £757.99 (about £42)."
+    },
+    {
+      "date": "2026-10-27",
+      "text": "Re-checked: Watercooling UK D33 black £79.91 (50 in stock); Currys KLEVV FIT V black CL28 £489. Build about £131.88 over the £2,200 budget after delivery before any swap."
+    }
   ],
-  "cooler": [
-   {
-    "retailer": "Computer Orbit",
-    "price": 85.0,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-    "note": "Product page: £85.00 (was £99), black, in stock"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0DJZC1C3J",
-    "price": 77.9,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
-   }
-  ],
-  "screen": [
-   {
-    "retailer": "Computer Orbit",
-    "price": 35.0,
-    "in_stock": false,
-    "checked_on": "2026-10-26",
-    "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-    "note": "Product page: £35.00, out of stock (restock watch)"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0G7J2Y686",
-    "price": 36.9,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
-    "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
-   }
-  ],
-  "fans_bottom": [
-   {
-    "retailer": "Computer Orbit",
-    "price": 19.0,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-    "note": "Product page: £19.00, black reverse triple pack, in stock"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0FNLNZP9Z",
-    "price": 17.9,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0F6NDF54X",
-    "price": 23.9,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0F6NDF54X",
-    "note": "TL-M12QR X3 reverse, black; sold by IHTP, dispatched by Amazon; free delivery to a BT postcode"
-   }
-  ],
-  "fans_front": [
-   {
-    "retailer": "Computer Orbit",
-    "price": 19.0,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-    "note": "Product page: £19.00, black triple pack, in stock"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0FNLNT7Q5",
-    "price": 18.49,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
-   }
-  ],
-  "splitter": [
-   {
-    "retailer": "Overclockers",
-    "price": 0.85,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B09N938PP4",
-    "price": 6.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
-   }
-  ],
-  "windows": [
-   {
-    "retailer": "Microsoft Store",
-    "price": 119.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "note": "Product page: £119.99 digital download"
-   },
-   {
-    "retailer": "Amazon Prime",
-    "sku": "B0BDS1VVPX",
-    "price": 119.0,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
-   }
-  ],
-  "u1": [
-   {
-    "retailer": "Overclockers",
-    "price": 364.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html",
-    "note": "£364.99 inc VAT on the product page, in stock (up from £338.99)."
-   }
-  ],
-  "u2": [
-   {
-    "retailer": "Overclockers",
-    "price": 289.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
-  ],
-  "u4": [
-   {
-    "retailer": "Overclockers",
-    "price": 899.99,
-    "in_stock": true,
-    "checked_on": "2026-10-26",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html",
-    "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
-   }
-  ]
- },
- "feedback_log": [],
- "log": [
-  {
-   "date": "2026-10-18",
-   "text": "Tracker created from the 16 Oct sheet: 9 parts, £2,158.79."
-  },
-  {
-   "date": "2026-10-18",
-   "text": "Scan 9800X3D re-checked: £379.98 (was £384.98). Watercooling UK case confirmed £83.99 inc VAT."
-  },
-  {
-   "date": "2026-10-18",
-   "text": "New swap idea s2: Gigabyte RX 9070 XT Gaming OC at Amazon UK £757.99, about £21 under the current GPU's landed cost."
-  },
-  {
-   "date": "2026-10-18",
-   "text": "Could not re-check Overclockers UK prices for CPU, RAM, GPU and fans today (site blocks checks); entries go stale after 19 Oct."
-  },
-  {
-   "date": "2026-10-18",
-   "text": "Very vetted: delivers to NI, free on £75+. AWD-IT and Box still unverified (no NI terms published)."
-  },
-  {
-   "date": "2026-10-18",
-   "text": "Colour preference set to black: case → Jonsbo Z20 (black), cooler → Peerless Assassin 120 SE Black. Black RAM and motherboard options added as swap ideas."
-  },
-  {
-   "date": "2026-10-19",
-   "text": "Re-checked: Watercooling UK case £83.99 in stock; Currys black CL28 RAM £489; Gigabyte RX 9070 XT Gaming OC still £757.99 at Amazon UK (£749.99 at Overclockers UK)."
-  },
-  {
-   "date": "2026-10-19",
-   "text": "Added Currys as a backup shop for the white KLEVV CL28 RAM (£489). Overclockers UK still blocks checks, so its RAM, GPU and fan prices from 16 Oct go stale after today."
-  },
-  {
-   "date": "2026-10-19",
-   "text": "No new swap ideas: no cheaper RX 9070 XT, RAM or 2TB SSD option met the rules at a vetted shop."
-  },
-  {
-   "date": "2026-10-20",
-   "text": "Fans: Scan has the Arctic P12 Pro PST LN 5-pack at £24.98 (low stock), added as an offer; about £18 under Overclockers UK landed. Fan swap idea s1 expired (no longer saves £10)."
-  },
-  {
-   "date": "2026-10-20",
-   "text": "Re-checked: Scan 9800X3D £379.98; Currys KLEVV FIT V CL28 £489 (white and black). EE Tech & Gaming marked as no NI delivery (mainland only)."
-  },
-  {
-   "date": "2026-10-20",
-   "text": "Overclockers UK still blocks checks: CPU, RAM, GPU and fan prices from 16 Oct are stale. No new swap ideas: cheaper RX 9070 XT, RAM and SSD listings were only at marketplace shops."
-  },
-  {
-   "date": "2026-10-21",
-   "text": "GPU: Overclockers UK lists the ASUS RX 9070 XT Prime OC at £698.99 in stock (was £758.99), now the cheapest landed at about £718.98. Gigabyte Gaming OC swap idea s2 expired (no longer cheaper)."
-  },
-  {
-   "date": "2026-10-21",
-   "text": "Fans: Scan's Arctic P12 Pro PST LN 5-pack is now pre-order (due 11 Nov), so Overclockers UK is the only in-stock source. CPU: Overclockers UK page shows £359.99 but stock couldn't be confirmed."
-  },
-  {
-   "date": "2026-10-21",
-   "text": "Re-checked: Watercooling UK Z20 black £83.99 in stock. No new swap ideas: cheaper RX 9070 XT and DDR5-6000 kits were only at marketplace or unvetted sellers."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "CPU: Scan's 9800X3D is now £399.98 (was £379.98), so the CPU is about £20 dearer. Overclockers UK's £359.99 still can't be confirmed in stock."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "RAM: added AWD-IT as a restock watch for the white KLEVV CL28 kit (£394.99, out of stock). Re-checked Watercooling UK case £83.99, Scan fans £24.98 (pre-order, due 11 Nov) and Currys RAM £489."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "No new swap ideas: the cheaper RX 9070 XT listings (PowerColor Reaper, XFX Quicksilver/Mercury) were only at marketplace or unvetted sellers."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "Build switched to the all-black Jonsbo D33 plan from 22 Oct: 13 lines incl. Windows, £2,191.52 in parts (£2,211.51 with Overclockers UK delivery). Z20-era swap ideas cleared; price history restarted for the new parts."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "Optimised: PSU £89.99 at Amazon, black CL28 RAM (+96p), Thermalright cooler/fans/screen from Computer Orbit instead of marketplace sellers, £0.85 Kolink splitter in the Overclockers UK order. Parts £2,174.65."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "Overclockers UK's PriceSpy feed ignored (it lags the site); its own product pages and sweep checks count. Computer Orbit and Microsoft Store vetted."
-  },
-  {
-   "date": "2026-10-22",
-   "text": "Amazon Prime added: third-party items dispatched by Amazon with free NI delivery now count. Cooler, front screen and both fan packs moved to Amazon Prime (−£6.81 and the screen is in stock). Totals now use the cheapest basket across shops."
-  },
-  {
-   "date": "2026-10-23",
-   "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
-  },
-  {
-   "date": "2026-10-23",
-   "text": "Sweep: Watercooling UK D33 black re-checked at £79.91, in stock. ASUS Prime RX 9070 XT OC lead (£749.99 at Amazon) not suggested: same price as the Reaper and the RAM still needs the Overclockers UK order, so it saves nothing."
-  },
-  {
-   "date": "2026-10-23",
-   "text": "No new swap ideas: cheaper RX 9070 XT listings (XFX Quicksilver/Mercury, Acer Nitro, ASRock MH Wilds) are only at unlinked, marketplace or ignored-feed shops. Build £2,166.85, £1.84 over the £2,200 budget after delivery."
-  },
-  {
-   "date": "2026-10-24",
-   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (D33 not on Amazon UK; £699.99 PowerColor Reaper is the non-XT RX 9070)."
-  },
-  {
-   "date": "2026-10-24",
-   "text": "Sweep: case (Watercooling UK £79.91), Computer Orbit cooler/fans/screen and Microsoft Store Windows re-checked, prices unchanged; Computer Orbit screen still out of stock."
-  },
-  {
-   "date": "2026-10-24",
-   "text": "No new swap ideas: cheaper RX 9070 XT cards (XFX Swift/Quicksilver, ASRock Taichi) are only on Amazon Marketplace or eBay; no black DDR5-6000 CL28 kit under £399.95. Build £2,166.85, £1.84 over budget after delivery."
-  },
-  {
-   "date": "2026-10-25",
-   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (Reaper RX 9070 XT has no Amazon offer; £699.99 Reaper is the non-XT RX 9070; D33 not on Amazon UK)."
-  },
-  {
-   "date": "2026-10-25",
-   "text": "Sweep: health OK (PriceSpy 10/10, no errors). Overclockers backup prices refreshed from today's page reads (SSD £209.99, out of stock); Watercooling UK case still £79.91 in stock; Currys RAM still £489."
-  },
-  {
-   "date": "2026-10-25",
-   "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
-  },
-  {
-   "date": "2026-10-26",
-   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
-  },
-  {
-   "date": "2026-10-26",
-   "text": "Sweep: RAM up £80.04 to £479.99 at Overclockers UK (confirmed on its page); every black DDR5-6000 CL28 2x16GB kit there is now £479.99+, so no cheaper like-for-like swap. Build now about £81.88 over budget after delivery."
-  },
-  {
-   "date": "2026-10-26",
-   "text": "Re-checked Overclockers (7800X3D upgrade up to £364.99; others unchanged), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No new swap ideas."
-  }
- ],
- "amazon_leads": []
+  "amazon_leads": []
 }
