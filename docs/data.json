@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T07:58:08Z",
+ "generated": "2026-10-28T12:40:23Z",
  "today": "2026-10-28",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-28T07:58:08Z",
+  "started": "2026-10-28T12:40:23Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-28T07:59:13Z"
+  "finished": "2026-10-28T12:41:28Z"
  },
  "totals": {
   "parts_total": 13,
@@ -365,7 +365,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:09Z",
+   "checked": "2026-10-28T12:40:24Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -598,7 +598,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:13Z",
+   "checked": "2026-10-28T12:40:28Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -771,7 +771,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:15Z",
+   "checked": "2026-10-28T12:40:29Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -985,7 +985,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:20Z",
+   "checked": "2026-10-28T12:40:35Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1149,7 +1149,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:24Z",
+   "checked": "2026-10-28T12:40:39Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1358,7 +1358,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:29Z",
+   "checked": "2026-10-28T12:40:44Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1427,7 +1427,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -1539,7 +1539,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:33Z",
+   "checked": "2026-10-28T12:40:48Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1661,7 +1661,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 111.4,
+     "price": 111.39,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -1692,7 +1692,7 @@
    "change": {
     "vs_yesterday": 29.01,
     "vs_baseline": 20.01,
-    "vs_prev_run": 29.01
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 89.99,
@@ -1774,7 +1774,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T07:58:39Z",
+   "checked": "2026-10-28T12:40:53Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1940,7 +1940,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:40Z",
+   "checked": "2026-10-28T12:40:55Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2110,7 +2110,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T07:58:41Z",
+   "checked": "2026-10-28T12:40:56Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2281,7 +2281,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T07:58:42Z",
+   "checked": "2026-10-28T12:40:57Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2448,7 +2448,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:44Z",
+   "checked": "2026-10-28T12:40:59Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2612,7 +2612,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T07:58:46Z",
+   "checked": "2026-10-28T12:41:01Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2921,7 +2921,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/197-E99-879?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T07:58:48Z",
+   "checked": "2026-10-28T12:41:04Z",
    "notes": [],
    "live": "live",
    "saving": 41.0,
@@ -3042,7 +3042,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-10-28T07:58:51Z",
+   "checked": "2026-10-28T12:41:07Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3196,7 +3196,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-10-28T07:58:55Z",
+   "checked": "2026-10-28T12:41:11Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -3295,7 +3295,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T07:58:59Z",
+   "checked": "2026-10-28T12:41:15Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3376,7 +3376,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T07:59:04Z",
+   "checked": "2026-10-28T12:41:19Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3430,7 +3430,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-28T07:59:08Z",
+   "checked": "2026-10-28T12:41:23Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -3511,7 +3511,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T07:59:09Z",
+   "checked": "2026-10-28T12:41:24Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3848,6 +3848,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-28T07:59:13Z"
+  "built": "2026-10-28T12:41:28Z"
  }
 }
