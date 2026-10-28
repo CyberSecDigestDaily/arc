@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T12:40:23Z",
+ "generated": "2026-10-28T19:27:12Z",
  "today": "2026-10-28",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-28T12:40:23Z",
+  "started": "2026-10-28T19:27:12Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-28T12:41:28Z"
+  "finished": "2026-10-28T19:28:13Z"
  },
  "totals": {
   "parts_total": 13,
@@ -365,7 +365,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:24Z",
+   "checked": "2026-10-28T19:27:13Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -482,7 +482,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 8,
+    "marketplace": 9,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -598,7 +598,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:28Z",
+   "checked": "2026-10-28T19:27:17Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -771,7 +771,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:29Z",
+   "checked": "2026-10-28T19:27:19Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -985,7 +985,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:35Z",
+   "checked": "2026-10-28T19:27:23Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1149,7 +1149,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:39Z",
+   "checked": "2026-10-28T19:27:27Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1358,7 +1358,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:44Z",
+   "checked": "2026-10-28T19:27:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1393,22 +1393,6 @@
      "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
     },
     {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "A18-71F-6BD",
-     "name": "Crucial P310 2TB PCIe M.2 Gen 4 NVMe SSD - Read 7100MB/s Write 6000MB/s - CT2000P310SSD8",
-     "price": 303.62,
-     "was": 303.62,
-     "delivery": 15.0,
-     "landed": 318.62,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A18-71F-6BD?client_id=1551"
-    },
-    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-CRU-03050",
@@ -1418,16 +1402,32 @@
      "landed": 229.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "OutOfStock",
-     "in_stock": false,
+     "stock": "InStock",
+     "in_stock": true,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "A18-71F-6BD",
+     "name": "Crucial P310 2TB PCIe M.2 Gen 4 NVMe SSD - Read 7100MB/s Write 6000MB/s - CT2000P310SSD8",
+     "price": 281.13,
+     "was": 281.13,
+     "delivery": 15.0,
+     "landed": 296.13,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A18-71F-6BD?client_id=1551"
     }
    ],
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 8,
+    "marketplace": 9,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -1539,7 +1539,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:48Z",
+   "checked": "2026-10-28T19:27:35Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1655,13 +1655,13 @@
    "amazon_check": [
     {
      "asin": "B0DMTL43VR",
-     "price": 98.99,
+     "price": 101.99,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX"
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 111.39,
+     "price": 111.28,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -1774,7 +1774,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T12:40:53Z",
+   "checked": "2026-10-28T19:27:40Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1940,7 +1940,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:55Z",
+   "checked": "2026-10-28T19:27:41Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2110,7 +2110,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T12:40:56Z",
+   "checked": "2026-10-28T19:27:43Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2281,7 +2281,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-28T12:40:57Z",
+   "checked": "2026-10-28T19:27:44Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2448,7 +2448,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:40:59Z",
+   "checked": "2026-10-28T19:27:46Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2612,7 +2612,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-28T12:41:01Z",
+   "checked": "2026-10-28T19:27:47Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2665,22 +2665,6 @@
      "note": "Product page: £119.99 digital download, no delivery"
     },
     {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "125083",
-     "name": "Windows 11 Home Edition 64-bit on USB Stick - English",
-     "price": 114.49,
-     "was": 114.49,
-     "delivery": 13.19,
-     "landed": 127.68,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/125083?client_id=1551"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "4FA-A3D-061",
@@ -2695,14 +2679,30 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/4FA-A3D-061?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "120375",
+     "name": "Windows 11 Home 64Bit English OS DVD OEM",
+     "price": 119.99,
+     "was": 119.99,
+     "delivery": 13.19,
+     "landed": 133.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/120375?client_id=1551"
     }
    ],
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 13,
+    "marketplace": 8,
     "used": 0,
-    "other_variant": 3,
+    "other_variant": 1,
     "untrusted_feed": 1
    },
    "notes": [],
@@ -2921,7 +2921,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/197-E99-879?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T12:41:04Z",
+   "checked": "2026-10-28T19:27:50Z",
    "notes": [],
    "live": "live",
    "saving": 41.0,
@@ -3042,7 +3042,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-10-28T12:41:07Z",
+   "checked": "2026-10-28T19:27:52Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3196,7 +3196,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-10-28T12:41:11Z",
+   "checked": "2026-10-28T19:27:56Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -3295,7 +3295,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T12:41:15Z",
+   "checked": "2026-10-28T19:28:00Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3376,7 +3376,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T12:41:19Z",
+   "checked": "2026-10-28T19:28:04Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3430,7 +3430,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-28T12:41:23Z",
+   "checked": "2026-10-28T19:28:08Z",
    "live": "live",
    "extra": 1.1,
    "fit_ok": true,
@@ -3511,7 +3511,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-28T12:41:24Z",
+   "checked": "2026-10-28T19:28:09Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3848,6 +3848,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-28T12:41:28Z"
+  "built": "2026-10-28T19:28:13Z"
  }
 }
