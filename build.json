@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-10-28",
-  "last_sweep": "2026-10-28T07:53:00Z",
+  "updated": "2026-10-29",
+  "last_sweep": "2026-10-29T07:50:07Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1235,7 +1235,7 @@
         "retailer": "Watercooling UK",
         "price": 79.91,
         "in_stock": true,
-        "checked_on": "2026-10-27",
+        "checked_on": "2026-10-29",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
         "note": "£79.91 inc VAT (£66.59 ex VAT), black, 50 in stock"
       }
@@ -1547,6 +1547,10 @@
     {
       "date": "2026-10-28",
       "text": "Re-checked Overclockers UK (all prices unchanged; D33 now pre-order, P310 still out of stock), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No feedback emails."
+    },
+    {
+      "date": "2026-10-29",
+      "text": "Sweep: prices unchanged. Re-checked Watercooling UK D33 black (£79.91, 50 in stock); Box lists the RX 9070 XT Reaper at £715.99 but out of stock; no cheaper like-for-like black DDR5-6000 CL28 kit found. No feedback emails, no new swap ideas."
     }
   ],
   "amazon_leads": []
