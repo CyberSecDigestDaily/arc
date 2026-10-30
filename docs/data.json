@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T07:59:28Z",
+ "generated": "2026-10-30T12:41:03Z",
  "today": "2026-10-30",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-10-30T07:59:28Z",
+  "started": "2026-10-30T12:41:03Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-30T08:00:30Z"
+  "finished": "2026-10-30T12:42:06Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:29Z",
+   "checked": "2026-10-30T12:41:04Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -623,7 +623,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:33Z",
+   "checked": "2026-10-30T12:41:08Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -805,7 +805,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:35Z",
+   "checked": "2026-10-30T12:41:10Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1033,7 +1033,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:39Z",
+   "checked": "2026-10-30T12:41:14Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1211,7 +1211,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:44Z",
+   "checked": "2026-10-30T12:41:19Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1434,7 +1434,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:49Z",
+   "checked": "2026-10-30T12:41:24Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1629,7 +1629,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T07:59:53Z",
+   "checked": "2026-10-30T12:41:28Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1751,7 +1751,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 110.92,
+     "price": 113.1,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -1878,7 +1878,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-30T07:59:59Z",
+   "checked": "2026-10-30T12:41:33Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2058,7 +2058,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T08:00:00Z",
+   "checked": "2026-10-30T12:41:35Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2246,7 +2246,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-30T08:00:01Z",
+   "checked": "2026-10-30T12:41:36Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2427,7 +2427,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-30T08:00:02Z",
+   "checked": "2026-10-30T12:41:37Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2604,7 +2604,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T08:00:04Z",
+   "checked": "2026-10-30T12:41:39Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2781,7 +2781,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-30T08:00:06Z",
+   "checked": "2026-10-30T12:41:41Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3106,7 +3106,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-10-30T08:00:09Z",
+   "checked": "2026-10-30T12:41:43Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3179,6 +3179,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20A850GL%20PCIE5?client_id=1551"
+    },
+    {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "VPATL",
+     "name": "Msi 850W Gold Mag A850Gl Pc Power Supply",
+     "price": 99.0,
+     "was": 99.0,
+     "delivery": 0.0,
+     "landed": 99.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VPATL?client_id=1551"
     },
     {
      "shop": "AWD-IT",
@@ -3260,7 +3276,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-10-30T08:00:13Z",
+   "checked": "2026-10-30T12:41:48Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -3359,7 +3375,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-30T08:00:17Z",
+   "checked": "2026-10-30T12:41:52Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3440,7 +3456,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-30T08:00:21Z",
+   "checked": "2026-10-30T12:41:56Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3494,7 +3510,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-30T08:00:25Z",
+   "checked": "2026-10-30T12:42:00Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -3576,7 +3592,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-30T08:00:27Z",
+   "checked": "2026-10-30T12:42:02Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3921,6 +3937,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-30T08:00:31Z"
+  "built": "2026-10-30T12:42:06Z"
  }
 }
