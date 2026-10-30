@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-10-29",
-  "last_sweep": "2026-10-29T07:50:07Z",
+  "updated": "2026-10-30",
+  "last_sweep": "2026-10-30T07:50:56Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1151,9 +1151,9 @@
         "retailer": "Overclockers",
         "price": 209.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ],
     "board": [
@@ -1161,9 +1161,9 @@
         "retailer": "Overclockers",
         "price": 169.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ],
     "ram": [
@@ -1171,9 +1171,9 @@
         "retailer": "Overclockers",
         "price": 479.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       },
       {
         "retailer": "Currys",
@@ -1189,19 +1189,19 @@
         "retailer": "Overclockers",
         "price": 799.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ],
     "ssd": [
       {
         "retailer": "Overclockers",
-        "price": 209.99,
-        "in_stock": false,
-        "checked_on": "2026-10-28",
+        "price": 229.99,
+        "in_stock": true,
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; out of stock"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run; back in stock, up from £209.99"
       }
     ],
     "psu": [
@@ -1209,17 +1209,17 @@
         "retailer": "Overclockers",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       },
       {
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "Product page: £119.00 inc VAT (was £139), in stock; free delivery to NI over £75"
+        "note": "Shopify product data: £119.00 (was £139), available"
       }
     ],
     "case": [
@@ -1227,9 +1227,9 @@
         "retailer": "Overclockers",
         "price": 79.99,
         "in_stock": false,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run; pre-order only"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run; pre-order only"
       },
       {
         "retailer": "Watercooling UK",
@@ -1245,9 +1245,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "Shopify product data: £85.00, available"
+        "note": "Shopify product data: £85.00 (was £99), available"
       },
       {
         "retailer": "Amazon Prime",
@@ -1264,7 +1264,7 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
         "note": "Shopify product data: £35.00, out of stock (restock watch)"
       },
@@ -1283,7 +1283,7 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
         "note": "Shopify product data: £19.00, available"
       },
@@ -1311,7 +1311,7 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
         "note": "Shopify product data: £19.00, available"
       },
@@ -1330,9 +1330,9 @@
         "retailer": "Overclockers",
         "price": 0.85,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       },
       {
         "retailer": "Amazon Prime",
@@ -1349,7 +1349,7 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-30",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
         "note": "Product page: £119.99 digital download, no delivery"
       },
@@ -1368,9 +1368,9 @@
         "retailer": "Overclockers",
         "price": 364.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ],
     "u2": [
@@ -1378,9 +1378,9 @@
         "retailer": "Overclockers",
         "price": 289.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ],
     "u4": [
@@ -1388,9 +1388,9 @@
         "retailer": "Overclockers",
         "price": 899.99,
         "in_stock": true,
-        "checked_on": "2026-10-28",
+        "checked_on": "2026-10-29",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html",
-        "note": "Confirmed from the product page JSON-LD (inc VAT) on today's checker run"
+        "note": "Confirmed from the product page JSON-LD (inc VAT) on the 29 Oct 19:31 UTC checker run"
       }
     ]
   },
@@ -1551,6 +1551,10 @@
     {
       "date": "2026-10-29",
       "text": "Sweep: prices unchanged. Re-checked Watercooling UK D33 black (£79.91, 50 in stock); Box lists the RX 9070 XT Reaper at £715.99 but out of stock; no cheaper like-for-like black DDR5-6000 CL28 kit found. No feedback emails, no new swap ideas."
+    },
+    {
+      "date": "2026-10-30",
+      "text": "Sweep: prices unchanged at the picks. Overclockers UK's Crucial P310 2TB is back in stock at £229.99 (Amazon UK's £199.99 stays the pick). Re-checked Computer Orbit (screen still out of stock) and Microsoft Store (£119.99); the Amazon Prime prices are 4 days old because the morning Amazon check hasn't run. No feedback emails, no new swap ideas."
     }
   ],
   "amazon_leads": []
