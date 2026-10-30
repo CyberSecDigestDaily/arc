@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T19:31:29Z",
- "today": "2026-10-29",
+ "generated": "2026-10-30T07:54:31Z",
+ "today": "2026-10-30",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-10-29",
- "last_sweep": "2026-10-29T07:50:07Z",
+ "updated": "2026-10-30",
+ "last_sweep": "2026-10-30T07:50:56Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-10-29T19:31:29Z",
+  "started": "2026-10-30T07:54:31Z",
   "source": "github-actions",
   "pricespy_ok": 13,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-10-29T19:32:33Z"
+  "finished": "2026-10-30T07:55:30Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2325.9,
+  "remaining": 2335.6,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -257,31 +257,30 @@
     "extra_parcel": null
    },
    {
-    "shop": "Amazon UK (Prime)",
-    "key": "Amazon Prime",
-    "parts": [
-     "cooler",
-     "screen",
-     "fans_bottom",
-     "fans_front",
-     "windows"
-    ],
-    "items": 270.19,
-    "cost": 0.0,
-    "basis": "verified",
-    "note": "Prime, free delivery",
-    "extra_parcel": null
-   },
-   {
     "shop": "Computer Orbit",
     "key": "Computer Orbit",
     "parts": [
-     "psu"
+     "cooler",
+     "psu",
+     "fans_bottom",
+     "fans_front"
     ],
-    "items": 119.0,
+    "items": 242.0,
     "cost": 0.0,
     "basis": "verified",
     "note": "£5 delivery under £75, free over £75",
+    "extra_parcel": null
+   },
+   {
+    "shop": "Microsoft Store",
+    "key": "Microsoft Store",
+    "parts": [
+     "windows"
+    ],
+    "items": 119.99,
+    "cost": 0.0,
+    "basis": "verified",
+    "note": "Digital download",
     "extra_parcel": null
    },
    {
@@ -295,14 +294,26 @@
     "basis": "estimate",
     "note": "Case delivery shown at checkout (estimate used)",
     "extra_parcel": null
+   },
+   {
+    "shop": "Amazon UK (Prime)",
+    "key": "Amazon Prime",
+    "parts": [
+     "screen"
+    ],
+    "items": 36.9,
+    "cost": 0.0,
+    "basis": "verified",
+    "note": "Prime, free delivery",
+    "extra_parcel": null
    }
   ],
-  "build_total": 2325.9,
+  "build_total": 2335.6,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 134.38,
+  "delta_vs_baseline": 144.08,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -160.89,
+  "left_after_delivery": -170.59,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -315,8 +326,8 @@
   "budget": 132.9,
   "order_by": "2026-12-17",
   "tip": "Both fan packs come from Amazon Prime with free delivery; only the case pays delivery (Watercooling UK, shown at checkout).",
-  "cost": 116.3,
-  "left": 16.6,
+  "cost": 117.91,
+  "left": 14.99,
   "items": [
    {
     "id": "case",
@@ -328,16 +339,16 @@
    {
     "id": "fans_bottom",
     "slot": "Bottom fans",
-    "price": 17.9,
+    "price": 19.0,
     "bought": false,
-    "shop": "Amazon UK (Prime)"
+    "shop": "Computer Orbit"
    },
    {
     "id": "fans_front",
     "slot": "Front/rear fans",
-    "price": 18.49,
+    "price": 19.0,
     "bought": false,
-    "shop": "Amazon UK (Prime)"
+    "shop": "Computer Orbit"
    }
   ]
  },
@@ -365,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:30Z",
+   "checked": "2026-10-30T07:54:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -514,7 +525,7 @@
     "price": 205.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "near_low"
@@ -571,6 +582,13 @@
     ],
     [
      "2026-10-29",
+     205.99,
+     205.99,
+     1,
+     "Amazon UK"
+    ],
+    [
+     "2026-10-30",
      205.99,
      205.99,
      1,
@@ -605,23 +623,21 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:34Z",
+   "checked": "2026-10-30T07:54:35Z",
    "best": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0DJZC1C3J",
-    "name": "Thermalright Frozen Warframe 360 Ultra ARGB, black (2.88\" 480×480 LCD pump)",
-    "price": 77.9,
-    "delivery": 0.0,
-    "landed": 77.9,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
+    "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
+    "price": 85.0,
+    "delivery": 5.0,
+    "landed": 90.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-26",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
    },
    "offers": [
     {
@@ -638,6 +654,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
     },
@@ -667,37 +684,33 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0DJZC1C3J",
-    "name": "Thermalright Frozen Warframe 360 Ultra ARGB, black (2.88\" 480×480 LCD pump)",
-    "price": 77.9,
-    "delivery": 0.0,
-    "landed": 77.9,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
+    "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
+    "price": 85.0,
+    "delivery": 5.0,
+    "landed": 90.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0DJZC1C3J",
-    "checked_on": "2026-10-26",
-    "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 7.1,
+    "vs_baseline": 7.1,
+    "vs_prev_run": 7.1
    },
    "low": {
     "price": 77.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 8
+    "days": 9
    },
-   "signals": [
-    "near_low"
-   ],
+   "signals": [],
    "history": [
     [
      "2026-10-22",
@@ -754,6 +767,13 @@
      77.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-30",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -785,7 +805,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:36Z",
+   "checked": "2026-10-30T07:54:37Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -918,7 +938,7 @@
     "price": 169.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "near_low"
@@ -979,6 +999,13 @@
      169.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-30",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1006,7 +1033,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:40Z",
+   "checked": "2026-10-30T07:54:41Z",
    "best": {
     "shop": "Currys",
     "display": "Currys",
@@ -1090,7 +1117,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 8
+    "days": 9
    },
    "signals": [],
    "history": [
@@ -1149,6 +1176,13 @@
      499.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-30",
+     479.99,
+     499.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1177,7 +1211,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:44Z",
+   "checked": "2026-10-30T07:54:45Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1278,7 +1312,7 @@
    "amazon_check": [],
    "excluded": {
     "marketplace": 6,
-    "used": 1,
+    "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
    },
@@ -1308,7 +1342,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 8
+    "days": 9
    },
    "signals": [],
    "history": [
@@ -1367,6 +1401,13 @@
      819.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-30",
+     799.99,
+     819.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1393,7 +1434,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:49Z",
+   "checked": "2026-10-30T07:54:49Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1462,7 +1503,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -1494,7 +1535,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "near_low"
@@ -1555,6 +1596,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-10-30",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1581,7 +1629,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:53Z",
+   "checked": "2026-10-30T07:54:53Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1703,13 +1751,13 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 111.04,
+     "price": 110.92,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
    ],
    "excluded": {
-    "marketplace": 14,
+    "marketplace": 15,
     "used": 0,
     "other_variant": 7,
     "untrusted_feed": 1
@@ -1740,7 +1788,7 @@
     "price": 89.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 8
+    "days": 9
    },
    "signals": [],
    "history": [
@@ -1799,6 +1847,13 @@
      124.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-10-30",
+     119.0,
+     124.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -1823,7 +1878,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-29T19:31:58Z",
+   "checked": "2026-10-30T07:54:58Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -1908,7 +1963,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "near_low",
@@ -1970,6 +2025,13 @@
      94.91,
      1,
      "Watercooling UK"
+    ],
+    [
+     "2026-10-30",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
     ]
    ]
   },
@@ -1996,7 +2058,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:31:59Z",
+   "checked": "2026-10-30T07:54:59Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2011,6 +2073,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
+    "stale": true,
     "checked_on": "2026-10-26",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
@@ -2029,6 +2092,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
@@ -2071,6 +2135,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.amazon.co.uk/dp/B0G7J2Y686",
+    "stale": true,
     "checked_on": "2026-10-26",
     "note": "Trofeo Vision 9.16 LCD black; sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
    },
@@ -2084,10 +2149,11 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 8
+    "days": 9
    },
    "signals": [
-    "near_low"
+    "near_low",
+    "not_live"
    ],
    "history": [
     [
@@ -2141,6 +2207,13 @@
     ],
     [
      "2026-10-29",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-30",
      36.9,
      36.9,
      1,
@@ -2173,23 +2246,21 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-29T19:32:00Z",
+   "checked": "2026-10-30T07:55:00Z",
    "best": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0FNLNZP9Z",
-    "name": "Thermalright TL-M12QR X3 reverse-blade ARGB 3-pack, black",
-    "price": 17.9,
-    "delivery": 0.0,
-    "landed": 17.9,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "TL-M12QR X3",
+    "name": "Thermalright TL-M12QR X3 Black A-RGB Reverse 120mm PWM Triple Pack",
+    "price": 19.0,
+    "delivery": 5.0,
+    "landed": 24.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-26",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack"
    },
    "offers": [
     {
@@ -2206,6 +2277,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
@@ -2235,37 +2307,34 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0FNLNZP9Z",
-    "name": "Thermalright TL-M12QR X3 reverse-blade ARGB 3-pack, black",
-    "price": 17.9,
-    "delivery": 0.0,
-    "landed": 17.9,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "TL-M12QR X3",
+    "name": "Thermalright TL-M12QR X3 Black A-RGB Reverse 120mm PWM Triple Pack",
+    "price": 19.0,
+    "delivery": 5.0,
+    "landed": 24.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNZP9Z",
-    "checked_on": "2026-10-26",
-    "note": "TL-M12QR X3 reverse, black (1500rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -6.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 1.1,
+    "vs_baseline": -4.9,
+    "vs_prev_run": 1.1
    },
    "low": {
     "price": 17.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 8
+    "days": 9
    },
    "signals": [
-    "below_sheet",
-    "near_low"
+    "below_sheet"
    ],
    "history": [
     [
@@ -2323,6 +2392,13 @@
      17.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-30",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -2351,23 +2427,21 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-10-29T19:32:02Z",
+   "checked": "2026-10-30T07:55:01Z",
    "best": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0FNLNT7Q5",
-    "name": "Thermalright TL-M12Q X3 ARGB 3-pack, black",
-    "price": 18.49,
-    "delivery": 0.0,
-    "landed": 18.49,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "TL-M12Q X3",
+    "name": "Thermalright TL-M12Q X3 Black A-RGB 120mm PWM Triple Pack",
+    "price": 19.0,
+    "delivery": 5.0,
+    "landed": 24.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-26",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack"
    },
    "offers": [
     {
@@ -2384,6 +2458,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
     },
@@ -2413,37 +2488,34 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0FNLNT7Q5",
-    "name": "Thermalright TL-M12Q X3 ARGB 3-pack, black",
-    "price": 18.49,
-    "delivery": 0.0,
-    "landed": 18.49,
+    "shop": "Computer Orbit",
+    "display": "Computer Orbit",
+    "sku": "TL-M12Q X3",
+    "name": "Thermalright TL-M12Q X3 Black A-RGB 120mm PWM Triple Pack",
+    "price": 19.0,
+    "delivery": 5.0,
+    "landed": 24.0,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0FNLNT7Q5",
-    "checked_on": "2026-10-26",
-    "note": "TL-M12Q X3 black (2000rpm); sold by HuiYuFei, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -3.5,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 0.51,
+    "vs_baseline": -2.99,
+    "vs_prev_run": 0.51
    },
    "low": {
     "price": 18.49,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 8
+    "days": 9
    },
    "signals": [
-    "below_sheet",
-    "near_low"
+    "below_sheet"
    ],
    "history": [
     [
@@ -2501,6 +2573,13 @@
      18.49,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-30",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -2525,23 +2604,21 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:32:04Z",
+   "checked": "2026-10-30T07:55:03Z",
    "best": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B09N938PP4",
-    "name": "Kolink ARGB 1-to-3 splitter cable (5V 3-pin, 30cm)",
-    "price": 6.99,
-    "delivery": 0.0,
-    "landed": 6.99,
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "sku": "CA-07K-KK",
+    "name": "Kolink ARGB 1-3 Splitter Cable - 30cm",
+    "price": 0.85,
+    "delivery": 19.99,
+    "landed": 20.84,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B09N938PP4",
-    "checked_on": "2026-10-26",
-    "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
+    "source": "direct",
+    "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html"
    },
    "offers": [
     {
@@ -2558,6 +2635,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B09N938PP4",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "YACSEJAO 5V ARGB 1-to-3 splitter; sold by MINGSHOU, dispatched by Amazon; free delivery to a BT postcode"
     },
@@ -2601,7 +2679,7 @@
     "source": "direct",
     "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html"
    },
-   "pick_differs": true,
+   "pick_differs": false,
    "change": {
     "vs_yesterday": 0.0,
     "vs_baseline": -6.14,
@@ -2611,7 +2689,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "below_sheet",
@@ -2673,6 +2751,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-10-30",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2696,23 +2781,22 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-10-29T19:32:05Z",
+   "checked": "2026-10-30T07:55:04Z",
    "best": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0BDS1VVPX",
+    "shop": "Microsoft Store",
+    "display": "Microsoft Store",
     "name": "Windows 11 Home (full licence)",
-    "price": 119.0,
+    "price": 119.99,
     "delivery": 0.0,
-    "landed": 119.0,
+    "landed": 119.99,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Digital licence (download), nothing to deliver.",
     "stock": "InStock",
     "in_stock": true,
     "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-26",
-    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
+    "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
+    "checked_on": "2026-10-30",
+    "note": "Product page: £119.99 digital download, no delivery"
    },
    "offers": [
     {
@@ -2729,6 +2813,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
+     "stale": true,
      "checked_on": "2026-10-26",
      "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
     },
@@ -2745,7 +2830,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-     "checked_on": "2026-10-28",
+     "checked_on": "2026-10-30",
      "note": "Product page: £119.99 digital download, no delivery"
     },
     {
@@ -2791,33 +2876,32 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon Prime",
-    "display": "Amazon UK (Prime)",
-    "sku": "B0BDS1VVPX",
+    "shop": "Microsoft Store",
+    "display": "Microsoft Store",
     "name": "Windows 11 Home (full licence)",
-    "price": 119.0,
+    "price": 119.99,
     "delivery": 0.0,
-    "landed": 119.0,
+    "landed": 119.99,
     "ni": "verified",
-    "delivery_note": "Third-party seller, dispatched by Amazon (Prime). Free Prime delivery to a Northern Ireland (BT) postcode confirmed on each item page; sellers change prices, so the on-computer Amazon check re-reads them daily.",
+    "delivery_note": "Digital licence (download), nothing to deliver.",
     "stock": "InStock",
     "in_stock": true,
     "source": "verified",
-    "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
-    "checked_on": "2026-10-26",
-    "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
+    "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
+    "checked_on": "2026-10-30",
+    "note": "Product page: £119.99 digital download, no delivery"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -0.99,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 0.99,
+    "vs_baseline": 0.0,
+    "vs_prev_run": 0.99
    },
    "low": {
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 8
+    "days": 9
    },
    "signals": [
     "near_low"
@@ -2878,6 +2962,13 @@
      119.0,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-10-30",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -2905,10 +2996,10 @@
     "display": "Amazon UK",
     "sku": "B0DSG52H7D",
     "name": "ASUS PRIME RX9070 XT OC, PCIe5, 16GB DDR6, HDMI, 3 DP, 3030MHz Clock, Overclocked, Compact SFF-Ready",
-    "price": 758.99,
-    "was": 758.99,
+    "price": 799.99,
+    "was": 799.99,
     "delivery": 0.0,
-    "landed": 758.99,
+    "landed": 799.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -2922,10 +3013,10 @@
      "display": "Amazon UK",
      "sku": "B0DSG52H7D",
      "name": "ASUS PRIME RX9070 XT OC, PCIe5, 16GB DDR6, HDMI, 3 DP, 3030MHz Clock, Overclocked, Compact SFF-Ready",
-     "price": 758.99,
-     "was": 758.99,
+     "price": 799.99,
+     "was": 799.99,
      "delivery": 0.0,
-     "landed": 758.99,
+     "landed": 799.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -2996,10 +3087,10 @@
      "url": "https://pricespy.co.uk/go-to-shop/15126/offer/CFF0FB8B4042AB3EF0090FD795323DBF?client_id=1551"
     }
    ],
-   "checked": "2026-10-29T19:32:08Z",
+   "checked": "2026-10-30T07:55:07Z",
    "notes": [],
    "live": "live",
-   "saving": 41.0,
+   "saving": 0.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -3117,7 +3208,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-10-29T19:32:11Z",
+   "checked": "2026-10-30T07:55:10Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3271,7 +3362,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-10-29T19:32:16Z",
+   "checked": "2026-10-30T07:55:13Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -3370,7 +3461,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-10-29T19:32:20Z",
+   "checked": "2026-10-30T07:55:17Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3451,7 +3542,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-10-29T19:32:24Z",
+   "checked": "2026-10-30T07:55:21Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3505,9 +3596,9 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-10-29T19:32:28Z",
+   "checked": "2026-10-30T07:55:25Z",
    "live": "live",
-   "extra": 1.1,
+   "extra": -6.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -3523,21 +3614,38 @@
    "why": "Same chip and speed with a bigger, even quieter cooler. Only worth it if near-silence matters more than the extra cost.",
    "pricespy": 14421243,
    "best": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "GRA-PWC-04016",
-    "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB GDDR6 PCI-Express Graphics Card",
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "154544",
+    "name": "PowerColor AMD Radeon RX 9070 XT HELLHOUND 16GB GDDR6 Graphics Card",
     "price": 899.99,
-    "delivery": 19.99,
-    "landed": 919.98,
+    "was": 899.99,
+    "delivery": 13.19,
+    "landed": 913.18,
     "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154544",
+     "name": "PowerColor AMD Radeon RX 9070 XT HELLHOUND 16GB GDDR6 Graphics Card",
+     "price": 899.99,
+     "was": 899.99,
+     "delivery": 13.19,
+     "landed": 913.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
+    },
     {
      "shop": "Overclockers",
      "display": "Overclockers UK",
@@ -3552,22 +3660,6 @@
      "in_stock": true,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
-    },
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "154544",
-     "name": "PowerColor AMD Radeon RX 9070 XT HELLHOUND 16GB GDDR6 Graphics Card",
-     "price": 949.99,
-     "was": 949.99,
-     "delivery": 13.19,
-     "landed": 963.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
     },
     {
      "shop": "AWD-IT",
@@ -3586,7 +3678,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-10-29T19:32:29Z",
+   "checked": "2026-10-30T07:55:27Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3922,11 +4014,15 @@
   {
    "date": "2026-10-29",
    "text": "Sweep: prices unchanged. Re-checked Watercooling UK D33 black (£79.91, 50 in stock); Box lists the RX 9070 XT Reaper at £715.99 but out of stock; no cheaper like-for-like black DDR5-6000 CL28 kit found. No feedback emails, no new swap ideas."
+  },
+  {
+   "date": "2026-10-30",
+   "text": "Sweep: prices unchanged at the picks. Overclockers UK's Crucial P310 2TB is back in stock at £229.99 (Amazon UK's £199.99 stays the pick). Re-checked Computer Orbit (screen still out of stock) and Microsoft Store (£119.99); the Amazon Prime prices are 4 days old because the morning Amazon check hasn't run. No feedback emails, no new swap ideas."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-10-29T19:32:33Z"
+  "built": "2026-10-30T07:55:30Z"
  }
 }
