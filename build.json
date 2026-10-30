@@ -917,8 +917,9 @@
         "colour": "black"
       },
       "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, sold by Amazon UK with free delivery. It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
-      "status": "pending",
-      "added": "2026-10-27"
+      "status": "expired",
+      "added": "2026-10-27",
+      "decided": "2026-10-30"
     },
     {
       "id": "s4",
@@ -1555,6 +1556,10 @@
     {
       "date": "2026-10-30",
       "text": "Sweep: prices unchanged at the picks. Overclockers UK's Crucial P310 2TB is back in stock at £229.99 (Amazon UK's £199.99 stays the pick). Re-checked Computer Orbit (screen still out of stock) and Microsoft Store (£119.99); the Amazon Prime prices are 4 days old because the morning Amazon check hasn't run. No feedback emails, no new swap ideas."
+    },
+    {
+      "date": "2026-10-30",
+      "text": "Swap idea s3 (ASUS Prime RX 9070 XT OC) expired: Amazon UK now asks £799.99, the same as the Reaper, so it no longer saves £10. The 26 Oct Amazon Prime prices went stale, so the cooler, fans and Windows fall back to Computer Orbit and Microsoft Store (about £9.70 more) until the Amazon check runs again."
     }
   ],
   "amazon_leads": []
