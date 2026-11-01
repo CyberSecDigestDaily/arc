@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T13:09:56Z",
+ "generated": "2026-11-01T18:51:43Z",
  "today": "2026-11-01",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-01T13:09:56Z",
+  "started": "2026-11-01T18:51:43Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-01T13:10:58Z"
+  "finished": "2026-11-01T18:52:46Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2295.26,
+  "remaining": 2329.45,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -248,9 +248,10 @@
     "parts": [
      "cpu",
      "board",
-     "ssd"
+     "ssd",
+     "psu"
     ],
-    "items": 575.97,
+    "items": 688.82,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -261,11 +262,10 @@
     "key": "Computer Orbit",
     "parts": [
      "cooler",
-     "psu",
      "fans_bottom",
      "fans_front"
     ],
-    "items": 201.66,
+    "items": 123.0,
     "cost": 0.0,
     "basis": "verified",
     "note": "£5 delivery under £75, free over £75",
@@ -308,12 +308,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2295.26,
+  "build_total": 2329.45,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 103.74,
+  "delta_vs_baseline": 137.93,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -130.25,
+  "left_after_delivery": -164.44,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -326,8 +326,8 @@
   "budget": 132.9,
   "order_by": "2026-12-17",
   "tip": "Both fan packs come from Amazon Prime with free delivery; only the case pays delivery (Watercooling UK, shown at checkout).",
-  "cost": 111.57,
-  "left": 21.33,
+  "cost": 117.91,
+  "left": 14.99,
   "items": [
    {
     "id": "case",
@@ -339,14 +339,14 @@
    {
     "id": "fans_bottom",
     "slot": "Bottom fans",
-    "price": 15.83,
+    "price": 19.0,
     "bought": false,
     "shop": "Computer Orbit"
    },
    {
     "id": "fans_front",
     "slot": "Front/rear fans",
-    "price": 15.83,
+    "price": 19.0,
     "bought": false,
     "shop": "Computer Orbit"
    }
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:09:57Z",
+   "checked": "2026-11-01T18:51:44Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -637,15 +637,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:01Z",
+   "checked": "2026-11-01T18:51:48Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
     "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
     "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
-    "price": 70.83,
+    "price": 85.0,
     "delivery": 5.0,
-    "landed": 75.83,
+    "landed": 90.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -654,21 +654,6 @@
     "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
    },
    "offers": [
-    {
-     "shop": "Computer Orbit",
-     "display": "Computer Orbit",
-     "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
-     "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
-     "price": 70.83,
-     "delivery": 5.0,
-     "landed": 75.83,
-     "ni": "verified",
-     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
-    },
     {
      "shop": "Amazon Prime",
      "display": "Amazon UK (Prime)",
@@ -686,6 +671,21 @@
      "stale": true,
      "checked_on": "2026-10-26",
      "note": "FW 360 Ultra ARGB black; sold by deliming321, dispatched by Amazon; free delivery to a BT postcode"
+    },
+    {
+     "shop": "Computer Orbit",
+     "display": "Computer Orbit",
+     "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
+     "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
+     "price": 85.0,
+     "delivery": 5.0,
+     "landed": 90.0,
+     "ni": "verified",
+     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler"
     }
    ],
    "unvetted": [],
@@ -702,9 +702,9 @@
     "display": "Computer Orbit",
     "sku": "Frozen Warframe 360 ULTRA BLACK ARGB",
     "name": "Thermalright Frozen Warframe 360 ULTRA Black ARGB LCD AIO Liquid Cooler",
-    "price": 70.83,
+    "price": 85.0,
     "delivery": 5.0,
-    "landed": 75.83,
+    "landed": 90.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -714,9 +714,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": -14.17,
-    "vs_baseline": -7.07,
-    "vs_prev_run": -14.17
+    "vs_yesterday": 0.0,
+    "vs_baseline": 7.1,
+    "vs_prev_run": 14.17
    },
    "low": {
     "price": 77.9,
@@ -724,10 +724,7 @@
     "retailer": "Amazon UK (Prime)",
     "days": 11
    },
-   "signals": [
-    "below_sheet",
-    "new_low"
-   ],
+   "signals": [],
    "history": [
     [
      "2026-10-22",
@@ -836,7 +833,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:03Z",
+   "checked": "2026-11-01T18:51:50Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1078,7 +1075,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:07Z",
+   "checked": "2026-11-01T18:51:54Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1270,7 +1267,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:12Z",
+   "checked": "2026-11-01T18:51:59Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1507,7 +1504,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:16Z",
+   "checked": "2026-11-01T18:52:04Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1732,53 +1729,54 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:21Z",
+   "checked": "2026-11-01T18:52:08Z",
    "best": {
-    "shop": "Computer Orbit",
-    "display": "Computer Orbit",
-    "sku": "RM850e V3 (2025)",
-    "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
-    "price": 99.17,
-    "delivery": 5.0,
-    "landed": 104.17,
-    "ni": "verified",
-    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 112.85,
+    "was": 112.85,
+    "delivery": 0.0,
+    "landed": 112.85,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
+    "source": "pricespy",
+    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
    },
    "offers": [
-    {
-     "shop": "Computer Orbit",
-     "display": "Computer Orbit",
-     "sku": "RM850e V3 (2025)",
-     "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
-     "price": 99.17,
-     "delivery": 5.0,
-     "landed": 104.17,
-     "ni": "verified",
-     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
-    },
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
      "sku": "B0DMTN5WLB",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-     "price": 112.92,
-     "was": 112.92,
+     "price": 112.85,
+     "was": 112.85,
      "delivery": 0.0,
-     "landed": 112.92,
+     "landed": 112.85,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
      "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
+    },
+    {
+     "shop": "Computer Orbit",
+     "display": "Computer Orbit",
+     "sku": "RM850e V3 (2025)",
+     "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
+     "price": 119.0,
+     "delivery": 5.0,
+     "landed": 124.0,
+     "ni": "verified",
+     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
     },
     {
      "shop": "Scan",
@@ -1845,7 +1843,14 @@
     }
    ],
    "unvetted": [],
-   "amazon_check": [],
+   "amazon_check": [
+    {
+     "asin": "B0DMTL43VR",
+     "price": 109.99,
+     "stock": "InStock",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX"
+    }
+   ],
    "excluded": {
     "marketplace": 14,
     "used": 0,
@@ -1854,25 +1859,26 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Computer Orbit",
-    "display": "Computer Orbit",
-    "sku": "RM850e V3 (2025)",
-    "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
-    "price": 99.17,
-    "delivery": 5.0,
-    "landed": 104.17,
-    "ni": "verified",
-    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 112.85,
+    "was": 112.85,
+    "delivery": 0.0,
+    "landed": 112.85,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
+    "source": "pricespy",
+    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": -13.82,
-    "vs_baseline": 0.18,
-    "vs_prev_run": -13.82
+    "vs_yesterday": -0.14,
+    "vs_baseline": 13.86,
+    "vs_prev_run": 13.68
    },
    "low": {
     "price": 89.99,
@@ -1982,7 +1988,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-01T13:10:26Z",
+   "checked": "2026-11-01T18:52:13Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2176,7 +2182,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:27Z",
+   "checked": "2026-11-01T18:52:15Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2219,9 +2225,9 @@
      "display": "Computer Orbit",
      "sku": "Trofeo Vision 9.16 LCD BLACK",
      "name": "Thermalright Trofeo Vision 9.16 LCD Black Display",
-     "price": 29.17,
+     "price": 35.0,
      "delivery": 5.0,
-     "landed": 34.17,
+     "landed": 40.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
      "stock": "OutOfStock",
@@ -2378,15 +2384,15 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-01T13:10:29Z",
+   "checked": "2026-11-01T18:52:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
     "sku": "TL-M12QR X3",
     "name": "Thermalright TL-M12QR X3 Black A-RGB Reverse 120mm PWM Triple Pack",
-    "price": 15.83,
+    "price": 19.0,
     "delivery": 5.0,
-    "landed": 20.83,
+    "landed": 24.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -2418,9 +2424,9 @@
      "display": "Computer Orbit",
      "sku": "TL-M12QR X3",
      "name": "Thermalright TL-M12QR X3 Black A-RGB Reverse 120mm PWM Triple Pack",
-     "price": 15.83,
+     "price": 19.0,
      "delivery": 5.0,
-     "landed": 20.83,
+     "landed": 24.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
      "stock": "InStock",
@@ -2443,9 +2449,9 @@
     "display": "Computer Orbit",
     "sku": "TL-M12QR X3",
     "name": "Thermalright TL-M12QR X3 Black A-RGB Reverse 120mm PWM Triple Pack",
-    "price": 15.83,
+    "price": 19.0,
     "delivery": 5.0,
-    "landed": 20.83,
+    "landed": 24.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -2455,9 +2461,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": -3.17,
-    "vs_baseline": -8.07,
-    "vs_prev_run": -3.17
+    "vs_yesterday": 0.0,
+    "vs_baseline": -4.9,
+    "vs_prev_run": 3.17
    },
    "low": {
     "price": 17.9,
@@ -2466,8 +2472,7 @@
     "days": 11
    },
    "signals": [
-    "below_sheet",
-    "new_low"
+    "below_sheet"
    ],
    "history": [
     [
@@ -2574,15 +2579,15 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-01T13:10:30Z",
+   "checked": "2026-11-01T18:52:17Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
     "sku": "TL-M12Q X3",
     "name": "Thermalright TL-M12Q X3 Black A-RGB 120mm PWM Triple Pack",
-    "price": 15.83,
+    "price": 19.0,
     "delivery": 5.0,
-    "landed": 20.83,
+    "landed": 24.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -2614,9 +2619,9 @@
      "display": "Computer Orbit",
      "sku": "TL-M12Q X3",
      "name": "Thermalright TL-M12Q X3 Black A-RGB 120mm PWM Triple Pack",
-     "price": 15.83,
+     "price": 19.0,
      "delivery": 5.0,
-     "landed": 20.83,
+     "landed": 24.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
      "stock": "InStock",
@@ -2639,9 +2644,9 @@
     "display": "Computer Orbit",
     "sku": "TL-M12Q X3",
     "name": "Thermalright TL-M12Q X3 Black A-RGB 120mm PWM Triple Pack",
-    "price": 15.83,
+    "price": 19.0,
     "delivery": 5.0,
-    "landed": 20.83,
+    "landed": 24.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -2651,9 +2656,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": -3.17,
-    "vs_baseline": -6.16,
-    "vs_prev_run": -3.17
+    "vs_yesterday": 0.0,
+    "vs_baseline": -2.99,
+    "vs_prev_run": 3.17
    },
    "low": {
     "price": 18.49,
@@ -2662,8 +2667,7 @@
     "days": 11
    },
    "signals": [
-    "below_sheet",
-    "new_low"
+    "below_sheet"
    ],
    "history": [
     [
@@ -2766,7 +2770,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:32Z",
+   "checked": "2026-11-01T18:52:19Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2957,7 +2961,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-01T13:10:33Z",
+   "checked": "2026-11-01T18:52:21Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3285,9 +3289,9 @@
      "display": "Computer Orbit",
      "sku": "GV-R9070XTGAMING OC-16GD",
      "name": "Gigabyte RX 9070 XT Gaming OC 16GB Graphics Card",
-     "price": 832.5,
+     "price": 999.0,
      "delivery": 5.0,
-     "landed": 837.5,
+     "landed": 1004.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
      "stock": "OutOfStock",
@@ -3296,7 +3300,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-01T13:10:36Z",
+   "checked": "2026-11-01T18:52:24Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3450,10 +3454,10 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-01T13:10:40Z",
+   "checked": "2026-11-01T18:52:28Z",
    "notes": [],
    "live": "live",
-   "saving": 9.18,
+   "saving": 22.86,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -3549,7 +3553,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-01T13:10:44Z",
+   "checked": "2026-11-01T18:52:32Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3630,7 +3634,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-01T13:10:49Z",
+   "checked": "2026-11-01T18:52:36Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3657,9 +3661,9 @@
     "display": "Computer Orbit",
     "sku": "PEERLESS VISION 360 ARGB BLACK",
     "name": "Thermalright Peerless Vision 360 ARGB Black LCD AIO Liquid Cooler",
-    "price": 65.83,
+    "price": 79.0,
     "delivery": 5.0,
-    "landed": 70.83,
+    "landed": 84.0,
     "ni": "verified",
     "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
     "stock": "InStock",
@@ -3673,9 +3677,9 @@
      "display": "Computer Orbit",
      "sku": "PEERLESS VISION 360 ARGB BLACK",
      "name": "Thermalright Peerless Vision 360 ARGB Black LCD AIO Liquid Cooler",
-     "price": 65.83,
+     "price": 79.0,
      "delivery": 5.0,
-     "landed": 70.83,
+     "landed": 84.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
      "stock": "InStock",
@@ -3684,9 +3688,9 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-01T13:10:52Z",
+   "checked": "2026-11-01T18:52:41Z",
    "live": "live",
-   "extra": -5.0,
+   "extra": -6.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -3766,7 +3770,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-01T13:10:54Z",
+   "checked": "2026-11-01T18:52:42Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -3889,6 +3893,27 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-01T18:51:43Z",
+   "level": "info",
+   "type": "rise",
+   "part": "cooler",
+   "text": "CPU cooler up £14.17 to £85.00 at Computer Orbit"
+  },
+  {
+   "ts": "2026-11-01T18:51:43Z",
+   "level": "info",
+   "type": "rise",
+   "part": "psu",
+   "text": "PSU up £13.68 to £112.85 at Amazon UK"
+  },
+  {
+   "ts": "2026-11-01T18:51:43Z",
+   "level": "alert",
+   "type": "swap",
+   "part": "psu",
+   "text": "Swap idea: MSI MAG A850GL PCIE5 850W Gold, fully modular saves £22.86 (£89.99 at Amazon UK)"
+  },
   {
    "ts": "2026-11-01T13:09:56Z",
    "level": "alert",
@@ -4146,6 +4171,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-01T13:10:58Z"
+  "built": "2026-11-01T18:52:46Z"
  }
 }
