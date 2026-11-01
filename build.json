@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-10-31",
-  "last_sweep": "2026-10-31T07:49:29Z",
+  "updated": "2026-11-01",
+  "last_sweep": "2026-11-01T07:48:49Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1218,7 +1218,7 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
         "note": "Shopify product data: £119.00 (was £139), available"
       }
@@ -1246,7 +1246,7 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
         "note": "Shopify product data: £85.00 (was £99), available"
       },
@@ -1265,7 +1265,7 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
         "note": "Shopify product data: £35.00, out of stock (restock watch)"
       },
@@ -1284,7 +1284,7 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
         "note": "Shopify product data: £19.00, available"
       },
@@ -1312,7 +1312,7 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
         "note": "Shopify product data: £19.00, available"
       },
@@ -1350,7 +1350,7 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-10-30",
+        "checked_on": "2026-11-01",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
         "note": "Product page: £119.99 digital download, no delivery"
       },
@@ -1568,6 +1568,14 @@
     {
       "date": "2026-10-31",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Black DDR5-6000 CL28 kits elsewhere are £550+, so no RAM swap. No feedback emails, no new swap ideas."
+    },
+    {
+      "date": "2026-11-01",
+      "text": "Sweep: prices unchanged at the picks except the PSU, now £112.99 at Amazon UK (down £6.01). Re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99). Currys RAM page blocked again, so its 27 Oct entry stays."
+    },
+    {
+      "date": "2026-11-01",
+      "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). The Peerless Vision 360 upgrade is still £79 at Computer Orbit, only £6 under the cooler pick, so no swap idea. Ballicom lists the Reaper at £743.14 but doesn't deliver to NI. No feedback emails."
     }
   ],
   "amazon_leads": []
