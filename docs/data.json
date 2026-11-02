@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T07:56:48Z",
+ "generated": "2026-11-02T15:34:29Z",
  "today": "2026-11-02",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-02T07:56:48Z",
+  "started": "2026-11-02T15:34:29Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-02T07:57:45Z"
+  "finished": "2026-11-02T15:35:32Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2329.26,
+  "remaining": 2329.17,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -251,7 +251,7 @@
      "ssd",
      "psu"
     ],
-    "items": 688.63,
+    "items": 688.54,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -308,12 +308,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2329.26,
+  "build_total": 2329.17,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 137.74,
+  "delta_vs_baseline": 137.65,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -164.25,
+  "left_after_delivery": -164.16,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:56:49Z",
+   "checked": "2026-11-02T15:34:30Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -644,7 +644,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:56:52Z",
+   "checked": "2026-11-02T15:34:34Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -847,7 +847,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:56:53Z",
+   "checked": "2026-11-02T15:34:36Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1096,7 +1096,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:56:58Z",
+   "checked": "2026-11-02T15:34:41Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1295,7 +1295,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:01Z",
+   "checked": "2026-11-02T15:34:45Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1380,10 +1380,10 @@
      "display": "AWD-IT",
      "sku": "B23-6AB-D21",
      "name": "PowerColor RX 9070 XT OC 16GB Reaper GDDR6 Graphics Card - RX9070XT 16G-A",
-     "price": 1157.95,
-     "was": 1157.95,
+     "price": 1199.95,
+     "was": 1199.95,
      "delivery": 15.0,
-     "landed": 1172.95,
+     "landed": 1214.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -1539,7 +1539,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:05Z",
+   "checked": "2026-11-02T15:34:49Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1771,16 +1771,16 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:09Z",
+   "checked": "2026-11-02T15:34:54Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DMTN5WLB",
     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 112.66,
-    "was": 112.66,
+    "price": 112.57,
+    "was": 112.57,
     "delivery": 0.0,
-    "landed": 112.66,
+    "landed": 112.57,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -1794,10 +1794,10 @@
      "display": "Amazon UK",
      "sku": "B0DMTN5WLB",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-     "price": 112.66,
-     "was": 112.66,
+     "price": 112.57,
+     "was": 112.57,
      "delivery": 0.0,
-     "landed": 112.66,
+     "landed": 112.57,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -1891,6 +1891,12 @@
      "price": 109.99,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX"
+    },
+    {
+     "asin": "B0DMTN5WLB",
+     "price": 112.51,
+     "stock": "InStock",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
    ],
    "excluded": {
@@ -1905,10 +1911,10 @@
     "display": "Amazon UK",
     "sku": "B0DMTN5WLB",
     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 112.66,
-    "was": 112.66,
+    "price": 112.57,
+    "was": 112.57,
     "delivery": 0.0,
-    "landed": 112.66,
+    "landed": 112.57,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -1918,9 +1924,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 13.49,
-    "vs_baseline": 13.67,
-    "vs_prev_run": -0.19
+    "vs_yesterday": 13.4,
+    "vs_baseline": 13.58,
+    "vs_prev_run": -0.09
    },
    "low": {
     "price": 89.99,
@@ -2009,8 +2015,8 @@
     ],
     [
      "2026-11-02",
-     112.66,
-     112.66,
+     112.57,
+     112.57,
      1,
      "Amazon UK"
     ]
@@ -2037,7 +2043,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-02T07:57:15Z",
+   "checked": "2026-11-02T15:34:59Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2238,7 +2244,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:16Z",
+   "checked": "2026-11-02T15:35:00Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2447,7 +2453,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-02T07:57:17Z",
+   "checked": "2026-11-02T15:35:02Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2649,7 +2655,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-02T07:57:18Z",
+   "checked": "2026-11-02T15:35:03Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2847,7 +2853,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:20Z",
+   "checked": "2026-11-02T15:35:04Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3045,7 +3051,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-02T07:57:22Z",
+   "checked": "2026-11-02T15:35:06Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3348,10 +3354,10 @@
      "display": "AWD-IT",
      "sku": "58B-CF6-384",
      "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6 16GB Graphics Card - GV-R9070XTGAMING OC-16GD",
-     "price": 997.95,
-     "was": 997.95,
+     "price": 1032.95,
+     "was": 1032.95,
      "delivery": 15.0,
-     "landed": 1012.95,
+     "landed": 1047.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -3391,7 +3397,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-02T07:57:24Z",
+   "checked": "2026-11-02T15:35:09Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3545,10 +3551,10 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-02T07:57:28Z",
+   "checked": "2026-11-02T15:35:13Z",
    "notes": [],
    "live": "live",
-   "saving": 22.67,
+   "saving": 22.58,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -3644,7 +3650,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-02T07:57:32Z",
+   "checked": "2026-11-02T15:35:18Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3725,7 +3731,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-02T07:57:36Z",
+   "checked": "2026-11-02T15:35:23Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3779,7 +3785,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-02T07:57:40Z",
+   "checked": "2026-11-02T15:35:26Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -3849,10 +3855,10 @@
      "display": "AWD-IT",
      "sku": "537-E69-D4E",
      "name": "PowerColor RX 9070 XT OC 16GB Hellhound GDDR6 Graphics Card - RX9070XT 16G-L/OC",
-     "price": 1015.95,
-     "was": 1015.95,
+     "price": 1077.95,
+     "was": 1077.95,
      "delivery": 15.0,
-     "landed": 1030.95,
+     "landed": 1092.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -3861,7 +3867,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-02T07:57:42Z",
+   "checked": "2026-11-02T15:35:28Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4262,6 +4268,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-02T07:57:45Z"
+  "built": "2026-11-02T15:35:32Z"
  }
 }
