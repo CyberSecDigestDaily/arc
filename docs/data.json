@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T07:53:19Z",
+ "generated": "2026-11-03T07:58:57Z",
  "today": "2026-11-03",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-03T07:53:19Z",
+  "started": "2026-11-03T07:58:57Z",
   "source": "github-actions",
-  "pricespy_ok": 13,
+  "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-03T07:54:18Z"
+  "finished": "2026-11-03T07:59:54Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:20Z",
+   "checked": "2026-11-03T07:58:58Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -651,7 +651,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:24Z",
+   "checked": "2026-11-03T07:59:01Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -861,7 +861,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:25Z",
+   "checked": "2026-11-03T07:59:03Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1117,7 +1117,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:29Z",
+   "checked": "2026-11-03T07:59:07Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1323,7 +1323,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:33Z",
+   "checked": "2026-11-03T07:59:11Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1574,7 +1574,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:37Z",
+   "checked": "2026-11-03T07:59:15Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1813,7 +1813,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:42Z",
+   "checked": "2026-11-03T07:59:19Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1968,7 +1968,7 @@
    "change": {
     "vs_yesterday": -0.17,
     "vs_baseline": 13.41,
-    "vs_prev_run": -0.04
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 89.99,
@@ -2092,7 +2092,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-03T07:53:47Z",
+   "checked": "2026-11-03T07:59:24Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2300,7 +2300,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:48Z",
+   "checked": "2026-11-03T07:59:25Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2516,7 +2516,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-03T07:53:49Z",
+   "checked": "2026-11-03T07:59:26Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2725,7 +2725,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-03T07:53:50Z",
+   "checked": "2026-11-03T07:59:27Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2930,7 +2930,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:52Z",
+   "checked": "2026-11-03T07:59:29Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3135,7 +3135,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-03T07:53:53Z",
+   "checked": "2026-11-03T07:59:31Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3488,7 +3488,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-03T07:53:56Z",
+   "checked": "2026-11-03T07:59:33Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3642,7 +3642,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-03T07:54:00Z",
+   "checked": "2026-11-03T07:59:37Z",
    "notes": [],
    "live": "live",
    "saving": 22.41,
@@ -3661,99 +3661,11 @@
     "vram": "16GB GDDR6",
     "colour": "black"
    },
-   "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, now £749.99 sold by Amazon UK with free delivery (about £50 under the Reaper at Overclockers). It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
-   "status": "pending",
+   "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, sold by Amazon UK with free delivery. It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
+   "status": "expired",
    "added": "2026-11-03",
-   "decided": null,
-   "pricespy": 14364979,
-   "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DSG52H7D",
-    "name": "ASUS PRIME RX9070 XT OC, PCIe5, 16GB DDR6, HDMI, 3 DP, 3030MHz Clock, Overclocked, Compact SFF-Ready",
-    "price": 829.99,
-    "was": 829.99,
-    "delivery": 0.0,
-    "landed": 829.99,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-    "stock": "InStock",
-    "in_stock": true,
-    "source": "pricespy",
-    "url": "https://pricespy.co.uk/product.php?p=14364979"
-   },
-   "offers": [
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DSG52H7D",
-     "name": "ASUS PRIME RX9070 XT OC, PCIe5, 16GB DDR6, HDMI, 3 DP, 3030MHz Clock, Overclocked, Compact SFF-Ready",
-     "price": 829.99,
-     "was": 829.99,
-     "delivery": 0.0,
-     "landed": 829.99,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/product.php?p=14364979"
-    },
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "154747",
-     "name": "ASUS AMD Radeon RX 9070 XT PRIME OC RDNA4 16GB GDDR6 Graphics Card",
-     "price": 829.99,
-     "was": 829.99,
-     "delivery": 13.19,
-     "landed": 843.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154747?client_id=1551"
-    },
-    {
-     "shop": "Box.co.uk",
-     "display": "Box",
-     "sku": "90YV0L71-M0NA00",
-     "name": "ASUS PRIME-RX9070XT-O16G OC 16GB Graphics Card",
-     "price": 879.99,
-     "was": 879.99,
-     "delivery": 15.0,
-     "landed": 894.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/43024/offer/90YV0L71-M0NA00?client_id=1551"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "197-E99-879",
-     "name": "ASUS Prime AMD Radeon RX 9070 XT OC Edition 16GB GDDR6 Graphics Card - 90YV0L71-M0NA00",
-     "price": 925.95,
-     "was": 925.95,
-     "delivery": 15.0,
-     "landed": 940.95,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/197-E99-879?client_id=1551"
-    }
-   ],
-   "checked": "2026-11-03T07:54:03Z",
-   "notes": [],
-   "live": "live",
-   "saving": -30.0,
-   "fit_ok": true,
-   "fit_problems": []
+   "decided": "2026-11-03",
+   "pricespy": 14364979
   }
  ],
  "upgrades": [
@@ -3847,7 +3759,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-03T07:54:06Z",
+   "checked": "2026-11-03T07:59:41Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -3928,7 +3840,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-03T07:54:10Z",
+   "checked": "2026-11-03T07:59:45Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -3982,7 +3894,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-03T07:54:14Z",
+   "checked": "2026-11-03T07:59:49Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4064,7 +3976,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-03T07:54:15Z",
+   "checked": "2026-11-03T07:59:50Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4459,12 +4371,12 @@
   },
   {
    "date": "2026-11-03",
-   "text": "New swap idea s6: ASUS Prime RX 9070 XT OC is back down to £749.99 at Amazon UK, about £50 under the Reaper pick. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
+   "text": "Swap idea s6 (ASUS Prime RX 9070 XT OC) added and expired the same morning: PriceSpy's search page showed £749.99 at Amazon UK, but the checker read £829.99 there (Scan also £829.99), £30 more than the Reaper. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-03T07:54:18Z"
+  "built": "2026-11-03T07:59:54Z"
  }
 }
