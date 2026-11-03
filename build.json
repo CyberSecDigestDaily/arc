@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-02",
-  "last_sweep": "2026-11-02T07:52:52Z",
+  "updated": "2026-11-03",
+  "last_sweep": "2026-11-03T08:05:00Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1011,6 +1011,44 @@
       "why": "MSI's black 850W Gold PSU: fully modular, ATX 3 with a native 12V-2x6 cable, 140mm long so it fits the D33 like the RM850e, with the same 7-year warranty. Sold by Amazon UK at £89.99 with free delivery now that Amazon's own RM850e listing has gone and other shops want £119+. Trade-off: rated 80 Plus Gold rather than Cybenetics Gold, and reviews put it a touch louder under heavy load.",
       "status": "pending",
       "added": "2026-10-28"
+    },
+    {
+      "id": "s6",
+      "part": "gpu",
+      "name": "ASUS Prime Radeon RX 9070 XT OC 16GB",
+      "pricespy": 14364979,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "prime"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bGRE\\b",
+          "\\bTUF\\b",
+          "\\bbundle\\b",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bupgrade\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Amazon.co.uk",
+          "url": "https://pricespy.co.uk/product.php?p=14364979",
+          "check": "manual"
+        }
+      ],
+      "spec": {
+        "length_mm": 312,
+        "thickness_mm": 50,
+        "slots": 2.5,
+        "power": "3× 8-pin",
+        "vram": "16GB GDDR6",
+        "colour": "black"
+      },
+      "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, now £749.99 sold by Amazon UK with free delivery (about £50 under the Reaper at Overclockers). It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
+      "status": "pending",
+      "added": "2026-11-03"
     }
   ],
   "upgrades": [
@@ -1218,9 +1256,9 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "Shopify product data: £119.00 (was £139), available"
+        "note": "£119.00, in stock on Computer Orbit's store, 2026-11-03"
       }
     ],
     "case": [
@@ -1246,9 +1284,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "Shopify product data: £85.00 (was £99), available"
+        "note": "£85.00, in stock on Computer Orbit's store, 2026-11-03"
       },
       {
         "retailer": "Amazon Prime",
@@ -1265,9 +1303,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "Shopify product data: £35.00, out of stock (restock watch)"
+        "note": "£35.00, out of stock on Computer Orbit's store, 2026-11-03"
       },
       {
         "retailer": "Amazon Prime",
@@ -1284,9 +1322,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-        "note": "Shopify product data: £19.00, available"
+        "note": "£19.00, in stock on Computer Orbit's store, 2026-11-03"
       },
       {
         "retailer": "Amazon Prime",
@@ -1312,9 +1350,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-        "note": "Shopify product data: £19.00, available"
+        "note": "£19.00, in stock on Computer Orbit's store, 2026-11-03"
       },
       {
         "retailer": "Amazon Prime",
@@ -1350,9 +1388,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-01",
+        "checked_on": "2026-11-03",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "Product page: £119.99 digital download, no delivery"
+        "note": "£119.99 digital download, add to cart available, 2026-11-03"
       },
       {
         "retailer": "Amazon Prime",
@@ -1584,6 +1622,14 @@
     {
       "date": "2026-11-02",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). V-Color Manta XSky DDR5-6000 CL28 black is £472.99 at Overclockers UK, only £7 under the RAM pick, so no swap idea. No feedback emails."
+    },
+    {
+      "date": "2026-11-03",
+      "text": "Sweep: prices unchanged at the picks. Re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99). Currys RAM page blocked again, so its 27 Oct entry stays."
+    },
+    {
+      "date": "2026-11-03",
+      "text": "New swap idea s6: ASUS Prime RX 9070 XT OC is back down to £749.99 at Amazon UK, about £50 under the Reaper pick. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
     }
   ],
   "amazon_leads": []
