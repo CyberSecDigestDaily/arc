@@ -1046,9 +1046,10 @@
         "vram": "16GB GDDR6",
         "colour": "black"
       },
-      "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, now £749.99 sold by Amazon UK with free delivery (about £50 under the Reaper at Overclockers). It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
-      "status": "pending",
-      "added": "2026-11-03"
+      "why": "The same RX 9070 XT chip and 16GB as the Reaper, in ASUS's black Prime OC with a slightly higher factory clock, sold by Amazon UK with free delivery. It is 312mm long and 50mm thick, so it clears the D33 and the bottom fans (75mm of 95mm). Trade-off: it takes three 8-pin power plugs instead of two, so check the PSU's PCIe leads.",
+      "status": "expired",
+      "added": "2026-11-03",
+      "decided": "2026-11-03"
     }
   ],
   "upgrades": [
@@ -1629,7 +1630,7 @@
     },
     {
       "date": "2026-11-03",
-      "text": "New swap idea s6: ASUS Prime RX 9070 XT OC is back down to £749.99 at Amazon UK, about £50 under the Reaper pick. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
+      "text": "Swap idea s6 (ASUS Prime RX 9070 XT OC) added and expired the same morning: PriceSpy's search page showed £749.99 at Amazon UK, but the checker read £829.99 there (Scan also £829.99), £30 more than the Reaper. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
     }
   ],
   "amazon_leads": []
