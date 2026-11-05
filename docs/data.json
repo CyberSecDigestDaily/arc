@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T07:53:10Z",
+ "generated": "2026-11-05T14:29:45Z",
  "today": "2026-11-05",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-05T07:53:10Z",
+  "started": "2026-11-05T14:29:45Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-05T07:54:10Z"
+  "finished": "2026-11-05T14:30:43Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:11Z",
+   "checked": "2026-11-05T14:29:46Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -649,7 +649,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:14Z",
+   "checked": "2026-11-05T14:29:49Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -873,7 +873,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:17Z",
+   "checked": "2026-11-05T14:29:51Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -912,10 +912,10 @@
      "display": "Box",
      "sku": "MAG B850M MORTAR WIFI",
      "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
-     "price": 170.97,
-     "was": 170.97,
+     "price": 169.86,
+     "was": 169.86,
      "delivery": 4.95,
-     "landed": 175.92,
+     "landed": 174.81,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -1143,7 +1143,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:21Z",
+   "checked": "2026-11-05T14:29:55Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1363,7 +1363,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:25Z",
+   "checked": "2026-11-05T14:29:59Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1628,7 +1628,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:30Z",
+   "checked": "2026-11-05T14:30:03Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1881,7 +1881,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:34Z",
+   "checked": "2026-11-05T14:30:08Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2004,7 +2004,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 112.02,
+     "price": 111.98,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -2174,7 +2174,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-05T07:53:39Z",
+   "checked": "2026-11-05T14:30:13Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2396,7 +2396,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:40Z",
+   "checked": "2026-11-05T14:30:14Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2626,7 +2626,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-05T07:53:41Z",
+   "checked": "2026-11-05T14:30:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2849,7 +2849,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-05T07:53:42Z",
+   "checked": "2026-11-05T14:30:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3068,7 +3068,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:44Z",
+   "checked": "2026-11-05T14:30:18Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3287,7 +3287,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-05T07:53:46Z",
+   "checked": "2026-11-05T14:30:19Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3654,7 +3654,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-05T07:53:49Z",
+   "checked": "2026-11-05T14:30:22Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3824,7 +3824,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-05T07:53:52Z",
+   "checked": "2026-11-05T14:30:26Z",
    "notes": [],
    "live": "live",
    "saving": 22.23,
@@ -3866,7 +3866,7 @@
     "sku": "133834",
     "name": "AMD Ryzen 7 7800X3D 8 Core AM5 Zen4 3D V-Cache PCIe 5.0 CPU/Processor",
     "price": 338.99,
-    "was": 338.99,
+    "was": 364.99,
     "delivery": 13.19,
     "landed": 352.18,
     "ni": "verified",
@@ -3883,7 +3883,7 @@
      "sku": "133834",
      "name": "AMD Ryzen 7 7800X3D 8 Core AM5 Zen4 3D V-Cache PCIe 5.0 CPU/Processor",
      "price": 338.99,
-     "was": 338.99,
+     "was": 364.99,
      "delivery": 13.19,
      "landed": 352.18,
      "ni": "verified",
@@ -3941,7 +3941,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-05T07:53:57Z",
+   "checked": "2026-11-05T14:30:30Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -4022,7 +4022,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-05T07:54:01Z",
+   "checked": "2026-11-05T14:30:34Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4076,7 +4076,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-05T07:54:05Z",
+   "checked": "2026-11-05T14:30:38Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4173,7 +4173,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-05T07:54:06Z",
+   "checked": "2026-11-05T14:30:39Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4581,6 +4581,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-05T07:54:10Z"
+  "built": "2026-11-05T14:30:43Z"
  }
 }
