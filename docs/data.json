@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T07:57:53Z",
+ "generated": "2026-11-06T14:07:36Z",
  "today": "2026-11-06",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-06T07:57:53Z",
+  "started": "2026-11-06T14:07:36Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-06T07:58:48Z"
+  "finished": "2026-11-06T14:08:36Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:57:53Z",
+   "checked": "2026-11-06T14:07:37Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -656,7 +656,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:57:57Z",
+   "checked": "2026-11-06T14:07:41Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -887,7 +887,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:57:58Z",
+   "checked": "2026-11-06T14:07:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -979,8 +979,8 @@
      "landed": 189.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "PreOrder",
+     "in_stock": false,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html"
     }
@@ -1164,7 +1164,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:02Z",
+   "checked": "2026-11-06T14:07:47Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1391,7 +1391,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:06Z",
+   "checked": "2026-11-06T14:07:51Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1663,7 +1663,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:10Z",
+   "checked": "2026-11-06T14:07:55Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1923,7 +1923,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:14Z",
+   "checked": "2026-11-06T14:07:59Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2223,7 +2223,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-06T07:58:19Z",
+   "checked": "2026-11-06T14:08:05Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2452,7 +2452,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:20Z",
+   "checked": "2026-11-06T14:08:06Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2689,7 +2689,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-06T07:58:22Z",
+   "checked": "2026-11-06T14:08:07Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2919,7 +2919,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-06T07:58:23Z",
+   "checked": "2026-11-06T14:08:09Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3145,7 +3145,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:24Z",
+   "checked": "2026-11-06T14:08:10Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3371,7 +3371,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-06T07:58:26Z",
+   "checked": "2026-11-06T14:08:12Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3745,7 +3745,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-06T07:58:28Z",
+   "checked": "2026-11-06T14:08:15Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -3852,21 +3852,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/907-788-1F0?client_id=1551"
     },
     {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "CA-012-MS",
-     "name": "MSI MAG A850GL ATX 3.1 PCIe 5.1 850W 80 Plus Gold Modular Power Supply",
-     "price": 89.99,
-     "delivery": 19.99,
-     "landed": 109.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
-    },
-    {
      "shop": "Very",
      "display": "Very",
      "sku": "VPATL",
@@ -3913,9 +3898,24 @@
      "in_stock": null,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10267512?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "CA-012-MS",
+     "name": "MSI MAG A850GL ATX 3.1 PCIe 5.1 850W 80 Plus Gold Modular Power Supply",
+     "price": 89.99,
+     "delivery": 19.99,
+     "landed": 109.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-06T07:58:32Z",
+   "checked": "2026-11-06T14:08:19Z",
    "notes": [],
    "live": "live",
    "saving": 22.23,
@@ -4032,7 +4032,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-06T07:58:36Z",
+   "checked": "2026-11-06T14:08:23Z",
    "live": "live",
    "extra": 133.0,
    "fit_ok": true,
@@ -4113,7 +4113,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-06T07:58:40Z",
+   "checked": "2026-11-06T14:08:27Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4167,7 +4167,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-06T07:58:43Z",
+   "checked": "2026-11-06T14:08:31Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4264,7 +4264,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-06T07:58:45Z",
+   "checked": "2026-11-06T14:08:33Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4672,6 +4672,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-06T07:58:49Z"
+  "built": "2026-11-06T14:08:36Z"
  }
 }
