@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-06",
-  "last_sweep": "2026-11-06T07:53:36Z",
+  "updated": "2026-11-07",
+  "last_sweep": "2026-11-07T07:49:06Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1229,9 +1229,9 @@
         "retailer": "Overclockers",
         "price": 799.99,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-        "note": "£799.99 inc VAT, in stock on its product page, 5 Nov; the £749.99 reduction seen on 4 Nov has ended"
+        "note": "Product page and JSON-LD £799.99 inc VAT, In Stock"
       }
     ],
     "ssd": [
@@ -1257,9 +1257,9 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "£119.00, in stock on Computer Orbit's store, 2026-11-05"
+        "note": "£119.00 (was £139), in stock"
       }
     ],
     "case": [
@@ -1285,9 +1285,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "£85.00, in stock on Computer Orbit's store, 2026-11-05"
+        "note": "£85.00 (was £99), in stock; site shows an EXTRA30 code for 'selected items' (not confirmed for this item)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1304,9 +1304,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35.00, still out of stock on Computer Orbit's store, 2026-11-05"
+        "note": "£35.00 (was £39), out of stock, back-in-stock alert only"
       },
       {
         "retailer": "Amazon Prime",
@@ -1323,9 +1323,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-        "note": "£19.00, in stock on Computer Orbit's store, 2026-11-05"
+        "note": "£19.00 (was £26), in stock"
       },
       {
         "retailer": "Amazon Prime",
@@ -1351,9 +1351,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-        "note": "£19.00, in stock on Computer Orbit's store, 2026-11-05"
+        "note": "£19.00, in stock"
       },
       {
         "retailer": "Amazon Prime",
@@ -1389,9 +1389,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-05",
+        "checked_on": "2026-11-07",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "£119.99 digital download, available to buy on the Microsoft Store, 2026-11-05"
+        "note": "Digital download £119.99"
       },
       {
         "retailer": "Amazon Prime",
@@ -1655,6 +1655,14 @@
     {
       "date": "2026-11-06",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No new swap ideas: Overclockers UK's RX 9070 XT Challenger OC is £799.99 on its site (PriceSpy's £719.99 is out of date), and no cheaper black DDR5-6000 CL28 kit at a vetted shop. s4 and s5 still stand. No feedback emails."
+    },
+    {
+      "date": "2026-11-07",
+      "text": "Sweep: re-checked Overclockers UK (RX 9070 XT Reaper still £799.99), Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99), all unchanged. Currys RAM page blocked again, so its 27 Oct entry stays."
+    },
+    {
+      "date": "2026-11-07",
+      "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Computer Orbit is advertising an extra 30% off selected items (code EXTRA30); it isn't confirmed for the build's parts, so prices are unchanged. Swap ideas s4 and s5 still stand. No feedback emails."
     }
   ],
   "amazon_leads": []
