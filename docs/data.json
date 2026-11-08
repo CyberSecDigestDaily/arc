@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T07:52:02Z",
+ "generated": "2026-11-08T13:12:51Z",
  "today": "2026-11-08",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-08T07:52:02Z",
+  "started": "2026-11-08T13:12:51Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-08T07:52:59Z"
+  "finished": "2026-11-08T13:13:51Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:03Z",
+   "checked": "2026-11-08T13:12:52Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -669,7 +669,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:06Z",
+   "checked": "2026-11-08T13:12:56Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -914,7 +914,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:08Z",
+   "checked": "2026-11-08T13:12:58Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1205,7 +1205,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:12Z",
+   "checked": "2026-11-08T13:13:02Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1446,7 +1446,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:16Z",
+   "checked": "2026-11-08T13:13:06Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1716,7 +1716,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:20Z",
+   "checked": "2026-11-08T13:13:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1990,7 +1990,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:25Z",
+   "checked": "2026-11-08T13:13:15Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2113,7 +2113,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 111.56,
+     "price": 111.51,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -2304,7 +2304,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-08T07:52:30Z",
+   "checked": "2026-11-08T13:13:20Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2547,7 +2547,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:31Z",
+   "checked": "2026-11-08T13:13:21Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2798,7 +2798,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-08T07:52:32Z",
+   "checked": "2026-11-08T13:13:22Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3042,7 +3042,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-08T07:52:33Z",
+   "checked": "2026-11-08T13:13:24Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3282,7 +3282,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:35Z",
+   "checked": "2026-11-08T13:13:25Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3522,7 +3522,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-08T07:52:36Z",
+   "checked": "2026-11-08T13:13:27Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3910,7 +3910,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-08T07:52:39Z",
+   "checked": "2026-11-08T13:13:30Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -4080,7 +4080,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-08T07:52:43Z",
+   "checked": "2026-11-08T13:13:34Z",
    "notes": [],
    "live": "live",
    "saving": 22.23,
@@ -4117,51 +4117,52 @@
    "why": "Two more cores: faster in CPU-heavy games (BG3's Act 3, strategy, sims). At 4K on the TV the graphics card is usually the limit, so it's the upgrade to make only if the budget stretches.",
    "pricespy": 8053700,
    "best": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "CP-3DT-AM",
-    "name": "AMD Ryzen 7 7800X3D Eight Core 5.00GHz (Socket AM5) Processor - Retail",
-    "price": 278.99,
-    "delivery": 19.99,
-    "landed": 298.98,
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "133834",
+    "name": "AMD Ryzen 7 7800X3D 8 Core AM5 Zen4 3D V-Cache PCIe 5.0 CPU/Processor",
+    "price": 262.99,
+    "was": 364.99,
+    "delivery": 13.19,
+    "landed": 276.18,
     "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/15495/offer/133834?client_id=1551"
    },
    "offers": [
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "CP-3DT-AM",
-     "name": "AMD Ryzen 7 7800X3D Eight Core 5.00GHz (Socket AM5) Processor - Retail",
-     "price": 278.99,
-     "delivery": 19.99,
-     "landed": 298.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
-    },
     {
      "shop": "Scan",
      "display": "Scan",
      "sku": "133834",
      "name": "AMD Ryzen 7 7800X3D 8 Core AM5 Zen4 3D V-Cache PCIe 5.0 CPU/Processor",
-     "price": 338.99,
+     "price": 262.99,
      "was": 364.99,
      "delivery": 13.19,
-     "landed": 352.18,
+     "landed": 276.18,
      "ni": "verified",
      "delivery_note": "2-day service to NI",
      "stock": "InStock",
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/133834?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "CP-3DT-AM",
+     "name": "AMD Ryzen 7 7800X3D Eight Core 5.00GHz (Socket AM5) Processor - Retail",
+     "price": 259.99,
+     "delivery": 19.99,
+     "landed": 279.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
     },
     {
      "shop": "AWD-IT",
@@ -4196,9 +4197,9 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-08T07:52:47Z",
+   "checked": "2026-11-08T13:13:38Z",
    "live": "live",
-   "extra": 79.0,
+   "extra": 63.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -4277,7 +4278,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-08T07:52:51Z",
+   "checked": "2026-11-08T13:13:43Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4331,7 +4332,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-08T07:52:54Z",
+   "checked": "2026-11-08T13:13:46Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4428,7 +4429,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-08T07:52:56Z",
+   "checked": "2026-11-08T13:13:48Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4836,6 +4837,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-08T07:52:59Z"
+  "built": "2026-11-08T13:13:51Z"
  }
 }
