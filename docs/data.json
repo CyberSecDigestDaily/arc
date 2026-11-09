@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T07:53:01Z",
+ "generated": "2026-11-09T15:59:20Z",
  "today": "2026-11-09",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-09T07:53:01Z",
+  "started": "2026-11-09T15:59:20Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-09T07:54:01Z"
+  "finished": "2026-11-09T16:00:20Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:01Z",
+   "checked": "2026-11-09T15:59:20Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -676,7 +676,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:05Z",
+   "checked": "2026-11-09T15:59:24Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -928,7 +928,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:07Z",
+   "checked": "2026-11-09T15:59:26Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1226,7 +1226,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:11Z",
+   "checked": "2026-11-09T15:59:30Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1281,7 +1281,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 7,
+    "other_variant": 8,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1474,7 +1474,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:15Z",
+   "checked": "2026-11-09T15:59:34Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1751,7 +1751,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:19Z",
+   "checked": "2026-11-09T15:59:39Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1827,7 +1827,7 @@
      "landed": 249.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "OutOfStock",
+     "stock": "SoldOut",
      "in_stock": false,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html"
@@ -2032,7 +2032,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:23Z",
+   "checked": "2026-11-09T15:59:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2155,7 +2155,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 111.3,
+     "price": 111.27,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -2353,7 +2353,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-09T07:53:29Z",
+   "checked": "2026-11-09T15:59:48Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2603,7 +2603,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:31Z",
+   "checked": "2026-11-09T15:59:50Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2861,7 +2861,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-09T07:53:32Z",
+   "checked": "2026-11-09T15:59:51Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3112,7 +3112,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-09T07:53:33Z",
+   "checked": "2026-11-09T15:59:52Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3359,7 +3359,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:35Z",
+   "checked": "2026-11-09T15:59:54Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3606,7 +3606,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-09T07:53:37Z",
+   "checked": "2026-11-09T15:59:55Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4001,7 +4001,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-09T07:53:40Z",
+   "checked": "2026-11-09T15:59:58Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -4171,7 +4171,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-09T07:53:43Z",
+   "checked": "2026-11-09T16:00:02Z",
    "notes": [],
    "live": "live",
    "saving": 22.23,
@@ -4288,7 +4288,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-09T07:53:47Z",
+   "checked": "2026-11-09T16:00:07Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4369,7 +4369,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-09T07:53:52Z",
+   "checked": "2026-11-09T16:00:11Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4423,7 +4423,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-09T07:53:56Z",
+   "checked": "2026-11-09T16:00:15Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4520,7 +4520,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-09T07:53:58Z",
+   "checked": "2026-11-09T16:00:17Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4928,6 +4928,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-09T07:54:01Z"
+  "built": "2026-11-09T16:00:20Z"
  }
 }
