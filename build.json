@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-08",
-  "last_sweep": "2026-11-08T07:48:00Z",
+  "updated": "2026-11-09",
+  "last_sweep": "2026-11-09T07:48:55Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1257,9 +1257,9 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "£119.00 (was £139), in stock"
+        "note": "£119.00 inc VAT, in stock (sweep 2026-11-09)"
       }
     ],
     "case": [
@@ -1285,9 +1285,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "£85.00 (was £99), in stock; site shows an EXTRA30 code for 'selected items' (not confirmed for this item)"
+        "note": "£85.00 inc VAT, in stock (sweep 2026-11-09)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1304,9 +1304,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35.00 (was £39), out of stock, back-in-stock alert only"
+        "note": "£35.00 inc VAT, out of stock (email-me-when-back) (sweep 2026-11-09)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1323,9 +1323,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-        "note": "£19.00 (was £26), in stock"
+        "note": "£19.00 inc VAT, in stock (sweep 2026-11-09)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1351,9 +1351,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-        "note": "£19.00, in stock"
+        "note": "£19.00 inc VAT, in stock (sweep 2026-11-09)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1389,9 +1389,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-07",
+        "checked_on": "2026-11-09",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "Digital download £119.99"
+        "note": "£119.99, digital download, add to cart available (sweep 2026-11-09)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1436,10 +1436,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-18",
-      "text": "Tracker created from the 16 Oct sheet: 9 parts, £2,158.79."
-    },
     {
       "date": "2026-10-18",
       "text": "Scan 9800X3D re-checked: £379.98 (was £384.98). Watercooling UK case confirmed £83.99 inc VAT."
@@ -1671,6 +1667,14 @@
     {
       "date": "2026-11-08",
       "text": "Upgrade u1 (Ryzen 7 7800X3D) is £278.99 at Overclockers UK, down from £364.99; still about £79 more than the 7500X3D, so it stays reference only. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Swap ideas s4 and s5 still stand. No feedback emails."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Sweep: re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99), all unchanged. Overclockers UK prices read directly by the checker (7500X3D £199.99, KLEVV RAM £479.99, Reaper £799.99). Currys RAM page blocked again, so its 27 Oct entry stays."
+    },
+    {
+      "date": "2026-11-09",
+      "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No cheaper Reaper or black DDR5-6000 CL28 kit found at vetted shops; swap ideas s4 (Gigabyte Gaming OC, saves ~£42) and s5 (MSI A850GL, saves ~£22) still stand. No feedback emails."
     }
   ],
   "amazon_leads": []
