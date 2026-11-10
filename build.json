@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-09",
-  "last_sweep": "2026-11-09T07:48:55Z",
+  "updated": "2026-11-10",
+  "last_sweep": "2026-11-10T07:49:29Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1191,9 +1191,9 @@
         "retailer": "Overclockers",
         "price": 199.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html",
-        "note": "In stock; reduced to £199.99 from £209.99 (product page JSON-LD, inc VAT)"
+        "note": "£199.99 inc VAT, In Stock (sweep 10 Nov)"
       }
     ],
     "board": [
@@ -1201,9 +1201,9 @@
         "retailer": "Overclockers",
         "price": 169.99,
         "in_stock": false,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
-        "note": "Pre-order now (was in stock); £169.99 (product page JSON-LD, inc VAT)"
+        "note": "£169.99 inc VAT, Pre Order with notify-me (sweep 10 Nov)"
       }
     ],
     "ram": [
@@ -1211,9 +1211,9 @@
         "retailer": "Overclockers",
         "price": 479.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
-        "note": "In stock (product page JSON-LD, inc VAT)"
+        "note": "£479.99 inc VAT, In Stock (sweep 10 Nov)"
       },
       {
         "retailer": "Currys",
@@ -1229,9 +1229,9 @@
         "retailer": "Overclockers",
         "price": 799.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-        "note": "Product page and JSON-LD £799.99 inc VAT, In Stock"
+        "note": "£799.99 inc VAT, In Stock (sweep 10 Nov)"
       }
     ],
     "ssd": [
@@ -1249,9 +1249,9 @@
         "retailer": "Overclockers",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html",
-        "note": "In stock (product page JSON-LD, inc VAT)"
+        "note": "£119.99 inc VAT, In Stock, limited stock (sweep 10 Nov)"
       },
       {
         "retailer": "Computer Orbit",
@@ -1267,17 +1267,17 @@
         "retailer": "Overclockers",
         "price": 79.99,
         "in_stock": false,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-        "note": "Pre-order only (product page JSON-LD, inc VAT)"
+        "note": "£79.99 inc VAT, Pre Order with notify-me (sweep 10 Nov)"
       },
       {
         "retailer": "Watercooling UK",
         "price": 79.91,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock"
+        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 10 Nov)"
       }
     ],
     "cooler": [
@@ -1370,9 +1370,9 @@
         "retailer": "Overclockers",
         "price": 0.85,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html",
-        "note": "In stock (product page JSON-LD, inc VAT)"
+        "note": "£0.85 inc VAT, In Stock (sweep 10 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1406,11 +1406,11 @@
     "u1": [
       {
         "retailer": "Overclockers",
-        "price": 278.99,
+        "price": 259.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html",
-        "note": "In stock; reduced to £278.99 from £364.99 (product page JSON-LD, inc VAT)"
+        "note": "£259.99 inc VAT (was £364.99), In Stock (sweep 10 Nov)"
       }
     ],
     "u2": [
@@ -1418,9 +1418,9 @@
         "retailer": "Overclockers",
         "price": 289.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html",
-        "note": "In stock (product page JSON-LD, inc VAT)"
+        "note": "£289.99 inc VAT, In Stock (sweep 10 Nov)"
       }
     ],
     "u4": [
@@ -1428,22 +1428,14 @@
         "retailer": "Overclockers",
         "price": 899.99,
         "in_stock": true,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-10",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html",
-        "note": "In stock (product page JSON-LD, inc VAT)"
+        "note": "£899.99 inc VAT, In Stock (sweep 10 Nov)"
       }
     ]
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-18",
-      "text": "Scan 9800X3D re-checked: £379.98 (was £384.98). Watercooling UK case confirmed £83.99 inc VAT."
-    },
-    {
-      "date": "2026-10-18",
-      "text": "New swap idea s2: Gigabyte RX 9070 XT Gaming OC at Amazon UK £757.99, about £21 under the current GPU's landed cost."
-    },
     {
       "date": "2026-10-18",
       "text": "Could not re-check Overclockers UK prices for CPU, RAM, GPU and fans today (site blocks checks); entries go stale after 19 Oct."
@@ -1675,6 +1667,14 @@
     {
       "date": "2026-11-09",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No cheaper Reaper or black DDR5-6000 CL28 kit found at vetted shops; swap ideas s4 (Gigabyte Gaming OC, saves ~£42) and s5 (MSI A850GL, saves ~£22) still stand. No feedback emails."
+    },
+    {
+      "date": "2026-11-10",
+      "text": "Sweep: re-checked Overclockers UK and Watercooling UK; build prices unchanged (7500X3D £199.99, KLEVV RAM £479.99, Reaper £799.99, D33 black £79.91 at Watercooling UK). Overclockers' Crucial P310 2TB is still out of stock; upgrade u1 (Ryzen 7 7800X3D) down to £259.99 there, still £60 more than the 7500X3D. Currys RAM page blocked again."
+    },
+    {
+      "date": "2026-11-10",
+      "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No new swap ideas: V-Color Manta XSky black DDR5-6000 CL28 is £472.99 at Overclockers UK (only £7 less than the KLEVV), and cheaper RX 9070 XT listings on PriceSpy are marketplace, Clove or A1 Tech Deals only. s4 and s5 still stand. No feedback emails."
     }
   ],
   "amazon_leads": []
