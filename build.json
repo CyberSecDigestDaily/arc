@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-10",
-  "last_sweep": "2026-11-10T07:49:29Z",
+  "updated": "2026-11-11",
+  "last_sweep": "2026-11-11T07:49:26Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1229,9 +1229,9 @@
         "retailer": "Overclockers",
         "price": 799.99,
         "in_stock": true,
-        "checked_on": "2026-11-10",
+        "checked_on": "2026-11-11",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-        "note": "£799.99 inc VAT, In Stock (sweep 10 Nov)"
+        "note": "£799.99 inc VAT, In Stock (sweep 11 Nov)"
       }
     ],
     "ssd": [
@@ -1239,9 +1239,9 @@
         "retailer": "Overclockers",
         "price": 229.99,
         "in_stock": false,
-        "checked_on": "2026-11-08",
+        "checked_on": "2026-11-11",
         "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html",
-        "note": "Out of stock now, notify-me only (product page JSON-LD, inc VAT)"
+        "note": "Product page JSON-LD: £229.99 inc VAT, SoldOut."
       }
     ],
     "psu": [
@@ -1257,9 +1257,9 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "£119.00 inc VAT, in stock (sweep 2026-11-09)"
+        "note": "Shopify product data: £119.00, available. Free NI delivery over £75."
       }
     ],
     "case": [
@@ -1285,9 +1285,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "£85.00 inc VAT, in stock (sweep 2026-11-09)"
+        "note": "Shopify product data: £85.00, available."
       },
       {
         "retailer": "Amazon Prime",
@@ -1304,9 +1304,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35.00 inc VAT, out of stock (email-me-when-back) (sweep 2026-11-09)"
+        "note": "Shopify product data: £35.00, sold out."
       },
       {
         "retailer": "Amazon Prime",
@@ -1323,9 +1323,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-        "note": "£19.00 inc VAT, in stock (sweep 2026-11-09)"
+        "note": "Shopify product data: £19.00, available."
       },
       {
         "retailer": "Amazon Prime",
@@ -1351,9 +1351,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-        "note": "£19.00 inc VAT, in stock (sweep 2026-11-09)"
+        "note": "Shopify product data: £19.00, available."
       },
       {
         "retailer": "Amazon Prime",
@@ -1389,9 +1389,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-09",
+        "checked_on": "2026-11-11",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "£119.99, digital download, add to cart available (sweep 2026-11-09)"
+        "note": "Microsoft Store page: £119.99 digital download."
       },
       {
         "retailer": "Amazon Prime",
@@ -1436,14 +1436,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-18",
-      "text": "Could not re-check Overclockers UK prices for CPU, RAM, GPU and fans today (site blocks checks); entries go stale after 19 Oct."
-    },
-    {
-      "date": "2026-10-18",
-      "text": "Very vetted: delivers to NI, free on £75+. AWD-IT and Box still unverified (no NI terms published)."
-    },
     {
       "date": "2026-10-18",
       "text": "Colour preference set to black: case → Jonsbo Z20 (black), cooler → Peerless Assassin 120 SE Black. Black RAM and motherboard options added as swap ideas."
@@ -1675,6 +1667,14 @@
     {
       "date": "2026-11-10",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No new swap ideas: V-Color Manta XSky black DDR5-6000 CL28 is £472.99 at Overclockers UK (only £7 less than the KLEVV), and cheaper RX 9070 XT listings on PriceSpy are marketplace, Clove or A1 Tech Deals only. s4 and s5 still stand. No feedback emails."
+    },
+    {
+      "date": "2026-11-11",
+      "text": "Sweep: re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still sold out), Microsoft Store (£119.99) and Overclockers UK (P310 2TB still sold out at £229.99), all unchanged. The RM850e is no longer sold by Amazon UK itself, so the PSU pick moved to Computer Orbit (+£6.78)."
+    },
+    {
+      "date": "2026-11-11",
+      "text": "Overclockers UK's black RX 9070 XT cards checked directly: Reaper, ASUS Prime OC and ASRock Challenger OC all £799.99, others £829.99+, so no cheaper GPU swap. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). s4 and s5 still stand. No feedback emails."
     }
   ],
   "amazon_leads": []
