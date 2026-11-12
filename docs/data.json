@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T07:53:30Z",
+ "generated": "2026-11-12T15:01:49Z",
  "today": "2026-11-12",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-12T07:53:30Z",
+  "started": "2026-11-12T15:01:49Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-12T07:54:32Z"
+  "finished": "2026-11-12T15:02:49Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2329.47,
+  "remaining": 2349.47,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -236,7 +236,7 @@
      "gpu",
      "splitter"
     ],
-    "items": 1280.83,
+    "items": 1300.83,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -308,12 +308,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2329.47,
+  "build_total": 2349.47,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 137.95,
+  "delta_vs_baseline": 157.95,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -164.46,
+  "left_after_delivery": -184.46,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:31Z",
+   "checked": "2026-11-12T15:01:50Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -477,7 +477,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 8,
+    "marketplace": 10,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -698,7 +698,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:35Z",
+   "checked": "2026-11-12T15:01:54Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -971,7 +971,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:37Z",
+   "checked": "2026-11-12T15:01:56Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1072,7 +1072,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 16,
+    "marketplace": 15,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1290,15 +1290,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:41Z",
+   "checked": "2026-11-12T15:02:00Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 479.99,
+    "price": 499.99,
     "delivery": 19.99,
-    "landed": 499.98,
+    "landed": 519.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1329,9 +1329,9 @@
      "display": "Overclockers UK",
      "sku": "MEM-KLV-07037",
      "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-     "price": 479.99,
+     "price": 499.99,
      "delivery": 19.99,
-     "landed": 499.98,
+     "landed": 519.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
      "stock": "InStock",
@@ -1354,9 +1354,9 @@
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 479.99,
+    "price": 499.99,
     "delivery": 19.99,
-    "landed": 499.98,
+    "landed": 519.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1366,9 +1366,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 81.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 20.0,
+    "vs_baseline": 101.0,
+    "vs_prev_run": 20.0
    },
    "low": {
     "price": 399.95,
@@ -1559,7 +1559,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:46Z",
+   "checked": "2026-11-12T15:02:04Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1873,7 +1873,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:50Z",
+   "checked": "2026-11-12T15:02:08Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2182,7 +2182,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:53:55Z",
+   "checked": "2026-11-12T15:02:12Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2265,22 +2265,22 @@
    "unvetted": [],
    "amazon_check": [
     {
-     "asin": "B0DMTN5WLB",
-     "price": 110.8,
-     "stock": "InStock",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
-    },
-    {
      "asin": "B0DMTL43VR",
      "price": 113.9,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX"
+    },
+    {
+     "asin": "B0DMTN5WLB",
+     "price": 115.25,
+     "stock": "InStock",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
    ],
    "excluded": {
     "marketplace": 15,
     "used": 1,
-    "other_variant": 6,
+    "other_variant": 7,
     "untrusted_feed": 1
    },
    "notes": [],
@@ -2490,7 +2490,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T07:54:00Z",
+   "checked": "2026-11-12T15:02:18Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2761,7 +2761,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:54:02Z",
+   "checked": "2026-11-12T15:02:19Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3040,7 +3040,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T07:54:03Z",
+   "checked": "2026-11-12T15:02:21Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3312,7 +3312,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T07:54:04Z",
+   "checked": "2026-11-12T15:02:22Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3580,7 +3580,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:54:06Z",
+   "checked": "2026-11-12T15:02:24Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3848,7 +3848,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T07:54:07Z",
+   "checked": "2026-11-12T15:02:25Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3936,7 +3936,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 0,
     "other_variant": 1,
     "untrusted_feed": 0
@@ -4264,7 +4264,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-12T07:54:10Z",
+   "checked": "2026-11-12T15:02:28Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -4418,7 +4418,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-12T07:54:14Z",
+   "checked": "2026-11-12T15:02:32Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -4535,7 +4535,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T07:54:19Z",
+   "checked": "2026-11-12T15:02:36Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4616,7 +4616,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T07:54:23Z",
+   "checked": "2026-11-12T15:02:40Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4670,7 +4670,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-12T07:54:27Z",
+   "checked": "2026-11-12T15:02:44Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4783,7 +4783,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T07:54:29Z",
+   "checked": "2026-11-12T15:02:46Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -4906,6 +4906,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-12T15:01:49Z",
+   "level": "info",
+   "type": "rise",
+   "part": "ram",
+   "text": "RAM up £20.00 to £499.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-04T07:54:46Z",
    "level": "alert",
@@ -5191,6 +5198,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-12T07:54:32Z"
+  "built": "2026-11-12T15:02:50Z"
  }
 }
