@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T23:29:14Z",
- "today": "2026-11-12",
+ "generated": "2026-11-13T07:54:37Z",
+ "today": "2026-11-13",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-12",
- "last_sweep": "2026-11-12T07:49:17Z",
+ "updated": "2026-11-13",
+ "last_sweep": "2026-11-13T07:50:28Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-12T23:29:14Z",
+  "started": "2026-11-13T07:54:37Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-12T23:30:13Z"
+  "finished": "2026-11-13T07:55:37Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:15Z",
+   "checked": "2026-11-13T07:54:38Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -509,7 +509,7 @@
     "price": 199.99,
     "date": "2026-11-08",
     "retailer": "Overclockers UK",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low"
@@ -668,6 +668,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-13",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -698,7 +705,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:19Z",
+   "checked": "2026-11-13T07:54:42Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -783,7 +790,7 @@
     "price": 70.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 22
+    "days": 23
    },
    "signals": [],
    "history": [
@@ -940,6 +947,13 @@
      90.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-13",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -971,7 +985,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:21Z",
+   "checked": "2026-11-13T07:54:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1104,7 +1118,7 @@
     "price": 169.86,
     "date": "2026-11-05",
     "retailer": "Amazon UK",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low"
@@ -1263,6 +1277,13 @@
      169.86,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-13",
+     169.86,
+     169.86,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1290,7 +1311,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:25Z",
+   "checked": "2026-11-13T07:54:48Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1374,7 +1395,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 22
+    "days": 23
    },
    "signals": [],
    "history": [
@@ -1531,6 +1552,13 @@
      499.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-13",
+     499.99,
+     519.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1559,7 +1587,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:29Z",
+   "checked": "2026-11-13T07:54:53Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1659,7 +1687,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 5,
+    "marketplace": 4,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1690,7 +1718,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 22
+    "days": 23
    },
    "signals": [],
    "history": [
@@ -1847,6 +1875,13 @@
      819.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-13",
+     799.99,
+     819.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1873,7 +1908,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:33Z",
+   "checked": "2026-11-13T07:54:57Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1997,7 +2032,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low"
@@ -2156,6 +2191,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-13",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -2182,7 +2224,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:37Z",
+   "checked": "2026-11-13T07:55:01Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2241,8 +2283,8 @@
      "landed": 134.9,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "OutOfStock",
+     "in_stock": false,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A09-B1B-1CE?client_id=1551"
     },
@@ -2272,7 +2314,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 115.23,
+     "price": 115.2,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -2309,7 +2351,7 @@
     "price": 89.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 22
+    "days": 23
    },
    "signals": [],
    "history": [
@@ -2466,6 +2508,13 @@
      124.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-13",
+     119.0,
+     124.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -2490,7 +2539,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T23:29:42Z",
+   "checked": "2026-11-13T07:55:07Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2575,7 +2624,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low",
@@ -2735,6 +2784,13 @@
      94.91,
      1,
      "Watercooling UK"
+    ],
+    [
+     "2026-11-13",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
     ]
    ]
   },
@@ -2761,7 +2817,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:43Z",
+   "checked": "2026-11-13T07:55:08Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -2852,7 +2908,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low",
@@ -3012,6 +3068,13 @@
      36.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-11-13",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -3040,7 +3103,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T23:29:45Z",
+   "checked": "2026-11-13T07:55:09Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3125,7 +3188,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "below_sheet"
@@ -3284,6 +3347,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-13",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3312,7 +3382,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-12T23:29:46Z",
+   "checked": "2026-11-13T07:55:10Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3397,7 +3467,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "below_sheet"
@@ -3556,6 +3626,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-13",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3580,7 +3657,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:47Z",
+   "checked": "2026-11-13T07:55:12Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3665,7 +3742,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "below_sheet",
@@ -3825,6 +3902,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-13",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -3848,7 +3932,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-12T23:29:49Z",
+   "checked": "2026-11-13T07:55:14Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -3862,8 +3946,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-11",
-    "note": "Microsoft Store page: £119.99 digital download."
+    "checked_on": "2026-11-13",
+    "note": "Digital download £119.99"
    },
    "offers": [
     {
@@ -3897,8 +3981,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-     "checked_on": "2026-11-11",
-     "note": "Microsoft Store page: £119.99 digital download."
+     "checked_on": "2026-11-13",
+     "note": "Digital download £119.99"
     },
     {
      "shop": "Scan",
@@ -3955,8 +4039,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-11",
-    "note": "Microsoft Store page: £119.99 digital download."
+    "checked_on": "2026-11-13",
+    "note": "Digital download £119.99"
    },
    "pick_differs": false,
    "change": {
@@ -3968,7 +4052,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 22
+    "days": 23
    },
    "signals": [
     "near_low"
@@ -4127,6 +4211,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-11-13",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -4264,7 +4355,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-12T23:29:52Z",
+   "checked": "2026-11-13T07:55:16Z",
    "notes": [],
    "live": "live",
    "saving": 42.0,
@@ -4418,7 +4509,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-12T23:29:56Z",
+   "checked": "2026-11-13T07:55:20Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -4535,7 +4626,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T23:30:00Z",
+   "checked": "2026-11-13T07:55:24Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4616,7 +4707,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T23:30:04Z",
+   "checked": "2026-11-13T07:55:28Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4670,7 +4761,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-12T23:30:07Z",
+   "checked": "2026-11-13T07:55:32Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4783,7 +4874,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-12T23:30:09Z",
+   "checked": "2026-11-13T07:55:34Z",
    "live": "live",
    "extra": 100.0,
    "fit_ok": true,
@@ -5035,14 +5126,6 @@
  ],
  "log": [
   {
-   "date": "2026-10-24",
-   "text": "No new swap ideas: cheaper RX 9070 XT cards (XFX Swift/Quicksilver, ASRock Taichi) are only on Amazon Marketplace or eBay; no black DDR5-6000 CL28 kit under £399.95. Build £2,166.85, £1.84 over budget after delivery."
-  },
-  {
-   "date": "2026-10-25",
-   "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (Reaper RX 9070 XT has no Amazon offer; £699.99 Reaper is the non-XT RX 9070; D33 not on Amazon UK)."
-  },
-  {
    "date": "2026-10-25",
    "text": "Sweep: health OK (PriceSpy 10/10, no errors). Overclockers backup prices refreshed from today's page reads (SSD £209.99, out of stock); Watercooling UK case still £79.91 in stock; Currys RAM still £489."
   },
@@ -5193,11 +5276,19 @@
   {
    "date": "2026-11-12",
    "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No cheaper black DDR5-6000 CL28 kit or RX 9070 XT found at vetted shops (the £399.95 KLEVV FIT V deal is the white kit; Scan's Corsair Vengeance CL28 is £519.98 pre-order). s4 and s5 still stand. No feedback emails."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "Sweep: KLEVV FIT V CL28 black RAM confirmed up £20 to £499.99 at Overclockers UK (build now £2,349.47). Re-checked Computer Orbit (cooler £85, fans £19, RM850e £119; front screen sold out, due 27 Nov), Microsoft Store (£119.99) and Overclockers UK (P310 2TB and RM850e sold out; B850M Mortar and D33 pre-order). Upgrade u1 (Ryzen 7 7800X3D) is £259.99 at Overclockers UK."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "No cheaper black DDR5-6000 CL28 kit: V-Color Manta XSky black is now £494.99 at Overclockers UK (only £5 less). Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). s4 and s5 still stand. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-12T23:30:13Z"
+  "built": "2026-11-13T07:55:37Z"
  }
 }
