@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T07:54:37Z",
+ "generated": "2026-11-13T14:27:12Z",
  "today": "2026-11-13",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-13T07:54:37Z",
+  "started": "2026-11-13T14:27:12Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-13T07:55:37Z"
+  "finished": "2026-11-13T14:28:10Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2349.47,
+  "remaining": 2379.47,
   "delivery": 34.99,
   "delivery_lines": [
    {
@@ -236,7 +236,7 @@
      "gpu",
      "splitter"
     ],
-    "items": 1300.83,
+    "items": 1330.83,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -308,12 +308,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2349.47,
+  "build_total": 2379.47,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 157.95,
+  "delta_vs_baseline": 187.95,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -184.46,
+  "left_after_delivery": -214.46,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:38Z",
+   "checked": "2026-11-13T14:27:12Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -705,7 +705,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:42Z",
+   "checked": "2026-11-13T14:27:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -985,7 +985,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:43Z",
+   "checked": "2026-11-13T14:27:18Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1311,7 +1311,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:48Z",
+   "checked": "2026-11-13T14:27:22Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1587,15 +1587,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:53Z",
+   "checked": "2026-11-13T14:27:27Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 799.99,
+    "price": 829.99,
     "delivery": 19.99,
-    "landed": 819.98,
+    "landed": 849.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1609,9 +1609,9 @@
      "display": "Overclockers UK",
      "sku": "GRA-PWC-04017",
      "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-     "price": 799.99,
+     "price": 829.99,
      "delivery": 19.99,
-     "landed": 819.98,
+     "landed": 849.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
      "stock": "InStock",
@@ -1698,9 +1698,9 @@
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 799.99,
+    "price": 829.99,
     "delivery": 19.99,
-    "landed": 819.98,
+    "landed": 849.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1710,9 +1710,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 50.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 30.0,
+    "vs_baseline": 80.0,
+    "vs_prev_run": 30.0
    },
    "low": {
     "price": 749.99,
@@ -1908,7 +1908,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:54:57Z",
+   "checked": "2026-11-13T14:27:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1994,7 +1994,7 @@
    "amazon_check": [
     {
      "asin": "B0DC8RVRBZ",
-     "price": 169.99,
+     "price": 169.59,
      "stock": "InStock",
      "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Int"
     }
@@ -2224,7 +2224,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:55:01Z",
+   "checked": "2026-11-13T14:27:34Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2314,7 +2314,7 @@
     },
     {
      "asin": "B0DMTN5WLB",
-     "price": 115.2,
+     "price": 115.19,
      "stock": "InStock",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
     }
@@ -2539,7 +2539,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-13T07:55:07Z",
+   "checked": "2026-11-13T14:27:40Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2817,7 +2817,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:55:08Z",
+   "checked": "2026-11-13T14:27:41Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3103,7 +3103,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-13T07:55:09Z",
+   "checked": "2026-11-13T14:27:42Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3382,7 +3382,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-13T07:55:10Z",
+   "checked": "2026-11-13T14:27:43Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3657,7 +3657,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:55:12Z",
+   "checked": "2026-11-13T14:27:45Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3932,7 +3932,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-13T07:55:14Z",
+   "checked": "2026-11-13T14:27:47Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4355,10 +4355,10 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-13T07:55:16Z",
+   "checked": "2026-11-13T14:27:49Z",
    "notes": [],
    "live": "live",
-   "saving": 42.0,
+   "saving": 72.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -4509,7 +4509,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-13T07:55:20Z",
+   "checked": "2026-11-13T14:27:53Z",
    "notes": [],
    "live": "live",
    "saving": 29.01,
@@ -4626,7 +4626,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
     }
    ],
-   "checked": "2026-11-13T07:55:24Z",
+   "checked": "2026-11-13T14:27:58Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4707,7 +4707,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-13T07:55:28Z",
+   "checked": "2026-11-13T14:28:02Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4761,7 +4761,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-13T07:55:32Z",
+   "checked": "2026-11-13T14:28:05Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -4874,9 +4874,9 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-13T07:55:34Z",
+   "checked": "2026-11-13T14:28:07Z",
    "live": "live",
-   "extra": 100.0,
+   "extra": 70.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -4997,6 +4997,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-13T14:27:12Z",
+   "level": "info",
+   "type": "rise",
+   "part": "gpu",
+   "text": "GPU up £30.00 to £829.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-12T15:01:49Z",
    "level": "info",
@@ -5289,6 +5296,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-13T07:55:37Z"
+  "built": "2026-11-13T14:28:11Z"
  }
 }
