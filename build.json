@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-14",
-  "last_sweep": "2026-11-14T07:48:28Z",
+  "updated": "2026-11-15",
+  "last_sweep": "2026-11-15T07:47:42Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1275,9 +1275,9 @@
         "retailer": "Watercooling UK",
         "price": 79.91,
         "in_stock": true,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 14 Nov)"
+        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 15 Nov)"
       }
     ],
     "cooler": [
@@ -1304,9 +1304,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-15",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35.00, sold out (Shopify product JSON, sweep 14 Nov)"
+        "note": "£35.00, out of stock, due in 27 Nov (sweep 15 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1436,14 +1436,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-20",
-      "text": "Overclockers UK still blocks checks: CPU, RAM, GPU and fan prices from 16 Oct are stale. No new swap ideas: cheaper RX 9070 XT, RAM and SSD listings were only at marketplace shops."
-    },
-    {
-      "date": "2026-10-21",
-      "text": "GPU: Overclockers UK lists the ASUS RX 9070 XT Prime OC at £698.99 in stock (was £758.99), now the cheapest landed at about £718.98. Gigabyte Gaming OC swap idea s2 expired (no longer cheaper)."
-    },
     {
       "date": "2026-10-21",
       "text": "Fans: Scan's Arctic P12 Pro PST LN 5-pack is now pre-order (due 11 Nov), so Overclockers UK is the only in-stock source. CPU: Overclockers UK page shows £359.99 but stock couldn't be confirmed."
@@ -1675,6 +1667,14 @@
     {
       "date": "2026-11-14",
       "text": "Swap idea s4 (Gigabyte RX 9070 XT Gaming OC, £757.99 sold by Amazon UK) now saves about £72; s5 (MSI A850GL) still saves about £29. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
+    },
+    {
+      "date": "2026-11-15",
+      "text": "Sweep: re-checked Computer Orbit (front screen £35, still sold out, due 27 Nov) and Watercooling UK (D33 black £79.91, in stock), unchanged. No cheaper black RX 9070 XT or DDR5-6000 CL28 kit at vetted shops (recent KLEVV £399.95 and Sapphire Pulse deals have ended; the KLEVV one was the white kit). s4 and s5 still stand. No feedback emails."
+    },
+    {
+      "date": "2026-11-15",
+      "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Currys RAM page blocked again."
     }
   ],
   "amazon_leads": []
