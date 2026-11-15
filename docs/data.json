@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T07:51:54Z",
+ "generated": "2026-11-15T13:50:04Z",
  "today": "2026-11-15",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-15T07:51:54Z",
+  "started": "2026-11-15T13:50:04Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-15T07:52:55Z"
+  "finished": "2026-11-15T13:51:04Z"
  },
  "totals": {
   "parts_total": 13,
@@ -376,7 +376,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:51:55Z",
+   "checked": "2026-11-15T13:50:05Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -446,10 +446,10 @@
      "display": "Very",
      "sku": "X0E9F",
      "name": "Amd Ryzen 5 7500X3D Am5 Processor",
-     "price": 250.0,
-     "was": 250.0,
+     "price": 249.0,
+     "was": 249.0,
      "delivery": 0.0,
-     "landed": 250.0,
+     "landed": 249.0,
      "ni": "verified",
      "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
      "stock": "InStock",
@@ -719,7 +719,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:51:59Z",
+   "checked": "2026-11-15T13:50:09Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1013,7 +1013,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:01Z",
+   "checked": "2026-11-15T13:50:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1140,7 +1140,7 @@
    "change": {
     "vs_yesterday": 0.11,
     "vs_baseline": -0.02,
-    "vs_prev_run": 0.11
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 169.86,
@@ -1353,7 +1353,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:06Z",
+   "checked": "2026-11-15T13:50:15Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1643,7 +1643,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:10Z",
+   "checked": "2026-11-15T13:50:20Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1978,7 +1978,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:15Z",
+   "checked": "2026-11-15T13:50:24Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2308,12 +2308,12 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:19Z",
+   "checked": "2026-11-15T13:50:28Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
     "price": 113.79,
     "was": 113.79,
     "delivery": 0.0,
@@ -2330,7 +2330,7 @@
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
      "sku": "B0DMTL43VR",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+     "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
      "price": 113.79,
      "was": 113.79,
      "delivery": 0.0,
@@ -2410,7 +2410,7 @@
    "excluded": {
     "marketplace": 12,
     "used": 1,
-    "other_variant": 8,
+    "other_variant": 9,
     "untrusted_feed": 1
    },
    "notes": [],
@@ -2418,7 +2418,7 @@
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply – Black | 12V-2x6 Cable Included, ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
     "price": 113.79,
     "was": 113.79,
     "delivery": 0.0,
@@ -2434,7 +2434,7 @@
    "change": {
     "vs_yesterday": -5.21,
     "vs_baseline": 14.8,
-    "vs_prev_run": -5.21
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 89.99,
@@ -2642,7 +2642,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-15T07:52:24Z",
+   "checked": "2026-11-15T13:50:33Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2934,7 +2934,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:25Z",
+   "checked": "2026-11-15T13:50:34Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3234,7 +3234,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-15T07:52:26Z",
+   "checked": "2026-11-15T13:50:36Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3527,7 +3527,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-15T07:52:27Z",
+   "checked": "2026-11-15T13:50:37Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3816,7 +3816,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:29Z",
+   "checked": "2026-11-15T13:50:39Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4105,7 +4105,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-15T07:52:31Z",
+   "checked": "2026-11-15T13:50:40Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4542,7 +4542,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-15T07:52:34Z",
+   "checked": "2026-11-15T13:50:43Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4696,7 +4696,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-15T07:52:38Z",
+   "checked": "2026-11-15T13:50:47Z",
    "notes": [],
    "live": "live",
    "saving": 23.8,
@@ -4813,7 +4813,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-15T07:52:42Z",
+   "checked": "2026-11-15T13:50:51Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4894,7 +4894,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     }
    ],
-   "checked": "2026-11-15T07:52:46Z",
+   "checked": "2026-11-15T13:50:55Z",
    "live": "live",
    "extra": 71.61,
    "fit_ok": true,
@@ -4948,7 +4948,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-15T07:52:50Z",
+   "checked": "2026-11-15T13:50:59Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5061,7 +5061,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-15T07:52:51Z",
+   "checked": "2026-11-15T13:51:00Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5483,6 +5483,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-15T07:52:55Z"
+  "built": "2026-11-15T13:51:04Z"
  }
 }
