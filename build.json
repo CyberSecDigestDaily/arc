@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-15",
-  "last_sweep": "2026-11-15T07:47:42Z",
+  "updated": "2026-11-17",
+  "last_sweep": "2026-11-17T07:49:50Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -139,9 +139,9 @@
       "display": "Box",
       "ni": "unverified",
       "ni_first": null,
-      "note": "£4.95 under £200, free over £200; NI coverage not stated (TVs mainland only)",
+      "note": "£4.95 under £200, free over £200; delivery and FAQ pages still don't say whether NI is covered (TVs mainland only)",
       "source": "https://box.co.uk/delivery-info",
-      "checked_on": "2026-10-18"
+      "checked_on": "2026-11-17"
     },
     "Very": {
       "display": "Very",
@@ -153,8 +153,13 @@
     },
     "CCL": {
       "display": "CCL",
-      "ni": "unverified",
-      "ni_first": null
+      "ni": "verified",
+      "ni_first": 12.0,
+      "ni_extra": null,
+      "note": "Next-day to Northern Ireland £12 up to 10kg (+48p/kg over); the free-over-£50 offer only applies where Royal Mail is used, so not assumed for NI.",
+      "order_note": "£12 delivery to NI",
+      "source": "https://www.cclonline.com/help/delivery-and-order-tracking/non-mainland-and-highlands-pricing/",
+      "checked_on": "2026-11-17"
     },
     "Ebuyer": {
       "display": "Ebuyer",
@@ -528,10 +533,10 @@
           "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
         },
         {
-          "retailer": "Overclockers",
-          "sku": "STO-CRU-03050",
-          "check": "jsonld",
-          "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html"
+          "retailer": "CCL",
+          "sku": "463644",
+          "check": "manual",
+          "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/"
         }
       ],
       "baseline": {
@@ -1009,8 +1014,9 @@
         "colour": "black"
       },
       "why": "MSI's black 850W Gold PSU: fully modular, ATX 3 with a native 12V-2x6 cable, 140mm long so it fits the D33 like the RM850e, with the same 7-year warranty. Sold by Amazon UK at £89.99 with free delivery now that Amazon's own RM850e listing has gone and other shops want £119+. Trade-off: rated 80 Plus Gold rather than Cybenetics Gold, and reviews put it a touch louder under heavy load.",
-      "status": "pending",
-      "added": "2026-10-28"
+      "status": "expired",
+      "added": "2026-10-28",
+      "decided": "2026-11-17"
     },
     {
       "id": "s6",
@@ -1236,12 +1242,12 @@
     ],
     "ssd": [
       {
-        "retailer": "Overclockers",
-        "price": 229.99,
-        "in_stock": false,
-        "checked_on": "2026-11-14",
-        "url": "https://www.overclockers.co.uk/crucial-p310-2tb-m.2-2280-pci-e-4.0-nvme-solid-state-drive/STO-CRU-03050.html",
-        "note": "£229.99, sold out (sweep 14 Nov)"
+        "retailer": "CCL",
+        "price": 245.99,
+        "in_stock": true,
+        "checked_on": "2026-11-17",
+        "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
+        "note": "£245.99 inc VAT, 10+ in stock (sweep 17 Nov)"
       }
     ],
     "psu": [
@@ -1257,9 +1263,9 @@
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": true,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-17",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "£119.00, available (Shopify product JSON, sweep 14 Nov)"
+        "note": "£119, in stock (sweep 17 Nov)"
       }
     ],
     "case": [
@@ -1275,9 +1281,9 @@
         "retailer": "Watercooling UK",
         "price": 79.91,
         "in_stock": true,
-        "checked_on": "2026-11-15",
+        "checked_on": "2026-11-17",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 15 Nov)"
+        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 17 Nov)"
       }
     ],
     "cooler": [
@@ -1285,9 +1291,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-17",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "£85.00, available (Shopify product JSON, sweep 14 Nov)"
+        "note": "£85, in stock (sweep 17 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1304,9 +1310,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-15",
+        "checked_on": "2026-11-17",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35.00, out of stock, due in 27 Nov (sweep 15 Nov)"
+        "note": "£35, still sold out (sweep 17 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1389,9 +1395,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-14",
+        "checked_on": "2026-11-17",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "£119.99 digital download (sweep 14 Nov)"
+        "note": "£119.99 digital download (sweep 17 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1436,14 +1442,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-21",
-      "text": "Fans: Scan's Arctic P12 Pro PST LN 5-pack is now pre-order (due 11 Nov), so Overclockers UK is the only in-stock source. CPU: Overclockers UK page shows £359.99 but stock couldn't be confirmed."
-    },
-    {
-      "date": "2026-10-21",
-      "text": "Re-checked: Watercooling UK Z20 black £83.99 in stock. No new swap ideas: cheaper RX 9070 XT and DDR5-6000 kits were only at marketplace or unvetted sellers."
-    },
     {
       "date": "2026-10-22",
       "text": "CPU: Scan's 9800X3D is now £399.98 (was £379.98), so the CPU is about £20 dearer. Overclockers UK's £359.99 still can't be confirmed in stock."
@@ -1675,6 +1673,14 @@
     {
       "date": "2026-11-15",
       "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Currys RAM page blocked again."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "Sweep: Amazon UK's £199.99 Crucial P310 2TB dropped out of PriceSpy's new offers on 16 Nov, so the SSD pick jumped to Box at £298.83. Added CCL at £245.99 (in stock; £12 to NI, now vetted) and removed the Overclockers UK listing (product no longer available). Box's NI delivery is still unconfirmed."
+    },
+    {
+      "date": "2026-11-17",
+      "text": "The Corsair RM850e is back to £82.99 sold by Amazon UK, so swap idea s5 (MSI A850GL, £89.99) no longer saves and has expired. s4 (Gigabyte RX 9070 XT Gaming OC, £757.99) still stands. Re-checked Computer Orbit (cooler £85, RM850e £119, front screen £35 still sold out), Watercooling UK (D33 £79.91) and Microsoft Store (£119.99), unchanged. Amazon Prime prices are still from 26 Oct. No feedback emails."
     }
   ],
   "amazon_leads": []
