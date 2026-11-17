@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T07:54:13Z",
+ "generated": "2026-11-17T15:52:15Z",
  "today": "2026-11-17",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-17T07:54:13Z",
+  "started": "2026-11-17T15:52:15Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-17T07:55:06Z"
+  "finished": "2026-11-17T15:53:11Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:13Z",
+   "checked": "2026-11-17T15:52:16Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -488,7 +488,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 12,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -744,7 +744,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:17Z",
+   "checked": "2026-11-17T15:52:19Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1052,7 +1052,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:19Z",
+   "checked": "2026-11-17T15:52:21Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1106,7 +1106,7 @@
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "003-MSI-B50",
-     "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 MATX Motherboard",
+     "name": "MSI MAG B850M MORTAR WIFI AM5 Micro ATX Motherboard - Black - 911-7E61-008",
      "price": 173.95,
      "was": 173.95,
      "delivery": 15.0,
@@ -1153,7 +1153,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 14,
+    "marketplace": 15,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1406,7 +1406,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:23Z",
+   "checked": "2026-11-17T15:52:25Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1461,7 +1461,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 7,
+    "other_variant": 6,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1710,7 +1710,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:27Z",
+   "checked": "2026-11-17T15:52:31Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2059,7 +2059,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:32Z",
+   "checked": "2026-11-17T15:52:36Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2094,6 +2094,22 @@
      "note": "£245.99 inc VAT, 10+ in stock (sweep 17 Nov)"
     },
     {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "A18-71F-6BD",
+     "name": "Crucial P310 2TB PCIe 4.0 NVMe M.2 SSD 7100MB/s Read 6000MB/s Write - CT2000P310SSD8",
+     "price": 282.95,
+     "was": 282.95,
+     "delivery": 15.0,
+     "landed": 297.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A18-71F-6BD?client_id=1551"
+    },
+    {
      "shop": "Box.co.uk",
      "display": "Box",
      "sku": "CT2000P310SSD8",
@@ -2108,22 +2124,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/CT2000P310SSD8?client_id=1551"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "A18-71F-6BD",
-     "name": "Crucial P310 2TB PCIe 4.0 NVMe M.2 SSD 7100MB/s Read 6000MB/s Write - CT2000P310SSD8",
-     "price": 298.95,
-     "was": 298.95,
-     "delivery": 15.0,
-     "landed": 313.95,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/A18-71F-6BD?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -2162,7 +2162,7 @@
    "change": {
     "vs_yesterday": -52.9,
     "vs_baseline": 46.0,
-    "vs_prev_run": -52.84
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 199.99,
@@ -2386,7 +2386,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:34Z",
+   "checked": "2026-11-17T15:52:39Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2737,7 +2737,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-17T07:54:40Z",
+   "checked": "2026-11-17T15:52:44Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3043,7 +3043,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:41Z",
+   "checked": "2026-11-17T15:52:45Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3357,7 +3357,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-17T07:54:42Z",
+   "checked": "2026-11-17T15:52:46Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3664,7 +3664,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-17T07:54:43Z",
+   "checked": "2026-11-17T15:52:47Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3967,7 +3967,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:45Z",
+   "checked": "2026-11-17T15:52:49Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4270,7 +4270,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-17T07:54:46Z",
+   "checked": "2026-11-17T15:52:51Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4674,6 +4674,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/155112?client_id=1551"
     },
     {
+     "shop": "Argos",
+     "display": "Argos",
+     "sku": "7764387",
+     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16GB Graphics Card",
+     "price": 1039.99,
+     "was": 1039.99,
+     "delivery": 0.0,
+     "landed": 1039.99,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7764387?client_id=1551"
+    },
+    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "58B-CF6-384",
@@ -4721,7 +4737,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-17T07:54:49Z",
+   "checked": "2026-11-17T15:52:54Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4825,22 +4841,6 @@
      "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
     },
     {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "VMPGR",
-     "name": "Amd Ryzen 7 7800X3D Processor",
-     "price": 299.0,
-     "was": 299.0,
-     "delivery": 0.0,
-     "landed": 299.0,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "431-776-15A",
@@ -4857,7 +4857,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-17T07:54:53Z",
+   "checked": "2026-11-17T15:52:58Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4938,7 +4938,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-17T07:54:57Z",
+   "checked": "2026-11-17T15:53:02Z",
    "live": "live",
    "extra": 25.61,
    "fit_ok": true,
@@ -4992,7 +4992,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-17T07:55:00Z",
+   "checked": "2026-11-17T15:53:06Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5105,7 +5105,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-17T07:55:02Z",
+   "checked": "2026-11-17T15:53:07Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5555,6 +5555,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-17T07:55:06Z"
+  "built": "2026-11-17T15:53:11Z"
  }
 }
