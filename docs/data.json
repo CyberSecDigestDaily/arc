@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-16T15:33:02Z",
- "today": "2026-11-16",
+ "generated": "2026-11-17T01:50:10Z",
+ "today": "2026-11-17",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-16T15:33:02Z",
+  "started": "2026-11-17T01:50:10Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-16T15:34:02Z"
+  "finished": "2026-11-17T01:51:10Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2442.47,
+  "remaining": 2442.43,
   "delivery": 49.99,
   "delivery_lines": [
    {
@@ -250,7 +250,7 @@
      "board",
      "psu"
     ],
-    "items": 452.95,
+    "items": 452.97,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -262,7 +262,7 @@
     "parts": [
      "ssd"
     ],
-    "items": 298.89,
+    "items": 298.83,
     "cost": 15.0,
     "basis": "unverified",
     "note": null,
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2442.47,
+  "build_total": 2442.43,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 250.95,
+  "delta_vs_baseline": 250.91,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -292.46,
+  "left_after_delivery": -292.42,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:03Z",
+   "checked": "2026-11-17T01:50:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -520,7 +520,7 @@
     "price": 199.99,
     "date": "2026-11-08",
     "retailer": "Overclockers UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "near_low"
@@ -707,6 +707,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-17",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -737,7 +744,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:07Z",
+   "checked": "2026-11-17T01:50:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -822,7 +829,7 @@
     "price": 70.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 26
+    "days": 27
    },
    "signals": [],
    "history": [
@@ -1007,6 +1014,13 @@
      90.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-17",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -1038,16 +1052,16 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:09Z",
+   "checked": "2026-11-17T01:50:16Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0F4Q45RKX",
     "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-    "price": 169.97,
-    "was": 169.97,
+    "price": 169.99,
+    "was": 169.99,
     "delivery": 0.0,
-    "landed": 169.97,
+    "landed": 169.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -1061,10 +1075,10 @@
      "display": "Amazon UK",
      "sku": "B0F4Q45RKX",
      "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-     "price": 169.97,
-     "was": 169.97,
+     "price": 169.99,
+     "was": 169.99,
      "delivery": 0.0,
-     "landed": 169.97,
+     "landed": 169.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -1105,6 +1119,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/003-MSI-B50?client_id=1551"
     },
     {
+     "shop": "Box.co.uk",
+     "display": "Box",
+     "sku": "MAG B850M MORTAR WIFI",
+     "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
+     "price": 188.49,
+     "was": 188.49,
+     "delivery": 4.95,
+     "landed": 193.44,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
+    },
+    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "MOT-MSI-05547",
@@ -1134,10 +1164,10 @@
     "display": "Amazon UK",
     "sku": "B0F4Q45RKX",
     "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-    "price": 169.97,
-    "was": 169.97,
+    "price": 169.99,
+    "was": 169.99,
     "delivery": 0.0,
-    "landed": 169.97,
+    "landed": 169.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -1147,15 +1177,15 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -0.02,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 0.02,
+    "vs_baseline": 0.0,
+    "vs_prev_run": 0.02
    },
    "low": {
     "price": 169.86,
     "date": "2026-11-05",
     "retailer": "Amazon UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "near_low"
@@ -1342,6 +1372,13 @@
      169.97,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-17",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1369,7 +1406,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:13Z",
+   "checked": "2026-11-17T01:50:21Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1453,7 +1490,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 26
+    "days": 27
    },
    "signals": [],
    "history": [
@@ -1638,6 +1675,13 @@
      519.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-17",
+     499.99,
+     519.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1666,7 +1710,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:17Z",
+   "checked": "2026-11-17T01:50:25Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1766,7 +1810,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 4,
+    "marketplace": 5,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1797,7 +1841,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 26
+    "days": 27
    },
    "signals": [],
    "history": [
@@ -1982,6 +2026,13 @@
      849.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-17",
+     829.99,
+     849.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2008,16 +2059,16 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:21Z",
+   "checked": "2026-11-17T01:50:29Z",
    "best": {
     "shop": "Box.co.uk",
     "display": "Box",
     "sku": "CT2000P310SSD8",
     "name": "Crucial P310 2TB PCIe Gen4 NVMe 2280 M.2 SSD Solid State Drive",
-    "price": 298.89,
-    "was": 298.89,
+    "price": 298.83,
+    "was": 298.83,
     "delivery": 15.0,
-    "landed": 313.89,
+    "landed": 313.83,
     "ni": "unverified",
     "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
@@ -2031,10 +2082,10 @@
      "display": "Box",
      "sku": "CT2000P310SSD8",
      "name": "Crucial P310 2TB PCIe Gen4 NVMe 2280 M.2 SSD Solid State Drive",
-     "price": 298.89,
-     "was": 298.89,
+     "price": 298.83,
+     "was": 298.83,
      "delivery": 15.0,
-     "landed": 313.89,
+     "landed": 313.83,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -2046,7 +2097,7 @@
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
-     "name": "Crucial P310 2TB PCIe M.2 Gen 4 NVMe SSD - Read 7100MB/s Write 6000MB/s - CT2000P310SSD8",
+     "name": "Crucial P310 2TB PCIe 4.0 NVMe M.2 SSD 7100MB/s Read 6000MB/s Write - CT2000P310SSD8",
      "price": 298.95,
      "was": 298.95,
      "delivery": 15.0,
@@ -2088,10 +2139,10 @@
     "display": "Box",
     "sku": "CT2000P310SSD8",
     "name": "Crucial P310 2TB PCIe Gen4 NVMe 2280 M.2 SSD Solid State Drive",
-    "price": 298.89,
-    "was": 298.89,
+    "price": 298.83,
+    "was": 298.83,
     "delivery": 15.0,
-    "landed": 313.89,
+    "landed": 313.83,
     "ni": "unverified",
     "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
@@ -2101,15 +2152,15 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 98.9,
-    "vs_baseline": 98.9,
-    "vs_prev_run": 81.5
+    "vs_yesterday": -0.06,
+    "vs_baseline": 98.84,
+    "vs_prev_run": -0.06
    },
    "low": {
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "ni_check"
@@ -2296,6 +2347,13 @@
      313.89,
      1,
      "Box"
+    ],
+    [
+     "2026-11-17",
+     298.83,
+     313.83,
+     1,
+     "Box"
     ]
    ]
   },
@@ -2322,7 +2380,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:26Z",
+   "checked": "2026-11-17T01:50:34Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2446,19 +2504,19 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": -30.8,
+    "vs_yesterday": 0.0,
     "vs_baseline": -16.0,
-    "vs_prev_run": -30.8
+    "vs_prev_run": 0.0
    },
    "low": {
-    "price": 89.99,
-    "date": "2026-10-22",
+    "price": 82.99,
+    "date": "2026-11-16",
     "retailer": "Amazon UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "below_sheet",
-    "new_low"
+    "near_low"
    ],
    "history": [
     [
@@ -2642,6 +2700,13 @@
      82.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-17",
+     82.99,
+     82.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -2665,8 +2730,8 @@
     "date": "2026-10-22"
    },
    "phase1": true,
-   "status": "no_source",
-   "checked": null,
+   "status": "live",
+   "checked": "2026-11-17T01:50:39Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2703,18 +2768,17 @@
     {
      "shop": "Overclockers",
      "display": "Overclockers UK",
-     "name": "Jonsbo D33 STD, black (tempered glass)",
+     "sku": "CAS-JON-08784",
+     "name": "Jonsbo D33 STD Tempered Glass MATX Case - Black",
      "price": 79.99,
      "delivery": 19.99,
      "landed": 99.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "OutOfStock",
+     "stock": "PreOrder",
      "in_stock": false,
-     "source": "verified",
-     "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-     "checked_on": "2026-11-14",
-     "note": "£79.99, pre-order (sweep 14 Nov)"
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
     }
    ],
    "unvetted": [],
@@ -2725,9 +2789,7 @@
     "other_variant": 0,
     "untrusted_feed": 0
    },
-   "notes": [
-    "Overclockers UK check failed (IncompleteRead(0 bytes read))"
-   ],
+   "notes": [],
    "pick": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2754,7 +2816,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "near_low",
@@ -2942,6 +3004,13 @@
      94.91,
      1,
      "Watercooling UK"
+    ],
+    [
+     "2026-11-17",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
     ]
    ]
   },
@@ -2968,7 +3037,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:33Z",
+   "checked": "2026-11-17T01:50:40Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3059,7 +3128,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "near_low",
@@ -3247,6 +3316,13 @@
      36.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-11-17",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -3275,7 +3351,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-16T15:33:34Z",
+   "checked": "2026-11-17T01:50:41Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3360,7 +3436,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "below_sheet"
@@ -3547,6 +3623,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-17",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3575,7 +3658,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-16T15:33:35Z",
+   "checked": "2026-11-17T01:50:43Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3660,7 +3743,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "below_sheet"
@@ -3847,6 +3930,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-17",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3871,7 +3961,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:37Z",
+   "checked": "2026-11-17T01:50:44Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -3956,7 +4046,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "below_sheet",
@@ -4144,6 +4234,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-17",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -4167,7 +4264,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-16T15:33:38Z",
+   "checked": "2026-11-17T01:50:46Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4287,7 +4384,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 26
+    "days": 27
    },
    "signals": [
     "near_low"
@@ -4474,6 +4571,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-11-17",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -4564,6 +4668,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/155112?client_id=1551"
     },
     {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "58B-CF6-384",
+     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6 16GB Graphics Card - GV-R9070XTGAMING OC-16GD",
+     "price": 1032.95,
+     "was": 1032.95,
+     "delivery": 15.0,
+     "landed": 1047.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
+    },
+    {
      "shop": "Very",
      "display": "Very",
      "sku": "WIQFA",
@@ -4593,25 +4713,9 @@
      "in_stock": true,
      "source": "direct",
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "58B-CF6-384",
-     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6 16GB Graphics Card - GV-R9070XTGAMING OC-16GD",
-     "price": 1032.95,
-     "was": 1032.95,
-     "delivery": 15.0,
-     "landed": 1047.95,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "OutOfStock",
-     "in_stock": false,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
     }
    ],
-   "checked": "2026-11-16T15:33:41Z",
+   "checked": "2026-11-17T01:50:48Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4718,6 +4822,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/137390?client_id=1551"
     },
     {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "907-788-1F0",
+     "name": "MSI MAG A850GL 850W ATX 80+ Gold Power Supply PCIe 5.0 ATX 3.0 Modular PSU - Black - 306-7ZP8B11-CE0",
+     "price": 89.99,
+     "was": 119.99,
+     "delivery": 15.0,
+     "landed": 104.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/907-788-1F0?client_id=1551"
+    },
+    {
      "shop": "Argos",
      "display": "Argos",
      "sku": "3343324",
@@ -4732,22 +4852,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/3343324?client_id=1551"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "907-788-1F0",
-     "name": "MSI MAG A850GL 850W ATX 80+ Gold Power Supply PCIe 5.0 ATX 3.0 Modular PSU - Black - 306-7ZP8B11-CE0",
-     "price": 119.99,
-     "was": 119.99,
-     "delivery": 15.0,
-     "landed": 134.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/907-788-1F0?client_id=1551"
     },
     {
      "shop": "Overclockers",
@@ -4765,7 +4869,7 @@
      "url": "https://www.overclockers.co.uk/msi-mag-a850gl-atx-3.1-pcie-5.1-850w-80-plus-gold-modular-power-supply/CA-012-MS.html"
     }
    ],
-   "checked": "2026-11-16T15:33:45Z",
+   "checked": "2026-11-17T01:50:52Z",
    "notes": [],
    "live": "live",
    "saving": -7.0,
@@ -4882,7 +4986,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-16T15:33:49Z",
+   "checked": "2026-11-17T01:50:57Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -4932,10 +5036,25 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
     },
     {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "STO-WDC-04135",
+     "name": "WD Black SN7100 2TB SSD NVME M.2 2280 PCIe 4.0 Solid State Drive",
+     "price": 289.99,
+     "delivery": 19.99,
+     "landed": 309.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
+    },
+    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "85A-80F-F7A",
-     "name": "Western Digital Black SN7100 2TB M.2 NVMe PCI-E Gen4 Solid State Drive - Read 7250 MB/s, Write 6900 MB/s - WDS200T4X0E-00CJA0",
+     "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
      "price": 282.99,
      "was": 282.99,
      "delivery": 15.0,
@@ -4946,26 +5065,11 @@
      "in_stock": false,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
-    },
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "STO-WDC-04135",
-     "name": "WD Black SN7100 2TB SSD NVME M.2 2280 PCIe 4.0 Solid State Drive",
-     "price": 289.99,
-     "delivery": 19.99,
-     "landed": 309.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "OutOfStock",
-     "in_stock": false,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-16T15:33:53Z",
+   "checked": "2026-11-17T01:51:01Z",
    "live": "live",
-   "extra": -27.29,
+   "extra": -27.23,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5017,7 +5121,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-16T15:33:57Z",
+   "checked": "2026-11-17T01:51:05Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5124,13 +5228,13 @@
      "landed": 1102.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "OutOfStock",
-     "in_stock": false,
+     "stock": "InStock",
+     "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-16T15:33:59Z",
+   "checked": "2026-11-17T01:51:07Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5573,6 +5677,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-16T15:34:02Z"
+  "built": "2026-11-17T01:51:11Z"
  }
 }
