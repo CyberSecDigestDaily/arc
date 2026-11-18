@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T00:53:28Z",
+ "generated": "2026-11-18T07:54:00Z",
  "today": "2026-11-18",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-17",
- "last_sweep": "2026-11-17T07:49:50Z",
+ "updated": "2026-11-18",
+ "last_sweep": "2026-11-18T07:49:33Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-18T00:53:28Z",
+  "started": "2026-11-18T07:54:00Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-18T00:54:22Z"
+  "finished": "2026-11-18T07:54:53Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:29Z",
+   "checked": "2026-11-18T07:54:01Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -488,7 +488,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 12,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -751,7 +751,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:32Z",
+   "checked": "2026-11-18T07:54:05Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1066,7 +1066,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:34Z",
+   "checked": "2026-11-18T07:54:07Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1427,7 +1427,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:39Z",
+   "checked": "2026-11-18T07:54:11Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1738,7 +1738,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:43Z",
+   "checked": "2026-11-18T07:54:15Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2094,7 +2094,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:48Z",
+   "checked": "2026-11-18T07:54:19Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2162,9 +2162,16 @@
     }
    ],
    "unvetted": [],
-   "amazon_check": [],
+   "amazon_check": [
+    {
+     "asin": "B0DC8RVRBZ",
+     "price": 198.0,
+     "stock": "InStock",
+     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Int"
+    }
+   ],
    "excluded": {
-    "marketplace": 9,
+    "marketplace": 10,
     "used": 2,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -2421,7 +2428,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:51Z",
+   "checked": "2026-11-18T07:54:22Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2779,7 +2786,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T00:53:55Z",
+   "checked": "2026-11-18T07:54:27Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3092,7 +3099,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:53:57Z",
+   "checked": "2026-11-18T07:54:28Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3413,7 +3420,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T00:53:58Z",
+   "checked": "2026-11-18T07:54:30Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3727,7 +3734,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T00:53:59Z",
+   "checked": "2026-11-18T07:54:31Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4037,7 +4044,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:54:01Z",
+   "checked": "2026-11-18T07:54:32Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4347,7 +4354,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T00:54:03Z",
+   "checked": "2026-11-18T07:54:34Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4712,7 +4719,7 @@
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DT7B79K9",
-    "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
+    "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
     "price": 757.99,
     "was": 829.99,
     "delivery": 0.0,
@@ -4729,7 +4736,7 @@
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
      "sku": "B0DT7B79K9",
-     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
+     "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
      "price": 757.99,
      "was": 829.99,
      "delivery": 0.0,
@@ -4815,13 +4822,13 @@
      "landed": 1104.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "OutOfStock",
+     "in_stock": false,
      "source": "direct",
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-18T00:54:05Z",
+   "checked": "2026-11-18T07:54:37Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4941,7 +4948,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T00:54:09Z",
+   "checked": "2026-11-18T07:54:40Z",
    "live": "live",
    "extra": 63.0,
    "fit_ok": true,
@@ -5022,7 +5029,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-18T00:54:14Z",
+   "checked": "2026-11-18T07:54:44Z",
    "live": "live",
    "extra": 25.61,
    "fit_ok": true,
@@ -5076,7 +5083,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-18T00:54:17Z",
+   "checked": "2026-11-18T07:54:48Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5189,7 +5196,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T00:54:19Z",
+   "checked": "2026-11-18T07:54:49Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5476,14 +5483,6 @@
  ],
  "log": [
   {
-   "date": "2026-10-27",
-   "text": "Re-checked: Watercooling UK D33 black £79.91 (50 in stock); Currys KLEVV FIT V black CL28 £489. Build about £131.88 over the £2,200 budget after delivery before any swap."
-  },
-  {
-   "date": "2026-10-28",
-   "text": "PSU: Amazon UK's own Corsair RM850e (2025) listing at £89.99 has gone (only marketplace sellers from £98.99 left), so the build rose about £29. Added Computer Orbit's RM850e at £119 with free NI delivery (now the pick), and swap idea s5: MSI MAG A850GL PCIE5 at £89.99 sold by Amazon UK (saves about £29)."
-  },
-  {
    "date": "2026-10-28",
    "text": "Re-checked Overclockers UK (all prices unchanged; D33 now pre-order, P310 still out of stock), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No feedback emails."
   },
@@ -5634,11 +5633,19 @@
   {
    "date": "2026-11-17",
    "text": "The Corsair RM850e is back to £82.99 sold by Amazon UK, so swap idea s5 (MSI A850GL, £89.99) no longer saves and has expired. s4 (Gigabyte RX 9070 XT Gaming OC, £757.99) still stands. Re-checked Computer Orbit (cooler £85, RM850e £119, front screen £35 still sold out), Watercooling UK (D33 £79.91) and Microsoft Store (£119.99), unchanged. Amazon Prime prices are still from 26 Oct. No feedback emails."
+  },
+  {
+   "date": "2026-11-18",
+   "text": "Sweep: Overclockers UK cut the Corsair RM850e to £85.00 but it is sold out, so Amazon UK at £82.99 stays the PSU pick. Re-checked Overclockers UK (CPU £199.99, RAM £499.99, GPU £829.99, splitter £0.85 in stock; B850M Mortar and D33 pre-order; upgrade u2 WD SN7100 now out of stock) and Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen £35 still sold out), all otherwise unchanged."
+  },
+  {
+   "date": "2026-11-18",
+   "text": "No cheaper exact parts at Scan, Box or AWD-IT (Scan has the Reaper at £959.99; AWD-IT has the P310 2TB at £282.95). No cheaper black DDR5-6000 CL28 kit or RX 9070 XT beyond s4 (Gigabyte Gaming OC, £757.99 at Amazon UK), which still stands. Amazon Prime prices are still from 26 Oct. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-18T00:54:22Z"
+  "built": "2026-11-18T07:54:53Z"
  }
 }
