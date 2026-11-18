@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T07:54:00Z",
+ "generated": "2026-11-18T15:30:24Z",
  "today": "2026-11-18",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-18T07:54:00Z",
+  "started": "2026-11-18T15:30:24Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-18T07:54:53Z"
+  "finished": "2026-11-18T15:31:18Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2389.59,
+  "remaining": 2391.58,
   "delivery": 46.99,
   "delivery_lines": [
    {
@@ -250,7 +250,7 @@
      "board",
      "psu"
     ],
-    "items": 452.97,
+    "items": 454.96,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2389.59,
+  "build_total": 2391.58,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 198.07,
+  "delta_vs_baseline": 200.06,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -236.58,
+  "left_after_delivery": -238.57,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:01Z",
+   "checked": "2026-11-18T15:30:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -453,6 +453,38 @@
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/100-100001904WOF?client_id=1551"
     },
     {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10295520",
+     "name": "AMD Ryzen™ 5 7500X3D Processor",
+     "price": 229.0,
+     "was": 229.0,
+     "delivery": 0.0,
+     "landed": 229.0,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10295520?client_id=1551"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "9B3-FB9-6D1",
+     "name": "AMD Ryzen 5 7500X3D Six Core 4.5GHz CPU - Retail - 100-100001904WOF",
+     "price": 233.95,
+     "was": 233.95,
+     "delivery": 15.0,
+     "landed": 248.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/9B3-FB9-6D1?client_id=1551"
+    },
+    {
      "shop": "Very",
      "display": "Very",
      "sku": "X0E9F",
@@ -467,22 +499,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15251/offer/X0E9F?client_id=1551"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "9B3-FB9-6D1",
-     "name": "AMD Ryzen 5 7500X3D Six Core 4.5GHz CPU - Retail - 100-100001904WOF",
-     "price": 239.99,
-     "was": 269.99,
-     "delivery": 15.0,
-     "landed": 254.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/9B3-FB9-6D1?client_id=1551"
     }
    ],
    "unvetted": [],
@@ -751,7 +767,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:05Z",
+   "checked": "2026-11-18T15:30:28Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1066,7 +1082,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:07Z",
+   "checked": "2026-11-18T15:30:30Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1427,7 +1443,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:11Z",
+   "checked": "2026-11-18T15:30:34Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1482,7 +1498,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 5,
+    "other_variant": 6,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1738,7 +1754,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:15Z",
+   "checked": "2026-11-18T15:30:39Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1822,15 +1838,15 @@
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "B23-6AB-D21",
-     "name": "PowerColor RX 9070 XT OC 16GB Reaper GDDR6 Graphics Card - RX9070XT 16G-A",
+     "name": "PowerColor Radeon RX 9070 XT Reaper OC 16GB GDDR6 Graphics Card - Black - RX9070XT 16G-A",
      "price": 1199.95,
      "was": 1199.95,
      "delivery": 15.0,
      "landed": 1214.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "OutOfStock",
+     "in_stock": false,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/B23-6AB-D21?client_id=1551"
     }
@@ -2094,7 +2110,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:19Z",
+   "checked": "2026-11-18T15:30:43Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2133,10 +2149,10 @@
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
      "name": "Crucial P310 2TB PCIe 4.0 NVMe M.2 SSD 7100MB/s Read 6000MB/s Write - CT2000P310SSD8",
-     "price": 282.95,
-     "was": 282.95,
+     "price": 286.95,
+     "was": 286.95,
      "delivery": 15.0,
-     "landed": 297.95,
+     "landed": 301.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -2162,16 +2178,9 @@
     }
    ],
    "unvetted": [],
-   "amazon_check": [
-    {
-     "asin": "B0DC8RVRBZ",
-     "price": 198.0,
-     "stock": "InStock",
-     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Int"
-    }
-   ],
+   "amazon_check": [],
    "excluded": {
-    "marketplace": 10,
+    "marketplace": 12,
     "used": 2,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -2428,16 +2437,16 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:22Z",
+   "checked": "2026-11-18T15:30:46Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
-    "price": 82.99,
-    "was": 82.99,
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 84.98,
+    "was": 84.98,
     "delivery": 0.0,
-    "landed": 82.99,
+    "landed": 84.98,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -2449,12 +2458,12 @@
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0DMTL43VR",
-     "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
-     "price": 82.99,
-     "was": 82.99,
+     "sku": "B0DMTN5WLB",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+     "price": 84.98,
+     "was": 84.98,
      "delivery": 0.0,
-     "landed": 82.99,
+     "landed": 84.98,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -2537,12 +2546,12 @@
    "pick": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
-    "price": 82.99,
-    "was": 82.99,
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 84.98,
+    "was": 84.98,
     "delivery": 0.0,
-    "landed": 82.99,
+    "landed": 84.98,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -2552,9 +2561,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": -16.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 1.99,
+    "vs_baseline": -14.01,
+    "vs_prev_run": 1.99
    },
    "low": {
     "price": 82.99,
@@ -2563,8 +2572,7 @@
     "days": 28
    },
    "signals": [
-    "below_sheet",
-    "near_low"
+    "below_sheet"
    ],
    "history": [
     [
@@ -2786,7 +2794,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T07:54:27Z",
+   "checked": "2026-11-18T15:30:51Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3099,7 +3107,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:28Z",
+   "checked": "2026-11-18T15:30:53Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3420,7 +3428,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T07:54:30Z",
+   "checked": "2026-11-18T15:30:54Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3734,7 +3742,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T07:54:31Z",
+   "checked": "2026-11-18T15:30:55Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4044,7 +4052,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:32Z",
+   "checked": "2026-11-18T15:30:57Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4354,7 +4362,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T07:54:34Z",
+   "checked": "2026-11-18T15:30:58Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4784,7 +4792,7 @@
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "58B-CF6-384",
-     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G GDDR6 16GB Graphics Card - GV-R9070XTGAMING OC-16GD",
+     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16GB GDDR6 Graphics Card - Black - GV-R9070XTGAMING OC-16GD",
      "price": 1032.95,
      "was": 1032.95,
      "delivery": 15.0,
@@ -4828,7 +4836,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-18T07:54:37Z",
+   "checked": "2026-11-18T15:31:01Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4884,22 +4892,38 @@
    "why": "Two more cores: faster in CPU-heavy games (BG3's Act 3, strategy, sims). At 4K on the TV the graphics card is usually the limit, so it's the upgrade to make only if the budget stretches.",
    "pricespy": 8053700,
    "best": {
-    "shop": "Scan",
-    "display": "Scan",
-    "sku": "133834",
-    "name": "AMD Ryzen 7 7800X3D 8 Core AM5 Zen4 3D V-Cache PCIe 5.0 CPU/Processor",
-    "price": 262.99,
-    "was": 364.99,
-    "delivery": 13.19,
-    "landed": 276.18,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
+    "shop": "Currys",
+    "display": "Currys",
+    "sku": "10249579",
+    "name": "AMD Ryzen™ 7 7800X3D Processor",
+    "price": 269.0,
+    "was": 269.0,
+    "delivery": 0.0,
+    "landed": 269.0,
+    "ni": "assumed",
+    "delivery_note": "Has NI stores; delivery cost at checkout",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/15495/offer/133834?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10249579?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "Currys",
+     "display": "Currys",
+     "sku": "10249579",
+     "name": "AMD Ryzen™ 7 7800X3D Processor",
+     "price": 269.0,
+     "was": 269.0,
+     "delivery": 0.0,
+     "landed": 269.0,
+     "ni": "assumed",
+     "delivery_note": "Has NI stores; delivery cost at checkout",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15098/offer/10249579?client_id=1551"
+    },
     {
      "shop": "Scan",
      "display": "Scan",
@@ -4948,9 +4972,9 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T07:54:40Z",
+   "checked": "2026-11-18T15:31:05Z",
    "live": "live",
-   "extra": 63.0,
+   "extra": 69.01,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5008,8 +5032,8 @@
      "landed": 297.99,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "OutOfStock",
-     "in_stock": false,
+     "stock": "InStock",
+     "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     },
@@ -5029,7 +5053,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-18T07:54:44Z",
+   "checked": "2026-11-18T15:31:09Z",
    "live": "live",
    "extra": 25.61,
    "fit_ok": true,
@@ -5083,7 +5107,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-18T07:54:48Z",
+   "checked": "2026-11-18T15:31:13Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5183,7 +5207,7 @@
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "537-E69-D4E",
-     "name": "PowerColor RX 9070 XT OC 16GB Hellhound GDDR6 Graphics Card - RX9070XT 16G-L/OC",
+     "name": "PowerColor Radeon RX 9070 XT Hellhound OC 16GB GDDR6 Graphics Card - Black - RX9070XT 16G-L/OC",
      "price": 1087.95,
      "was": 1087.95,
      "delivery": 15.0,
@@ -5196,7 +5220,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T07:54:49Z",
+   "checked": "2026-11-18T15:31:14Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5646,6 +5670,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-18T07:54:53Z"
+  "built": "2026-11-18T15:31:18Z"
  }
 }
