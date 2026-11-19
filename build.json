@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-18",
-  "last_sweep": "2026-11-18T07:49:33Z",
+  "updated": "2026-11-19",
+  "last_sweep": "2026-11-19T08:05:00Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -639,6 +639,12 @@
           "sku": "CAS-JON-08784",
           "check": "jsonld",
           "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
+        },
+        {
+          "retailer": "Computer Orbit",
+          "sku": "D33 STD BLACK",
+          "check": "shopify",
+          "url": "https://computerorbit.com/products/jonsbo-d33-std-tempered-glass-matx-case-black"
         }
       ],
       "baseline": {
@@ -1245,9 +1251,9 @@
         "retailer": "CCL",
         "price": 245.99,
         "in_stock": true,
-        "checked_on": "2026-11-17",
+        "checked_on": "2026-11-19",
         "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-        "note": "£245.99 inc VAT, 10+ in stock (sweep 17 Nov)"
+        "note": "£245.99 inc VAT, 10+ in stock (sweep 19 Nov)"
       }
     ],
     "psu": [
@@ -1281,9 +1287,17 @@
         "retailer": "Watercooling UK",
         "price": 79.91,
         "in_stock": true,
-        "checked_on": "2026-11-17",
+        "checked_on": "2026-11-19",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 17 Nov)"
+        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 19 Nov)"
+      },
+      {
+        "retailer": "Computer Orbit",
+        "price": 79.0,
+        "in_stock": false,
+        "checked_on": "2026-11-19",
+        "url": "https://computerorbit.com/products/jonsbo-d33-std-tempered-glass-matx-case-black",
+        "note": "£79 inc VAT, D33 STD black (tempered glass), sold out with no restock date (sweep 19 Nov)"
       }
     ],
     "cooler": [
@@ -1395,9 +1409,9 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-17",
+        "checked_on": "2026-11-19",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "£119.99 digital download (sweep 17 Nov)"
+        "note": "£119.99 digital download (sweep 19 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1442,14 +1456,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-22",
-      "text": "No new swap ideas: the cheaper RX 9070 XT listings (PowerColor Reaper, XFX Quicksilver/Mercury) were only at marketplace or unvetted sellers."
-    },
-    {
-      "date": "2026-10-22",
-      "text": "Build switched to the all-black Jonsbo D33 plan from 22 Oct: 13 lines incl. Windows, £2,191.52 in parts (£2,211.51 with Overclockers UK delivery). Z20-era swap ideas cleared; price history restarted for the new parts."
-    },
     {
       "date": "2026-10-22",
       "text": "Optimised: PSU £89.99 at Amazon, black CL28 RAM (+96p), Thermalright cooler/fans/screen from Computer Orbit instead of marketplace sellers, £0.85 Kolink splitter in the Overclockers UK order. Parts £2,174.65."
@@ -1681,6 +1687,14 @@
     {
       "date": "2026-11-18",
       "text": "No cheaper exact parts at Scan, Box or AWD-IT (Scan has the Reaper at £959.99; AWD-IT has the P310 2TB at £282.95). No cheaper black DDR5-6000 CL28 kit or RX 9070 XT beyond s4 (Gigabyte Gaming OC, £757.99 at Amazon UK), which still stands. Amazon Prime prices are still from 26 Oct. No feedback emails."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Sweep: found the Jonsbo D33 STD black at Computer Orbit for £79 (sold out, no restock date) and added it as a Shopify-checked offer; once back in stock it can share the free-over-£75 Computer Orbit parcel with the cooler and fans, saving the case delivery."
+    },
+    {
+      "date": "2026-11-19",
+      "text": "Re-checked CCL (P310 2TB £245.99, 10+ in stock), Watercooling UK (D33 £79.91, 50 in stock) and Microsoft Store (£119.99), unchanged; Currys RAM page blocked again. No cheaper exact parts or new black swap ideas found; s4 (Gigabyte RX 9070 XT Gaming OC) still stands. Amazon Prime prices are still from 26 Oct. No feedback emails."
     }
   ],
   "amazon_leads": []
