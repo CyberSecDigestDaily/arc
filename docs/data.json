@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-18T15:30:24Z",
- "today": "2026-11-18",
+ "generated": "2026-11-19T00:13:24Z",
+ "today": "2026-11-19",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-18T15:30:24Z",
+  "started": "2026-11-19T00:13:24Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-18T15:31:18Z"
+  "finished": "2026-11-19T00:14:20Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2391.58,
+  "remaining": 2389.59,
   "delivery": 46.99,
   "delivery_lines": [
    {
@@ -250,7 +250,7 @@
      "board",
      "psu"
     ],
-    "items": 454.96,
+    "items": 452.97,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2391.58,
+  "build_total": 2389.59,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 200.06,
+  "delta_vs_baseline": 198.07,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -238.57,
+  "left_after_delivery": -236.58,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:25Z",
+   "checked": "2026-11-19T00:13:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -506,7 +506,7 @@
    "excluded": {
     "marketplace": 12,
     "used": 1,
-    "other_variant": 0,
+    "other_variant": 1,
     "untrusted_feed": 1
    },
    "notes": [],
@@ -536,7 +536,7 @@
     "price": 199.99,
     "date": "2026-11-08",
     "retailer": "Overclockers UK",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "near_low"
@@ -737,6 +737,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-19",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -767,7 +774,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:28Z",
+   "checked": "2026-11-19T00:13:29Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -852,7 +859,7 @@
     "price": 70.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 28
+    "days": 29
    },
    "signals": [],
    "history": [
@@ -1051,6 +1058,13 @@
      90.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-19",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -1082,7 +1096,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:30Z",
+   "checked": "2026-11-19T00:13:31Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -1117,22 +1131,6 @@
      "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
     },
     {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "160846",
-     "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
-     "price": 174.98,
-     "was": 174.98,
-     "delivery": 13.19,
-     "landed": 188.17,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "003-MSI-B50",
@@ -1163,6 +1161,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "160846",
+     "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
+     "price": 174.98,
+     "was": 174.98,
+     "delivery": 13.19,
+     "landed": 188.17,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
     },
     {
      "shop": "Overclockers",
@@ -1215,7 +1229,7 @@
     "price": 169.86,
     "date": "2026-11-05",
     "retailer": "Amazon UK",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "near_low"
@@ -1416,6 +1430,13 @@
      169.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-19",
+     169.99,
+     169.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -1443,7 +1464,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:34Z",
+   "checked": "2026-11-19T00:13:36Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1527,7 +1548,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 28
+    "days": 29
    },
    "signals": [],
    "history": [
@@ -1726,6 +1747,13 @@
      519.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-19",
+     499.99,
+     519.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1754,7 +1782,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:39Z",
+   "checked": "2026-11-19T00:13:40Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1854,7 +1882,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 5,
+    "marketplace": 3,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1885,7 +1913,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 28
+    "days": 29
    },
    "signals": [],
    "history": [
@@ -2084,6 +2112,13 @@
      849.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-19",
+     829.99,
+     849.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2110,7 +2145,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:43Z",
+   "checked": "2026-11-19T00:13:44Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2212,7 +2247,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 28
+    "days": 29
    },
    "signals": [],
    "history": [
@@ -2411,6 +2446,13 @@
      257.99,
      1,
      "CCL"
+    ],
+    [
+     "2026-11-19",
+     245.99,
+     257.99,
+     1,
+     "CCL"
     ]
    ]
   },
@@ -2437,16 +2479,16 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:46Z",
+   "checked": "2026-11-19T00:13:47Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTN5WLB",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 84.98,
-    "was": 84.98,
+    "sku": "B0DMTL43VR",
+    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "price": 82.99,
+    "was": 114.99,
     "delivery": 0.0,
-    "landed": 84.98,
+    "landed": 82.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -2458,12 +2500,12 @@
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0DMTN5WLB",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-     "price": 84.98,
-     "was": 84.98,
+     "sku": "B0DMTL43VR",
+     "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+     "price": 82.99,
+     "was": 114.99,
      "delivery": 0.0,
-     "landed": 84.98,
+     "landed": 82.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -2537,7 +2579,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 10,
+    "marketplace": 9,
     "used": 1,
     "other_variant": 6,
     "untrusted_feed": 1
@@ -2546,12 +2588,12 @@
    "pick": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTN5WLB",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 84.98,
-    "was": 84.98,
+    "sku": "B0DMTL43VR",
+    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "price": 82.99,
+    "was": 114.99,
     "delivery": 0.0,
-    "landed": 84.98,
+    "landed": 82.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -2561,18 +2603,19 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 1.99,
-    "vs_baseline": -14.01,
-    "vs_prev_run": 1.99
+    "vs_yesterday": 0.0,
+    "vs_baseline": -16.0,
+    "vs_prev_run": -1.99
    },
    "low": {
     "price": 82.99,
     "date": "2026-11-16",
     "retailer": "Amazon UK",
-    "days": 28
+    "days": 29
    },
    "signals": [
-    "below_sheet"
+    "below_sheet",
+    "near_low"
    ],
    "history": [
     [
@@ -2770,6 +2813,13 @@
      82.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-19",
+     82.99,
+     82.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -2794,7 +2844,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T15:30:51Z",
+   "checked": "2026-11-19T00:13:52Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2879,7 +2929,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "near_low",
@@ -3081,6 +3131,13 @@
      94.91,
      1,
      "Watercooling UK"
+    ],
+    [
+     "2026-11-19",
+     79.91,
+     94.91,
+     1,
+     "Watercooling UK"
     ]
    ]
   },
@@ -3107,7 +3164,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:53Z",
+   "checked": "2026-11-19T00:13:53Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3198,7 +3255,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "near_low",
@@ -3400,6 +3457,13 @@
      36.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-11-19",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -3428,7 +3492,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T15:30:54Z",
+   "checked": "2026-11-19T00:13:55Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3513,7 +3577,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "below_sheet"
@@ -3714,6 +3778,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-19",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3742,7 +3813,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-18T15:30:55Z",
+   "checked": "2026-11-19T00:13:56Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3827,7 +3898,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "below_sheet"
@@ -4028,6 +4099,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-19",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -4052,7 +4130,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:57Z",
+   "checked": "2026-11-19T00:13:58Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4137,7 +4215,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "below_sheet",
@@ -4339,6 +4417,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-19",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -4362,7 +4447,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-18T15:30:58Z",
+   "checked": "2026-11-19T00:13:59Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4482,7 +4567,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 28
+    "days": 29
    },
    "signals": [
     "near_low"
@@ -4683,6 +4768,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-11-19",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -4836,7 +4928,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-18T15:31:01Z",
+   "checked": "2026-11-19T00:14:02Z",
    "notes": [],
    "live": "live",
    "saving": 72.0,
@@ -4972,7 +5064,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T15:31:05Z",
+   "checked": "2026-11-19T00:14:06Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5053,7 +5145,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-18T15:31:09Z",
+   "checked": "2026-11-19T00:14:11Z",
    "live": "live",
    "extra": 25.61,
    "fit_ok": true,
@@ -5107,7 +5199,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-18T15:31:13Z",
+   "checked": "2026-11-19T00:14:14Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5220,7 +5312,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/537-E69-D4E?client_id=1551"
     }
    ],
-   "checked": "2026-11-18T15:31:14Z",
+   "checked": "2026-11-19T00:14:16Z",
    "live": "live",
    "extra": 70.0,
    "fit_ok": true,
@@ -5670,6 +5762,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-18T15:31:18Z"
+  "built": "2026-11-19T00:14:20Z"
  }
 }
