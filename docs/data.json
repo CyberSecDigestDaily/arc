@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T07:57:44Z",
+ "generated": "2026-11-20T15:18:57Z",
  "today": "2026-11-20",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,19 +214,19 @@
   }
  },
  "run": {
-  "started": "2026-11-20T07:57:44Z",
+  "started": "2026-11-20T15:18:57Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-20T07:58:37Z"
+  "finished": "2026-11-20T15:19:55Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2389.59,
-  "delivery": 46.99,
+  "remaining": 2418.14,
+  "delivery": 51.94,
   "delivery_lines": [
    {
     "shop": "Overclockers UK",
@@ -236,7 +236,7 @@
      "gpu",
      "splitter"
     ],
-    "items": 1330.83,
+    "items": 1349.83,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -247,10 +247,9 @@
     "key": "Amazon.co.uk",
     "parts": [
      "cpu",
-     "board",
      "psu"
     ],
-    "items": 452.97,
+    "items": 282.98,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
@@ -266,6 +265,18 @@
     "cost": 12.0,
     "basis": "verified",
     "note": "£12 delivery to NI",
+    "extra_parcel": null
+   },
+   {
+    "shop": "Box",
+    "key": "Box.co.uk",
+    "parts": [
+     "board"
+    ],
+    "items": 179.54,
+    "cost": 4.95,
+    "basis": "unverified",
+    "note": null,
     "extra_parcel": null
    },
    {
@@ -319,12 +330,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2389.59,
+  "build_total": 2418.14,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 198.07,
+  "delta_vs_baseline": 226.62,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -236.58,
+  "left_after_delivery": -270.08,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +398,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:57:44Z",
+   "checked": "2026-11-20T15:18:58Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -781,7 +792,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:57:48Z",
+   "checked": "2026-11-20T15:19:02Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1110,40 +1121,24 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:57:50Z",
+   "checked": "2026-11-20T15:19:04Z",
    "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0F4Q45RKX",
-    "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-    "price": 169.99,
-    "was": 169.99,
-    "delivery": 0.0,
-    "landed": 169.99,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "shop": "Box.co.uk",
+    "display": "Box",
+    "sku": "MAG B850M MORTAR WIFI",
+    "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
+    "price": 179.54,
+    "was": 179.54,
+    "delivery": 4.95,
+    "landed": 184.49,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
+    "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
    },
    "offers": [
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0F4Q45RKX",
-     "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-     "price": 169.99,
-     "was": 169.99,
-     "delivery": 0.0,
-     "landed": 169.99,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
-    },
     {
      "shop": "Box.co.uk",
      "display": "Box",
@@ -1193,6 +1188,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/003-MSI-B50?client_id=1551"
     },
     {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0F4Q45RKX",
+     "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
+     "price": 169.99,
+     "was": 169.99,
+     "delivery": 0.0,
+     "landed": 169.99,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "Unknown",
+     "in_stock": null,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
+    },
+    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "MOT-MSI-05547",
@@ -1218,26 +1229,26 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0F4Q45RKX",
-    "name": "MSI MAG B850M MORTAR WIFI Motherboard, mATX - Ryzen 9000/8000/7000, AM5 | AMD Ryzen 9000 / 8000 / 7000 CPU, 60A SPS VRM, DDR5 Memory Boost 8200+ MT/s OC, PCIe 5.0 x16, M.2 Gen5, Wi-Fi 7, 5G LAN",
-    "price": 169.99,
-    "was": 169.99,
-    "delivery": 0.0,
-    "landed": 169.99,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "shop": "Box.co.uk",
+    "display": "Box",
+    "sku": "MAG B850M MORTAR WIFI",
+    "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
+    "price": 179.54,
+    "was": 179.54,
+    "delivery": 4.95,
+    "landed": 184.49,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://www.amazon.co.uk/dp/B0F4Q45RKX"
+    "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 9.55,
+    "vs_baseline": 9.55,
+    "vs_prev_run": 9.55
    },
    "low": {
     "price": 169.86,
@@ -1246,7 +1257,7 @@
     "days": 30
    },
    "signals": [
-    "near_low"
+    "ni_check"
    ],
    "history": [
     [
@@ -1485,7 +1496,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:57:54Z",
+   "checked": "2026-11-20T15:19:08Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1810,15 +1821,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:57:58Z",
+   "checked": "2026-11-20T15:19:12Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 829.99,
+    "price": 848.99,
     "delivery": 19.99,
-    "landed": 849.98,
+    "landed": 868.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1832,9 +1843,9 @@
      "display": "Overclockers UK",
      "sku": "GRA-PWC-04017",
      "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-     "price": 829.99,
+     "price": 848.99,
      "delivery": 19.99,
-     "landed": 849.98,
+     "landed": 868.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
      "stock": "InStock",
@@ -1859,6 +1870,22 @@
      "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
     },
     {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WGDSJ",
+     "name": "Powercolor Rx 9070 Xt 16Gb Reaper",
+     "price": 1049.0,
+     "was": 1049.0,
+     "delivery": 0.0,
+     "landed": 1049.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSJ?client_id=1551"
+    },
+    {
      "shop": "Argos",
      "display": "Argos",
      "sku": "7740813",
@@ -1873,22 +1900,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://www.argos.co.uk/product/7740813"
-    },
-    {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "WGDSJ",
-     "name": "Powercolor Rx 9070 Xt 16Gb Reaper",
-     "price": 1083.09,
-     "was": 1083.09,
-     "delivery": 0.0,
-     "landed": 1083.09,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSJ?client_id=1551"
     },
     {
      "shop": "AWD-IT",
@@ -1910,7 +1921,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 4,
+    "marketplace": 5,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1921,9 +1932,9 @@
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 829.99,
+    "price": 848.99,
     "delivery": 19.99,
-    "landed": 849.98,
+    "landed": 868.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1933,9 +1944,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 80.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 19.0,
+    "vs_baseline": 99.0,
+    "vs_prev_run": 19.0
    },
    "low": {
     "price": 749.99,
@@ -2180,7 +2191,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:58:02Z",
+   "checked": "2026-11-20T15:19:16Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2521,14 +2532,14 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:58:05Z",
+   "checked": "2026-11-20T15:19:19Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
     "price": 82.99,
-    "was": 114.99,
+    "was": 82.99,
     "delivery": 0.0,
     "landed": 82.99,
     "ni": "assumed",
@@ -2542,10 +2553,10 @@
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0DMTL43VR",
-     "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+     "sku": "B0DMTN5WLB",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
      "price": 82.99,
-     "was": 114.99,
+     "was": 82.99,
      "delivery": 0.0,
      "landed": 82.99,
      "ni": "assumed",
@@ -2630,10 +2641,10 @@
    "pick": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DMTL43VR",
-    "name": "CORSAIR RM850e (2025) Fully Modular Power Supply + 12V-2x6 Cable – Black | ATX 3.1 & PCIe 5.1 Compliant, Low-Noise, ATX, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
     "price": 82.99,
-    "was": 114.99,
+    "was": 82.99,
     "delivery": 0.0,
     "landed": 82.99,
     "ni": "assumed",
@@ -2893,7 +2904,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T07:58:10Z",
+   "checked": "2026-11-20T15:19:25Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3235,7 +3246,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:58:12Z",
+   "checked": "2026-11-20T15:19:27Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3570,7 +3581,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T07:58:13Z",
+   "checked": "2026-11-20T15:19:28Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3898,7 +3909,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T07:58:14Z",
+   "checked": "2026-11-20T15:19:29Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4222,7 +4233,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:58:16Z",
+   "checked": "2026-11-20T15:19:31Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4546,7 +4557,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T07:58:18Z",
+   "checked": "2026-11-20T15:19:33Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4926,10 +4937,10 @@
     "display": "Amazon UK",
     "sku": "B0DT7B79K9",
     "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
-    "price": 757.99,
+    "price": 829.99,
     "was": 829.99,
     "delivery": 0.0,
-    "landed": 757.99,
+    "landed": 829.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -4943,10 +4954,10 @@
      "display": "Amazon UK",
      "sku": "B0DT7B79K9",
      "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
-     "price": 757.99,
+     "price": 829.99,
      "was": 829.99,
      "delivery": 0.0,
-     "landed": 757.99,
+     "landed": 829.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -5034,10 +5045,10 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-20T07:58:20Z",
+   "checked": "2026-11-20T15:19:36Z",
    "notes": [],
    "live": "live",
-   "saving": 72.0,
+   "saving": 19.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5186,7 +5197,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-20T07:58:24Z",
+   "checked": "2026-11-20T15:19:40Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5236,6 +5247,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
     },
     {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DN6ZQ3PD",
+     "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
+     "price": 329.01,
+     "was": 329.01,
+     "delivery": 0.0,
+     "landed": 329.01,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
+    },
+    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-04135",
@@ -5251,7 +5278,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-20T07:58:28Z",
+   "checked": "2026-11-20T15:19:45Z",
    "live": "live",
    "extra": 37.0,
    "fit_ok": true,
@@ -5305,7 +5332,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-20T07:58:32Z",
+   "checked": "2026-11-20T15:19:48Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5370,6 +5397,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
     },
     {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WGDSI",
+     "name": "Powercolor Hellhound Amd Radeon Rx 9070 Xt 16Gb Gddr6 Pcie 5.0 Overclocked Graphics Card",
+     "price": 1079.0,
+     "was": 1079.0,
+     "delivery": 0.0,
+     "landed": 1079.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSI?client_id=1551"
+    },
+    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "537-E69-D4E",
@@ -5400,27 +5443,11 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
-    },
-    {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "WGDSI",
-     "name": "Powercolor Hellhound Amd Radeon Rx 9070 Xt 16Gb Gddr6 Pcie 5.0 Overclocked Graphics Card",
-     "price": 1105.0,
-     "was": 1105.0,
-     "delivery": 0.0,
-     "landed": 1105.0,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSI?client_id=1551"
     }
    ],
-   "checked": "2026-11-20T07:58:33Z",
+   "checked": "2026-11-20T15:19:51Z",
    "live": "live",
-   "extra": 70.0,
+   "extra": 51.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -5541,6 +5568,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-20T15:18:57Z",
+   "level": "info",
+   "type": "rise",
+   "part": "gpu",
+   "text": "GPU up £19.00 to £848.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-17T07:54:13Z",
    "level": "alert",
@@ -5868,6 +5902,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-20T07:58:37Z"
+  "built": "2026-11-20T15:19:55Z"
  }
 }
