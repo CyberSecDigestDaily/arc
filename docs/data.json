@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:18:57Z",
+ "generated": "2026-11-20T23:55:44Z",
  "today": "2026-11-20",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,19 +214,19 @@
   }
  },
  "run": {
-  "started": "2026-11-20T15:18:57Z",
+  "started": "2026-11-20T23:55:44Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-20T15:19:55Z"
+  "finished": "2026-11-20T23:56:39Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2418.14,
-  "delivery": 51.94,
+  "remaining": 2358.67,
+  "delivery": 45.18,
   "delivery_lines": [
    {
     "shop": "Overclockers UK",
@@ -234,9 +234,10 @@
     "parts": [
      "ram",
      "gpu",
+     "case",
      "splitter"
     ],
-    "items": 1349.83,
+    "items": 1379.82,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -268,16 +269,16 @@
     "extra_parcel": null
    },
    {
-    "shop": "Box",
-    "key": "Box.co.uk",
+    "shop": "Scan",
+    "key": "Scan",
     "parts": [
      "board"
     ],
-    "items": 179.54,
-    "cost": 4.95,
-    "basis": "unverified",
+    "items": 169.99,
+    "cost": 13.19,
+    "basis": "verified",
     "note": null,
-    "extra_parcel": null
+    "extra_parcel": 13.19
    },
    {
     "shop": "Computer Orbit",
@@ -306,18 +307,6 @@
     "extra_parcel": null
    },
    {
-    "shop": "Watercooling UK",
-    "key": "Watercooling UK",
-    "parts": [
-     "case"
-    ],
-    "items": 79.91,
-    "cost": 15.0,
-    "basis": "estimate",
-    "note": "Case delivery shown at checkout (estimate used)",
-    "extra_parcel": null
-   },
-   {
     "shop": "Amazon UK (Prime)",
     "key": "Amazon Prime",
     "parts": [
@@ -330,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2418.14,
+  "build_total": 2358.67,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 226.62,
+  "delta_vs_baseline": 167.15,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -270.08,
+  "left_after_delivery": -203.85,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -348,15 +337,15 @@
   "budget": 132.9,
   "order_by": "2026-12-17",
   "tip": "Both fan packs come from Amazon Prime with free delivery; only the case pays delivery (Watercooling UK, shown at checkout).",
-  "cost": 117.91,
-  "left": 14.99,
+  "cost": 117.99,
+  "left": 14.91,
   "items": [
    {
     "id": "case",
     "slot": "Case",
-    "price": 79.91,
+    "price": 79.99,
     "bought": false,
-    "shop": "Watercooling UK"
+    "shop": "Overclockers UK"
    },
    {
     "id": "fans_bottom",
@@ -398,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:18:58Z",
+   "checked": "2026-11-20T23:55:45Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -515,7 +504,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 10,
     "used": 1,
     "other_variant": 1,
     "untrusted_feed": 1
@@ -792,7 +781,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:02Z",
+   "checked": "2026-11-20T23:55:49Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1121,24 +1110,40 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:04Z",
+   "checked": "2026-11-20T23:55:51Z",
    "best": {
-    "shop": "Box.co.uk",
-    "display": "Box",
-    "sku": "MAG B850M MORTAR WIFI",
-    "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
-    "price": 179.54,
-    "was": 179.54,
-    "delivery": 4.95,
-    "landed": 184.49,
-    "ni": "unverified",
-    "delivery_note": "NI delivery not confirmed yet (estimate used)",
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "160846",
+    "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
+    "price": 169.99,
+    "was": 169.99,
+    "delivery": 13.19,
+    "landed": 183.18,
+    "ni": "verified",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
+    "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
    },
    "offers": [
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "160846",
+     "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
+     "price": 169.99,
+     "was": 169.99,
+     "delivery": 13.19,
+     "landed": 183.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
+    },
     {
      "shop": "Box.co.uk",
      "display": "Box",
@@ -1156,30 +1161,14 @@
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
     },
     {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "160846",
-     "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
-     "price": 174.98,
-     "was": 174.98,
-     "delivery": 13.19,
-     "landed": 188.17,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "003-MSI-B50",
      "name": "MSI MAG B850M MORTAR WIFI AM5 Micro ATX Motherboard - Black - 911-7E61-008",
-     "price": 173.95,
-     "was": 173.95,
+     "price": 170.95,
+     "was": 170.95,
      "delivery": 15.0,
-     "landed": 188.95,
+     "landed": 185.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -1222,33 +1211,33 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 16,
+    "marketplace": 15,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
    },
    "notes": [],
    "pick": {
-    "shop": "Box.co.uk",
-    "display": "Box",
-    "sku": "MAG B850M MORTAR WIFI",
-    "name": "MSI MAG B850M MORTAR WIFI Micro-ATX AMD Socket AM5 Motherboard",
-    "price": 179.54,
-    "was": 179.54,
-    "delivery": 4.95,
-    "landed": 184.49,
-    "ni": "unverified",
-    "delivery_note": "NI delivery not confirmed yet (estimate used)",
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "160846",
+    "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
+    "price": 169.99,
+    "was": 169.99,
+    "delivery": 13.19,
+    "landed": 183.18,
+    "ni": "verified",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/43024/offer/MAG%20B850M%20MORTAR%20WIFI?client_id=1551"
+    "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 9.55,
-    "vs_baseline": 9.55,
-    "vs_prev_run": 9.55
+    "vs_yesterday": 0.0,
+    "vs_baseline": 0.0,
+    "vs_prev_run": -9.55
    },
    "low": {
     "price": 169.86,
@@ -1257,7 +1246,7 @@
     "days": 30
    },
    "signals": [
-    "ni_check"
+    "near_low"
    ],
    "history": [
     [
@@ -1496,15 +1485,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:08Z",
+   "checked": "2026-11-20T23:55:55Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 499.99,
+    "price": 449.99,
     "delivery": 19.99,
-    "landed": 519.98,
+    "landed": 469.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1513,6 +1502,21 @@
     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
    },
    "offers": [
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "MEM-KLV-07037",
+     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
+     "price": 449.99,
+     "delivery": 19.99,
+     "landed": 469.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
+    },
     {
      "shop": "Currys",
      "display": "Currys",
@@ -1529,21 +1533,6 @@
      "stale": true,
      "checked_on": "2026-10-27",
      "note": "£489.00 confirmed on the product page (black, CL28); stock only shown after a postcode check; free standard delivery over £40"
-    },
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "MEM-KLV-07037",
-     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-     "price": 499.99,
-     "delivery": 19.99,
-     "landed": 519.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
     }
    ],
    "unvetted": [],
@@ -1551,7 +1540,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 6,
+    "other_variant": 8,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1560,9 +1549,9 @@
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 499.99,
+    "price": 449.99,
     "delivery": 19.99,
-    "landed": 519.98,
+    "landed": 469.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1572,9 +1561,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 101.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -50.0,
+    "vs_baseline": 51.0,
+    "vs_prev_run": -50.0
    },
    "low": {
     "price": 399.95,
@@ -1789,8 +1778,8 @@
     ],
     [
      "2026-11-20",
-     499.99,
-     519.98,
+     449.99,
+     469.98,
      1,
      "Overclockers UK"
     ]
@@ -1821,7 +1810,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:12Z",
+   "checked": "2026-11-20T23:55:59Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1946,7 +1935,7 @@
    "change": {
     "vs_yesterday": 19.0,
     "vs_baseline": 99.0,
-    "vs_prev_run": 19.0
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 749.99,
@@ -2191,7 +2180,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:16Z",
+   "checked": "2026-11-20T23:56:03Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2224,6 +2213,22 @@
      "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
      "checked_on": "2026-11-19",
      "note": "£245.99 inc VAT, 10+ in stock (sweep 19 Nov)"
+    },
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DC8RVRBZ",
+     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
+     "price": 298.55,
+     "was": 298.55,
+     "delivery": 0.0,
+     "landed": 298.55,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
     },
     {
      "shop": "AWD-IT",
@@ -2532,7 +2537,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:19Z",
+   "checked": "2026-11-20T23:56:06Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2904,7 +2909,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T15:19:25Z",
+   "checked": "2026-11-20T23:56:11Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -2939,6 +2944,21 @@
      "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 19 Nov)"
     },
     {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "CAS-JON-08784",
+     "name": "Jonsbo D33 STD Tempered Glass MATX Case - Black",
+     "price": 79.99,
+     "delivery": 19.99,
+     "landed": 99.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
+    },
+    {
      "shop": "Computer Orbit",
      "display": "Computer Orbit",
      "sku": "D33 STD BLACK",
@@ -2952,21 +2972,6 @@
      "in_stock": false,
      "source": "direct",
      "url": "https://computerorbit.com/products/jonsbo-d33-std-tempered-glass-matx-case-black"
-    },
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "CAS-JON-08784",
-     "name": "Jonsbo D33 STD Tempered Glass MATX Case - Black",
-     "price": 79.99,
-     "delivery": 19.99,
-     "landed": 99.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "PreOrder",
-     "in_stock": false,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
     }
    ],
    "unvetted": [],
@@ -2979,26 +2984,25 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Watercooling UK",
-    "display": "Watercooling UK",
-    "name": "Jonsbo D33 STD, black (tempered glass)",
-    "price": 79.91,
-    "delivery": 15.0,
-    "landed": 94.91,
-    "ni": "estimate",
-    "delivery_note": "Ships to NI; case delivery shown at checkout (free-delivery offer excludes cases)",
+    "shop": "Overclockers",
+    "display": "Overclockers UK",
+    "sku": "CAS-JON-08784",
+    "name": "Jonsbo D33 STD Tempered Glass MATX Case - Black",
+    "price": 79.99,
+    "delivery": 19.99,
+    "landed": 99.98,
+    "ni": "verified",
+    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
     "in_stock": true,
-    "source": "verified",
-    "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "checked_on": "2026-11-19",
-    "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock (sweep 19 Nov)"
+    "source": "direct",
+    "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html"
    },
-   "pick_differs": false,
+   "pick_differs": true,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 0.08,
+    "vs_baseline": 0.08,
+    "vs_prev_run": 0.08
    },
    "low": {
     "price": 79.91,
@@ -3007,8 +3011,7 @@
     "days": 30
    },
    "signals": [
-    "near_low",
-    "ni_check"
+    "near_low"
    ],
    "history": [
     [
@@ -3246,7 +3249,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:27Z",
+   "checked": "2026-11-20T23:56:14Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3581,7 +3584,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T15:19:28Z",
+   "checked": "2026-11-20T23:56:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3909,7 +3912,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-20T15:19:29Z",
+   "checked": "2026-11-20T23:56:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4233,7 +4236,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:31Z",
+   "checked": "2026-11-20T23:56:18Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4557,7 +4560,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-20T15:19:33Z",
+   "checked": "2026-11-20T23:56:20Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4982,6 +4985,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/155112?client_id=1551"
     },
     {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WIQFA",
+     "name": "Gigabyte Radeon Rx 9070 Xt Gaming Oc 16Gb",
+     "price": 1029.0,
+     "was": 1029.0,
+     "delivery": 0.0,
+     "landed": 1029.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WIQFA?client_id=1551"
+    },
+    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "58B-CF6-384",
@@ -4996,22 +5015,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/58B-CF6-384?client_id=1551"
-    },
-    {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "WIQFA",
-     "name": "Gigabyte Radeon Rx 9070 Xt Gaming Oc 16Gb",
-     "price": 1059.0,
-     "was": 1059.0,
-     "delivery": 0.0,
-     "landed": 1059.0,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WIQFA?client_id=1551"
     },
     {
      "shop": "Argos",
@@ -5045,7 +5048,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-20T15:19:36Z",
+   "checked": "2026-11-20T23:56:22Z",
    "notes": [],
    "live": "live",
    "saving": 19.0,
@@ -5197,7 +5200,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-20T15:19:40Z",
+   "checked": "2026-11-20T23:56:26Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5214,22 +5217,38 @@
    "why": "TLC flash: faster sustained writes and much higher endurance than the QLC Crucial. Nice to have, not needed for a games drive.",
    "pricespy": 14519414,
    "best": {
-    "shop": "AWD-IT",
-    "display": "AWD-IT",
-    "sku": "85A-80F-F7A",
-    "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
-    "price": 282.99,
-    "was": 282.99,
-    "delivery": 15.0,
-    "landed": 297.99,
-    "ni": "unverified",
-    "delivery_note": "NI delivery not confirmed yet (estimate used)",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DN6ZQ3PD",
+    "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
+    "price": 309.0,
+    "was": 309.0,
+    "delivery": 0.0,
+    "landed": 309.0,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DN6ZQ3PD",
+     "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
+     "price": 309.0,
+     "was": 309.0,
+     "delivery": 0.0,
+     "landed": 309.0,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
+    },
     {
      "shop": "AWD-IT",
      "display": "AWD-IT",
@@ -5241,26 +5260,10 @@
      "landed": 297.99,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "OutOfStock",
+     "in_stock": false,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
-    },
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DN6ZQ3PD",
-     "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-     "price": 329.01,
-     "was": 329.01,
-     "delivery": 0.0,
-     "landed": 329.01,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
     },
     {
      "shop": "Overclockers",
@@ -5278,9 +5281,9 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-20T15:19:45Z",
+   "checked": "2026-11-20T23:56:31Z",
    "live": "live",
-   "extra": 37.0,
+   "extra": 63.01,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5332,7 +5335,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-20T15:19:48Z",
+   "checked": "2026-11-20T23:56:34Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5445,7 +5448,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-20T15:19:51Z",
+   "checked": "2026-11-20T23:56:36Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -5568,6 +5571,20 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-20T23:55:44Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "board",
+   "text": "Motherboard down £9.55: £169.99 at Scan (was £179.54 at Box)"
+  },
+  {
+   "ts": "2026-11-20T23:55:44Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "ram",
+   "text": "RAM down £50.00: £449.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-20T15:18:57Z",
    "level": "info",
@@ -5902,6 +5919,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-20T15:19:55Z"
+  "built": "2026-11-20T23:56:40Z"
  }
 }
