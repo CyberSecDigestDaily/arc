@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T14:31:53Z",
+ "generated": "2026-11-21T23:02:11Z",
  "today": "2026-11-21",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-21T14:31:53Z",
+  "started": "2026-11-21T23:02:11Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-21T14:32:48Z"
+  "finished": "2026-11-21T23:03:08Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2358.67,
+  "remaining": 2378.67,
   "delivery": 45.18,
   "delivery_lines": [
    {
@@ -237,7 +237,7 @@
      "case",
      "splitter"
     ],
-    "items": 1379.82,
+    "items": 1399.82,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2358.67,
+  "build_total": 2378.67,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 167.15,
+  "delta_vs_baseline": 187.15,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -203.85,
+  "left_after_delivery": -223.85,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:31:54Z",
+   "checked": "2026-11-21T23:02:12Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -504,7 +504,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 10,
+    "marketplace": 9,
     "used": 1,
     "other_variant": 1,
     "untrusted_feed": 1
@@ -788,7 +788,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:31:58Z",
+   "checked": "2026-11-21T23:02:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1124,7 +1124,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:00Z",
+   "checked": "2026-11-21T23:02:18Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1506,15 +1506,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:04Z",
+   "checked": "2026-11-21T23:02:23Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 449.99,
+    "price": 469.99,
     "delivery": 19.99,
-    "landed": 469.98,
+    "landed": 489.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1523,21 +1523,6 @@
     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
    },
    "offers": [
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "MEM-KLV-07037",
-     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-     "price": 449.99,
-     "delivery": 19.99,
-     "landed": 469.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
-    },
     {
      "shop": "Currys",
      "display": "Currys",
@@ -1554,6 +1539,21 @@
      "stale": true,
      "checked_on": "2026-10-27",
      "note": "£489.00 confirmed on the product page (black, CL28); stock only shown after a postcode check; free standard delivery over £40"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "MEM-KLV-07037",
+     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
+     "price": 469.99,
+     "delivery": 19.99,
+     "landed": 489.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html"
     }
    ],
    "unvetted": [],
@@ -1570,9 +1570,9 @@
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 449.99,
+    "price": 469.99,
     "delivery": 19.99,
-    "landed": 469.98,
+    "landed": 489.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1582,9 +1582,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 51.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 20.0,
+    "vs_baseline": 71.0,
+    "vs_prev_run": 20.0
    },
    "low": {
     "price": 399.95,
@@ -1838,7 +1838,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:08Z",
+   "checked": "2026-11-21T23:02:27Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2215,7 +2215,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:12Z",
+   "checked": "2026-11-21T23:02:32Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2250,6 +2250,22 @@
      "note": "£245.99 inc VAT, 10+ in stock (sweep 19 Nov)"
     },
     {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DC8RVRBZ",
+     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
+     "price": 296.14,
+     "was": 296.14,
+     "delivery": 0.0,
+     "landed": 296.14,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
+    },
+    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
@@ -2280,22 +2296,6 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/CT2000P310SSD8?client_id=1551"
-    },
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DC8RVRBZ",
-     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
-     "price": 349.0,
-     "was": 349.0,
-     "delivery": 0.0,
-     "landed": 349.0,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
     }
    ],
    "unvetted": [],
@@ -2579,7 +2579,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:15Z",
+   "checked": "2026-11-21T23:02:35Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2679,7 +2679,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 9,
+    "marketplace": 10,
     "used": 1,
     "other_variant": 6,
     "untrusted_feed": 1
@@ -2958,7 +2958,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-21T14:32:20Z",
+   "checked": "2026-11-21T23:02:40Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3305,7 +3305,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:22Z",
+   "checked": "2026-11-21T23:02:42Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3647,7 +3647,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-21T14:32:24Z",
+   "checked": "2026-11-21T23:02:43Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3982,7 +3982,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-21T14:32:25Z",
+   "checked": "2026-11-21T23:02:44Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4313,7 +4313,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:26Z",
+   "checked": "2026-11-21T23:02:46Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4644,7 +4644,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-21T14:32:28Z",
+   "checked": "2026-11-21T23:02:48Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5155,7 +5155,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-21T14:32:30Z",
+   "checked": "2026-11-21T23:02:50Z",
    "notes": [],
    "live": "live",
    "saving": 19.0,
@@ -5307,7 +5307,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-21T14:32:34Z",
+   "checked": "2026-11-21T23:02:54Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5388,7 +5388,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-21T14:32:39Z",
+   "checked": "2026-11-21T23:02:59Z",
    "live": "live",
    "extra": 63.01,
    "fit_ok": true,
@@ -5442,7 +5442,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-21T14:32:42Z",
+   "checked": "2026-11-21T23:03:03Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5555,7 +5555,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-21T14:32:44Z",
+   "checked": "2026-11-21T23:03:04Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -5678,6 +5678,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-21T23:02:11Z",
+   "level": "info",
+   "type": "rise",
+   "part": "ram",
+   "text": "RAM up £20.00 to £469.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-20T23:55:44Z",
    "level": "alert",
@@ -6026,6 +6033,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-21T14:32:48Z"
+  "built": "2026-11-21T23:03:08Z"
  }
 }
