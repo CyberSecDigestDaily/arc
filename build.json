@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-20",
-  "last_sweep": "2026-11-20T07:53:24Z",
+  "updated": "2026-11-21",
+  "last_sweep": "2026-11-21T07:48:35Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1221,11 +1221,11 @@
     "ram": [
       {
         "retailer": "Overclockers",
-        "price": 499.99,
+        "price": 449.99,
         "in_stock": true,
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-21",
         "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
-        "note": "In stock; product page JSON-LD price inc VAT"
+        "note": "In stock; reduced from £499.99; product page JSON-LD price inc VAT"
       },
       {
         "retailer": "Currys",
@@ -1239,9 +1239,9 @@
     "gpu": [
       {
         "retailer": "Overclockers",
-        "price": 829.99,
+        "price": 848.99,
         "in_stock": true,
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-21",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
         "note": "In stock; product page JSON-LD price inc VAT"
       }
@@ -1278,10 +1278,10 @@
       {
         "retailer": "Overclockers",
         "price": 79.99,
-        "in_stock": false,
-        "checked_on": "2026-11-20",
+        "in_stock": true,
+        "checked_on": "2026-11-21",
         "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-        "note": "Pre-order; product page JSON-LD price inc VAT"
+        "note": "In stock (was pre-order); product page JSON-LD price inc VAT"
       },
       {
         "retailer": "Watercooling UK",
@@ -1295,9 +1295,9 @@
         "retailer": "Computer Orbit",
         "price": 79.0,
         "in_stock": false,
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-21",
         "url": "https://computerorbit.com/products/jonsbo-d33-std-tempered-glass-matx-case-black",
-        "note": "£79 inc VAT, D33 STD black (tempered glass), still sold out (sweep 20 Nov)"
+        "note": "£79 inc VAT, D33 STD black (tempered glass), still sold out (sweep 21 Nov)"
       }
     ],
     "cooler": [
@@ -1305,9 +1305,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-21",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "£85, in stock (sweep 20 Nov)"
+        "note": "£85, in stock (sweep 21 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1324,9 +1324,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-20",
+        "checked_on": "2026-11-21",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "£35, still sold out (sweep 20 Nov)"
+        "note": "£35, still sold out (sweep 21 Nov)"
       },
       {
         "retailer": "Amazon Prime",
@@ -1456,14 +1456,6 @@
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-22",
-      "text": "Amazon Prime added: third-party items dispatched by Amazon with free NI delivery now count. Cooler, front screen and both fan packs moved to Amazon Prime (−£6.81 and the screen is in stock). Totals now use the cheapest basket across shops."
-    },
-    {
-      "date": "2026-10-23",
-      "text": "Amazon check: Windows 11 Home digital £119.00 sold by Amazon (99p under Microsoft Store) added; 6 Prime listings re-checked, prices unchanged. Lead: ASUS Prime RX 9070 XT OC £749.99 at Amazon."
-    },
     {
       "date": "2026-10-23",
       "text": "Sweep: Watercooling UK D33 black re-checked at £79.91, in stock. ASUS Prime RX 9070 XT OC lead (£749.99 at Amazon) not suggested: same price as the Reaper and the RAM still needs the Overclockers UK order, so it saves nothing."
@@ -1695,6 +1687,14 @@
     {
       "date": "2026-11-20",
       "text": "No new swap ideas: the Lexar ARES RGB 2nd Gen DDR5-6000 CL28 kit (£472.54, Amazon UK) is too tall at ~47mm (43mm limit); the Samsung 990 EVO Plus 2TB (£249.98, Amazon UK) saves only £8 landed. s4 (Gigabyte RX 9070 XT Gaming OC, £757.99) is still the cheapest black RX 9070 XT. Amazon Prime prices are still from 26 Oct. No feedback emails."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "Sweep: Overclockers UK cut the KLEVV FIT V RAM to £449.99 (from £499.99) and the Jonsbo D33 STD black is now in stock there at £79.99, so it joins the Overclockers parcel; the Reaper GPU rose to £848.99. Computer Orbit unchanged (cooler £85; D33 and front screen still sold out); CCL and Watercooling UK pages blocked today, so their 19 Nov prices stand."
+    },
+    {
+      "date": "2026-11-21",
+      "text": "s4 (Gigabyte RX 9070 XT Gaming OC) is now £829.99 at Amazon UK, still £19 under the Reaper, so it stays. Upgrade u3 (Peerless Vision 360, bigger 3.95in LCD) is £79 at Computer Orbit, £6 under the current cooler: below the £10 bar for a swap idea. Amazon Prime prices are still from 26 Oct. No feedback emails."
     }
   ],
   "amazon_leads": []
