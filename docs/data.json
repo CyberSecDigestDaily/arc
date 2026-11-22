@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T14:27:46Z",
+ "generated": "2026-11-22T23:32:10Z",
  "today": "2026-11-22",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-22T14:27:46Z",
+  "started": "2026-11-22T23:32:10Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-22T14:28:40Z"
+  "finished": "2026-11-22T23:33:06Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:27:47Z",
+   "checked": "2026-11-22T23:32:11Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -795,7 +795,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:27:51Z",
+   "checked": "2026-11-22T23:32:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1138,7 +1138,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:27:52Z",
+   "checked": "2026-11-22T23:32:17Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1527,7 +1527,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:27:57Z",
+   "checked": "2026-11-22T23:32:21Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1866,7 +1866,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:01Z",
+   "checked": "2026-11-22T23:32:26Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2250,7 +2250,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:05Z",
+   "checked": "2026-11-22T23:32:30Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2289,10 +2289,10 @@
      "display": "Amazon UK",
      "sku": "B0DC8RVRBZ",
      "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
-     "price": 291.94,
-     "was": 291.94,
+     "price": 296.14,
+     "was": 296.14,
      "delivery": 0.0,
-     "landed": 291.94,
+     "landed": 296.14,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -2336,7 +2336,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 12,
     "used": 2,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -2621,7 +2621,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:08Z",
+   "checked": "2026-11-22T23:32:33Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -2954,7 +2954,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T14:28:13Z",
+   "checked": "2026-11-22T23:32:39Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3308,7 +3308,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:15Z",
+   "checked": "2026-11-22T23:32:41Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3657,7 +3657,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T14:28:16Z",
+   "checked": "2026-11-22T23:32:42Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3999,7 +3999,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T14:28:17Z",
+   "checked": "2026-11-22T23:32:43Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4337,7 +4337,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:19Z",
+   "checked": "2026-11-22T23:32:44Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4675,7 +4675,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T14:28:21Z",
+   "checked": "2026-11-22T23:32:46Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5068,7 +5068,7 @@
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
     "sku": "B0DT7B79K9",
-    "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
+    "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
     "price": 829.99,
     "was": 829.99,
     "delivery": 0.0,
@@ -5085,7 +5085,7 @@
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
      "sku": "B0DT7B79K9",
-     "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
+     "name": "Gigabyte Radeon RX 9070 XT GAMING OC 16G Graphics Card - 16GB GDDR6, 256bit, PCI-E 5.0, 3060 MHz Core Clock, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
      "price": 829.99,
      "was": 829.99,
      "delivery": 0.0,
@@ -5193,7 +5193,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-22T14:28:23Z",
+   "checked": "2026-11-22T23:32:49Z",
    "notes": [],
    "live": "live",
    "saving": 19.0,
@@ -5345,7 +5345,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-22T14:28:27Z",
+   "checked": "2026-11-22T23:32:53Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5366,10 +5366,10 @@
     "display": "Amazon UK",
     "sku": "B0DN6ZQ3PD",
     "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-    "price": 309.0,
-    "was": 309.0,
+    "price": 299.0,
+    "was": 299.0,
     "delivery": 0.0,
-    "landed": 309.0,
+    "landed": 299.0,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -5383,10 +5383,10 @@
      "display": "Amazon UK",
      "sku": "B0DN6ZQ3PD",
      "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-     "price": 309.0,
-     "was": 309.0,
+     "price": 299.0,
+     "was": 299.0,
      "delivery": 0.0,
-     "landed": 309.0,
+     "landed": 299.0,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -5426,9 +5426,9 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-22T14:28:31Z",
+   "checked": "2026-11-22T23:32:57Z",
    "live": "live",
-   "extra": 63.01,
+   "extra": 53.01,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5480,7 +5480,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-22T14:28:35Z",
+   "checked": "2026-11-22T23:33:00Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5593,7 +5593,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-22T14:28:36Z",
+   "checked": "2026-11-22T23:33:02Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -6078,6 +6078,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-22T14:28:40Z"
+  "built": "2026-11-22T23:33:07Z"
  }
 }
