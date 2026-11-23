@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T23:32:10Z",
- "today": "2026-11-22",
+ "generated": "2026-11-23T07:53:42Z",
+ "today": "2026-11-23",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-22",
- "last_sweep": "2026-11-22T07:48:31Z",
+ "updated": "2026-11-23",
+ "last_sweep": "2026-11-23T07:49:04Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-22T23:32:10Z",
+  "started": "2026-11-23T07:53:42Z",
   "source": "github-actions",
-  "pricespy_ok": 11,
+  "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-22T23:33:06Z"
+  "finished": "2026-11-23T07:54:41Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2414.68,
+  "remaining": 2378.67,
   "delivery": 45.18,
   "delivery_lines": [
    {
@@ -244,6 +244,19 @@
     "extra_parcel": 15.0
    },
    {
+    "shop": "Amazon UK",
+    "key": "Amazon.co.uk",
+    "parts": [
+     "cpu",
+     "psu"
+    ],
+    "items": 282.98,
+    "cost": 0.0,
+    "basis": "assumed",
+    "note": "Sold by Amazon; free delivery to NI on these items",
+    "extra_parcel": null
+   },
+   {
     "shop": "CCL",
     "key": "CCL",
     "parts": [
@@ -253,33 +266,6 @@
     "cost": 12.0,
     "basis": "verified",
     "note": "£12 delivery to NI",
-    "extra_parcel": null
-   },
-   {
-    "shop": "Computer Orbit",
-    "key": "Computer Orbit",
-    "parts": [
-     "cooler",
-     "psu",
-     "fans_bottom",
-     "fans_front"
-    ],
-    "items": 242.0,
-    "cost": 0.0,
-    "basis": "verified",
-    "note": "£5 delivery under £75, free over £75",
-    "extra_parcel": null
-   },
-   {
-    "shop": "Amazon UK",
-    "key": "Amazon.co.uk",
-    "parts": [
-     "cpu"
-    ],
-    "items": 199.99,
-    "cost": 0.0,
-    "basis": "assumed",
-    "note": "Sold by Amazon; free delivery to NI on these items",
     "extra_parcel": null
    },
    {
@@ -293,6 +279,20 @@
     "basis": "verified",
     "note": null,
     "extra_parcel": 13.19
+   },
+   {
+    "shop": "Computer Orbit",
+    "key": "Computer Orbit",
+    "parts": [
+     "cooler",
+     "fans_bottom",
+     "fans_front"
+    ],
+    "items": 123.0,
+    "cost": 0.0,
+    "basis": "verified",
+    "note": "£5 delivery under £75, free over £75",
+    "extra_parcel": null
    },
    {
     "shop": "Microsoft Store",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2414.68,
+  "build_total": 2378.67,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 223.16,
+  "delta_vs_baseline": 187.15,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -259.86,
+  "left_after_delivery": -223.85,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:11Z",
+   "checked": "2026-11-23T07:53:43Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -536,7 +536,7 @@
     "price": 199.99,
     "date": "2026-11-08",
     "retailer": "Overclockers UK",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "near_low"
@@ -765,6 +765,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-23",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -795,7 +802,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:15Z",
+   "checked": "2026-11-23T07:53:47Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -880,7 +887,7 @@
     "price": 70.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 32
+    "days": 33
    },
    "signals": [],
    "history": [
@@ -1107,6 +1114,13 @@
      90.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-23",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -1138,7 +1152,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:17Z",
+   "checked": "2026-11-23T07:53:48Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1271,7 +1285,7 @@
     "price": 169.86,
     "date": "2026-11-05",
     "retailer": "Amazon UK",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "near_low"
@@ -1500,6 +1514,13 @@
      183.18,
      1,
      "Scan"
+    ],
+    [
+     "2026-11-23",
+     169.99,
+     183.18,
+     1,
+     "Scan"
     ]
    ]
   },
@@ -1527,7 +1548,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:21Z",
+   "checked": "2026-11-23T07:53:53Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1603,7 +1624,7 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 20.0,
+    "vs_yesterday": 0.0,
     "vs_baseline": 71.0,
     "vs_prev_run": 0.0
    },
@@ -1611,7 +1632,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 32
+    "days": 33
    },
    "signals": [],
    "history": [
@@ -1838,6 +1859,13 @@
      489.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-23",
+     469.99,
+     489.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1866,7 +1894,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:26Z",
+   "checked": "2026-11-23T07:53:57Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1997,7 +2025,7 @@
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 32
+    "days": 33
    },
    "signals": [],
    "history": [
@@ -2224,6 +2252,13 @@
      868.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-23",
+     848.99,
+     868.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2250,7 +2285,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:30Z",
+   "checked": "2026-11-23T07:54:02Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2368,7 +2403,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 32
+    "days": 33
    },
    "signals": [],
    "history": [
@@ -2595,6 +2630,13 @@
      257.99,
      1,
      "CCL"
+    ],
+    [
+     "2026-11-23",
+     245.99,
+     257.99,
+     1,
+     "CCL"
     ]
    ]
   },
@@ -2621,23 +2663,40 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:33Z",
+   "checked": "2026-11-23T07:54:04Z",
    "best": {
-    "shop": "Computer Orbit",
-    "display": "Computer Orbit",
-    "sku": "RM850e V3 (2025)",
-    "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
-    "price": 119.0,
-    "delivery": 5.0,
-    "landed": 124.0,
-    "ni": "verified",
-    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 82.99,
+    "was": 82.99,
+    "delivery": 0.0,
+    "landed": 82.99,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
+    "source": "pricespy",
+    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
    },
    "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DMTN5WLB",
+     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+     "price": 82.99,
+     "was": 82.99,
+     "delivery": 0.0,
+     "landed": 82.99,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
+    },
     {
      "shop": "Computer Orbit",
      "display": "Computer Orbit",
@@ -2679,33 +2738,37 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Computer Orbit",
-    "display": "Computer Orbit",
-    "sku": "RM850e V3 (2025)",
-    "name": "850W Corsair RM850e V3 (2025) ATX 3.1 Modular PSU",
-    "price": 119.0,
-    "delivery": 5.0,
-    "landed": 124.0,
-    "ni": "verified",
-    "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DMTN5WLB",
+    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
+    "price": 82.99,
+    "was": 82.99,
+    "delivery": 0.0,
+    "landed": 82.99,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
+    "source": "pricespy",
+    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 36.01,
-    "vs_baseline": 20.01,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -36.01,
+    "vs_baseline": -16.0,
+    "vs_prev_run": -36.01
    },
    "low": {
     "price": 82.99,
     "date": "2026-11-16",
     "retailer": "Amazon UK",
-    "days": 32
+    "days": 33
    },
-   "signals": [],
+   "signals": [
+    "below_sheet",
+    "near_low"
+   ],
    "history": [
     [
      "2026-10-22",
@@ -2930,6 +2993,13 @@
      124.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-23",
+     82.99,
+     82.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -2954,7 +3024,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T23:32:39Z",
+   "checked": "2026-11-23T07:54:10Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3053,7 +3123,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "near_low"
@@ -3282,6 +3352,13 @@
      99.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-23",
+     79.99,
+     99.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -3308,7 +3385,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:41Z",
+   "checked": "2026-11-23T07:54:12Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3399,7 +3476,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "near_low",
@@ -3629,6 +3706,13 @@
      36.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-11-23",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -3657,7 +3741,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T23:32:42Z",
+   "checked": "2026-11-23T07:54:13Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3742,7 +3826,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "below_sheet"
@@ -3971,6 +4055,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-23",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -3999,7 +4090,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-22T23:32:43Z",
+   "checked": "2026-11-23T07:54:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4084,7 +4175,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "below_sheet"
@@ -4313,6 +4404,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-23",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -4337,7 +4435,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:44Z",
+   "checked": "2026-11-23T07:54:17Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4422,7 +4520,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "below_sheet",
@@ -4652,6 +4750,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-23",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -4675,7 +4780,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-22T23:32:46Z",
+   "checked": "2026-11-23T07:54:18Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4795,7 +4900,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 32
+    "days": 33
    },
    "signals": [
     "near_low"
@@ -5024,6 +5129,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-11-23",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -5193,7 +5305,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-22T23:32:49Z",
+   "checked": "2026-11-23T07:54:21Z",
    "notes": [],
    "live": "live",
    "saving": 19.0,
@@ -5236,6 +5348,96 @@
    "added": "2026-11-03",
    "decided": "2026-11-03",
    "pricespy": 14364979
+  },
+  {
+   "id": "s7",
+   "part": "gpu",
+   "name": "Sapphire Pulse Radeon RX 9070 XT 16GB",
+   "spec": {
+    "length_mm": 320,
+    "thickness_mm": 61.6,
+    "slots": 3,
+    "power": "2× 8-pin",
+    "vram": "16GB GDDR6",
+    "colour": "black"
+   },
+   "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £799.99 with free delivery, about £49 under the Reaper. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
+   "status": "pending",
+   "added": "2026-11-23",
+   "decided": null,
+   "pricespy": 14495834,
+   "best": {
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DRPRZMK2",
+    "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
+    "price": 825.99,
+    "was": 825.99,
+    "delivery": 0.0,
+    "landed": 825.99,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/product.php?p=14495834"
+   },
+   "offers": [
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DRPRZMK2",
+     "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
+     "price": 825.99,
+     "was": 825.99,
+     "delivery": 0.0,
+     "landed": 825.99,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/product.php?p=14495834"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154765",
+     "name": "Sapphire AMD Radeon RX 9070 XT PULSE RDNA4 16GB GDDR6 Graphics Card",
+     "price": 899.99,
+     "was": 899.99,
+     "delivery": 13.19,
+     "landed": 913.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/sapphire-radeon-rx-9070-xt-pulse-16gb-gddr6-graphics-card-rdna-4-4096-streams-2970-boost"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "SAP-006-GRA",
+     "name": "Sapphire Radeon RX 9070 XT PULSE 16GB GDDR6 Graphics Card - Black - 11348-03-20G",
+     "price": 1009.99,
+     "was": 1009.99,
+     "delivery": 15.0,
+     "landed": 1024.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
+    }
+   ],
+   "checked": "2026-11-23T07:54:25Z",
+   "notes": [],
+   "live": "live",
+   "saving": 23.0,
+   "fit_ok": true,
+   "fit_problems": []
   }
  ],
  "upgrades": [
@@ -5345,7 +5547,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-22T23:32:53Z",
+   "checked": "2026-11-23T07:54:28Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5426,7 +5628,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-22T23:32:57Z",
+   "checked": "2026-11-23T07:54:32Z",
    "live": "live",
    "extra": 53.01,
    "fit_ok": true,
@@ -5480,7 +5682,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-22T23:33:00Z",
+   "checked": "2026-11-23T07:54:36Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5593,7 +5795,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-22T23:33:02Z",
+   "checked": "2026-11-23T07:54:38Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -5716,6 +5918,20 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-23T07:53:42Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "psu",
+   "text": "PSU down £36.01: £82.99 at Amazon UK (was £119.00 at Computer Orbit)"
+  },
+  {
+   "ts": "2026-11-23T07:53:42Z",
+   "level": "alert",
+   "type": "swap",
+   "part": "gpu",
+   "text": "Swap idea: Sapphire Pulse Radeon RX 9070 XT 16GB saves £23.00 (£825.99 at Amazon UK)"
+  },
   {
    "ts": "2026-11-22T07:53:01Z",
    "level": "info",
@@ -5915,14 +6131,6 @@
  ],
  "log": [
   {
-   "date": "2026-11-02",
-   "text": "Sweep: prices unchanged. Re-checked Overclockers UK (all 11 prices unchanged; D33 still pre-order) and Watercooling UK (D33 black £79.91, 50 in stock). Currys RAM page blocked again, so its 27 Oct entry stays."
-  },
-  {
-   "date": "2026-11-02",
-   "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). V-Color Manta XSky DDR5-6000 CL28 black is £472.99 at Overclockers UK, only £7 under the RAM pick, so no swap idea. No feedback emails."
-  },
-  {
    "date": "2026-11-03",
    "text": "Sweep: prices unchanged at the picks. Re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99). Currys RAM page blocked again, so its 27 Oct entry stays."
   },
@@ -6073,11 +6281,19 @@
   {
    "date": "2026-11-22",
    "text": "No cheaper exact parts at UK shops that deliver to NI (Argos Reaper £1,044.99; Box P310 £298.35; Scan lists the P310 as end of life; Kustom PCs is collect-only). s4 (Gigabyte RX 9070 XT Gaming OC, Amazon UK) still stands; u3 Peerless Vision 360 still £79, under the £10 bar. Amazon Prime prices still from 26 Oct. No feedback emails."
+  },
+  {
+   "date": "2026-11-23",
+   "text": "Sweep: new swap idea s7, Sapphire Pulse RX 9070 XT (black, 320mm long, 61.6mm thick) at £799.99 from Amazon UK, about £49 under the Reaper; s4 (Gigabyte Gaming OC, £829.99) stays. Checker data fresh; no part prices changed since yesterday's sweep."
+  },
+  {
+   "date": "2026-11-23",
+   "text": "No cheaper KLEVV FIT V black CL28 kit at NI-delivering UK shops (the £399.95 Overclockers deal was the white kit and has ended); Currys page still blocked. Amazon Prime prices still from 26 Oct. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-22T23:33:07Z"
+  "built": "2026-11-23T07:54:41Z"
  }
 }
