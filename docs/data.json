@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T03:55:35Z",
+ "generated": "2026-11-24T07:53:01Z",
  "today": "2026-11-24",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-23",
- "last_sweep": "2026-11-23T07:49:04Z",
+ "updated": "2026-11-24",
+ "last_sweep": "2026-11-24T07:48:37Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-24T03:55:35Z",
+  "started": "2026-11-24T07:53:01Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-24T03:56:35Z"
+  "finished": "2026-11-24T07:53:57Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:36Z",
+   "checked": "2026-11-24T07:53:02Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -809,7 +809,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:40Z",
+   "checked": "2026-11-24T07:53:06Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1166,7 +1166,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:42Z",
+   "checked": "2026-11-24T07:53:08Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1537,7 +1537,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:47Z",
+   "checked": "2026-11-24T07:53:12Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1890,7 +1890,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:51Z",
+   "checked": "2026-11-24T07:53:16Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2288,7 +2288,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:56Z",
+   "checked": "2026-11-24T07:53:20Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2302,7 +2302,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-    "checked_on": "2026-11-22",
+    "checked_on": "2026-11-24",
     "note": "£245.99 inc VAT, 10+ in stock"
    },
    "offers": [
@@ -2319,7 +2319,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-     "checked_on": "2026-11-22",
+     "checked_on": "2026-11-24",
      "note": "£245.99 inc VAT, 10+ in stock"
     },
     {
@@ -2393,7 +2393,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-    "checked_on": "2026-11-22",
+    "checked_on": "2026-11-24",
     "note": "£245.99 inc VAT, 10+ in stock"
    },
    "pick_differs": false,
@@ -2673,7 +2673,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:55:59Z",
+   "checked": "2026-11-24T07:53:22Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -3041,7 +3041,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-24T03:56:04Z",
+   "checked": "2026-11-24T07:53:27Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3055,7 +3055,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "checked_on": "2026-11-22",
+    "checked_on": "2026-11-24",
     "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock"
    },
    "offers": [
@@ -3072,7 +3072,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-     "checked_on": "2026-11-22",
+     "checked_on": "2026-11-24",
      "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock"
     },
     {
@@ -3409,7 +3409,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:56:07Z",
+   "checked": "2026-11-24T07:53:30Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3772,7 +3772,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-24T03:56:08Z",
+   "checked": "2026-11-24T07:53:31Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4128,7 +4128,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-24T03:56:09Z",
+   "checked": "2026-11-24T07:53:32Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4480,7 +4480,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:56:11Z",
+   "checked": "2026-11-24T07:53:33Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4832,7 +4832,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-24T03:56:12Z",
+   "checked": "2026-11-24T07:53:35Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4846,7 +4846,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-22",
+    "checked_on": "2026-11-24",
     "note": "Digital download, £119.99"
    },
    "offers": [
@@ -4881,7 +4881,7 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-     "checked_on": "2026-11-22",
+     "checked_on": "2026-11-24",
      "note": "Digital download, £119.99"
     },
     {
@@ -4939,7 +4939,7 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-22",
+    "checked_on": "2026-11-24",
     "note": "Digital download, £119.99"
    },
    "pick_differs": false,
@@ -5348,7 +5348,7 @@
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-24T03:56:15Z",
+   "checked": "2026-11-24T07:53:37Z",
    "notes": [],
    "live": "live",
    "saving": 19.0,
@@ -5404,7 +5404,7 @@
     "vram": "16GB GDDR6",
     "colour": "black"
    },
-   "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £799.99 with free delivery, about £49 under the Reaper. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
+   "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £23 under the Reaper. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
    "status": "pending",
    "added": "2026-11-23",
    "decided": null,
@@ -5475,7 +5475,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-24T03:56:19Z",
+   "checked": "2026-11-24T07:53:41Z",
    "notes": [],
    "live": "live",
    "saving": 23.0,
@@ -5590,7 +5590,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-24T03:56:22Z",
+   "checked": "2026-11-24T07:53:44Z",
    "live": "live",
    "extra": 69.01,
    "fit_ok": true,
@@ -5671,7 +5671,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-24T03:56:26Z",
+   "checked": "2026-11-24T07:53:48Z",
    "live": "live",
    "extra": 53.01,
    "fit_ok": true,
@@ -5725,7 +5725,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-24T03:56:30Z",
+   "checked": "2026-11-24T07:53:51Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5838,7 +5838,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-24T03:56:31Z",
+   "checked": "2026-11-24T07:53:53Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -6174,14 +6174,6 @@
  ],
  "log": [
   {
-   "date": "2026-11-03",
-   "text": "Sweep: prices unchanged at the picks. Re-checked Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99). Currys RAM page blocked again, so its 27 Oct entry stays."
-  },
-  {
-   "date": "2026-11-03",
-   "text": "Swap idea s6 (ASUS Prime RX 9070 XT OC) added and expired the same morning: PriceSpy's search page showed £749.99 at Amazon UK, but the checker read £829.99 there (Scan also £829.99), £30 more than the Reaper. Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No feedback emails."
-  },
-  {
    "date": "2026-11-04",
    "text": "Sweep: Overclockers UK's product page now shows the PowerColor RX 9070 XT Reaper at £749.99 (down £50 from £799.99, in stock). Re-checked its other 10 prices (board up to £179.99, Amazon UK's £169.99 stays the pick; D33 still pre-order) and Watercooling UK (D33 black £79.91, 50 in stock). Currys RAM page blocked again, so its 27 Oct entry stays."
   },
@@ -6332,11 +6324,19 @@
   {
    "date": "2026-11-23",
    "text": "No cheaper KLEVV FIT V black CL28 kit at NI-delivering UK shops (the £399.95 Overclockers deal was the white kit and has ended); Currys page still blocked. Amazon Prime prices still from 26 Oct. No feedback emails."
+  },
+  {
+   "date": "2026-11-24",
+   "text": "Sweep: no part prices changed. Re-checked CCL (P310 £245.99), Watercooling UK (D33 £79.91) and Microsoft Store (£119.99); Overclockers UK and Computer Orbit prices confirmed from the checker's direct page reads. Computer Orbit's RM850e (£119) is now out of stock; Scan has the B850M Mortar in stock at £169.99."
+  },
+  {
+   "date": "2026-11-24",
+   "text": "s7 Sapphire Pulse RX 9070 XT rose to £825.99 at Amazon UK (from £799.99), still £23 under the Reaper; s4 Gigabyte Gaming OC still £19 under. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-24T03:56:35Z"
+  "built": "2026-11-24T07:53:57Z"
  }
 }
