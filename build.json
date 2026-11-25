@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-24",
-  "last_sweep": "2026-11-24T07:48:37Z",
+  "updated": "2026-11-25",
+  "last_sweep": "2026-11-25T07:47:50Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1525,14 +1525,6 @@
   "feedback_log": [],
   "log": [
     {
-      "date": "2026-10-25",
-      "text": "Sweep: health OK (PriceSpy 10/10, no errors). Overclockers backup prices refreshed from today's page reads (SSD £209.99, out of stock); Watercooling UK case still £79.91 in stock; Currys RAM still £489."
-    },
-    {
-      "date": "2026-10-25",
-      "text": "Argos lists the RX 9070 XT Reaper at £729.99 (£20 under Overclockers UK; small-item delivery free over £100) but its stock is only shown after a postcode check, so it isn't priced in yet. No new swap ideas."
-    },
-    {
       "date": "2026-10-26",
       "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
     },
@@ -1763,6 +1755,14 @@
     {
       "date": "2026-11-24",
       "text": "s7 Sapphire Pulse RX 9070 XT rose to £825.99 at Amazon UK (from £799.99), still £23 under the Reaper; s4 Gigabyte Gaming OC still £19 under. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
+    },
+    {
+      "date": "2026-11-25",
+      "text": "Sweep: no part prices changed (checker healthy, PriceSpy 12/12). Overclockers UK and Computer Orbit prices confirmed by the checker's direct page reads; Currys RAM page still blocked. Box has the Crucial P310 2TB at £299.39, above CCL's £245.99."
+    },
+    {
+      "date": "2026-11-25",
+      "text": "No cheaper black RX 9070 XT on Amazon UK than s7 Sapphire Pulse (£825.99) and s4 Gigabyte Gaming OC (£829.99); both stay pending. Amazon Prime prices still from 26 Oct. No feedback emails."
     }
   ],
   "amazon_leads": []
