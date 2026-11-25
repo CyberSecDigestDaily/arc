@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T07:52:17Z",
+ "generated": "2026-11-25T17:04:03Z",
  "today": "2026-11-25",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-25T07:52:17Z",
+  "started": "2026-11-25T17:04:03Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-25T07:53:15Z"
+  "finished": "2026-11-25T17:05:01Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:18Z",
+   "checked": "2026-11-25T17:04:04Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -506,7 +506,7 @@
    "excluded": {
     "marketplace": 6,
     "used": 1,
-    "other_variant": 1,
+    "other_variant": 0,
     "untrusted_feed": 1
    },
    "notes": [],
@@ -816,7 +816,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:22Z",
+   "checked": "2026-11-25T17:04:08Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1180,7 +1180,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:24Z",
+   "checked": "2026-11-25T17:04:10Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1192,8 +1192,8 @@
     "landed": 183.18,
     "ni": "verified",
     "delivery_note": "2-day service to NI",
-    "stock": "InStock",
-    "in_stock": true,
+    "stock": "OutOfStock",
+    "in_stock": false,
     "source": "pricespy",
     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
    },
@@ -1209,8 +1209,8 @@
      "landed": 183.18,
      "ni": "verified",
      "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
+     "stock": "OutOfStock",
+     "in_stock": false,
      "source": "pricespy",
      "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
     },
@@ -1233,7 +1233,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 11,
+    "marketplace": 10,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -1250,8 +1250,8 @@
     "landed": 183.18,
     "ni": "verified",
     "delivery_note": "2-day service to NI",
-    "stock": "InStock",
-    "in_stock": true,
+    "stock": "OutOfStock",
+    "in_stock": false,
     "source": "pricespy",
     "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
    },
@@ -1268,7 +1268,7 @@
     "days": 35
    },
    "signals": [
-    "near_low"
+    "soldout"
    ],
    "history": [
     [
@@ -1542,7 +1542,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:28Z",
+   "checked": "2026-11-25T17:04:14Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1902,7 +1902,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:32Z",
+   "checked": "2026-11-25T17:04:18Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2002,7 +2002,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 2,
+    "marketplace": 3,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -2307,7 +2307,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:37Z",
+   "checked": "2026-11-25T17:04:22Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2362,10 +2362,10 @@
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
      "name": "Crucial P310 2TB PCIe 4.0 NVMe M.2 SSD 7100MB/s Read 6000MB/s Write - CT2000P310SSD8",
-     "price": 286.95,
-     "was": 286.95,
+     "price": 297.95,
+     "was": 297.95,
      "delivery": 15.0,
-     "landed": 301.95,
+     "landed": 312.95,
      "ni": "unverified",
      "delivery_note": "NI delivery not confirmed yet (estimate used)",
      "stock": "InStock",
@@ -2699,7 +2699,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:40Z",
+   "checked": "2026-11-25T17:04:25Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -3074,7 +3074,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-25T07:52:45Z",
+   "checked": "2026-11-25T17:04:30Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3449,7 +3449,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:47Z",
+   "checked": "2026-11-25T17:04:32Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3819,7 +3819,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-25T07:52:48Z",
+   "checked": "2026-11-25T17:04:34Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4182,7 +4182,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-25T07:52:49Z",
+   "checked": "2026-11-25T17:04:35Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4541,7 +4541,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:51Z",
+   "checked": "2026-11-25T17:04:37Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4900,7 +4900,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-25T07:52:53Z",
+   "checked": "2026-11-25T17:04:38Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -4988,7 +4988,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 6,
     "used": 0,
     "other_variant": 1,
     "untrusted_feed": 0
@@ -5315,10 +5315,10 @@
     "display": "Amazon UK",
     "sku": "B0DT7B79K9",
     "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
-    "price": 829.99,
-    "was": 829.99,
+    "price": 885.94,
+    "was": 885.94,
     "delivery": 0.0,
-    "landed": 829.99,
+    "landed": 885.94,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -5332,10 +5332,10 @@
      "display": "Amazon UK",
      "sku": "B0DT7B79K9",
      "name": "GIGABYTE Radeon RX 9070 XT GAMING OC 16G Graphics Card | 16 GB GDDR6, 256-bit, PCI-E 5.0, 3060 MHz Clock Speed, 2 x DisplayPort, 2 x HDMI, GV-R9070XTGAMING OC-16GD",
-     "price": 829.99,
-     "was": 829.99,
+     "price": 885.94,
+     "was": 885.94,
      "delivery": 0.0,
-     "landed": 829.99,
+     "landed": 885.94,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -5417,16 +5417,16 @@
      "landed": 1104.0,
      "ni": "verified",
      "delivery_note": "Thermalright's UK stockist. Parcelforce 48 to a Northern Ireland postcode: £5 under £75, free over £75 (its cart's shipping calculator, 22 Oct).",
-     "stock": "OutOfStock",
-     "in_stock": false,
+     "stock": "InStock",
+     "in_stock": true,
      "source": "direct",
      "url": "https://computerorbit.com/products/gigabyte-rx-9070-xt-gaming-oc-16gb-graphics-card"
     }
    ],
-   "checked": "2026-11-25T07:52:55Z",
+   "checked": "2026-11-25T17:04:41Z",
    "notes": [],
    "live": "live",
-   "saving": 19.0,
+   "saving": -36.95,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5550,7 +5550,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-25T07:52:59Z",
+   "checked": "2026-11-25T17:04:45Z",
    "notes": [],
    "live": "live",
    "saving": 23.0,
@@ -5665,7 +5665,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-25T07:53:02Z",
+   "checked": "2026-11-25T17:04:48Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5682,22 +5682,38 @@
    "why": "TLC flash: faster sustained writes and much higher endurance than the QLC Crucial. Nice to have, not needed for a games drive.",
    "pricespy": 14519414,
    "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DN6ZQ3PD",
-    "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-    "price": 308.0,
-    "was": 308.0,
-    "delivery": 0.0,
-    "landed": 308.0,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "shop": "AWD-IT",
+    "display": "AWD-IT",
+    "sku": "85A-80F-F7A",
+    "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
+    "price": 282.99,
+    "was": 282.99,
+    "delivery": 15.0,
+    "landed": 297.99,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "85A-80F-F7A",
+     "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
+     "price": 282.99,
+     "was": 282.99,
+     "delivery": 15.0,
+     "landed": 297.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
+    },
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
@@ -5715,22 +5731,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
     },
     {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "85A-80F-F7A",
-     "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
-     "price": 282.99,
-     "was": 282.99,
-     "delivery": 15.0,
-     "landed": 297.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "OutOfStock",
-     "in_stock": false,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
-    },
-    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-04135",
@@ -5746,9 +5746,9 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-25T07:53:06Z",
+   "checked": "2026-11-25T17:04:53Z",
    "live": "live",
-   "extra": 62.01,
+   "extra": 37.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5800,7 +5800,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-25T07:53:10Z",
+   "checked": "2026-11-25T17:04:56Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5865,22 +5865,6 @@
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
     },
     {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "WGDSI",
-     "name": "Powercolor Hellhound Amd Radeon Rx 9070 Xt 16Gb Gddr6 Pcie 5.0 Overclocked Graphics Card",
-     "price": 1079.0,
-     "was": 1079.0,
-     "delivery": 0.0,
-     "landed": 1079.0,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSI?client_id=1551"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "537-E69-D4E",
@@ -5913,7 +5897,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-25T07:53:12Z",
+   "checked": "2026-11-25T17:04:58Z",
    "live": "live",
    "extra": 51.0,
    "fit_ok": true,
@@ -6036,6 +6020,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-25T17:04:03Z",
+   "level": "alert",
+   "type": "soldout",
+   "part": "board",
+   "text": "Motherboard: no vetted UK shop has it in stock right now"
+  },
   {
    "ts": "2026-11-23T07:53:42Z",
    "level": "alert",
@@ -6412,6 +6403,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-25T07:53:15Z"
+  "built": "2026-11-25T17:05:01Z"
  }
 }
