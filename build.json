@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-25",
-  "last_sweep": "2026-11-25T07:47:50Z",
+  "updated": "2026-11-26",
+  "last_sweep": "2026-11-26T08:00:00Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -975,8 +975,9 @@
         "colour": "black"
       },
       "why": "Same RX 9070 XT chip and 16GB in Gigabyte's black triple-fan Gaming OC, sold by Amazon UK with free delivery (Computer Orbit lists it at £699 but it's out of stock). At 288mm long and 56mm thick it fits the D33 and the bottom fans (81mm of 95mm). Trade-off: a thicker card with three 8-pin plugs, and ASUS's Prime is a little cheaper.",
-      "status": "pending",
-      "added": "2026-10-27"
+      "status": "expired",
+      "added": "2026-10-27",
+      "decided": "2026-11-26"
     },
     {
       "id": "s5",
@@ -1261,9 +1262,17 @@
         "retailer": "Overclockers",
         "price": 169.99,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-26",
         "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
-        "note": "Product page: pre-order"
+        "note": "£169.99, pre-order, no date given"
+      },
+      {
+        "retailer": "Scan",
+        "price": 169.99,
+        "in_stock": true,
+        "checked_on": "2026-11-26",
+        "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx",
+        "note": "£169.99 inc VAT, 'Low stock' on Scan's own page (PriceSpy shows it out of stock)"
       }
     ],
     "ram": [
@@ -1299,7 +1308,7 @@
         "retailer": "CCL",
         "price": 245.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-26",
         "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
         "note": "£245.99 inc VAT, 10+ in stock"
       }
@@ -1333,11 +1342,11 @@
       },
       {
         "retailer": "Watercooling UK",
-        "price": 79.91,
+        "price": 74.32,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-26",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£79.91 inc VAT (£66.59 ex VAT), 50 in stock"
+        "note": "£74.32 inc VAT (£61.93 ex VAT), was £79.91; 51 in stock"
       },
       {
         "retailer": "Computer Orbit",
@@ -1457,7 +1466,7 @@
         "retailer": "Microsoft Store",
         "price": 119.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-26",
         "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
         "note": "Digital download, £119.99"
       },
@@ -1516,22 +1525,14 @@
         "retailer": "Amazon.co.uk",
         "price": 825.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-26",
         "url": "https://pricespy.co.uk/product.php?p=14495834",
-        "note": "Sold by Amazon UK, free delivery; price from PriceSpy, rose from £799.99"
+        "note": "Sold by Amazon UK, free delivery; price from PriceSpy (checker read 26 Nov)"
       }
     ]
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-26",
-      "text": "Amazon check: prices unchanged; 7 Prime listings re-checked. No cheaper Prime offers for the RAM, GPU or case (KLEVV kits on Amazon start at £465.95; £699.99 Reaper is still the non-XT RX 9070; D33 not on Amazon UK)."
-    },
-    {
-      "date": "2026-10-26",
-      "text": "Sweep: RAM up £80.04 to £479.99 at Overclockers UK (confirmed on its page); every black DDR5-6000 CL28 2x16GB kit there is now £479.99+, so no cheaper like-for-like swap. Build now about £81.88 over budget after delivery."
-    },
     {
       "date": "2026-10-26",
       "text": "Re-checked Overclockers (7800X3D upgrade up to £364.99; others unchanged), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No new swap ideas."
@@ -1763,6 +1764,14 @@
     {
       "date": "2026-11-25",
       "text": "No cheaper black RX 9070 XT on Amazon UK than s7 Sapphire Pulse (£825.99) and s4 Gigabyte Gaming OC (£829.99); both stay pending. Amazon Prime prices still from 26 Oct. No feedback emails."
+    },
+    {
+      "date": "2026-11-26",
+      "text": "Sweep: Watercooling UK cut the Jonsbo D33 STD black to £74.32 (from £79.91). Scan's own page shows the B850M Mortar WiFi in stock (low stock) at £169.99 though PriceSpy says sold out; Overclockers UK still pre-order. CCL P310 £245.99 and Microsoft Store £119.99 unchanged."
+    },
+    {
+      "date": "2026-11-26",
+      "text": "s4 Gigabyte RX 9070 XT Gaming OC expired: now £885.94 at Amazon UK, above the Reaper's £848.99. s7 Sapphire Pulse (£825.99) stays pending. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
     }
   ],
   "amazon_leads": []
