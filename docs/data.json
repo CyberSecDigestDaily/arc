@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T07:55:14Z",
+ "generated": "2026-11-26T16:44:50Z",
  "today": "2026-11-26",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,18 +214,18 @@
   }
  },
  "run": {
-  "started": "2026-11-26T07:55:14Z",
+  "started": "2026-11-26T16:44:50Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-26T07:56:09Z"
+  "finished": "2026-11-26T16:45:46Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2378.67,
+  "remaining": 2429.67,
   "delivery": 45.18,
   "delivery_lines": [
    {
@@ -237,7 +237,7 @@
      "case",
      "splitter"
     ],
-    "items": 1399.82,
+    "items": 1450.82,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2378.67,
+  "build_total": 2429.67,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 187.15,
+  "delta_vs_baseline": 238.15,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -223.85,
+  "left_after_delivery": -274.85,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:15Z",
+   "checked": "2026-11-26T16:44:51Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -504,7 +504,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 6,
+    "marketplace": 7,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -823,7 +823,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:19Z",
+   "checked": "2026-11-26T16:44:55Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1194,7 +1194,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:20Z",
+   "checked": "2026-11-26T16:44:57Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1563,7 +1563,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:25Z",
+   "checked": "2026-11-26T16:45:01Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1618,7 +1618,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 6,
+    "other_variant": 8,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1930,15 +1930,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:29Z",
+   "checked": "2026-11-26T16:45:05Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 848.99,
+    "price": 899.99,
     "delivery": 19.99,
-    "landed": 868.98,
+    "landed": 919.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1952,9 +1952,9 @@
      "display": "Overclockers UK",
      "sku": "GRA-PWC-04017",
      "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-     "price": 848.99,
+     "price": 899.99,
      "delivery": 19.99,
-     "landed": 868.98,
+     "landed": 919.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
      "stock": "InStock",
@@ -2033,7 +2033,7 @@
     "marketplace": 3,
     "used": 0,
     "other_variant": 0,
-    "untrusted_feed": 0
+    "untrusted_feed": 1
    },
    "notes": [],
    "pick": {
@@ -2041,9 +2041,9 @@
     "display": "Overclockers UK",
     "sku": "GRA-PWC-04017",
     "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 848.99,
+    "price": 899.99,
     "delivery": 19.99,
-    "landed": 868.98,
+    "landed": 919.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -2053,9 +2053,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 99.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 51.0,
+    "vs_baseline": 150.0,
+    "vs_prev_run": 51.0
    },
    "low": {
     "price": 749.99,
@@ -2342,7 +2342,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:34Z",
+   "checked": "2026-11-26T16:45:10Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2428,10 +2428,10 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 0,
     "other_variant": 0,
-    "untrusted_feed": 1
+    "untrusted_feed": 0
    },
    "notes": [],
    "pick": {
@@ -2741,7 +2741,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:36Z",
+   "checked": "2026-11-26T16:45:13Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -3123,7 +3123,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T07:55:42Z",
+   "checked": "2026-11-26T16:45:18Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3505,7 +3505,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:44Z",
+   "checked": "2026-11-26T16:45:21Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3882,7 +3882,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T07:55:46Z",
+   "checked": "2026-11-26T16:45:22Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4252,7 +4252,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T07:55:47Z",
+   "checked": "2026-11-26T16:45:23Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4618,7 +4618,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:49Z",
+   "checked": "2026-11-26T16:45:25Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4984,7 +4984,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T07:55:50Z",
+   "checked": "2026-11-26T16:45:27Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5075,7 +5075,7 @@
     "marketplace": 6,
     "used": 0,
     "other_variant": 1,
-    "untrusted_feed": 0
+    "untrusted_feed": 1
    },
    "notes": [],
    "pick": {
@@ -5522,10 +5522,10 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T07:55:53Z",
+   "checked": "2026-11-26T16:45:29Z",
    "notes": [],
    "live": "live",
-   "saving": 23.0,
+   "saving": 74.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -5637,7 +5637,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T07:55:56Z",
+   "checked": "2026-11-26T16:45:32Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5654,38 +5654,22 @@
    "why": "TLC flash: faster sustained writes and much higher endurance than the QLC Crucial. Nice to have, not needed for a games drive.",
    "pricespy": 14519414,
    "best": {
-    "shop": "AWD-IT",
-    "display": "AWD-IT",
-    "sku": "85A-80F-F7A",
-    "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
-    "price": 282.99,
-    "was": 282.99,
-    "delivery": 15.0,
-    "landed": 297.99,
-    "ni": "unverified",
-    "delivery_note": "NI delivery not confirmed yet (estimate used)",
+    "shop": "Amazon.co.uk",
+    "display": "Amazon UK",
+    "sku": "B0DN6ZQ3PD",
+    "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
+    "price": 308.0,
+    "was": 308.0,
+    "delivery": 0.0,
+    "landed": 308.0,
+    "ni": "assumed",
+    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
+    "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
    },
    "offers": [
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "85A-80F-F7A",
-     "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
-     "price": 282.99,
-     "was": 282.99,
-     "delivery": 15.0,
-     "landed": 297.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
-    },
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
@@ -5703,6 +5687,22 @@
      "url": "https://pricespy.co.uk/go-to-shop/1751/offer/B0DN6ZQ3PD?client_id=1551"
     },
     {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "85A-80F-F7A",
+     "name": "Western Digital Black SN7100 2TB PCIe 4.0 NVMe M.2 SSD 7250MB/s Read 6900MB/s Write - WDS200T4X0E-00CJA0",
+     "price": 282.99,
+     "was": 282.99,
+     "delivery": 15.0,
+     "landed": 297.99,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/85A-80F-F7A?client_id=1551"
+    },
+    {
      "shop": "Overclockers",
      "display": "Overclockers UK",
      "sku": "STO-WDC-04135",
@@ -5718,9 +5718,9 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-26T07:56:00Z",
+   "checked": "2026-11-26T16:45:36Z",
    "live": "live",
-   "extra": 37.0,
+   "extra": 62.01,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5772,7 +5772,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-26T07:56:03Z",
+   "checked": "2026-11-26T16:45:40Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5790,36 +5790,22 @@
    "why": "Same chip and speed with a bigger, even quieter cooler. Only worth it if near-silence matters more than the extra cost.",
    "pricespy": 14421243,
    "best": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "GRA-PWC-04016",
-    "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 899.99,
-    "delivery": 19.99,
-    "landed": 919.98,
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "154544",
+    "name": "PowerColor AMD Radeon RX 9070 XT HELLHOUND 16GB GDDR6 Graphics Card",
+    "price": 919.99,
+    "was": 919.99,
+    "delivery": 13.19,
+    "landed": 933.18,
     "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
+    "source": "pricespy",
+    "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
    },
    "offers": [
-    {
-     "shop": "Overclockers",
-     "display": "Overclockers UK",
-     "sku": "GRA-PWC-04016",
-     "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB GDDR6 PCI-Express Graphics Card",
-     "price": 899.99,
-     "delivery": 19.99,
-     "landed": 919.98,
-     "ni": "verified",
-     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "direct",
-     "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
-    },
     {
      "shop": "Scan",
      "display": "Scan",
@@ -5835,6 +5821,37 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/15495/offer/154544?client_id=1551"
+    },
+    {
+     "shop": "Overclockers",
+     "display": "Overclockers UK",
+     "sku": "GRA-PWC-04016",
+     "name": "PowerColor Radeon RX 9070 XT Hellhound 16GB GDDR6 PCI-Express Graphics Card",
+     "price": 949.99,
+     "delivery": 19.99,
+     "landed": 969.98,
+     "ni": "verified",
+     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "direct",
+     "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html"
+    },
+    {
+     "shop": "Very",
+     "display": "Very",
+     "sku": "WGDSI",
+     "name": "Powercolor Hellhound Amd Radeon Rx 9070 Xt 16Gb Gddr6 Pcie 5.0 Overclocked Graphics Card",
+     "price": 1079.0,
+     "was": 1079.0,
+     "delivery": 0.0,
+     "landed": 1079.0,
+     "ni": "verified",
+     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/WGDSI?client_id=1551"
     },
     {
      "shop": "AWD-IT",
@@ -5869,9 +5886,9 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T07:56:05Z",
+   "checked": "2026-11-26T16:45:42Z",
    "live": "live",
-   "extra": 51.0,
+   "extra": 20.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -5992,6 +6009,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-26T16:44:50Z",
+   "level": "info",
+   "type": "rise",
+   "part": "gpu",
+   "text": "GPU up £51.00 to £899.99 at Overclockers UK"
+  },
   {
    "ts": "2026-11-25T17:04:03Z",
    "level": "alert",
@@ -6375,6 +6399,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-26T07:56:09Z"
+  "built": "2026-11-26T16:45:46Z"
  }
 }
