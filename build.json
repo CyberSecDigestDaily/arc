@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-26",
-  "last_sweep": "2026-11-26T08:00:00Z",
+  "updated": "2026-11-27",
+  "last_sweep": "2026-11-27T07:53:00Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -1108,9 +1108,53 @@
         "vram": "16GB GDDR6",
         "colour": "black"
       },
-      "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £23 under the Reaper. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
+      "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £74 under the Reaper now it has risen to £899.99. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
       "status": "pending",
       "added": "2026-11-23"
+    },
+    {
+      "id": "s8",
+      "part": "gpu",
+      "name": "XFX Swift Radeon RX 9070 XT Triple Fan Gaming 16GB, black (RX-97TSWF3B9)",
+      "pricespy": 14807780,
+      "match": {
+        "must": [
+          "9070\\s?XT",
+          "swift"
+        ],
+        "not": [
+          "\\bwhite\\b",
+          "\\bGRE\\b",
+          "\\bdual\\b",
+          "\\bquicksilver\\b",
+          "\\bmercury\\b",
+          "\\bbundle\\b",
+          "\\bused\\b",
+          "\\brefurb",
+          "\\+\\s*(asus|msi|gigabyte|asrock|amd|ryzen|intel|corsair|kingston|g\\.?skill|crucial|samsung|wd|western digital|seagate|nzxt|be quiet|noctua|cooler|motherboard|cpu|processor|ram|memory|graphics)\\b",
+          "\\bupgrade\\b"
+        ]
+      },
+      "offers": [
+        {
+          "retailer": "Scan",
+          "sku": "LN156797",
+          "check": "manual",
+          "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
+        }
+      ],
+      "spec": {
+        "length_mm": 325,
+        "thickness_mm": 65,
+        "slots": 3.5,
+        "power": "2× 8-pin",
+        "vram": "16GB GDDR6",
+        "psu_min_w": 850,
+        "colour": "black"
+      },
+      "why": "XFX's black triple-fan RX 9070 XT: the same chip and 16GB as the Reaper, £839.99 at Scan (in stock, low stock), about £47 under the Reaper's £899.99 even after Scan's £13.19 NI delivery. At 325mm long and 65mm thick it fits the D33 and clears the bottom fans (90mm of 95mm), with two 8-pin plugs like the Reaper and an 850W PSU minimum, which the RM850e meets. Trade-off: a 3.5-slot card, the tightest fit above the bottom fans of any option so far, and s7 is still about £14 cheaper.",
+      "status": "pending",
+      "added": "2026-11-27"
     }
   ],
   "upgrades": [
@@ -1252,9 +1296,9 @@
         "retailer": "Overclockers",
         "price": 199.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/amd-ryzen-5-7500x3d-six-core-4.5ghz-socket-am5-processor-retail/PRO-AMD-06394.html",
-        "note": "Product page: in stock"
+        "note": "£199.99 inc VAT, in stock (product page JSON-LD)"
       }
     ],
     "board": [
@@ -1262,17 +1306,17 @@
         "retailer": "Overclockers",
         "price": 169.99,
         "in_stock": false,
-        "checked_on": "2026-11-26",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/msi-mag-b850m-mortar-wifi-amd-am5-b850-micro-atx-motherboard/MOT-MSI-05547.html",
         "note": "£169.99, pre-order, no date given"
       },
       {
         "retailer": "Scan",
         "price": 169.99,
-        "in_stock": true,
-        "checked_on": "2026-11-26",
+        "in_stock": false,
+        "checked_on": "2026-11-27",
         "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx",
-        "note": "£169.99 inc VAT, 'Low stock' on Scan's own page (PriceSpy shows it out of stock)"
+        "note": "£169.99 inc VAT, now 'Pre Order', awaiting an ETA on Scan's own page"
       }
     ],
     "ram": [
@@ -1280,9 +1324,9 @@
         "retailer": "Overclockers",
         "price": 469.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/klevv-fit-v-expo-32gb-2x16gb-6000mhz-c28-ddr5-dual-channel-kit-black/MEM-KLV-07037.html",
-        "note": "Product page: in stock (up from £449.99 on 21 Nov)"
+        "note": "£469.99 inc VAT, in stock"
       },
       {
         "retailer": "Currys",
@@ -1296,11 +1340,11 @@
     "gpu": [
       {
         "retailer": "Overclockers",
-        "price": 848.99,
+        "price": 899.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html",
-        "note": "Product page: in stock"
+        "note": "£899.99 inc VAT, in stock (up from £848.99)"
       }
     ],
     "ssd": [
@@ -1308,9 +1352,9 @@
         "retailer": "CCL",
         "price": 245.99,
         "in_stock": true,
-        "checked_on": "2026-11-26",
+        "checked_on": "2026-11-27",
         "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-        "note": "£245.99 inc VAT, 10+ in stock"
+        "note": "£245.99 INC VAT, 10+ in stock"
       }
     ],
     "psu": [
@@ -1318,17 +1362,17 @@
         "retailer": "Overclockers",
         "price": 85.0,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html",
-        "note": "Product page: sold out"
+        "note": "£85.00, sold out (expected restock, no date)"
       },
       {
         "retailer": "Computer Orbit",
         "price": 119.0,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
-        "note": "Shopify: sold out"
+        "note": "£119.00, sold out (Shopify product data); £5 NI delivery under £75, free over"
       }
     ],
     "case": [
@@ -1336,25 +1380,25 @@
         "retailer": "Overclockers",
         "price": 79.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/jonsbo-d33-std-tempered-glass-matx-case-black/CAS-JON-08784.html",
-        "note": "Product page: in stock"
+        "note": "£79.99 inc VAT, in stock"
       },
       {
         "retailer": "Watercooling UK",
         "price": 74.32,
         "in_stock": true,
-        "checked_on": "2026-11-26",
+        "checked_on": "2026-11-27",
         "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-        "note": "£74.32 inc VAT (£61.93 ex VAT), was £79.91; 51 in stock"
+        "note": "£74.32 inc VAT (£61.93 ex VAT), 51 in stock"
       },
       {
         "retailer": "Computer Orbit",
         "price": 79.0,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/jonsbo-d33-std-tempered-glass-matx-case-black",
-        "note": "Shopify: sold out"
+        "note": "£79.00, sold out (Shopify product data); £5 NI delivery under £75, free over"
       }
     ],
     "cooler": [
@@ -1362,9 +1406,9 @@
         "retailer": "Computer Orbit",
         "price": 85.0,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/thermalright-frozen-warframe-360-ultra-black-argb-lcd-aio-liquid-cooler",
-        "note": "Shopify: available"
+        "note": "£85.00, available (Shopify product data); £5 NI delivery under £75, free over"
       },
       {
         "retailer": "Amazon Prime",
@@ -1381,9 +1425,9 @@
         "retailer": "Computer Orbit",
         "price": 35.0,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/thermalright-trofeo-vision-9-16-lcd-black-display",
-        "note": "Shopify: sold out"
+        "note": "£35.00, sold out (Shopify product data); £5 NI delivery under £75, free over"
       },
       {
         "retailer": "Amazon Prime",
@@ -1400,9 +1444,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/thermalright-tl-m12qr-x3-black-a-rgb-reverse-120mm-pwm-triple-pack",
-        "note": "Shopify: available"
+        "note": "£19.00, available (Shopify product data); £5 NI delivery under £75, free over"
       },
       {
         "retailer": "Amazon Prime",
@@ -1428,9 +1472,9 @@
         "retailer": "Computer Orbit",
         "price": 19.0,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/thermalright-tl-m12q-x3-black-a-rgb-120mm-pwm-triple-pack",
-        "note": "Shopify: available"
+        "note": "£19.00, available (Shopify product data); £5 NI delivery under £75, free over"
       },
       {
         "retailer": "Amazon Prime",
@@ -1447,9 +1491,9 @@
         "retailer": "Overclockers",
         "price": 0.85,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/kolink-argb-1-3-splitter-cable-30cm/CA-07K-KK.html",
-        "note": "Product page: in stock"
+        "note": "£0.85 inc VAT, in stock"
       },
       {
         "retailer": "Amazon Prime",
@@ -1485,9 +1529,9 @@
         "retailer": "Overclockers",
         "price": 259.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html",
-        "note": "Product page: in stock"
+        "note": "£259.99 inc VAT, in stock"
       }
     ],
     "u2": [
@@ -1495,19 +1539,19 @@
         "retailer": "Overclockers",
         "price": 289.99,
         "in_stock": false,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html",
-        "note": "Product page: out of stock"
+        "note": "£289.99, out of stock"
       }
     ],
     "u4": [
       {
         "retailer": "Overclockers",
-        "price": 899.99,
+        "price": 949.99,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-hellhound-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04016.html",
-        "note": "Product page: in stock"
+        "note": "£949.99 inc VAT, in stock (up from £899.99)"
       }
     ],
     "u3": [
@@ -1515,9 +1559,9 @@
         "retailer": "Computer Orbit",
         "price": 79.0,
         "in_stock": true,
-        "checked_on": "2026-11-24",
+        "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler",
-        "note": "Shopify: available"
+        "note": "£79.00, available (Shopify product data); £5 NI delivery under £75, free over"
       }
     ],
     "s7": [
@@ -1529,18 +1573,20 @@
         "url": "https://pricespy.co.uk/product.php?p=14495834",
         "note": "Sold by Amazon UK, free delivery; price from PriceSpy (checker read 26 Nov)"
       }
+    ],
+    "s8": [
+      {
+        "retailer": "Scan",
+        "price": 839.99,
+        "in_stock": true,
+        "checked_on": "2026-11-27",
+        "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6",
+        "note": "£839.99 inc VAT, 'Low stock', new (MPN RX-97TSWF3B9); listed as Black"
+      }
     ]
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-26",
-      "text": "Re-checked Overclockers (7800X3D upgrade up to £364.99; others unchanged), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No new swap ideas."
-    },
-    {
-      "date": "2026-10-27",
-      "text": "GPU: Overclockers UK's RX 9070 XT Reaper rose £50 to £799.99 on 26 Oct and every other UK shop is £899.99+, so two cheaper black RX 9070 XT cards sold by Amazon UK are now swap ideas: s3 ASUS Prime OC £749.99 (saves about £50) and s4 Gigabyte Gaming OC £757.99 (about £42)."
-    },
     {
       "date": "2026-10-27",
       "text": "Re-checked: Watercooling UK D33 black £79.91 (50 in stock); Currys KLEVV FIT V black CL28 £489. Build about £131.88 over the £2,200 budget after delivery before any swap."
@@ -1772,6 +1818,14 @@
     {
       "date": "2026-11-26",
       "text": "s4 Gigabyte RX 9070 XT Gaming OC expired: now £885.94 at Amazon UK, above the Reaper's £848.99. s7 Sapphire Pulse (£825.99) stays pending. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
+    },
+    {
+      "date": "2026-11-27",
+      "text": "Sweep: GPU Reaper up £51 to £899.99 at Overclockers UK (Hellhound upgrade up to £949.99). Motherboard now pre-order at both Scan (awaiting ETA) and Overclockers UK, so no vetted shop has it in stock. Overclockers UK PSU sold out; CCL P310 £245.99 and Watercooling UK D33 £74.32 unchanged."
+    },
+    {
+      "date": "2026-11-27",
+      "text": "New swap idea s8: XFX Swift RX 9070 XT Triple Fan, black, £839.99 at Scan (325mm, 65mm thick; saves about £47). s7 Sapphire Pulse (£825.99, Amazon UK) now saves about £74. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
     }
   ],
   "amazon_leads": []
