@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-26T16:44:50Z",
- "today": "2026-11-26",
+ "generated": "2026-11-27T01:40:01Z",
+ "today": "2026-11-27",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-26T16:44:50Z",
+  "started": "2026-11-27T01:40:01Z",
   "source": "github-actions",
   "pricespy_ok": 11,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-26T16:45:46Z"
+  "finished": "2026-11-27T01:40:55Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:44:51Z",
+   "checked": "2026-11-27T01:40:02Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -536,7 +536,7 @@
     "price": 199.99,
     "date": "2026-11-08",
     "retailer": "Overclockers UK",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "near_low"
@@ -793,6 +793,13 @@
      199.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-27",
+     199.99,
+     199.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -823,7 +830,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:44:55Z",
+   "checked": "2026-11-27T01:40:06Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -908,7 +915,7 @@
     "price": 70.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 36
+    "days": 37
    },
    "signals": [],
    "history": [
@@ -1163,6 +1170,13 @@
      90.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-27",
+     85.0,
+     90.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -1194,7 +1208,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:44:57Z",
+   "checked": "2026-11-27T01:40:08Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1279,7 +1293,7 @@
     "price": 169.86,
     "date": "2026-11-05",
     "retailer": "Amazon UK",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "soldout"
@@ -1536,6 +1550,13 @@
      183.18,
      0,
      "Scan"
+    ],
+    [
+     "2026-11-27",
+     169.99,
+     183.18,
+     0,
+     "Scan"
     ]
    ]
   },
@@ -1563,7 +1584,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:01Z",
+   "checked": "2026-11-27T01:40:12Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1647,7 +1668,7 @@
     "price": 399.95,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 36
+    "days": 37
    },
    "signals": [],
    "history": [
@@ -1902,6 +1923,13 @@
      489.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-27",
+     469.99,
+     489.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -1930,7 +1958,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:05Z",
+   "checked": "2026-11-27T01:40:16Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2055,13 +2083,13 @@
    "change": {
     "vs_yesterday": 51.0,
     "vs_baseline": 150.0,
-    "vs_prev_run": 51.0
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 749.99,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 36
+    "days": 37
    },
    "signals": [],
    "history": [
@@ -2316,6 +2344,13 @@
      868.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-27",
+     899.99,
+     919.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -2342,7 +2377,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:10Z",
+   "checked": "2026-11-27T01:40:21Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2428,7 +2463,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 8,
+    "marketplace": 7,
     "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -2460,7 +2495,7 @@
     "price": 199.99,
     "date": "2026-10-22",
     "retailer": "Amazon UK",
-    "days": 36
+    "days": 37
    },
    "signals": [],
    "history": [
@@ -2715,6 +2750,13 @@
      257.99,
      1,
      "CCL"
+    ],
+    [
+     "2026-11-27",
+     245.99,
+     257.99,
+     1,
+     "CCL"
     ]
    ]
   },
@@ -2741,7 +2783,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:13Z",
+   "checked": "2026-11-27T01:40:24Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -2841,7 +2883,7 @@
     "price": 82.99,
     "date": "2026-11-16",
     "retailer": "Amazon UK",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "below_sheet",
@@ -3099,6 +3141,13 @@
      82.99,
      1,
      "Amazon UK"
+    ],
+    [
+     "2026-11-27",
+     82.99,
+     82.99,
+     1,
+     "Amazon UK"
     ]
    ]
   },
@@ -3123,7 +3172,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T16:45:18Z",
+   "checked": "2026-11-27T01:40:29Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3222,7 +3271,7 @@
     "price": 79.91,
     "date": "2026-10-22",
     "retailer": "Watercooling UK",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "near_low"
@@ -3479,6 +3528,13 @@
      99.98,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-27",
+     79.99,
+     99.98,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -3505,7 +3561,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:21Z",
+   "checked": "2026-11-27T01:40:31Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3596,7 +3652,7 @@
     "price": 36.9,
     "date": "2026-10-22",
     "retailer": "Amazon UK (Prime)",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "near_low",
@@ -3854,6 +3910,13 @@
      36.9,
      1,
      "Amazon UK (Prime)"
+    ],
+    [
+     "2026-11-27",
+     36.9,
+     36.9,
+     1,
+     "Amazon UK (Prime)"
     ]
    ]
   },
@@ -3882,7 +3945,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T16:45:22Z",
+   "checked": "2026-11-27T01:40:32Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -3967,7 +4030,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "below_sheet"
@@ -4224,6 +4287,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-27",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -4252,7 +4322,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-26T16:45:23Z",
+   "checked": "2026-11-27T01:40:34Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4337,7 +4407,7 @@
     "price": 15.83,
     "date": "2026-11-01",
     "retailer": "Computer Orbit",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "below_sheet"
@@ -4594,6 +4664,13 @@
      24.0,
      1,
      "Computer Orbit"
+    ],
+    [
+     "2026-11-27",
+     19.0,
+     24.0,
+     1,
+     "Computer Orbit"
     ]
    ]
   },
@@ -4618,7 +4695,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:25Z",
+   "checked": "2026-11-27T01:40:35Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -4703,7 +4780,7 @@
     "price": 0.85,
     "date": "2026-10-22",
     "retailer": "Overclockers UK",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "below_sheet",
@@ -4961,6 +5038,13 @@
      20.84,
      1,
      "Overclockers UK"
+    ],
+    [
+     "2026-11-27",
+     0.85,
+     20.84,
+     1,
+     "Overclockers UK"
     ]
    ]
   },
@@ -4984,7 +5068,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-26T16:45:27Z",
+   "checked": "2026-11-27T01:40:37Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5072,7 +5156,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 6,
+    "marketplace": 7,
     "used": 0,
     "other_variant": 1,
     "untrusted_feed": 1
@@ -5104,7 +5188,7 @@
     "price": 119.0,
     "date": "2026-10-23",
     "retailer": "Amazon UK (Prime)",
-    "days": 36
+    "days": 37
    },
    "signals": [
     "near_low"
@@ -5361,6 +5445,13 @@
      119.99,
      1,
      "Microsoft Store"
+    ],
+    [
+     "2026-11-27",
+     119.99,
+     119.99,
+     1,
+     "Microsoft Store"
     ]
    ]
   }
@@ -5522,7 +5613,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T16:45:29Z",
+   "checked": "2026-11-27T01:40:40Z",
    "notes": [],
    "live": "live",
    "saving": 74.0,
@@ -5637,7 +5728,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T16:45:32Z",
+   "checked": "2026-11-27T01:40:42Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5718,7 +5809,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-26T16:45:36Z",
+   "checked": "2026-11-27T01:40:47Z",
    "live": "live",
    "extra": 62.01,
    "fit_ok": true,
@@ -5772,7 +5863,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-26T16:45:40Z",
+   "checked": "2026-11-27T01:40:50Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5886,7 +5977,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-26T16:45:42Z",
+   "checked": "2026-11-27T01:40:52Z",
    "live": "live",
    "extra": 20.0,
    "fit_ok": true,
@@ -6399,6 +6490,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-26T16:45:46Z"
+  "built": "2026-11-27T01:40:55Z"
  }
 }
