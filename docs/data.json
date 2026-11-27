@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T07:57:42Z",
+ "generated": "2026-11-27T16:30:32Z",
  "today": "2026-11-27",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,30 +214,42 @@
   }
  },
  "run": {
-  "started": "2026-11-27T07:57:42Z",
+  "started": "2026-11-27T16:30:32Z",
   "source": "github-actions",
   "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-27T07:58:42Z"
+  "finished": "2026-11-27T16:31:31Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2429.67,
+  "remaining": 2367.67,
   "delivery": 45.18,
   "delivery_lines": [
+   {
+    "shop": "Scan",
+    "key": "Scan",
+    "parts": [
+     "board",
+     "gpu"
+    ],
+    "items": 997.98,
+    "cost": 13.19,
+    "basis": "verified",
+    "note": null,
+    "extra_parcel": 13.19
+   },
    {
     "shop": "Overclockers UK",
     "key": "Overclockers",
     "parts": [
      "ram",
-     "gpu",
      "case",
      "splitter"
     ],
-    "items": 1450.82,
+    "items": 560.83,
     "cost": 19.99,
     "basis": "verified",
     "note": "DPD to NI; GPU, RAM and splitter in one order",
@@ -267,18 +279,6 @@
     "basis": "verified",
     "note": "£12 delivery to NI",
     "extra_parcel": null
-   },
-   {
-    "shop": "Scan",
-    "key": "Scan",
-    "parts": [
-     "board"
-    ],
-    "items": 169.99,
-    "cost": 13.19,
-    "basis": "verified",
-    "note": null,
-    "extra_parcel": 13.19
    },
    {
     "shop": "Computer Orbit",
@@ -319,12 +319,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2429.67,
+  "build_total": 2367.67,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 238.15,
+  "delta_vs_baseline": 176.15,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -274.85,
+  "left_after_delivery": -212.85,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:57:44Z",
+   "checked": "2026-11-27T16:30:33Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -504,7 +504,7 @@
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 1
@@ -830,7 +830,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:57:47Z",
+   "checked": "2026-11-27T16:30:36Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1208,7 +1208,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:57:49Z",
+   "checked": "2026-11-27T16:30:38Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1584,15 +1584,15 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:57:54Z",
+   "checked": "2026-11-27T16:30:44Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 469.99,
+    "price": 479.99,
     "delivery": 19.99,
-    "landed": 489.98,
+    "landed": 499.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1623,9 +1623,9 @@
      "display": "Overclockers UK",
      "sku": "MEM-KLV-07037",
      "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-     "price": 469.99,
+     "price": 479.99,
      "delivery": 19.99,
-     "landed": 489.98,
+     "landed": 499.98,
      "ni": "verified",
      "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
      "stock": "InStock",
@@ -1648,9 +1648,9 @@
     "display": "Overclockers UK",
     "sku": "MEM-KLV-07037",
     "name": "KLEVV FIT V EXPO 32GB (2x16GB) 6000MHz C28 DDR5 Dual Channel Kit - Black",
-    "price": 469.99,
+    "price": 479.99,
     "delivery": 19.99,
-    "landed": 489.98,
+    "landed": 499.98,
     "ni": "verified",
     "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
     "stock": "InStock",
@@ -1660,9 +1660,9 @@
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 71.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": 10.0,
+    "vs_baseline": 81.0,
+    "vs_prev_run": 10.0
    },
    "low": {
     "price": 399.95,
@@ -1958,23 +1958,40 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:57:58Z",
+   "checked": "2026-11-27T16:30:48Z",
    "best": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "GRA-PWC-04017",
-    "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 899.99,
-    "delivery": 19.99,
-    "landed": 919.98,
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "154545",
+    "name": "PowerColor AMD Radeon RX 9070 XT REAPER 16GB GDDR6 Graphics Card",
+    "price": 827.99,
+    "was": 959.99,
+    "delivery": 13.19,
+    "landed": 841.18,
     "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html"
+    "source": "pricespy",
+    "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
    },
    "offers": [
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "154545",
+     "name": "PowerColor AMD Radeon RX 9070 XT REAPER 16GB GDDR6 Graphics Card",
+     "price": 827.99,
+     "was": 959.99,
+     "delivery": 13.19,
+     "landed": 841.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
+    },
     {
      "shop": "Overclockers",
      "display": "Overclockers UK",
@@ -1989,22 +2006,6 @@
      "in_stock": true,
      "source": "direct",
      "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html"
-    },
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "154545",
-     "name": "PowerColor AMD Radeon RX 9070 XT REAPER 16GB GDDR6 Graphics Card",
-     "price": 959.99,
-     "was": 959.99,
-     "delivery": 13.19,
-     "landed": 973.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
     },
     {
      "shop": "Very",
@@ -2065,25 +2066,26 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Overclockers",
-    "display": "Overclockers UK",
-    "sku": "GRA-PWC-04017",
-    "name": "PowerColor Radeon RX 9070 XT Reaper 16GB GDDR6 PCI-Express Graphics Card",
-    "price": 899.99,
-    "delivery": 19.99,
-    "landed": 919.98,
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "154545",
+    "name": "PowerColor AMD Radeon RX 9070 XT REAPER 16GB GDDR6 Graphics Card",
+    "price": 827.99,
+    "was": 959.99,
+    "delivery": 13.19,
+    "landed": 841.18,
     "ni": "verified",
-    "delivery_note": "DPD to NI, 2 working days. PriceSpy's Overclockers prices lag the site (e.g. 7500X3D £199.99 there vs £209.99 on the site, 22 Oct), so only its own pages and sweep checks count.",
+    "delivery_note": "2-day service to NI",
     "stock": "InStock",
     "in_stock": true,
-    "source": "direct",
-    "url": "https://www.overclockers.co.uk/powercolor-radeon-rx-9070-xt-reaper-16gb-gddr6-pci-express-graphics-card/GRA-PWC-04017.html"
+    "source": "pricespy",
+    "url": "https://www.scan.co.uk/products/powercolor-amd-radeon-rx-9070-xt-reaper-16gb-gddr6-graphics-card"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 51.0,
-    "vs_baseline": 150.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -21.0,
+    "vs_baseline": 78.0,
+    "vs_prev_run": -72.0
    },
    "low": {
     "price": 749.99,
@@ -2347,10 +2349,10 @@
     ],
     [
      "2026-11-27",
-     899.99,
-     919.98,
+     827.99,
+     841.18,
      1,
-     "Overclockers UK"
+     "Scan"
     ]
    ]
   },
@@ -2377,7 +2379,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:58:03Z",
+   "checked": "2026-11-27T16:30:52Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2412,22 +2414,6 @@
      "note": "£245.99 INC VAT, 10+ in stock"
     },
     {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DC8RVRBZ",
-     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
-     "price": 296.14,
-     "was": 296.14,
-     "delivery": 0.0,
-     "landed": 296.14,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
@@ -2458,12 +2444,28 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/CT2000P310SSD8?client_id=1551"
+    },
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DC8RVRBZ",
+     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
+     "price": 347.95,
+     "was": 347.95,
+     "delivery": 0.0,
+     "landed": 347.95,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
     }
    ],
    "unvetted": [],
    "amazon_check": [],
    "excluded": {
-    "marketplace": 7,
+    "marketplace": 8,
     "used": 1,
     "other_variant": 0,
     "untrusted_feed": 0
@@ -2783,7 +2785,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:58:06Z",
+   "checked": "2026-11-27T16:30:55Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -3172,7 +3174,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T07:58:11Z",
+   "checked": "2026-11-27T16:31:01Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3561,7 +3563,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:58:13Z",
+   "checked": "2026-11-27T16:31:03Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3945,7 +3947,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T07:58:14Z",
+   "checked": "2026-11-27T16:31:04Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4322,7 +4324,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T07:58:15Z",
+   "checked": "2026-11-27T16:31:05Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4695,7 +4697,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:58:17Z",
+   "checked": "2026-11-27T16:31:07Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -5068,7 +5070,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T07:58:19Z",
+   "checked": "2026-11-27T16:31:09Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5613,10 +5615,10 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T07:58:22Z",
+   "checked": "2026-11-27T16:31:12Z",
    "notes": [],
    "live": "live",
-   "saving": 74.0,
+   "saving": 2.0,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5639,38 +5641,22 @@
    "decided": null,
    "pricespy": 14807780,
    "best": {
-    "shop": "Scan",
-    "display": "Scan",
-    "sku": "156797",
-    "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming 16GB Graphics Card",
-    "price": 839.99,
-    "was": 839.99,
-    "delivery": 13.19,
-    "landed": 853.18,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
+    "shop": "AWD-IT",
+    "display": "AWD-IT",
+    "sku": "4AE-CD6-BE7",
+    "name": "XFX Radeon RX 9070 XT Swift 16GB GDDR6 Graphics Card - Black - RX-97TSWF3B9",
+    "price": 958.95,
+    "was": 958.95,
+    "delivery": 15.0,
+    "landed": 973.95,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "InStock",
     "in_stock": true,
     "source": "pricespy",
-    "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
+    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/4AE-CD6-BE7?client_id=1551"
    },
    "offers": [
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "156797",
-     "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming 16GB Graphics Card",
-     "price": 839.99,
-     "was": 839.99,
-     "delivery": 13.19,
-     "landed": 853.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
-    },
     {
      "shop": "AWD-IT",
      "display": "AWD-IT",
@@ -5686,12 +5672,28 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/4AE-CD6-BE7?client_id=1551"
+    },
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "156797",
+     "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming 16GB Graphics Card",
+     "price": 839.99,
+     "was": 839.99,
+     "delivery": 13.19,
+     "landed": 853.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
     }
    ],
-   "checked": "2026-11-27T07:58:25Z",
+   "checked": "2026-11-27T16:31:15Z",
    "notes": [],
    "live": "live",
-   "saving": 46.81,
+   "saving": -145.96,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -5771,22 +5773,6 @@
      "url": "https://www.overclockers.co.uk/amd-ryzen-7-7800x3d-eight-core-5.00ghz-socket-am5-processor-retail/CP-3DT-AM.html"
     },
     {
-     "shop": "Very",
-     "display": "Very",
-     "sku": "VMPGR",
-     "name": "Amd Ryzen 7 7800X3D Processor",
-     "price": 299.0,
-     "was": 299.0,
-     "delivery": 0.0,
-     "landed": 299.0,
-     "ni": "verified",
-     "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/15251/offer/VMPGR?client_id=1551"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "431-776-15A",
@@ -5803,7 +5789,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T07:58:27Z",
+   "checked": "2026-11-27T16:31:18Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5884,7 +5870,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-27T07:58:33Z",
+   "checked": "2026-11-27T16:31:22Z",
    "live": "live",
    "extra": 62.01,
    "fit_ok": true,
@@ -5938,7 +5924,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-27T07:58:36Z",
+   "checked": "2026-11-27T16:31:25Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -6052,9 +6038,9 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T07:58:38Z",
+   "checked": "2026-11-27T16:31:27Z",
    "live": "live",
-   "extra": 20.0,
+   "extra": 92.0,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -6175,6 +6161,20 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-27T16:30:32Z",
+   "level": "info",
+   "type": "rise",
+   "part": "ram",
+   "text": "RAM up £10.00 to £479.99 at Overclockers UK"
+  },
+  {
+   "ts": "2026-11-27T16:30:32Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "gpu",
+   "text": "GPU down £72.00: £827.99 at Scan (was £899.99 at Overclockers UK)"
+  },
   {
    "ts": "2026-11-27T07:57:42Z",
    "level": "alert",
@@ -6572,6 +6572,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-27T07:58:42Z"
+  "built": "2026-11-27T16:31:31Z"
  }
 }
