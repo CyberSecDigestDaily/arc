@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T01:40:01Z",
+ "generated": "2026-11-27T07:57:42Z",
  "today": "2026-11-27",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-26",
- "last_sweep": "2026-11-26T08:00:00Z",
+ "updated": "2026-11-27",
+ "last_sweep": "2026-11-27T07:53:00Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-27T01:40:01Z",
+  "started": "2026-11-27T07:57:42Z",
   "source": "github-actions",
-  "pricespy_ok": 11,
+  "pricespy_ok": 12,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-27T01:40:55Z"
+  "finished": "2026-11-27T07:58:42Z"
  },
  "totals": {
   "parts_total": 13,
@@ -387,7 +387,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:02Z",
+   "checked": "2026-11-27T07:57:44Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -830,7 +830,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:06Z",
+   "checked": "2026-11-27T07:57:47Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1208,7 +1208,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:08Z",
+   "checked": "2026-11-27T07:57:49Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -1584,7 +1584,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:12Z",
+   "checked": "2026-11-27T07:57:54Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1958,7 +1958,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:16Z",
+   "checked": "2026-11-27T07:57:58Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2377,7 +2377,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:21Z",
+   "checked": "2026-11-27T07:58:03Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2391,8 +2391,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-    "checked_on": "2026-11-26",
-    "note": "£245.99 inc VAT, 10+ in stock"
+    "checked_on": "2026-11-27",
+    "note": "£245.99 INC VAT, 10+ in stock"
    },
    "offers": [
     {
@@ -2408,8 +2408,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-     "checked_on": "2026-11-26",
-     "note": "£245.99 inc VAT, 10+ in stock"
+     "checked_on": "2026-11-27",
+     "note": "£245.99 INC VAT, 10+ in stock"
     },
     {
      "shop": "Amazon.co.uk",
@@ -2464,7 +2464,7 @@
    "amazon_check": [],
    "excluded": {
     "marketplace": 7,
-    "used": 0,
+    "used": 1,
     "other_variant": 0,
     "untrusted_feed": 0
    },
@@ -2482,8 +2482,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.cclonline.com/ct2000p310ssd8-2tb-crucial-p310-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-463644/",
-    "checked_on": "2026-11-26",
-    "note": "£245.99 inc VAT, 10+ in stock"
+    "checked_on": "2026-11-27",
+    "note": "£245.99 INC VAT, 10+ in stock"
    },
    "pick_differs": false,
    "change": {
@@ -2783,7 +2783,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:24Z",
+   "checked": "2026-11-27T07:58:06Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -3172,7 +3172,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T01:40:29Z",
+   "checked": "2026-11-27T07:58:11Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3186,8 +3186,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-    "checked_on": "2026-11-26",
-    "note": "£74.32 inc VAT (£61.93 ex VAT), was £79.91; 51 in stock"
+    "checked_on": "2026-11-27",
+    "note": "£74.32 inc VAT (£61.93 ex VAT), 51 in stock"
    },
    "offers": [
     {
@@ -3203,8 +3203,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.watercoolinguk.co.uk/product/jonsbo-d33-std-pc-case-mini-case-matx-tempered-glass-black/",
-     "checked_on": "2026-11-26",
-     "note": "£74.32 inc VAT (£61.93 ex VAT), was £79.91; 51 in stock"
+     "checked_on": "2026-11-27",
+     "note": "£74.32 inc VAT (£61.93 ex VAT), 51 in stock"
     },
     {
      "shop": "Overclockers",
@@ -3561,7 +3561,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:31Z",
+   "checked": "2026-11-27T07:58:13Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -3945,7 +3945,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T01:40:32Z",
+   "checked": "2026-11-27T07:58:14Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4322,7 +4322,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-27T01:40:34Z",
+   "checked": "2026-11-27T07:58:15Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4695,7 +4695,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:35Z",
+   "checked": "2026-11-27T07:58:17Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -5068,7 +5068,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-27T01:40:37Z",
+   "checked": "2026-11-27T07:58:19Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5542,7 +5542,7 @@
     "vram": "16GB GDDR6",
     "colour": "black"
    },
-   "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £23 under the Reaper. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
+   "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £74 under the Reaper now it has risen to £899.99. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
    "status": "pending",
    "added": "2026-11-23",
    "decided": null,
@@ -5550,35 +5550,35 @@
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
-    "sku": "B0DRPRZMK2",
-    "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
+    "name": "Sapphire Pulse Radeon RX 9070 XT 16GB",
     "price": 825.99,
-    "was": 825.99,
     "delivery": 0.0,
     "landed": 825.99,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
     "in_stock": true,
-    "source": "pricespy",
-    "url": "https://pricespy.co.uk/product.php?p=14495834"
+    "source": "verified",
+    "url": "https://pricespy.co.uk/product.php?p=14495834",
+    "checked_on": "2026-11-26",
+    "note": "Sold by Amazon UK, free delivery; price from PriceSpy (checker read 26 Nov)"
    },
    "offers": [
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
-     "sku": "B0DRPRZMK2",
-     "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
+     "name": "Sapphire Pulse Radeon RX 9070 XT 16GB",
      "price": 825.99,
-     "was": 825.99,
      "delivery": 0.0,
      "landed": 825.99,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
      "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/product.php?p=14495834"
+     "source": "verified",
+     "url": "https://pricespy.co.uk/product.php?p=14495834",
+     "checked_on": "2026-11-26",
+     "note": "Sold by Amazon UK, free delivery; price from PriceSpy (checker read 26 Nov)"
     },
     {
      "shop": "Scan",
@@ -5613,10 +5613,85 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T01:40:40Z",
+   "checked": "2026-11-27T07:58:22Z",
    "notes": [],
    "live": "live",
    "saving": 74.0,
+   "fit_ok": true,
+   "fit_problems": []
+  },
+  {
+   "id": "s8",
+   "part": "gpu",
+   "name": "XFX Swift Radeon RX 9070 XT Triple Fan Gaming 16GB, black (RX-97TSWF3B9)",
+   "spec": {
+    "length_mm": 325,
+    "thickness_mm": 65,
+    "slots": 3.5,
+    "power": "2× 8-pin",
+    "vram": "16GB GDDR6",
+    "psu_min_w": 850,
+    "colour": "black"
+   },
+   "why": "XFX's black triple-fan RX 9070 XT: the same chip and 16GB as the Reaper, £839.99 at Scan (in stock, low stock), about £47 under the Reaper's £899.99 even after Scan's £13.19 NI delivery. At 325mm long and 65mm thick it fits the D33 and clears the bottom fans (90mm of 95mm), with two 8-pin plugs like the Reaper and an 850W PSU minimum, which the RM850e meets. Trade-off: a 3.5-slot card, the tightest fit above the bottom fans of any option so far, and s7 is still about £14 cheaper.",
+   "status": "pending",
+   "added": "2026-11-27",
+   "decided": null,
+   "pricespy": 14807780,
+   "best": {
+    "shop": "Scan",
+    "display": "Scan",
+    "sku": "156797",
+    "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming 16GB Graphics Card",
+    "price": 839.99,
+    "was": 839.99,
+    "delivery": 13.19,
+    "landed": 853.18,
+    "ni": "verified",
+    "delivery_note": "2-day service to NI",
+    "stock": "InStock",
+    "in_stock": true,
+    "source": "pricespy",
+    "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
+   },
+   "offers": [
+    {
+     "shop": "Scan",
+     "display": "Scan",
+     "sku": "156797",
+     "name": "XFX Swift AMD Radeon RX 9070 XT Triple Fan Gaming 16GB Graphics Card",
+     "price": 839.99,
+     "was": 839.99,
+     "delivery": 13.19,
+     "landed": 853.18,
+     "ni": "verified",
+     "delivery_note": "2-day service to NI",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6"
+    },
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "4AE-CD6-BE7",
+     "name": "XFX Radeon RX 9070 XT Swift 16GB GDDR6 Graphics Card - Black - RX-97TSWF3B9",
+     "price": 958.95,
+     "was": 958.95,
+     "delivery": 15.0,
+     "landed": 973.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/4AE-CD6-BE7?client_id=1551"
+    }
+   ],
+   "checked": "2026-11-27T07:58:25Z",
+   "notes": [],
+   "live": "live",
+   "saving": 46.81,
    "fit_ok": true,
    "fit_problems": []
   }
@@ -5728,7 +5803,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T01:40:42Z",
+   "checked": "2026-11-27T07:58:27Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5809,7 +5884,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-27T01:40:47Z",
+   "checked": "2026-11-27T07:58:33Z",
    "live": "live",
    "extra": 62.01,
    "fit_ok": true,
@@ -5863,7 +5938,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-27T01:40:50Z",
+   "checked": "2026-11-27T07:58:36Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -5977,7 +6052,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-27T01:40:52Z",
+   "checked": "2026-11-27T07:58:38Z",
    "live": "live",
    "extra": 20.0,
    "fit_ok": true,
@@ -6100,6 +6175,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-27T07:57:42Z",
+   "level": "alert",
+   "type": "swap",
+   "part": "gpu",
+   "text": "Swap idea: XFX Swift Radeon RX 9070 XT Triple Fan Gaming 16GB, black (RX-97TSWF3B9) saves £46.81 (£839.99 at Scan)"
+  },
   {
    "ts": "2026-11-26T16:44:50Z",
    "level": "info",
@@ -6327,14 +6409,6 @@
  ],
  "log": [
   {
-   "date": "2026-11-06",
-   "text": "Sweep: MSI B850M Mortar WiFi down to £169.99 at Overclockers UK (was £179.99); Amazon UK's £169.86 stays the pick. Re-checked Overclockers UK's other 9 prices and Watercooling UK (D33 black £79.91 inc VAT, 50 in stock), all unchanged; D33 still pre-order at Overclockers. Currys RAM page blocked again, so its 27 Oct entry stays."
-  },
-  {
-   "date": "2026-11-06",
-   "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). No new swap ideas: Overclockers UK's RX 9070 XT Challenger OC is £799.99 on its site (PriceSpy's £719.99 is out of date), and no cheaper black DDR5-6000 CL28 kit at a vetted shop. s4 and s5 still stand. No feedback emails."
-  },
-  {
    "date": "2026-11-07",
    "text": "Sweep: re-checked Overclockers UK (RX 9070 XT Reaper still £799.99), Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99), all unchanged. Currys RAM page blocked again, so its 27 Oct entry stays."
   },
@@ -6485,11 +6559,19 @@
   {
    "date": "2026-11-26",
    "text": "s4 Gigabyte RX 9070 XT Gaming OC expired: now £885.94 at Amazon UK, above the Reaper's £848.99. s7 Sapphire Pulse (£825.99) stays pending. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
+  },
+  {
+   "date": "2026-11-27",
+   "text": "Sweep: GPU Reaper up £51 to £899.99 at Overclockers UK (Hellhound upgrade up to £949.99). Motherboard now pre-order at both Scan (awaiting ETA) and Overclockers UK, so no vetted shop has it in stock. Overclockers UK PSU sold out; CCL P310 £245.99 and Watercooling UK D33 £74.32 unchanged."
+  },
+  {
+   "date": "2026-11-27",
+   "text": "New swap idea s8: XFX Swift RX 9070 XT Triple Fan, black, £839.99 at Scan (325mm, 65mm thick; saves about £47). s7 Sapphire Pulse (£825.99, Amazon UK) now saves about £74. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-27T01:40:55Z"
+  "built": "2026-11-27T07:58:42Z"
  }
 }
