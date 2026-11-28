@@ -4,8 +4,8 @@
   "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
   "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
   "site": "https://cybersecdigestdaily.github.io/arc/",
-  "updated": "2026-11-27",
-  "last_sweep": "2026-11-27T07:53:00Z",
+  "updated": "2026-11-28",
+  "last_sweep": "2026-11-28T07:49:31Z",
   "baseline": {
     "date": "2026-10-22",
     "label": "22 Oct plan",
@@ -585,16 +585,16 @@
           "url": "https://www.overclockers.co.uk/corsair-rme-series-rm850e-850w-atx-3.1-pcie-5.1-cybenetics-gold-modular-power-supply/POW-CRS-03875.html"
         },
         {
-          "retailer": "Scan",
-          "sku": "154144",
-          "check": "manual",
-          "url": "https://www.scan.co.uk/products/850w-corsair-rm850e-fully-modular-cybenetics-gold-pcie-51-single-rail-708a-120mm-fan-atx-31-psu"
-        },
-        {
           "retailer": "Computer Orbit",
           "sku": "RM850e V3 (2025)",
           "check": "shopify",
           "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu"
+        },
+        {
+          "retailer": "CCL",
+          "sku": "PSU2370",
+          "check": "manual",
+          "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/"
         }
       ],
       "baseline": {
@@ -1109,8 +1109,9 @@
         "colour": "black"
       },
       "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £74 under the Reaper now it has risen to £899.99. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
-      "status": "pending",
-      "added": "2026-11-23"
+      "status": "expired",
+      "added": "2026-11-23",
+      "decided": "2026-11-28"
     },
     {
       "id": "s8",
@@ -1153,8 +1154,9 @@
         "colour": "black"
       },
       "why": "XFX's black triple-fan RX 9070 XT: the same chip and 16GB as the Reaper, £839.99 at Scan (in stock, low stock), about £47 under the Reaper's £899.99 even after Scan's £13.19 NI delivery. At 325mm long and 65mm thick it fits the D33 and clears the bottom fans (90mm of 95mm), with two 8-pin plugs like the Reaper and an 850W PSU minimum, which the RM850e meets. Trade-off: a 3.5-slot card, the tightest fit above the bottom fans of any option so far, and s7 is still about £14 cheaper.",
-      "status": "pending",
-      "added": "2026-11-27"
+      "status": "expired",
+      "added": "2026-11-27",
+      "decided": "2026-11-28"
     }
   ],
   "upgrades": [
@@ -1314,9 +1316,9 @@
         "retailer": "Scan",
         "price": 169.99,
         "in_stock": false,
-        "checked_on": "2026-11-27",
+        "checked_on": "2026-11-28",
         "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx",
-        "note": "£169.99 inc VAT, now 'Pre Order', awaiting an ETA on Scan's own page"
+        "note": "£169.99 inc VAT, 'Pre Order', item currently awaiting an ETA"
       }
     ],
     "ram": [
@@ -1373,6 +1375,14 @@
         "checked_on": "2026-11-27",
         "url": "https://computerorbit.com/products/850w-corsair-rm850e-v3-2025-atx-3-1-modular-psu",
         "note": "£119.00, sold out (Shopify product data); £5 NI delivery under £75, free over"
+      },
+      {
+        "retailer": "CCL",
+        "price": 85.99,
+        "in_stock": true,
+        "checked_on": "2026-11-28",
+        "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/",
+        "note": "£85.99 INC VAT, '20 In Stock Now'; Corsair RM850e (2025) CP-9020296-UK, CCL code PSU2370; £12 NI delivery"
       }
     ],
     "case": [
@@ -1507,14 +1517,6 @@
     ],
     "windows": [
       {
-        "retailer": "Microsoft Store",
-        "price": 119.99,
-        "in_stock": true,
-        "checked_on": "2026-11-26",
-        "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-        "note": "Digital download, £119.99"
-      },
-      {
         "retailer": "Amazon Prime",
         "sku": "B0BDS1VVPX",
         "price": 119.0,
@@ -1522,6 +1524,14 @@
         "checked_on": "2026-10-26",
         "url": "https://www.amazon.co.uk/dp/B0BDS1VVPX",
         "note": "Windows 11 Home digital licence (activation code by email); sold by Amazon (Amazon Media EU); nothing to deliver"
+      },
+      {
+        "retailer": "Microsoft Store",
+        "price": 119.99,
+        "in_stock": true,
+        "checked_on": "2026-11-28",
+        "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
+        "note": "Windows 11 Home (Download), £119.99, digital download"
       }
     ],
     "u1": [
@@ -1579,22 +1589,14 @@
         "retailer": "Scan",
         "price": 839.99,
         "in_stock": true,
-        "checked_on": "2026-11-27",
+        "checked_on": "2026-11-28",
         "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6",
-        "note": "£839.99 inc VAT, 'Low stock', new (MPN RX-97TSWF3B9); listed as Black"
+        "note": "£839.99 inc VAT, 'Low stock', free delivery on this item"
       }
     ]
   },
   "feedback_log": [],
   "log": [
-    {
-      "date": "2026-10-27",
-      "text": "Re-checked: Watercooling UK D33 black £79.91 (50 in stock); Currys KLEVV FIT V black CL28 £489. Build about £131.88 over the £2,200 budget after delivery before any swap."
-    },
-    {
-      "date": "2026-10-28",
-      "text": "PSU: Amazon UK's own Corsair RM850e (2025) listing at £89.99 has gone (only marketplace sellers from £98.99 left), so the build rose about £29. Added Computer Orbit's RM850e at £119 with free NI delivery (now the pick), and swap idea s5: MSI MAG A850GL PCIE5 at £89.99 sold by Amazon UK (saves about £29)."
-    },
     {
       "date": "2026-10-28",
       "text": "Re-checked Overclockers UK (all prices unchanged; D33 now pre-order, P310 still out of stock), Computer Orbit (screen still out of stock) and Microsoft Store (£119.99). No feedback emails."
@@ -1826,6 +1828,14 @@
     {
       "date": "2026-11-27",
       "text": "New swap idea s8: XFX Swift RX 9070 XT Triple Fan, black, £839.99 at Scan (325mm, 65mm thick; saves about £47). s7 Sapphire Pulse (£825.99, Amazon UK) now saves about £74. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
+    },
+    {
+      "date": "2026-11-28",
+      "text": "Sweep: Corsair RM850e (2025) found at CCL for £85.99 (20 in stock), well below Amazon UK's £111.32; added as an offer, and it shares CCL's £12 NI delivery with the SSD. Scan has dropped its RM850e (2025) listing (end of life), so that offer was removed."
+    },
+    {
+      "date": "2026-11-28",
+      "text": "GPU Reaper now £827.99 at Scan, so swap ideas s7 Sapphire Pulse (now £899.99 at Amazon UK) and s8 XFX Swift (£839.99 at Scan) no longer save and have expired. Motherboard still pre-order at Scan (awaiting ETA), Overclockers UK, and sold out at CCL and AWD-IT; MSI's own UK store ships to mainland only. No feedback emails."
     }
   ],
   "amazon_leads": []
