@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T01:21:12Z",
+ "generated": "2026-11-28T07:55:45Z",
  "today": "2026-11-28",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
  "subtitle": "AM5 living-room build · Jonsbo D33 · all black",
  "site": "https://cybersecdigestdaily.github.io/arc/",
- "updated": "2026-11-27",
- "last_sweep": "2026-11-27T07:53:00Z",
+ "updated": "2026-11-28",
+ "last_sweep": "2026-11-28T07:49:31Z",
  "baseline": {
   "date": "2026-10-22",
   "label": "22 Oct plan",
@@ -214,28 +214,27 @@
   }
  },
  "run": {
-  "started": "2026-11-28T01:21:12Z",
+  "started": "2026-11-28T07:55:45Z",
   "source": "github-actions",
-  "pricespy_ok": 12,
+  "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-28T01:22:10Z"
+  "finished": "2026-11-28T07:56:39Z"
  },
  "totals": {
   "parts_total": 13,
   "parts_left": 13,
   "paid": 0.0,
-  "remaining": 2396.0,
-  "delivery": 45.18,
+  "remaining": 2328.63,
+  "delivery": 60.18,
   "delivery_lines": [
    {
     "shop": "Scan",
     "key": "Scan",
     "parts": [
-     "board",
      "gpu"
     ],
-    "items": 997.98,
+    "items": 827.99,
     "cost": 13.19,
     "basis": "verified",
     "note": null,
@@ -256,28 +255,40 @@
     "extra_parcel": 15.0
    },
    {
+    "shop": "CCL",
+    "key": "CCL",
+    "parts": [
+     "ssd",
+     "psu"
+    ],
+    "items": 331.98,
+    "cost": 12.0,
+    "basis": "verified",
+    "note": "£12 delivery to NI",
+    "extra_parcel": null
+   },
+   {
     "shop": "Amazon UK",
     "key": "Amazon.co.uk",
     "parts": [
-     "cpu",
-     "psu"
+     "cpu"
     ],
-    "items": 311.31,
+    "items": 199.99,
     "cost": 0.0,
     "basis": "assumed",
     "note": "Sold by Amazon; free delivery to NI on these items",
     "extra_parcel": null
    },
    {
-    "shop": "CCL",
-    "key": "CCL",
+    "shop": "AWD-IT",
+    "key": "AWD-IT",
     "parts": [
-     "ssd"
+     "board"
     ],
-    "items": 245.99,
-    "cost": 12.0,
-    "basis": "verified",
-    "note": "£12 delivery to NI",
+    "items": 127.95,
+    "cost": 15.0,
+    "basis": "unverified",
+    "note": null,
     "extra_parcel": null
    },
    {
@@ -319,12 +330,12 @@
     "extra_parcel": null
    }
   ],
-  "build_total": 2396.0,
+  "build_total": 2328.63,
   "baseline_parts": 2191.52,
-  "delta_vs_baseline": 204.48,
+  "delta_vs_baseline": 137.11,
   "missing": [],
   "budget": 2200,
-  "left_after_delivery": -241.18,
+  "left_after_delivery": -188.81,
   "basis": "Cheapest basket: one NI delivery per shop, free-delivery thresholds applied"
  },
  "phase1": {
@@ -387,7 +398,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:13Z",
+   "checked": "2026-11-28T07:55:46Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -837,7 +848,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:17Z",
+   "checked": "2026-11-28T07:55:50Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1222,24 +1233,40 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:19Z",
+   "checked": "2026-11-28T07:55:51Z",
    "best": {
-    "shop": "Scan",
-    "display": "Scan",
-    "sku": "160846",
-    "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
-    "price": 169.99,
-    "was": 169.99,
-    "delivery": 13.19,
-    "landed": 183.18,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
+    "shop": "AWD-IT",
+    "display": "AWD-IT",
+    "sku": "003-MSI-B50",
+    "name": "MSI MAG B850M MORTAR WIFI AM5 Micro ATX Motherboard - Black - 911-7E61-008",
+    "price": 127.95,
+    "was": 127.95,
+    "delivery": 15.0,
+    "landed": 142.95,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "OutOfStock",
     "in_stock": false,
     "source": "pricespy",
-    "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
+    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/003-MSI-B50?client_id=1551"
    },
    "offers": [
+    {
+     "shop": "AWD-IT",
+     "display": "AWD-IT",
+     "sku": "003-MSI-B50",
+     "name": "MSI MAG B850M MORTAR WIFI AM5 Micro ATX Motherboard - Black - 911-7E61-008",
+     "price": 127.95,
+     "was": 127.95,
+     "delivery": 15.0,
+     "landed": 142.95,
+     "ni": "unverified",
+     "delivery_note": "NI delivery not confirmed yet (estimate used)",
+     "stock": "OutOfStock",
+     "in_stock": false,
+     "source": "pricespy",
+     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/003-MSI-B50?client_id=1551"
+    },
     {
      "shop": "Scan",
      "display": "Scan",
@@ -1282,26 +1309,26 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Scan",
-    "display": "Scan",
-    "sku": "160846",
-    "name": "MSI MAG B850M MORTAR WIFI AM5 DDR5 PCIe 5.0 ATX Motherboard",
-    "price": 169.99,
-    "was": 169.99,
-    "delivery": 13.19,
-    "landed": 183.18,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
+    "shop": "AWD-IT",
+    "display": "AWD-IT",
+    "sku": "003-MSI-B50",
+    "name": "MSI MAG B850M MORTAR WIFI AM5 Micro ATX Motherboard - Black - 911-7E61-008",
+    "price": 127.95,
+    "was": 127.95,
+    "delivery": 15.0,
+    "landed": 142.95,
+    "ni": "unverified",
+    "delivery_note": "NI delivery not confirmed yet (estimate used)",
     "stock": "OutOfStock",
     "in_stock": false,
     "source": "pricespy",
-    "url": "https://www.scan.co.uk/products/msi-mag-b850m-mortar-wifi-amd-b850-am5-ddr5-pcie-50-3x-m2-5g-wifi7-usb-32-aplusc-amd-expo-atx"
+    "url": "https://pricespy.co.uk/go-to-shop/16391/offer/003-MSI-B50?client_id=1551"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 0.0,
-    "vs_baseline": 0.0,
-    "vs_prev_run": 0.0
+    "vs_yesterday": -42.04,
+    "vs_baseline": -42.04,
+    "vs_prev_run": -42.04
    },
    "low": {
     "price": 169.86,
@@ -1310,7 +1337,9 @@
     "days": 38
    },
    "signals": [
-    "soldout"
+    "soldout",
+    "below_sheet",
+    "ni_check"
    ],
    "history": [
     [
@@ -1574,10 +1603,10 @@
     ],
     [
      "2026-11-28",
-     169.99,
-     183.18,
+     127.95,
+     142.95,
      0,
-     "Scan"
+     "AWD-IT"
     ]
    ]
   },
@@ -1605,7 +1634,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:24Z",
+   "checked": "2026-11-28T07:55:56Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -1660,7 +1689,7 @@
    "excluded": {
     "marketplace": 0,
     "used": 0,
-    "other_variant": 8,
+    "other_variant": 7,
     "untrusted_feed": 0
    },
    "notes": [],
@@ -1986,7 +2015,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:28Z",
+   "checked": "2026-11-28T07:56:00Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -2414,7 +2443,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:33Z",
+   "checked": "2026-11-28T07:56:05Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2501,7 +2530,7 @@
    "amazon_check": [],
    "excluded": {
     "marketplace": 10,
-    "used": 1,
+    "used": 0,
     "other_variant": 0,
     "untrusted_feed": 0
    },
@@ -2827,33 +2856,49 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:35Z",
+   "checked": "2026-11-28T07:56:08Z",
    "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DMTN5WLB",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 111.32,
-    "was": 111.32,
-    "delivery": 0.0,
-    "landed": 111.32,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "shop": "CCL",
+    "display": "CCL",
+    "name": "Corsair RM850e (2025) Gold, fully modular",
+    "price": 85.99,
+    "delivery": 12.0,
+    "landed": 97.99,
+    "ni": "verified",
+    "delivery_note": "Next-day to Northern Ireland £12 up to 10kg (+48p/kg over); the free-over-£50 offer only applies where Royal Mail is used, so not assumed for NI.",
     "stock": "InStock",
     "in_stock": true,
-    "source": "pricespy",
-    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
+    "source": "verified",
+    "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/",
+    "checked_on": "2026-11-28",
+    "note": "£85.99 INC VAT, '20 In Stock Now'; Corsair RM850e (2025) CP-9020296-UK, CCL code PSU2370; £12 NI delivery"
    },
    "offers": [
+    {
+     "shop": "CCL",
+     "display": "CCL",
+     "name": "Corsair RM850e (2025) Gold, fully modular",
+     "price": 85.99,
+     "delivery": 12.0,
+     "landed": 97.99,
+     "ni": "verified",
+     "delivery_note": "Next-day to Northern Ireland £12 up to 10kg (+48p/kg over); the free-over-£50 offer only applies where Royal Mail is used, so not assumed for NI.",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "verified",
+     "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/",
+     "checked_on": "2026-11-28",
+     "note": "£85.99 INC VAT, '20 In Stock Now'; Corsair RM850e (2025) CP-9020296-UK, CCL code PSU2370; £12 NI delivery"
+    },
     {
      "shop": "Amazon.co.uk",
      "display": "Amazon UK",
      "sku": "B0DMTN5WLB",
      "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-     "price": 111.32,
-     "was": 111.32,
+     "price": 111.31,
+     "was": 111.31,
      "delivery": 0.0,
-     "landed": 111.32,
+     "landed": 111.31,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -2893,14 +2938,7 @@
     }
    ],
    "unvetted": [],
-   "amazon_check": [
-    {
-     "asin": "B0DMTN5WLB",
-     "price": 101.21,
-     "stock": "InStock",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5"
-    }
-   ],
+   "amazon_check": [],
    "excluded": {
     "marketplace": 2,
     "used": 0,
@@ -2909,26 +2947,26 @@
    },
    "notes": [],
    "pick": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DMTN5WLB",
-    "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-    "price": 111.32,
-    "was": 111.32,
-    "delivery": 0.0,
-    "landed": 111.32,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+    "shop": "CCL",
+    "display": "CCL",
+    "name": "Corsair RM850e (2025) Gold, fully modular",
+    "price": 85.99,
+    "delivery": 12.0,
+    "landed": 97.99,
+    "ni": "verified",
+    "delivery_note": "Next-day to Northern Ireland £12 up to 10kg (+48p/kg over); the free-over-£50 offer only applies where Royal Mail is used, so not assumed for NI.",
     "stock": "InStock",
     "in_stock": true,
-    "source": "pricespy",
-    "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
+    "source": "verified",
+    "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/",
+    "checked_on": "2026-11-28",
+    "note": "£85.99 INC VAT, '20 In Stock Now'; Corsair RM850e (2025) CP-9020296-UK, CCL code PSU2370; £12 NI delivery"
    },
    "pick_differs": false,
    "change": {
-    "vs_yesterday": 28.33,
-    "vs_baseline": 12.33,
-    "vs_prev_run": 28.33
+    "vs_yesterday": 3.0,
+    "vs_baseline": -13.0,
+    "vs_prev_run": -25.33
    },
    "low": {
     "price": 82.99,
@@ -2936,7 +2974,9 @@
     "retailer": "Amazon UK",
     "days": 38
    },
-   "signals": [],
+   "signals": [
+    "below_sheet"
+   ],
    "history": [
     [
      "2026-10-22",
@@ -3199,10 +3239,10 @@
     ],
     [
      "2026-11-28",
-     111.32,
-     111.32,
+     85.99,
+     97.99,
      1,
-     "Amazon UK"
+     "CCL"
     ]
    ]
   },
@@ -3227,7 +3267,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T01:21:41Z",
+   "checked": "2026-11-28T07:56:13Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3623,7 +3663,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:43Z",
+   "checked": "2026-11-28T07:56:15Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -4014,7 +4054,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T01:21:44Z",
+   "checked": "2026-11-28T07:56:16Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4398,7 +4438,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T01:21:45Z",
+   "checked": "2026-11-28T07:56:17Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4778,7 +4818,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:47Z",
+   "checked": "2026-11-28T07:56:19Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -5158,7 +5198,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T01:21:49Z",
+   "checked": "2026-11-28T07:56:21Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5172,8 +5212,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-26",
-    "note": "Digital download, £119.99"
+    "checked_on": "2026-11-28",
+    "note": "Windows 11 Home (Download), £119.99, digital download"
    },
    "offers": [
     {
@@ -5207,8 +5247,8 @@
      "in_stock": true,
      "source": "verified",
      "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-     "checked_on": "2026-11-26",
-     "note": "Digital download, £119.99"
+     "checked_on": "2026-11-28",
+     "note": "Windows 11 Home (Download), £119.99, digital download"
     },
     {
      "shop": "Scan",
@@ -5265,8 +5305,8 @@
     "in_stock": true,
     "source": "verified",
     "url": "https://www.microsoft.com/en-gb/d/windows-11-home/dg7gmgf0krt0",
-    "checked_on": "2026-11-26",
-    "note": "Digital download, £119.99"
+    "checked_on": "2026-11-28",
+    "note": "Windows 11 Home (Download), £119.99, digital download"
    },
    "pick_differs": false,
    "change": {
@@ -5640,82 +5680,10 @@
     "colour": "black"
    },
    "why": "The same RX 9070 XT chip and 16GB as the Reaper in Sapphire's black triple-fan Pulse, sold by Amazon UK at £825.99 with free delivery, about £74 under the Reaper now it has risen to £899.99. At 320mm long and 61.6mm thick it fits the D33 and clears the bottom fans (87mm of 95mm), and uses two 8-pin plugs like the Reaper. Trade-off: a chunkier 3-slot card than the slim 2-slot Reaper, with less spare room above the bottom fans.",
-   "status": "pending",
+   "status": "expired",
    "added": "2026-11-23",
-   "decided": null,
-   "pricespy": 14495834,
-   "best": {
-    "shop": "Amazon.co.uk",
-    "display": "Amazon UK",
-    "sku": "B0DRPRZMK2",
-    "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
-    "price": 899.99,
-    "was": 899.99,
-    "delivery": 0.0,
-    "landed": 899.99,
-    "ni": "assumed",
-    "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-    "stock": "InStock",
-    "in_stock": true,
-    "source": "pricespy",
-    "url": "https://pricespy.co.uk/product.php?p=14495834"
-   },
-   "offers": [
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DRPRZMK2",
-     "name": "Sapphire PULSE AMD RADEON™ RX 9070 XT GAMING 16GB DUAL HDMI/DUAL DP",
-     "price": 899.99,
-     "was": 899.99,
-     "delivery": 0.0,
-     "landed": 899.99,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/product.php?p=14495834"
-    },
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "sku": "154765",
-     "name": "Sapphire AMD Radeon RX 9070 XT PULSE RDNA4 16GB GDDR6 Graphics Card",
-     "price": 899.99,
-     "was": 899.99,
-     "delivery": 13.19,
-     "landed": 913.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.scan.co.uk/products/sapphire-radeon-rx-9070-xt-pulse-16gb-gddr6-graphics-card-rdna-4-4096-streams-2970-boost"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "SAP-006-GRA",
-     "name": "Sapphire Radeon RX 9070 XT PULSE 16GB GDDR6 Graphics Card - Black - 11348-03-20G",
-     "price": 1009.99,
-     "was": 1009.99,
-     "delivery": 15.0,
-     "landed": 1024.99,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/SAP-006-GRA?client_id=1551"
-    }
-   ],
-   "checked": "2026-11-28T01:21:52Z",
-   "notes": [],
-   "live": "live",
-   "saving": -72.0,
-   "fit_ok": true,
-   "fit_problems": []
+   "decided": "2026-11-28",
+   "pricespy": 14495834
   },
   {
    "id": "s8",
@@ -5731,66 +5699,10 @@
     "colour": "black"
    },
    "why": "XFX's black triple-fan RX 9070 XT: the same chip and 16GB as the Reaper, £839.99 at Scan (in stock, low stock), about £47 under the Reaper's £899.99 even after Scan's £13.19 NI delivery. At 325mm long and 65mm thick it fits the D33 and clears the bottom fans (90mm of 95mm), with two 8-pin plugs like the Reaper and an 850W PSU minimum, which the RM850e meets. Trade-off: a 3.5-slot card, the tightest fit above the bottom fans of any option so far, and s7 is still about £14 cheaper.",
-   "status": "pending",
+   "status": "expired",
    "added": "2026-11-27",
-   "decided": null,
-   "pricespy": 14807780,
-   "best": {
-    "shop": "Scan",
-    "display": "Scan",
-    "name": "XFX Swift Radeon RX 9070 XT Triple Fan Gaming 16GB, black (RX-97TSWF3B9)",
-    "price": 839.99,
-    "delivery": 13.19,
-    "landed": 853.18,
-    "ni": "verified",
-    "delivery_note": "2-day service to NI",
-    "stock": "InStock",
-    "in_stock": true,
-    "source": "verified",
-    "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6",
-    "checked_on": "2026-11-27",
-    "note": "£839.99 inc VAT, 'Low stock', new (MPN RX-97TSWF3B9); listed as Black"
-   },
-   "offers": [
-    {
-     "shop": "Scan",
-     "display": "Scan",
-     "name": "XFX Swift Radeon RX 9070 XT Triple Fan Gaming 16GB, black (RX-97TSWF3B9)",
-     "price": 839.99,
-     "delivery": 13.19,
-     "landed": 853.18,
-     "ni": "verified",
-     "delivery_note": "2-day service to NI",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "verified",
-     "url": "https://www.scan.co.uk/products/xfx-swift-amd-radeon-rx-9070xt-triple-fan-gaming-edition-with-16gb-gddr6",
-     "checked_on": "2026-11-27",
-     "note": "£839.99 inc VAT, 'Low stock', new (MPN RX-97TSWF3B9); listed as Black"
-    },
-    {
-     "shop": "AWD-IT",
-     "display": "AWD-IT",
-     "sku": "4AE-CD6-BE7",
-     "name": "XFX Radeon RX 9070 XT Swift 16GB GDDR6 Graphics Card - Black - RX-97TSWF3B9",
-     "price": 969.95,
-     "was": 969.95,
-     "delivery": 15.0,
-     "landed": 984.95,
-     "ni": "unverified",
-     "delivery_note": "NI delivery not confirmed yet (estimate used)",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://pricespy.co.uk/go-to-shop/16391/offer/4AE-CD6-BE7?client_id=1551"
-    }
-   ],
-   "checked": "2026-11-28T01:21:54Z",
-   "notes": [],
-   "live": "live",
-   "saving": -25.19,
-   "fit_ok": true,
-   "fit_problems": []
+   "decided": "2026-11-28",
+   "pricespy": 14807780
   }
  ],
  "upgrades": [
@@ -5884,7 +5796,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-28T01:21:57Z",
+   "checked": "2026-11-28T07:56:24Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5965,7 +5877,7 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-28T01:22:01Z",
+   "checked": "2026-11-28T07:56:28Z",
    "live": "live",
    "extra": 62.01,
    "fit_ok": true,
@@ -6019,7 +5931,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-28T01:22:05Z",
+   "checked": "2026-11-28T07:56:33Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -6133,7 +6045,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-28T01:22:07Z",
+   "checked": "2026-11-28T07:56:34Z",
    "live": "live",
    "extra": 92.0,
    "fit_ok": true,
@@ -6256,6 +6168,13 @@
   }
  ],
  "events": [
+  {
+   "ts": "2026-11-28T07:55:45Z",
+   "level": "alert",
+   "type": "drop",
+   "part": "psu",
+   "text": "PSU down £25.33: £85.99 at CCL (was £111.32 at Amazon UK)"
+  },
   {
    "ts": "2026-11-28T01:21:12Z",
    "level": "info",
@@ -6511,14 +6430,6 @@
  ],
  "log": [
   {
-   "date": "2026-11-07",
-   "text": "Sweep: re-checked Overclockers UK (RX 9070 XT Reaper still £799.99), Computer Orbit (cooler £85, fans £19 each, RM850e £119; front screen still out of stock) and Microsoft Store (£119.99), all unchanged. Currys RAM page blocked again, so its 27 Oct entry stays."
-  },
-  {
-   "date": "2026-11-07",
-   "text": "Amazon Prime prices are still from 26 Oct (the morning Amazon check hasn't run since). Computer Orbit is advertising an extra 30% off selected items (code EXTRA30); it isn't confirmed for the build's parts, so prices are unchanged. Swap ideas s4 and s5 still stand. No feedback emails."
-  },
-  {
    "date": "2026-11-08",
    "text": "Sweep: the Ryzen 5 7500X3D is down to £199.99 at Overclockers UK (was £209.99), so the CPU now joins the Overclockers order. Overclockers' MSI B850M Mortar is back to pre-order and its Crucial P310 2TB is out of stock (neither was the pick). Re-checked its other prices and Watercooling UK (D33 black £79.91, 50 in stock), all unchanged; Currys RAM page blocked again."
   },
@@ -6669,11 +6580,19 @@
   {
    "date": "2026-11-27",
    "text": "New swap idea s8: XFX Swift RX 9070 XT Triple Fan, black, £839.99 at Scan (325mm, 65mm thick; saves about £47). s7 Sapphire Pulse (£825.99, Amazon UK) now saves about £74. Amazon Prime prices still from 26 Oct; Currys RAM page still blocked. No feedback emails."
+  },
+  {
+   "date": "2026-11-28",
+   "text": "Sweep: Corsair RM850e (2025) found at CCL for £85.99 (20 in stock), well below Amazon UK's £111.32; added as an offer, and it shares CCL's £12 NI delivery with the SSD. Scan has dropped its RM850e (2025) listing (end of life), so that offer was removed."
+  },
+  {
+   "date": "2026-11-28",
+   "text": "GPU Reaper now £827.99 at Scan, so swap ideas s7 Sapphire Pulse (now £899.99 at Amazon UK) and s8 XFX Swift (£839.99 at Scan) no longer save and have expired. Motherboard still pre-order at Scan (awaiting ETA), Overclockers UK, and sold out at CCL and AWD-IT; MSI's own UK store ships to mainland only. No feedback emails."
   }
  ],
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-28T01:22:10Z"
+  "built": "2026-11-28T07:56:39Z"
  }
 }
