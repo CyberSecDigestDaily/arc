@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T07:55:45Z",
+ "generated": "2026-11-28T15:24:04Z",
  "today": "2026-11-28",
  "title": "ARC",
  "title_long": "ARC · AM5 living-room gaming PC · Jonsbo D33 · all black",
@@ -214,12 +214,12 @@
   }
  },
  "run": {
-  "started": "2026-11-28T07:55:45Z",
+  "started": "2026-11-28T15:24:04Z",
   "source": "github-actions",
   "pricespy_ok": 10,
   "pricespy_blocked": 0,
   "errors": [],
-  "finished": "2026-11-28T07:56:39Z"
+  "finished": "2026-11-28T15:24:55Z"
  },
  "totals": {
   "parts_total": 13,
@@ -398,7 +398,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:55:46Z",
+   "checked": "2026-11-28T15:24:05Z",
    "best": {
     "shop": "Amazon.co.uk",
     "display": "Amazon UK",
@@ -848,7 +848,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:55:50Z",
+   "checked": "2026-11-28T15:24:09Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -1233,7 +1233,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:55:51Z",
+   "checked": "2026-11-28T15:24:12Z",
    "best": {
     "shop": "AWD-IT",
     "display": "AWD-IT",
@@ -1328,7 +1328,7 @@
    "change": {
     "vs_yesterday": -42.04,
     "vs_baseline": -42.04,
-    "vs_prev_run": -42.04
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 169.86,
@@ -1634,7 +1634,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:55:56Z",
+   "checked": "2026-11-28T15:24:16Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -2015,7 +2015,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:00Z",
+   "checked": "2026-11-28T15:24:20Z",
    "best": {
     "shop": "Scan",
     "display": "Scan",
@@ -2069,10 +2069,10 @@
      "display": "Very",
      "sku": "WGDSJ",
      "name": "Powercolor Rx 9070 Xt 16Gb Reaper",
-     "price": 1049.0,
-     "was": 1049.0,
+     "price": 1025.0,
+     "was": 1025.0,
      "delivery": 0.0,
-     "landed": 1049.0,
+     "landed": 1025.0,
      "ni": "verified",
      "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
      "stock": "InStock",
@@ -2443,7 +2443,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:05Z",
+   "checked": "2026-11-28T15:24:24Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2478,22 +2478,6 @@
      "note": "£245.99 INC VAT, 10+ in stock"
     },
     {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DC8RVRBZ",
-     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
-     "price": 260.0,
-     "was": 260.0,
-     "delivery": 0.0,
-     "landed": 260.0,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
-    },
-    {
      "shop": "AWD-IT",
      "display": "AWD-IT",
      "sku": "A18-71F-6BD",
@@ -2524,6 +2508,22 @@
      "in_stock": true,
      "source": "pricespy",
      "url": "https://pricespy.co.uk/go-to-shop/43024/offer/CT2000P310SSD8?client_id=1551"
+    },
+    {
+     "shop": "Amazon.co.uk",
+     "display": "Amazon UK",
+     "sku": "B0DC8RVRBZ",
+     "name": "Crucial P310 2TB SSD M.2 2280 NVMe PCIe Gen4, Up to 7,100MB/s, Laptop & Desktop (PC) Compatible, Internal Solid State Drive - CT2000P310SSD801",
+     "price": 347.95,
+     "was": 347.95,
+     "delivery": 0.0,
+     "landed": 347.95,
+     "ni": "assumed",
+     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
+     "stock": "InStock",
+     "in_stock": true,
+     "source": "pricespy",
+     "url": "https://www.amazon.co.uk/dp/B0DC8RVRBZ"
     }
    ],
    "unvetted": [],
@@ -2856,7 +2856,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:08Z",
+   "checked": "2026-11-28T15:24:26Z",
    "best": {
     "shop": "CCL",
     "display": "CCL",
@@ -2889,22 +2889,6 @@
      "url": "https://www.cclonline.com/cp-9020296-uk-850w-corsair-rm850e-modular-psu-476563/",
      "checked_on": "2026-11-28",
      "note": "£85.99 INC VAT, '20 In Stock Now'; Corsair RM850e (2025) CP-9020296-UK, CCL code PSU2370; £12 NI delivery"
-    },
-    {
-     "shop": "Amazon.co.uk",
-     "display": "Amazon UK",
-     "sku": "B0DMTN5WLB",
-     "name": "CORSAIR RM850e (2025) Fully Modular Low-Noise ATX Power Supply with 12V-2x6 Cable – ATX 3.1 & PCIe 5.1 Compliant, Cybenetics Gold Efficiency, 105°C-Rated Capacitors, Modern Standby Mode – Black",
-     "price": 111.31,
-     "was": 111.31,
-     "delivery": 0.0,
-     "landed": 111.31,
-     "ni": "assumed",
-     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
-     "stock": "InStock",
-     "in_stock": true,
-     "source": "pricespy",
-     "url": "https://www.amazon.co.uk/dp/B0DMTL43VR"
     },
     {
      "shop": "Overclockers",
@@ -2966,7 +2950,7 @@
    "change": {
     "vs_yesterday": 3.0,
     "vs_baseline": -13.0,
-    "vs_prev_run": -25.33
+    "vs_prev_run": 0.0
    },
    "low": {
     "price": 82.99,
@@ -3267,7 +3251,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T07:56:13Z",
+   "checked": "2026-11-28T15:24:32Z",
    "best": {
     "shop": "Watercooling UK",
     "display": "Watercooling UK",
@@ -3663,7 +3647,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:15Z",
+   "checked": "2026-11-28T15:24:34Z",
    "best": {
     "shop": "Amazon Prime",
     "display": "Amazon UK (Prime)",
@@ -4054,7 +4038,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T07:56:16Z",
+   "checked": "2026-11-28T15:24:35Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4438,7 +4422,7 @@
    },
    "phase1": true,
    "status": "live",
-   "checked": "2026-11-28T07:56:17Z",
+   "checked": "2026-11-28T15:24:36Z",
    "best": {
     "shop": "Computer Orbit",
     "display": "Computer Orbit",
@@ -4818,7 +4802,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:19Z",
+   "checked": "2026-11-28T15:24:38Z",
    "best": {
     "shop": "Overclockers",
     "display": "Overclockers UK",
@@ -5198,7 +5182,7 @@
    },
    "phase1": false,
    "status": "live",
-   "checked": "2026-11-28T07:56:21Z",
+   "checked": "2026-11-28T15:24:40Z",
    "best": {
     "shop": "Microsoft Store",
     "display": "Microsoft Store",
@@ -5796,7 +5780,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/16391/offer/431-776-15A?client_id=1551"
     }
    ],
-   "checked": "2026-11-28T07:56:24Z",
+   "checked": "2026-11-28T15:24:43Z",
    "live": "live",
    "extra": 40.0,
    "fit_ok": true,
@@ -5817,10 +5801,10 @@
     "display": "Amazon UK",
     "sku": "B0DN6ZQ3PD",
     "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-    "price": 308.0,
-    "was": 308.0,
+    "price": 309.0,
+    "was": 309.0,
     "delivery": 0.0,
-    "landed": 308.0,
+    "landed": 309.0,
     "ni": "assumed",
     "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
     "stock": "InStock",
@@ -5834,10 +5818,10 @@
      "display": "Amazon UK",
      "sku": "B0DN6ZQ3PD",
      "name": "WD_BLACK SN7100 2TB NVMe SSD, M.2 2280, Read speeds up to 7250 MB/s, Write Speed up to 6,900 MB/s, Next Gen TLC 3D NAND, WD_BLACK DASHBOARD, Up to 1,200TBW, For Laptops, handheld gaming devices",
-     "price": 308.0,
-     "was": 308.0,
+     "price": 309.0,
+     "was": 309.0,
      "delivery": 0.0,
-     "landed": 308.0,
+     "landed": 309.0,
      "ni": "assumed",
      "delivery_note": "Sold by Amazon. Free delivery to NI on these items (Prime).",
      "stock": "InStock",
@@ -5877,9 +5861,9 @@
      "url": "https://www.overclockers.co.uk/wd-black-sn7100-2tb-ssd-nvme-m.2-2280-pcie-4.0-solid-state-drive/STO-WDC-04135.html"
     }
    ],
-   "checked": "2026-11-28T07:56:28Z",
+   "checked": "2026-11-28T15:24:47Z",
    "live": "live",
-   "extra": 62.01,
+   "extra": 63.01,
    "fit_ok": true,
    "fit_problems": []
   },
@@ -5931,7 +5915,7 @@
      "url": "https://computerorbit.com/products/thermalright-peerless-vision-360-argb-black-lcd-aio-liquid-cooler"
     }
    ],
-   "checked": "2026-11-28T07:56:33Z",
+   "checked": "2026-11-28T15:24:50Z",
    "live": "live",
    "extra": -6.0,
    "fit_ok": true,
@@ -6001,10 +5985,10 @@
      "display": "Very",
      "sku": "WGDSI",
      "name": "Powercolor Hellhound Amd Radeon Rx 9070 Xt 16Gb Gddr6 Pcie 5.0 Overclocked Graphics Card",
-     "price": 1079.0,
-     "was": 1079.0,
+     "price": 1050.0,
+     "was": 1050.0,
      "delivery": 0.0,
-     "landed": 1079.0,
+     "landed": 1050.0,
      "ni": "verified",
      "delivery_note": "Delivers to NI (may take longer). Standard delivery free on orders £75+, £3.99 under £75; large items from £8.99",
      "stock": "InStock",
@@ -6045,7 +6029,7 @@
      "url": "https://pricespy.co.uk/go-to-shop/15135/offer/7833287?client_id=1551"
     }
    ],
-   "checked": "2026-11-28T07:56:34Z",
+   "checked": "2026-11-28T15:24:52Z",
    "live": "live",
    "extra": 92.0,
    "fit_ok": true,
@@ -6593,6 +6577,6 @@
  "exports": {
   "xlsx": "arc-build.xlsx",
   "csv": "prices.csv",
-  "built": "2026-11-28T07:56:39Z"
+  "built": "2026-11-28T15:24:55Z"
  }
 }
